@@ -2,12 +2,7 @@
 /* Body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-color: #04eaff;
-/* 	background-image:url("file:///C:/Users/MY/Desktop/github%E5%8D%9A%E5%AE%A2/images/background/%E5%8A%A8%E6%BC%AB%E8%83%8C%E6%99%AF.png");
-	background-repeat: no-repeat;
-	background-position:center;
-	background-size:auto 100%;
-	background-attachment:scroll; */
+	background-color: #FFFFFF;
 	margin: 0;
 }
 /* Container */
@@ -21,7 +16,7 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #7ec0d0;
+	background-color: #5D5E5D;
 	border-bottom: 1px solid #353635;
 }
 .logo {
@@ -57,7 +52,8 @@ header {
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	[disabled]min-width: 400px;
+	/* [disabled]min-width: 400px;
+*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
@@ -175,8 +171,7 @@ footer {
 	width: 50%;
 }
 .gallery .thumbnail .tag {
-	color: #858e8f;
-/* 	图片标签颜色下标 */
+	color: #5D5E5D;
 	padding-bottom: 4px;
 	padding-top: 4px;
 	text-align: left;
