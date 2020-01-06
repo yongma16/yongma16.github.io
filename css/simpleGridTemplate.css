@@ -111,7 +111,7 @@ header {
 }
 .cards {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	max-width: 400px;
 	max-height: 200px;
 	opacity: 0.8;
