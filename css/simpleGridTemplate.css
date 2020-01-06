@@ -2,12 +2,12 @@
 /* Body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-/*	background-color: #04eaff;//背景*/
-	background-image:url("file:///C:/Users/MY/Desktop/github%E5%8D%9A%E5%AE%A2/images/background/%E5%8A%A8%E6%BC%AB%E8%83%8C%E6%99%AF.png");
+	background-color: #04eaff;//背景
+/* 	background-image:url("file:///C:/Users/MY/Desktop/github%E5%8D%9A%E5%AE%A2/images/background/%E5%8A%A8%E6%BC%AB%E8%83%8C%E6%99%AF.png");
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size:auto 100%;
-	background-attachment:scroll;
+	background-attachment:scroll; */
 	margin: 0;
 }
 /* Container */
