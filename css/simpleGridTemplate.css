@@ -57,8 +57,7 @@ header {
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
+	[disabled]min-width: 400px;
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
@@ -176,7 +175,8 @@ footer {
 	width: 50%;
 }
 .gallery .thumbnail .tag {
-	color: #858e8f;//图片标签颜色下标
+	color: #858e8f;
+/* 	图片标签颜色下标 */
 	padding-bottom: 4px;
 	padding-top: 4px;
 	text-align: left;
