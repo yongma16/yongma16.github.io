@@ -10,6 +10,48 @@ body {
 	background-attachment:scroll;
 	margin: 0;
 }
+
+/* 过渡效果 */
+.bar1{
+	animation-delay:0.1s;
+}
+.bar2{
+	animation-delay:0.4s;
+}
+.bar3{
+	animation-delay:0.2s;
+}
+.bar4{
+	animation-delay:0.4s;
+}
+.bar5{
+	animation-delay:0.1s;
+}
+.bar6{
+	animation-delay:0.4s;
+}
+.bar7{
+	animation-delay:0.3s;
+}
+.bar8{
+	animation-delay:0.4s;
+}
+@keyframes loading{
+	0%{
+		transform: scaleY(0.1);
+		background: #fff;
+	}
+	50%{
+		transform:scaleY(0.3);
+		background:#0AC1ED;
+	}
+	100%{
+		transform: scaleY(0.3);
+		background: #0AC1ED;
+	}
+}
+/* 过渡效果 */
+
 /* Container */
 .container {
 	width: 100%;
