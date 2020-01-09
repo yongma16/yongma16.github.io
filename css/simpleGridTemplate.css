@@ -15,7 +15,7 @@ body {
 .bar
 {
 	width:6px;
-	height:60px;
+	height:18px;
 	background: white;
 	display:inline-block;
 	transform-origin: bottom center;
@@ -51,11 +51,11 @@ body {
 		background: #fff;
 	}
 	50%{
-		transform:scaleY(0.3);
+		transform:scaleY(1);
 		background:#0AC1ED;
 	}
 	100%{
-		transform: scaleY(0.3);
+		transform: scaleY(7);
 		background: #0AC1ED;
 	}
 }
