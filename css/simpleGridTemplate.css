@@ -6,7 +6,7 @@ body {
 	background-image:url("https://yongma16.github.io/images/background/lonely.png");
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:100%;
+	background-size:cover;
 	background-attachment:scroll;
 	margin: 0;
 }
