@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>毕业设计</title>
+    <base target="_blank" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Swiper -->
+	<section class="pc-banner">
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+
+	            <div class="swiper-slide swiper-slide-center none-effect">
+	            	<a href=""><img src="images/用户注册.jpg" ></a>
+	            </div>
+			
+	            <div class="swiper-slide"><a href=""><img src="images/用户登录.jpg" ></a></div>
+	            <div class="swiper-slide"><a href=""><img src="images/个人管理.jpg" ></a></div>
+	            <div class="swiper-slide"><a href=""><img src="images/查看模型.jpg" ></a></div>
+	            
+				<div class="swiper-slide"><a href=""><img src="images/管理员后台.jpg" ></a></div>
+				<div class="swiper-slide"><a href=""><img src="images/管理员界面.jpg" ></a></div>
+				
+	        </div>
+	    </div>
+
+	    <div class="swiper-pagination"></div>
+		<div class="button">
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div></div>
+	</section>
+	<div class="describe">毕业设计</div>
+	
+	<div style="align-items: center;font-size: 20px;margin-left: 5%;">
+	<p>django搭建的系统网站，熟练运用mvc设计模式，使用orm框架进行数据库操作</p>
+	<ul>
+				  <li>功能：游客登录注册成为系统用户，用户可以上传自己的头像和模型，用户可以搜索并且3d查看模型，查看模型的过程中可以点赞与评论模型，一个系统的管理员是开发人员定义，管理员管理用户，可以将用户升级为管理员或者降级为普通用户，管理员可以增加、删除、修改用户的信息。</li>
+	  <li>前端：bootstrap框架</li>
+	  <li>项目工程：<a href="https://github.com/yongma16/yongma16_graduation">GitHub链接</a></li>
+	  
+	  <li>类图和ER模型：本系统有三个实体分别是用户、模型和管理员，产生的三个联系表分别是评论表、点赞表和标签表。一个用户可以有多个模型，一个模型只属于一个用户。一个用户可以有多个管理员，一个管理员也可以管理多个用户。一个模型可以有多个管理员，一个管理员也可以管理多个模型。用户评论模型产生评论联系表，用户标签化模型产生标签联系表，用户点赞模型产生点赞联系表</li>
+	  <center>
+	  <img src="images/UML类图 .png" >
+	  <img src="images/ER模型.png" ></center>
+	</ul>
+	</div>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+		window.onload = function() {
+	    var swiper = new Swiper('.swiper-container',{
+			autoplay:3000,	//是否自动滚动
+			speed:1000,		//滚动速速
+			autoplayDisableOnInteraction : false,
+			loop:true,
+			centeredSlides : true,
+			slidesPerView:2,//当前选中
+	        pagination : '.swiper-pagination',
+			paginationClickable:true,
+			prevButton:'.swiper-button-prev',//左右切换
+	        nextButton:'.swiper-button-next',//左右切换
+			onInit:function(swiper){		 //当前选中 状态
+					swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+				},
+	        	breakpoints: { 
+	                668: {
+	                    slidesPerView: 1,
+	                }
+	            }
+			});
+		}
+    </script>
+</body>
+</html>
