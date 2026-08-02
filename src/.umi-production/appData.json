@@ -1,0 +1,2245 @@
+{
+  "cwd": "/home/ubuntu/front_projects/react_home",
+  "pkg": {
+    "name": "react_home",
+    "version": "1.0.0",
+    "description": "yma16 前端开发工具集 - React + TypeScript + Umi",
+    "scripts": {
+      "dev": "umi dev",
+      "build": "umi build",
+      "postinstall": "umi setup",
+      "setup": "umi setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.3.0",
+      "@ant-design/pro-components": "^2.6.0",
+      "@monaco-editor/react": "^4.6.0",
+      "@types/react": "^18.2.0",
+      "@types/react-dom": "^18.2.0",
+      "@umijs/max": "^4.1.0",
+      "antd": "^5.14.0",
+      "dayjs": "^1.11.10",
+      "prettier": "^3.2.5",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "typescript": "^5.3.0",
+      "umi": "^4.1.0"
+    },
+    "devDependencies": {
+      "@types/prettier": "^3.0.0"
+    }
+  },
+  "pkgPath": "/home/ubuntu/front_projects/react_home/package.json",
+  "plugins": {
+    "./node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/servicePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/servicePlugin",
+      "key": "servicePlugin"
+    },
+    "@umijs/preset-umi": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/index.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "@umijs/preset-umi",
+      "key": "umi"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/registerMethods": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            0
+          ]
+        },
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/registerMethods",
+      "key": "registerMethods"
+    },
+    "@umijs/did-you-know": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            3
+          ]
+        },
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+did-you-know@1.0.4/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "@umijs/did-you-know",
+      "key": "umijsDidYouKnow"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/404/404": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyRoutes": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/404/404",
+      "key": "404"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
+      "key": "aiDev"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/appData": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            11
+          ]
+        },
+        "register": 26
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/appData",
+      "key": "appData"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
+      "key": "umiInfo"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/check": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckConfig": [
+            0
+          ],
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/check",
+      "key": "check"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/babel722": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/check/babel722",
+      "key": "babel722"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
+      "key": "codeSplitting"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 6
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
+      "key": "configPlugins"
+    },
+    "virtual: config-title": {
+      "id": "virtual: config-title",
+      "key": "title",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styles": {
+      "id": "virtual: config-styles",
+      "key": "styles",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-scripts": {
+      "id": "virtual: config-scripts",
+      "key": "scripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routes": {
+      "id": "virtual: config-routes",
+      "key": "routes",
+      "config": {
+        "onChange": "regenerateTmpFiles"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routeLoader": {
+      "id": "virtual: config-routeLoader",
+      "key": "routeLoader",
+      "config": {
+        "default": {
+          "moduleType": "esm"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-reactRouter5Compat": {
+      "id": "virtual: config-reactRouter5Compat",
+      "key": "reactRouter5Compat",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-presets": {
+      "id": "virtual: config-presets",
+      "key": "presets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-plugins": {
+      "id": "virtual: config-plugins",
+      "key": "plugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-npmClient": {
+      "id": "virtual: config-npmClient",
+      "key": "npmClient",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mountElementId": {
+      "id": "virtual: config-mountElementId",
+      "key": "mountElementId",
+      "config": {
+        "default": "root"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-metas": {
+      "id": "virtual: config-metas",
+      "key": "metas",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-links": {
+      "id": "virtual: config-links",
+      "key": "links",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-historyWithQuery": {
+      "id": "virtual: config-historyWithQuery",
+      "key": "historyWithQuery",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-history": {
+      "id": "virtual: config-history",
+      "key": "history",
+      "config": {
+        "default": {
+          "type": "browser"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-headScripts": {
+      "id": "virtual: config-headScripts",
+      "key": "headScripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esbuildMinifyIIFE": {
+      "id": "virtual: config-esbuildMinifyIIFE",
+      "key": "esbuildMinifyIIFE",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionRoutes": {
+      "id": "virtual: config-conventionRoutes",
+      "key": "conventionRoutes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionLayout": {
+      "id": "virtual: config-conventionLayout",
+      "key": "conventionLayout",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-base": {
+      "id": "virtual: config-base",
+      "key": "base",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-analyze": {
+      "id": "virtual: config-analyze",
+      "key": "analyze",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-writeToDisk": {
+      "id": "virtual: config-writeToDisk",
+      "key": "writeToDisk",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-transformRuntime": {
+      "id": "virtual: config-transformRuntime",
+      "key": "transformRuntime",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-theme": {
+      "id": "virtual: config-theme",
+      "key": "theme",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-targets": {
+      "id": "virtual: config-targets",
+      "key": "targets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgr": {
+      "id": "virtual: config-svgr",
+      "key": "svgr",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgo": {
+      "id": "virtual: config-svgo",
+      "key": "svgo",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-stylusLoader": {
+      "id": "virtual: config-stylusLoader",
+      "key": "stylusLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styleLoader": {
+      "id": "virtual: config-styleLoader",
+      "key": "styleLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspilerOptions": {
+      "id": "virtual: config-srcTranspilerOptions",
+      "key": "srcTranspilerOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspiler": {
+      "id": "virtual: config-srcTranspiler",
+      "key": "srcTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-sassLoader": {
+      "id": "virtual: config-sassLoader",
+      "key": "sassLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-runtimePublicPath": {
+      "id": "virtual: config-runtimePublicPath",
+      "key": "runtimePublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-purgeCSS": {
+      "id": "virtual: config-purgeCSS",
+      "key": "purgeCSS",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-publicPath": {
+      "id": "virtual: config-publicPath",
+      "key": "publicPath",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-proxy": {
+      "id": "virtual: config-proxy",
+      "key": "proxy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-postcssLoader": {
+      "id": "virtual: config-postcssLoader",
+      "key": "postcssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-outputPath": {
+      "id": "virtual: config-outputPath",
+      "key": "outputPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-normalCSSLoaderModules": {
+      "id": "virtual: config-normalCSSLoaderModules",
+      "key": "normalCSSLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mfsu": {
+      "id": "virtual: config-mfsu",
+      "key": "mfsu",
+      "config": {
+        "default": {
+          "strategy": "eager"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mdx": {
+      "id": "virtual: config-mdx",
+      "key": "mdx",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-manifest": {
+      "id": "virtual: config-manifest",
+      "key": "manifest",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-lessLoader": {
+      "id": "virtual: config-lessLoader",
+      "key": "lessLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifierOptions": {
+      "id": "virtual: config-jsMinifierOptions",
+      "key": "jsMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifier": {
+      "id": "virtual: config-jsMinifier",
+      "key": "jsMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-inlineLimit": {
+      "id": "virtual: config-inlineLimit",
+      "key": "inlineLimit",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-ignoreMomentLocale": {
+      "id": "virtual: config-ignoreMomentLocale",
+      "key": "ignoreMomentLocale",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-https": {
+      "id": "virtual: config-https",
+      "key": "https",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-hash": {
+      "id": "virtual: config-hash",
+      "key": "hash",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-forkTSChecker": {
+      "id": "virtual: config-forkTSChecker",
+      "key": "forkTSChecker",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-fastRefresh": {
+      "id": "virtual: config-fastRefresh",
+      "key": "fastRefresh",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraPostCSSPlugins": {
+      "id": "virtual: config-extraPostCSSPlugins",
+      "key": "extraPostCSSPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPresets": {
+      "id": "virtual: config-extraBabelPresets",
+      "key": "extraBabelPresets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPlugins": {
+      "id": "virtual: config-extraBabelPlugins",
+      "key": "extraBabelPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelIncludes": {
+      "id": "virtual: config-extraBabelIncludes",
+      "key": "extraBabelIncludes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-externals": {
+      "id": "virtual: config-externals",
+      "key": "externals",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esm": {
+      "id": "virtual: config-esm",
+      "key": "esm",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-devtool": {
+      "id": "virtual: config-devtool",
+      "key": "devtool",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-depTranspiler": {
+      "id": "virtual: config-depTranspiler",
+      "key": "depTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-define": {
+      "id": "virtual: config-define",
+      "key": "define",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-deadCode": {
+      "id": "virtual: config-deadCode",
+      "key": "deadCode",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssPublicPath": {
+      "id": "virtual: config-cssPublicPath",
+      "key": "cssPublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifierOptions": {
+      "id": "virtual: config-cssMinifierOptions",
+      "key": "cssMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifier": {
+      "id": "virtual: config-cssMinifier",
+      "key": "cssMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoaderModules": {
+      "id": "virtual: config-cssLoaderModules",
+      "key": "cssLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoader": {
+      "id": "virtual: config-cssLoader",
+      "key": "cssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-copy": {
+      "id": "virtual: config-copy",
+      "key": "copy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-checkDepCssModules": {
+      "id": "virtual: config-checkDepCssModules",
+      "key": "checkDepCssModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-chainWebpack": {
+      "id": "virtual: config-chainWebpack",
+      "key": "chainWebpack",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cacheDirectoryPath": {
+      "id": "virtual: config-cacheDirectoryPath",
+      "key": "cacheDirectoryPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-babelLoaderCustomize": {
+      "id": "virtual: config-babelLoaderCustomize",
+      "key": "babelLoaderCustomize",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoprefixer": {
+      "id": "virtual: config-autoprefixer",
+      "key": "autoprefixer",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoCSSModules": {
+      "id": "virtual: config-autoCSSModules",
+      "key": "autoCSSModules",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-alias": {
+      "id": "virtual: config-alias",
+      "key": "alias",
+      "config": {
+        "default": {
+          "umi": "@@/exports",
+          "react": "/home/ubuntu/front_projects/react_home/node_modules/react",
+          "react-dom": "/home/ubuntu/front_projects/react_home/node_modules/react-dom",
+          "react-router": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
+          "react-router-dom": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
+      "key": "crossorigin"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            1
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
+      "key": "depsOnDemand"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
+      "key": "devTool"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 96
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
+      "key": "esbuildHelperChecker"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 27
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
+      "key": "esmi"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 10
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
+      "key": "exportStatic"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
+      "key": "favicons"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
+      "key": "helmet"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/icons/icons": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/icons/icons",
+      "key": "icons"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 33
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock",
+      "key": "mock"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
+      "key": "mpa"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam",
+      "key": "okam"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
+      "key": "overrides"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
+      "key": "phantomDependency"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
+      "key": "polyfill"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
+      "key": "publicPathPolyfill"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
+      "key": "prepare"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
+      "key": "routePrefetch"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
+      "key": "stagewise"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
+      "key": "terminal"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
+      "key": "tmpFiles"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
+      "key": "clientLoader"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
+      "key": "routeProps"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
+      "key": "ssr"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
+      "key": "configTypes"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/transform/transform": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/transform/transform",
+      "key": "transform"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
+      "key": "lowImport"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/vite/vite": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/vite/vite",
+      "key": "vite"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
+      "key": "apiRoute"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 23
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
+      "key": "monorepoRedirect"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test",
+      "key": "test"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
+      "key": "clickToComponent"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 493
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
+      "key": "legacy"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
+      "key": "classPropertiesLoose"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
+      "key": "preset-umi:webpack"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/swc/swc": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "addOnDemandDeps": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/swc/swc",
+      "key": "swc"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui",
+      "key": "ui"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mako/mako": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mako/mako",
+      "key": "mako"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/forget": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/forget.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/forget",
+      "key": "forget"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler",
+      "key": "reactCompiler"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack",
+      "key": "utoopack"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
+      "key": "hmrGuardian"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 33
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
+      "key": "routePreloadOnLoad"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
+      "key": "preset-umi:bundler"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/build": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/build",
+      "key": "build"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/config/config": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 43
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/config/config",
+      "key": "config"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 25
+      },
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev",
+      "key": "dev"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/help": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/help",
+      "key": "help"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/lint": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/lint",
+      "key": "lint"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/setup": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/setup",
+      "key": "setup"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/deadcode": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/deadcode",
+      "key": "deadcode"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/version": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/version",
+      "key": "version"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/page": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/page",
+      "key": "generator:page"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
+      "key": "generator:prettier"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/component": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/api": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/plugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/preview": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/preview",
+      "key": "preview"
+    },
+    "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "key": "mfsu-cli"
+    },
+    "@umijs/plugin-run": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+plugin-run@4.6.84/node_modules/@umijs/plugin-run/dist/index.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "@umijs/plugin-run",
+      "key": "run"
+    },
+    "./node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/generatePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "cwd": "/home/ubuntu/front_projects/react_home",
+      "id": "./node_modules/.pnpm/@umijs+core@4.6.84/node_modules/@umijs/core/dist/service/generatePlugin",
+      "key": "generatePlugin"
+    }
+  },
+  "presets": [],
+  "name": "build",
+  "args": {
+    "_": []
+  },
+  "userConfig": {
+    "npmClient": "pnpm",
+    "title": "yma16 - 前端开发工具集",
+    "favicons": [
+      "/favicon.ico"
+    ],
+    "hash": true,
+    "routes": [
+      {
+        "path": "/",
+        "component": "@/pages/index",
+        "title": "首页"
+      },
+      {
+        "path": "/tools/code-formatter",
+        "component": "@/pages/tools/code-formatter",
+        "title": "代码格式化"
+      },
+      {
+        "path": "/tools/component-gen",
+        "component": "@/pages/tools/component-gen",
+        "title": "组件生成器"
+      },
+      {
+        "path": "/tools/perf-check",
+        "component": "@/pages/tools/perf-check",
+        "title": "性能检测"
+      },
+      {
+        "path": "/tools/svg-processor",
+        "component": "@/pages/tools/svg-processor",
+        "title": "SVG处理"
+      },
+      {
+        "path": "/tools/file-diff",
+        "component": "@/pages/tools/file-diff",
+        "title": "文件对比"
+      },
+      {
+        "path": "/blog",
+        "component": "@/pages/blog",
+        "title": "技术博客"
+      },
+      {
+        "path": "/pricing",
+        "component": "@/pages/pricing",
+        "title": "定价"
+      }
+    ],
+    "theme": {
+      "primary-color": "#1890ff",
+      "border-radius-base": "8px"
+    },
+    "ssr": false,
+    "exportStatic": false
+  },
+  "mainConfigFile": "/home/ubuntu/front_projects/react_home/.umirc.ts",
+  "config": {
+    "routeLoader": {
+      "moduleType": "esm"
+    },
+    "mountElementId": "root",
+    "history": {
+      "type": "browser"
+    },
+    "base": "/",
+    "svgr": {},
+    "publicPath": "/",
+    "mfsu": {
+      "strategy": "eager"
+    },
+    "ignoreMomentLocale": true,
+    "externals": {},
+    "autoCSSModules": true,
+    "alias": {
+      "umi": "@@/exports",
+      "react": "/home/ubuntu/front_projects/react_home/node_modules/react",
+      "react-dom": "/home/ubuntu/front_projects/react_home/node_modules/react-dom",
+      "react-router": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
+      "react-router-dom": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom",
+      "@": "/home/ubuntu/front_projects/react_home/src",
+      "@@": "/home/ubuntu/front_projects/react_home/src/.umi-production",
+      "regenerator-runtime": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/regenerator-runtime@0.13.11/node_modules/regenerator-runtime"
+    },
+    "npmClient": "pnpm",
+    "title": "yma16 - 前端开发工具集",
+    "favicons": [
+      "/favicon.ico"
+    ],
+    "hash": true,
+    "routes": [
+      {
+        "path": "/",
+        "component": "@/pages/index",
+        "title": "首页"
+      },
+      {
+        "path": "/tools/code-formatter",
+        "component": "@/pages/tools/code-formatter",
+        "title": "代码格式化"
+      },
+      {
+        "path": "/tools/component-gen",
+        "component": "@/pages/tools/component-gen",
+        "title": "组件生成器"
+      },
+      {
+        "path": "/tools/perf-check",
+        "component": "@/pages/tools/perf-check",
+        "title": "性能检测"
+      },
+      {
+        "path": "/tools/svg-processor",
+        "component": "@/pages/tools/svg-processor",
+        "title": "SVG处理"
+      },
+      {
+        "path": "/tools/file-diff",
+        "component": "@/pages/tools/file-diff",
+        "title": "文件对比"
+      },
+      {
+        "path": "/blog",
+        "component": "@/pages/blog",
+        "title": "技术博客"
+      },
+      {
+        "path": "/pricing",
+        "component": "@/pages/pricing",
+        "title": "定价"
+      }
+    ],
+    "theme": {
+      "primary-color": "#1890ff",
+      "border-radius-base": "8px"
+    },
+    "ssr": false,
+    "exportStatic": false,
+    "targets": {
+      "chrome": 80
+    }
+  },
+  "routes": {
+    "1": {
+      "path": "/",
+      "title": "首页",
+      "file": "@/pages/index.tsx",
+      "parentId": "@@/global-layout",
+      "id": "1",
+      "absPath": "/",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={4} suffix=\"个\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default HomePage;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
+    },
+    "2": {
+      "path": "/tools/code-formatter",
+      "title": "代码格式化",
+      "file": "@/pages/tools/code-formatter.tsx",
+      "parentId": "@@/global-layout",
+      "id": "2",
+      "absPath": "/tools/code-formatter",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Select, Button, message, Typography, Space, Tabs } from 'antd';\nimport { CopyOutlined, FormatPainterOutlined, ClearOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\n\nconst { Title, Paragraph } = Typography;\nconst { Option } = Select;\n\nconst defaultCode = `import React, { useState, useEffect } from 'react';\nimport { Button, Card } from 'antd';\n\nconst Example=()=>{\nconst [count,setCount]=useState(0);\n\nuseEffect(()=>{\nconsole.log('count changed:',count);\n},[count]);\n\nreturn (\n<Card title=\"Example\">\n<Button onClick={()=>setCount(count+1)}>\nCount: {count}\n</Button>\n</Card>\n);\n};\n\nexport default Example;`;\n\nconst CodeFormatter: React.FC = () => {\n  const [code, setCode] = useState(defaultCode);\n  const [formattedCode, setFormattedCode] = useState('');\n  const [language, setLanguage] = useState('typescript');\n  const [loading, setLoading] = useState(false);\n\n  const formatCode = useCallback(async () => {\n    setLoading(true);\n    try {\n      // 模拟格式化（实际项目中可以使用 prettier）\n      const formatted = code\n        .replace(/\\s*\\n\\s*/g, '\\n')\n        .replace(/\\{\\s*\\n/g, '{\\n')\n        .replace(/\\n\\s*\\}/g, '\\n}')\n        .replace(/;\\s*\\n/g, ';\\n')\n        .replace(/,\\s*/g, ', ')\n        .replace(/\\s*=>\\s*/g, ' => ')\n        .replace(/\\s*=\\s*/g, ' = ')\n        .replace(/\\s*\\+\\s*/g, ' + ')\n        .replace(/\\(\\s*/g, '(')\n        .replace(/\\s*\\)/g, ')')\n        .replace(/\\[\\s*/g, '[')\n        .replace(/\\s*\\]/g, ']')\n        .replace(/import\\s+\\{/g, 'import { ')\n        .replace(/\\}\\s+from/g, ' } from');\n\n      setFormattedCode(formatted);\n      message.success('代码格式化完成！');\n    } catch (error) {\n      message.error('格式化失败：' + (error as Error).message);\n    } finally {\n      setLoading(false);\n    }\n  }, [code]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  const clearCode = () => {\n    setCode('');\n    setFormattedCode('');\n  };\n\n  return (\n    <div>\n      <Title level={2}>\n        <FormatPainterOutlined /> 代码格式化\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 TypeScript、JavaScript、Vue、React 代码格式化，基于 Prettier 规则\n      </Paragraph>\n\n      <Card style={{ marginBottom: 24 }}>\n        <Space style={{ marginBottom: 16 }}>\n          <span>语言：</span>\n          <Select value={language} onChange={setLanguage} style={{ width: 150 }}>\n            <Option value=\"typescript\">TypeScript</Option>\n            <Option value=\"javascript\">JavaScript</Option>\n            <Option value=\"json\">JSON</Option>\n            <Option value=\"html\">HTML</Option>\n            <Option value=\"css\">CSS</Option>\n            <Option value=\"vue\">Vue</Option>\n          </Select>\n          <Button type=\"primary\" icon={<FormatPainterOutlined />} onClick={formatCode} loading={loading}>\n            格式化\n          </Button>\n          <Button icon={<ClearOutlined />} onClick={clearCode}>\n            清空\n          </Button>\n        </Space>\n      </Card>\n\n      <Row gutter={24}>\n        <Col span={12}>\n          <Card\n            title=\"输入代码\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(code)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={code}\n              onChange={(value) => setCode(value || '')}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: false,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card\n            title=\"格式化结果\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(formattedCode)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={formattedCode}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: true,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default CodeFormatter;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/code-formatter.tsx"
+    },
+    "3": {
+      "path": "/tools/component-gen",
+      "title": "组件生成器",
+      "file": "@/pages/tools/component-gen.tsx",
+      "parentId": "@@/global-layout",
+      "id": "3",
+      "absPath": "/tools/component-gen",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Form, Input, Select, Button, Row, Col, message, Typography, Space, Tabs, Checkbox } from 'antd';\nimport { ToolOutlined, CopyOutlined, DownloadOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\n\nconst { Title, Paragraph } = Typography;\nconst { Option } = Select;\nconst { TextArea } = Input;\n\ninterface ComponentConfig {\n  name: string;\n  framework: 'react' | 'vue';\n  language: 'ts' | 'js';\n  styleType: 'css' | 'less' | 'scss' | 'styled' | 'none';\n  props: string[];\n  useHooks: string[];\n  withTypes: boolean;\n  withStorybook: boolean;\n  withTests: boolean;\n}\n\nconst ComponentGen: React.FC = () => {\n  const [form] = Form.useForm();\n  const [generatedCode, setGeneratedCode] = useState('');\n  const [activeTab, setActiveTab] = useState('component');\n\n  const generateComponent = (values: ComponentConfig) => {\n    const { name, framework, language, styleType, props, useHooks, withTypes, withStorybook, withTests } = values;\n    \n    let code = '';\n    \n    if (framework === 'react') {\n      // React Component\n      const imports = ['React'];\n      if (useHooks?.includes('useState')) imports.push('useState');\n      if (useHooks?.includes('useEffect')) imports.push('useEffect');\n      if (useHooks?.includes('useCallback')) imports.push('useCallback');\n      if (useHooks?.includes('useMemo')) imports.push('useMemo');\n      \n      code += `import ${imports.length > 1 ? `{ ${imports.join(', ')} }` : 'React'} from 'react';\\n`;\n      \n      if (styleType === 'styled') {\n        code += `import styled from 'styled-components';\\n`;\n      }\n      \n      code += `\\n`;\n      \n      // Types\n      if (withTypes && language === 'ts') {\n        code += `interface ${name}Props {\\n`;\n        props?.forEach(prop => {\n          code += `  ${prop}: string;\\n`;\n        });\n        code += `}\\n\\n`;\n      }\n      \n      // Component\n      const propsType = withTypes && language === 'ts' ? `: ${name}Props` : '';\n      code += `const ${name}${propsType} = ({ ${props?.join(', ') || ''} }) => {\\n`;\n      \n      // Hooks\n      if (useHooks?.includes('useState')) {\n        code += `  const [count, setCount] = useState(0);\\n`;\n      }\n      if (useHooks?.includes('useEffect')) {\n        code += `  useEffect(() => {\\n    console.log('Component mounted');\\n  }, []);\\n`;\n      }\n      \n      code += `\\n  return (\\n`;\n      \n      if (styleType === 'styled') {\n        code += `    <StyledContainer>\\n`;\n      } else {\n        code += `    <div className=\"${name.toLowerCase()}\">\\n`;\n      }\n      \n      code += `      <h2>${name} Component</h2>\\n`;\n      code += `      {${props?.[0] || 'children'}}\\n`;\n      \n      if (styleType === 'styled') {\n        code += `    </StyledContainer>\\n`;\n      } else {\n        code += `    </div>\\n`;\n      }\n      \n      code += `  );\\n};\\n\\n`;\n      \n      // Styled component\n      if (styleType === 'styled') {\n        code += `const StyledContainer = styled.div\\`\\n  padding: 20px;\\n  border-radius: 8px;\\n  background: #f5f5f5;\\n\\`;\\n\\n`;\n      }\n      \n      code += `export default ${name};\\n`;\n    } else {\n      // Vue Component\n      code += `<template>\\n`;\n      code += `  <div class=\"${name.toLowerCase()}\">\\n`;\n      code += `    <h2>${name} Component</h2>\\n`;\n      props?.forEach(prop => {\n        code += `    <p>{{ ${prop} }}</p>\\n`;\n      });\n      code += `  </div>\\n`;\n      code += `</template>\\n\\n`;\n      \n      if (language === 'ts') {\n        code += `<script setup lang=\"ts\">\\n`;\n        code += `interface Props {\\n`;\n        props?.forEach(prop => {\n          code += `  ${prop}: string;\\n`;\n        });\n        code += `}\\n\\n`;\n        code += `defineProps<Props>();\\n`;\n      } else {\n        code += `<script setup>\\n`;\n        code += `defineProps({\\n`;\n        props?.forEach(prop => {\n          code += `  ${prop}: String,\\n`;\n        });\n        code += `});\\n`;\n      }\n      code += `</script>\\n\\n`;\n      \n      if (styleType !== 'none') {\n        code += `<style scoped${styleType !== 'css' ? ` lang=\"${styleType}\"` : ''}>\\n`;\n        code += `.${name.toLowerCase()} {\\n`;\n        code += `  padding: 20px;\\n`;\n        code += `  border-radius: 8px;\\n`;\n        code += `}\\n`;\n        code += `</style>\\n`;\n      }\n    }\n    \n    setGeneratedCode(code);\n    message.success('组件代码生成成功！');\n  };\n\n  const copyCode = () => {\n    navigator.clipboard.writeText(generatedCode);\n    message.success('代码已复制');\n  };\n\n  const downloadCode = () => {\n    const blob = new Blob([generatedCode], { type: 'text/plain' });\n    const url = URL.createObjectURL(blob);\n    const a = document.createElement('a');\n    a.href = url;\n    a.download = 'Component.tsx';\n    a.click();\n    URL.revokeObjectURL(url);\n  };\n\n  return (\n    <div>\n      <Title level={2}>\n        <ToolOutlined /> 组件生成器\n      </Title>\n      <Paragraph type=\"secondary\">\n        快速生成 React/Vue 组件代码模板，支持 TypeScript、样式配置和常用 Hooks\n      </Paragraph>\n\n      <Row gutter={24}>\n        <Col span={10}>\n          <Card title=\"组件配置\">\n            <Form\n              form={form}\n              layout=\"vertical\"\n              onFinish={generateComponent}\n              initialValues={{\n                framework: 'react',\n                language: 'ts',\n                styleType: 'css',\n                withTypes: true,\n              }}\n            >\n              <Form.Item\n                label=\"组件名称\"\n                name=\"name\"\n                rules={[{ required: true, message: '请输入组件名称' }]}\n              >\n                <Input placeholder=\"例如：UserCard\" />\n              </Form.Item>\n\n              <Form.Item label=\"框架\" name=\"framework\">\n                <Select>\n                  <Option value=\"react\">React</Option>\n                  <Option value=\"vue\">Vue 3</Option>\n                </Select>\n              </Form.Item>\n\n              <Form.Item label=\"语言\" name=\"language\">\n                <Select>\n                  <Option value=\"ts\">TypeScript</Option>\n                  <Option value=\"js\">JavaScript</Option>\n                </Select>\n              </Form.Item>\n\n              <Form.Item label=\"样式类型\" name=\"styleType\">\n                <Select>\n                  <Option value=\"css\">CSS</Option>\n                  <Option value=\"less\">Less</Option>\n                  <Option value=\"scss\">SCSS</Option>\n                  <Option value=\"styled\">Styled Components</Option>\n                  <Option value=\"none\">无样式</Option>\n                </Select>\n              </Form.Item>\n\n              <Form.Item label=\"Props\" name=\"props\">\n                <Select mode=\"tags\" placeholder=\"输入 props 名称\">\n                  <Option value=\"title\">title</Option>\n                  <Option value=\"content\">content</Option>\n                  <Option value=\"onClick\">onClick</Option>\n                  <Option value=\"children\">children</Option>\n                </Select>\n              </Form.Item>\n\n              <Form.Item label=\"Hooks\" name=\"useHooks\">\n                <Select mode=\"multiple\" placeholder=\"选择需要的 Hooks\">\n                  <Option value=\"useState\">useState</Option>\n                  <Option value=\"useEffect\">useEffect</Option>\n                  <Option value=\"useCallback\">useCallback</Option>\n                  <Option value=\"useMemo\">useMemo</Option>\n                </Select>\n              </Form.Item>\n\n              <Form.Item>\n                <Space>\n                  <Checkbox checked={true}>生成类型定义</Checkbox>\n                  <Checkbox>生成 Storybook</Checkbox>\n                  <Checkbox>生成测试文件</Checkbox>\n                </Space>\n              </Form.Item>\n\n              <Form.Item>\n                <Button type=\"primary\" htmlType=\"submit\" block icon={<ToolOutlined />}>\n                  生成组件\n                </Button>\n              </Form.Item>\n            </Form>\n          </Card>\n        </Col>\n\n        <Col span={14}>\n          <Card\n            title=\"生成结果\"\n            extra={\n              <Space>\n                <Button icon={<CopyOutlined />} onClick={copyCode}>\n                  复制\n                </Button>\n                <Button icon={<DownloadOutlined />} onClick={downloadCode}>\n                  下载\n                </Button>\n              </Space>\n            }\n          >\n            <Editor\n              height={600}\n              language=\"typescript\"\n              value={generatedCode}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                readOnly: true,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default ComponentGen;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/component-gen.tsx"
+    },
+    "4": {
+      "path": "/tools/perf-check",
+      "title": "性能检测",
+      "file": "@/pages/tools/perf-check.tsx",
+      "parentId": "@@/global-layout",
+      "id": "4",
+      "absPath": "/tools/perf-check",
+      "__content": "import React, { useState, useEffect, useCallback } from 'react';\nimport { Card, Button, Progress, Statistic, Row, Col, Typography, List, Tag, Timeline, Alert, Space } from 'antd';\nimport { BarChartOutlined, PlayCircleOutlined, ReloadOutlined, CheckCircleOutlined, WarningOutlined, CloseCircleOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\ninterface PerfMetric {\n  name: string;\n  value: number;\n  unit: string;\n  threshold: number;\n  status: 'good' | 'warning' | 'poor';\n  description: string;\n}\n\nconst PerfCheck: React.FC = () => {\n  const [loading, setLoading] = useState(false);\n  const [metrics, setMetrics] = useState<PerfMetric[]>([]);\n  const [timeline, setTimeline] = useState<string[]>([]);\n\n  const runPerformanceCheck = useCallback(async () => {\n    setLoading(true);\n    setTimeline(['开始性能检测...']);\n\n    // 模拟性能检测过程\n    const steps = [\n      '检测页面加载时间...',\n      '分析 DOM 渲染性能...',\n      '检查资源加载情况...',\n      '评估 JavaScript 执行效率...',\n      '检测内存使用情况...',\n      '生成性能报告...',\n    ];\n\n    for (let i = 0; i < steps.length; i++) {\n      await new Promise(resolve => setTimeout(resolve, 800));\n      setTimeline(prev => [...prev, steps[i]]);\n    }\n\n    // 模拟性能指标\n    const mockMetrics: PerfMetric[] = [\n      {\n        name: '首次内容绘制 (FCP)',\n        value: 1.2,\n        unit: 's',\n        threshold: 1.8,\n        status: 'good',\n        description: '浏览器首次绘制任何文本、图像的时间',\n      },\n      {\n        name: '最大内容绘制 (LCP)',\n        value: 2.5,\n        unit: 's',\n        threshold: 2.5,\n        status: 'warning',\n        description: '视口中最大的图像或文本块渲染时间',\n      },\n      {\n        name: '首次输入延迟 (FID)',\n        value: 12,\n        unit: 'ms',\n        threshold: 100,\n        status: 'good',\n        description: '用户首次交互到浏览器响应的时间',\n      },\n      {\n        name: '累积布局偏移 (CLS)',\n        value: 0.15,\n        unit: '',\n        threshold: 0.1,\n        status: 'poor',\n        description: '页面布局的意外偏移量',\n      },\n      {\n        name: '总阻塞时间 (TBT)',\n        value: 180,\n        unit: 'ms',\n        threshold: 200,\n        status: 'good',\n        description: 'FCP 和 TTI 之间的总阻塞时间',\n      },\n      {\n        name: '可交互时间 (TTI)',\n        value: 3.8,\n        unit: 's',\n        threshold: 3.8,\n        status: 'warning',\n        description: '页面完全可交互的时间',\n      },\n    ];\n\n    setMetrics(mockMetrics);\n    setTimeline(prev => [...prev, '性能检测完成！']);\n    setLoading(false);\n  }, []);\n\n  const getStatusColor = (status: string) => {\n    switch (status) {\n      case 'good': return 'success';\n      case 'warning': return 'warning';\n      case 'poor': return 'error';\n      default: return 'default';\n    }\n  };\n\n  const getStatusIcon = (status: string) => {\n    switch (status) {\n      case 'good': return <CheckCircleOutlined style={{ color: '#52c41a' }} />;\n      case 'warning': return <WarningOutlined style={{ color: '#faad14' }} />;\n      case 'poor': return <CloseCircleOutlined style={{ color: '#f5222d' }} />;\n      default: return null;\n    }\n  };\n\n  const getOverallScore = () => {\n    if (metrics.length === 0) return 0;\n    const scores = metrics.map(m => {\n      if (m.status === 'good') return 100;\n      if (m.status === 'warning') return 70;\n      return 40;\n    });\n    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);\n  };\n\n  return (\n    <div>\n      <Title level={2}>\n        <BarChartOutlined /> 前端性能检测\n      </Title>\n      <Paragraph type=\"secondary\">\n        基于 Core Web Vitals 标准，检测页面加载性能、渲染效率和用户体验指标\n      </Paragraph>\n\n      <Row gutter={24} style={{ marginBottom: 24 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic\n              title=\"综合评分\"\n              value={getOverallScore()}\n              suffix=\"/ 100\"\n              valueStyle={{ color: getOverallScore() >= 80 ? '#52c41a' : getOverallScore() >= 60 ? '#faad14' : '#f5222d' }}\n            />\n            <Progress\n              percent={getOverallScore()}\n              status={getOverallScore() >= 80 ? 'success' : getOverallScore() >= 60 ? 'normal' : 'exception'}\n              style={{ marginTop: 16 }}\n            />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic\n              title=\"检测项目\"\n              value={metrics.length}\n              suffix=\"项\"\n            />\n            <div style={{ marginTop: 16 }}>\n              <Tag color=\"success\">优秀 {metrics.filter(m => m.status === 'good').length}</Tag>\n              <Tag color=\"warning\">警告 {metrics.filter(m => m.status === 'warning').length}</Tag>\n              <Tag color=\"error\">需优化 {metrics.filter(m => m.status === 'poor').length}</Tag>\n            </div>\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Button\n              type=\"primary\"\n              icon={<PlayCircleOutlined />}\n              onClick={runPerformanceCheck}\n              loading={loading}\n              block\n              size=\"large\"\n              style={{ marginBottom: 12 }}\n            >\n              {loading ? '检测中...' : '开始检测'}\n            </Button>\n            <Button\n              icon={<ReloadOutlined />}\n              onClick={() => { setMetrics([]); setTimeline([]); }}\n              block\n            >\n              重置\n            </Button>\n          </Card>\n        </Col>\n      </Row>\n\n      {timeline.length > 0 && (\n        <Card title=\"检测进度\" style={{ marginBottom: 24 }}>\n          <Timeline\n            items={timeline.map((item, index) => ({\n              children: item,\n              color: index === timeline.length - 1 && !loading ? 'green' : 'blue',\n            }))}\n          />\n        </Card>\n      )}\n\n      {metrics.length > 0 && (\n        <Card title=\"性能指标详情\">\n          <List\n            grid={{ gutter: 16, xs: 1, sm: 2, lg: 3 }}\n            dataSource={metrics}\n            renderItem={(metric) => (\n              <List.Item>\n                <Card\n                  size=\"small\"\n                  title={\n                    <Space>\n                      {getStatusIcon(metric.status)}\n                      <span>{metric.name}</span>\n                    </Space>\n                  }\n                  extra={<Tag color={getStatusColor(metric.status)}>{metric.value}{metric.unit}</Tag>}\n                >\n                  <Paragraph type=\"secondary\" style={{ fontSize: 12 }}>\n                    {metric.description}\n                  </Paragraph>\n                  <div style={{ marginTop: 8 }}>\n                    <span style={{ fontSize: 12, color: '#999' }}>\n                      阈值: {metric.threshold}{metric.unit}\n                    </span>\n                  </div>\n                </Card>\n              </List.Item>\n            )}\n          />\n        </Card>\n      )}\n\n      <Alert\n        message=\"优化建议\"\n        description={\n          <ul>\n            <li>优化图片加载：使用 WebP 格式，实现懒加载</li>\n            <li>减少 JavaScript 体积：代码分割，移除未使用代码</li>\n            <li>使用 CDN 加速静态资源加载</li>\n            <li>启用 Gzip/Brotli 压缩</li>\n            <li>优化关键渲染路径</li>\n          </ul>\n        }\n        type=\"info\"\n        showIcon\n        style={{ marginTop: 24 }}\n      />\n    </div>\n  );\n};\n\nexport default PerfCheck;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/perf-check.tsx"
+    },
+    "5": {
+      "path": "/tools/svg-processor",
+      "title": "SVG处理",
+      "file": "@/pages/tools/svg-processor.tsx",
+      "parentId": "@@/global-layout",
+      "id": "5",
+      "absPath": "/tools/svg-processor",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio } from 'antd';\nimport { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\n\nconst { Title, Paragraph } = Typography;\nconst { Dragger } = Upload;\n\n\ninterface SVGFile {\n  uid: string;\n  name: string;\n  size: number;\n  originalSize: number;\n  compressedSize: number;\n  status: 'pending' | 'processing' | 'done' | 'error';\n  preview?: string;\n  content?: string;\n  processedContent?: string;\n}\n\nconst SVGProcessor: React.FC = () => {\n  const [fileList, setFileList] = useState<SVGFile[]>([]);\n  const [processing, setProcessing] = useState(false);\n  const [colorAction, setColorAction] = useState<'add' | 'remove'>('add');\n  const [targetColor, setTargetColor] = useState('#1890ff');\n  const [previewContent, setPreviewContent] = useState('');\n  const [previewVisible, setPreviewVisible] = useState(false);\n\n  const handleUpload = useCallback((info: any) => {\n    const { file, fileList: newFileList } = info;\n    \n    if (file.status === 'done' || file.status === 'uploading' || file.originFileObj) {\n      const processFile = async (f: any) => {\n        const content = f.originFileObj ? await f.originFileObj.text() : '';\n        return {\n          uid: f.uid || Math.random().toString(36).substr(2, 9),\n          name: f.name,\n          size: f.size || 0,\n          originalSize: f.size || 0,\n          compressedSize: f.size || 0,\n          status: 'pending' as const,\n          preview: f.thumbUrl || f.url,\n          content: content,\n          processedContent: content,\n        };\n      };\n\n      Promise.all(newFileList.map(processFile)).then(svgFiles => {\n        const validFiles = svgFiles.filter((f: SVGFile) => f.name.endsWith('.svg'));\n        setFileList(prev => [...prev, ...validFiles]);\n        if (validFiles.length < svgFiles.length) {\n          message.warning('部分文件不是 SVG 格式，已过滤');\n        }\n      });\n    }\n  }, []);\n\n  const processSVG = useCallback(async () => {\n    if (fileList.length === 0) {\n      message.warning('请先上传 SVG 文件');\n      return;\n    }\n    \n    setProcessing(true);\n    \n    for (let i = 0; i < fileList.length; i++) {\n      setFileList(prev => prev.map((file, index) => \n        index === i ? { ...file, status: 'processing' } : file\n      ));\n      \n      await new Promise(resolve => setTimeout(resolve, 500));\n      \n      let processedContent = fileList[i].content || '';\n      \n      // 处理颜色\n      if (colorAction === 'add') {\n        // 添加颜色：如果没有 fill/stroke 属性，添加默认颜色\n        processedContent = processedContent.replace(\n          /<svg([^>]*)>/i,\n          `<svg$1 fill=\"${targetColor}\">`\n        );\n        // 为没有 fill 属性的 path/circle/rect 添加颜色\n        processedContent = processedContent.replace(\n          /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(?<!fill=)([^>]*)>/gi,\n          (match, tag, attrs1, attrs2) => {\n            if (match.includes('fill=') || match.includes('stroke=')) {\n              return match;\n            }\n            return `<${tag}${attrs1} fill=\"${targetColor}\"${attrs2}>`;\n          }\n        );\n      } else {\n        // 移除颜色：移除 fill 和 stroke 属性（保留 none）\n        processedContent = processedContent.replace(/\\s*fill=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*stroke=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*style=\"[^\"]*fill[^\"]*\"/gi, '');\n      }\n      \n      // 压缩：移除注释、多余空格\n      processedContent = processedContent\n        .replace(/<!--[\\s\\S]*?-->/g, '')\n        .replace(/>\\s+</g, '><')\n        .replace(/\\s{2,}/g, ' ')\n        .trim();\n      \n      const compressedSize = new Blob([processedContent]).size;\n      \n      setFileList(prev => prev.map((file, index) => \n        index === i ? { \n          ...file, \n          status: 'done',\n          compressedSize,\n          processedContent,\n        } : file\n      ));\n    }\n    \n    setProcessing(false);\n    message.success('所有 SVG 文件处理完成！');\n  }, [fileList, colorAction, targetColor]);\n\n  const removeFile = (uid: string) => {\n    setFileList(prev => prev.filter(f => f.uid !== uid));\n  };\n\n  const clearAll = () => {\n    setFileList([]);\n    setPreviewVisible(false);\n  };\n\n  const downloadFile = (file: SVGFile) => {\n    const content = file.processedContent || file.content || '';\n    const blob = new Blob([content], { type: 'image/svg+xml' });\n    const url = URL.createObjectURL(blob);\n    const a = document.createElement('a');\n    a.href = url;\n    a.download = file.name;\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  };\n\n  const downloadAll = () => {\n    fileList.forEach(file => {\n      if (file.status === 'done') {\n        downloadFile(file);\n      }\n    });\n    message.success('开始下载处理后的文件...');\n  };\n\n  const showPreview = (file: SVGFile) => {\n    setPreviewContent(file.processedContent || file.content || '');\n    setPreviewVisible(true);\n  };\n\n  const columns = [\n    {\n      title: '文件名',\n      dataIndex: 'name',\n      key: 'name',\n    },\n    {\n      title: '原始大小',\n      dataIndex: 'originalSize',\n      key: 'originalSize',\n      render: (size: number) => `${(size / 1024).toFixed(2)} KB`,\n    },\n    {\n      title: '处理后',\n      dataIndex: 'compressedSize',\n      key: 'compressedSize',\n      render: (size: number, record: SVGFile) => (\n        <span style={{ color: record.compressedSize < record.originalSize ? '#52c41a' : 'inherit' }}>\n          {`${(size / 1024).toFixed(2)} KB`}\n        </span>\n      ),\n    },\n    {\n      title: '压缩率',\n      key: 'ratio',\n      render: (_: any, record: SVGFile) => {\n        const ratio = record.originalSize > 0 \n          ? ((1 - record.compressedSize / record.originalSize) * 100).toFixed(1) \n          : '0';\n        return (\n          <Progress \n            percent={parseFloat(ratio)} \n            size=\"small\" \n            status={parseFloat(ratio) > 0 ? 'success' : 'normal'}\n          />\n        );\n      },\n    },\n    {\n      title: '状态',\n      dataIndex: 'status',\n      key: 'status',\n      render: (status: string) => {\n        const colors: Record<string, string> = {\n          pending: 'default',\n          processing: 'processing',\n          done: 'success',\n          error: 'error',\n        };\n        const labels: Record<string, string> = {\n          pending: '待处理',\n          processing: '处理中',\n          done: '完成',\n          error: '错误',\n        };\n        return <Tag color={colors[status]}>{labels[status]}</Tag>;\n      },\n    },\n    {\n      title: '操作',\n      key: 'action',\n      render: (_: any, record: SVGFile) => (\n        <Space>\n          <Button icon={<EyeOutlined />} size=\"small\" onClick={() => showPreview(record)}>预览</Button>\n          <Button icon={<DownloadOutlined />} size=\"small\" onClick={() => downloadFile(record)}>下载</Button>\n          <Button icon={<DeleteOutlined />} size=\"small\" danger onClick={() => removeFile(record.uid)}>\n            删除\n          </Button>\n        </Space>\n      ),\n    },\n  ];\n\n  const totalOriginal = fileList.reduce((sum, f) => sum + f.originalSize, 0);\n  const totalCompressed = fileList.reduce((sum, f) => sum + f.compressedSize, 0);\n  const totalSaved = totalOriginal - totalCompressed;\n\n  return (\n    <div>\n      <Title level={2}>\n        <FileImageOutlined /> SVG 批量处理\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 SVG 压缩、颜色处理、格式转换、批量导出\n      </Paragraph>\n\n      <Row gutter={24}>\n        <Col span={16}>\n          <Card title=\"上传 SVG 文件\">\n            <Dragger\n              multiple\n              accept=\".svg\"\n              beforeUpload={() => false}\n              onChange={handleUpload}\n              showUploadList={false}\n            >\n              <p className=\"ant-upload-drag-icon\">\n                <UploadOutlined />\n              </p>\n              <p className=\"ant-upload-text\">点击或拖拽 SVG 文件到此处</p>\n              <p className=\"ant-upload-hint\">\n                支持批量上传，单个文件不超过 5MB\n              </p>\n            </Dragger>\n          </Card>\n\n          <Card title=\"颜色处理\" style={{ marginTop: 16 }}>\n            <Space direction=\"vertical\" style={{ width: '100%' }}>\n              <Radio.Group \n                value={colorAction} \n                onChange={(e) => setColorAction(e.target.value)}\n              >\n                <Radio.Button value=\"add\">\n                  <BgColorsOutlined /> 添加颜色\n                </Radio.Button>\n                <Radio.Button value=\"remove\">\n                  <ClearOutlined /> 移除颜色\n                </Radio.Button>\n              </Radio.Group>\n              \n              {colorAction === 'add' && (\n                <div style={{ marginTop: 8 }}>\n                  <span>目标颜色：</span>\n                  <Input \n                    type=\"color\" \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 60, marginLeft: 8 }}\n                  />\n                  <Input \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 120, marginLeft: 8 }}\n                  />\n                </div>\n              )}\n            </Space>\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card title=\"处理统计\">\n            <Statistic title=\"文件数量\" value={fileList.length} suffix=\"个\" />\n            <Statistic title=\"原始大小\" value={(totalOriginal / 1024).toFixed(2)} suffix=\"KB\" style={{ marginTop: 16 }} />\n            <Statistic \n              title=\"处理后\" \n              value={(totalCompressed / 1024).toFixed(2)} \n              suffix=\"KB\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#52c41a' }}\n            />\n            <Statistic \n              title=\"节省空间\" \n              value={totalOriginal > 0 ? ((totalSaved / totalOriginal) * 100).toFixed(1) : 0} \n              suffix=\"%\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#1890ff' }}\n            />\n          </Card>\n        </Col>\n      </Row>\n\n      {fileList.length > 0 && (\n        <Card \n          title=\"文件列表\" \n          style={{ marginTop: 24 }}\n          extra={\n            <Space>\n              <Button \n                type=\"primary\" \n                icon={<CompressOutlined />} \n                onClick={processSVG}\n                loading={processing}\n              >\n                开始处理\n              </Button>\n              <Button icon={<DownloadOutlined />} onClick={downloadAll}>\n                批量下载\n              </Button>\n              <Button icon={<DeleteOutlined />} danger onClick={clearAll}>\n                清空\n              </Button>\n            </Space>\n          }\n        >\n          <Table \n            dataSource={fileList} \n            columns={columns} \n            rowKey=\"uid\"\n            pagination={false}\n          />\n        </Card>\n      )}\n\n      {previewVisible && (\n        <Card title=\"预览\" style={{ marginTop: 24 }} extra={\n          <Button onClick={() => setPreviewVisible(false)}>关闭</Button>\n        }>\n          <div style={{ display: 'flex', gap: 24 }}>\n            <div style={{ flex: 1 }}>\n              <h4>SVG 代码</h4>\n              <pre style={{ \n                background: '#f5f5f5', \n                padding: 16, \n                borderRadius: 8,\n                maxHeight: 400,\n                overflow: 'auto',\n                fontSize: 12\n              }}>\n                {previewContent}\n              </pre>\n            </div>\n            <div style={{ flex: 1 }}>\n              <h4>渲染效果</h4>\n              <div \n                style={{ \n                  border: '1px solid #d9d9d9', \n                  borderRadius: 8,\n                  padding: 24,\n                  minHeight: 200,\n                  display: 'flex',\n                  alignItems: 'center',\n                  justifyContent: 'center',\n                  background: '#fafafa'\n                }}\n                dangerouslySetInnerHTML={{ __html: previewContent }}\n              />\n            </div>\n          </div>\n        </Card>\n      )}\n\n      <Card title=\"功能说明\" style={{ marginTop: 24 }}>\n        <Row gutter={24}>\n          <Col span={8}>\n            <Card size=\"small\" title=\"基础版（免费）\">\n              <ul>\n                <li>单文件 SVG 压缩</li>\n                <li>颜色添加/移除</li>\n                <li>文件预览</li>\n              </ul>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"PRO 版\" style={{ borderColor: '#faad14' }}>\n              <ul>\n                <li>批量文件处理（最多 50 个）</li>\n                <li>云端存储和同步</li>\n                <li>高级压缩算法</li>\n                <li>团队协作功能</li>\n              </ul>\n              <Tag color=\"gold\">推荐</Tag>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"企业版\">\n              <ul>\n                <li>无限批量处理</li>\n                <li>API 接口访问</li>\n                <li>私有化部署</li>\n                <li>专属技术支持</li>\n              </ul>\n            </Card>\n          </Col>\n        </Row>\n      </Card>\n    </div>\n  );\n};\n\nexport default SVGProcessor;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/svg-processor.tsx"
+    },
+    "6": {
+      "path": "/tools/file-diff",
+      "title": "文件对比",
+      "file": "@/pages/tools/file-diff.tsx",
+      "parentId": "@@/global-layout",
+      "id": "6",
+      "absPath": "/tools/file-diff",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Button, Typography, Space, message, Tag } from 'antd';\nimport { DiffOutlined, CopyOutlined, ClearOutlined, SwapOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\n\nconst { Title, Paragraph } = Typography;\n\ninterface DiffLine {\n  type: 'equal' | 'insert' | 'delete';\n  oldLine: number;\n  newLine: number;\n  content: string;\n}\n\nconst FileDiff: React.FC = () => {\n  const [oldCode, setOldCode] = useState('');\n  const [newCode, setNewCode] = useState('');\n  const [diffResult, setDiffResult] = useState<DiffLine[]>([]);\n  const [showDiff, setShowDiff] = useState(false);\n\n  const defaultOldCode = `function hello() {\n  console.log(\"Hello World\");\n  return \"hello\";\n}\n\nfunction goodbye() {\n  console.log(\"Goodbye\");\n}`;\n\n  const defaultNewCode = `function hello() {\n  console.log(\"Hello World!\");\n  return \"hello\";\n}\n\nfunction welcome() {\n  console.log(\"Welcome!\");\n  return \"welcome\";\n}\n\nfunction goodbye() {\n  console.log(\"Goodbye!\");\n}`;\n\n  const computeDiff = useCallback(() => {\n    const oldLines = oldCode.split('\\n');\n    const newLines = newCode.split('\\n');\n    const result: DiffLine[] = [];\n    \n    let oldIndex = 0;\n    let newIndex = 0;\n    \n    while (oldIndex < oldLines.length || newIndex < newLines.length) {\n      const oldLine = oldLines[oldIndex];\n      const newLine = newLines[newIndex];\n      \n      if (oldIndex >= oldLines.length) {\n        // 新增行\n        result.push({\n          type: 'insert',\n          oldLine: 0,\n          newLine: newIndex + 1,\n          content: newLine\n        });\n        newIndex++;\n      } else if (newIndex >= newLines.length) {\n        // 删除行\n        result.push({\n          type: 'delete',\n          oldLine: oldIndex + 1,\n          newLine: 0,\n          content: oldLine\n        });\n        oldIndex++;\n      } else if (oldLine === newLine) {\n        // 相同行\n        result.push({\n          type: 'equal',\n          oldLine: oldIndex + 1,\n          newLine: newIndex + 1,\n          content: oldLine\n        });\n        oldIndex++;\n        newIndex++;\n      } else {\n        // 查找下一个匹配行\n        let foundMatch = false;\n        let lookAhead = 1;\n        \n        while (!foundMatch && lookAhead <= 3) {\n          if (oldLines[oldIndex + lookAhead] === newLine) {\n            // 旧文件删除了行\n            for (let i = 0; i < lookAhead; i++) {\n              result.push({\n                type: 'delete',\n                oldLine: oldIndex + 1,\n                newLine: 0,\n                content: oldLines[oldIndex + i]\n              });\n            }\n            oldIndex += lookAhead;\n            foundMatch = true;\n          } else if (newLines[newIndex + lookAhead] === oldLine) {\n            // 新文件插入了行\n            for (let i = 0; i < lookAhead; i++) {\n              result.push({\n                type: 'insert',\n                oldLine: 0,\n                newLine: newIndex + 1,\n                content: newLines[newIndex + i]\n              });\n            }\n            newIndex += lookAhead;\n            foundMatch = true;\n          }\n          lookAhead++;\n        }\n        \n        if (!foundMatch) {\n          // 视为修改：删除旧行，插入新行\n          result.push({\n            type: 'delete',\n            oldLine: oldIndex + 1,\n            newLine: 0,\n            content: oldLine\n          });\n          result.push({\n            type: 'insert',\n            oldLine: 0,\n            newLine: newIndex + 1,\n            content: newLine\n          });\n          oldIndex++;\n          newIndex++;\n        }\n      }\n    }\n    \n    setDiffResult(result);\n    setShowDiff(true);\n    message.success('对比完成！');\n  }, [oldCode, newCode]);\n\n  const loadExample = () => {\n    setOldCode(defaultOldCode);\n    setNewCode(defaultNewCode);\n    setShowDiff(false);\n  };\n\n  const clearAll = () => {\n    setOldCode('');\n    setNewCode('');\n    setDiffResult([]);\n    setShowDiff(false);\n  };\n\n  const swapContent = () => {\n    const temp = oldCode;\n    setOldCode(newCode);\n    setNewCode(temp);\n    setShowDiff(false);\n  };\n\n  const getDiffStats = () => {\n    const insertions = diffResult.filter(d => d.type === 'insert').length;\n    const deletions = diffResult.filter(d => d.type === 'delete').length;\n    const unchanged = diffResult.filter(d => d.type === 'equal').length;\n    return { insertions, deletions, unchanged };\n  };\n\n  const stats = getDiffStats();\n\n  return (\n    <div>\n      <Title level={2}>\n        <DiffOutlined /> 文件对比\n      </Title>\n      <Paragraph type=\"secondary\">\n        对比两个文本文件的差异，支持代码、配置文件等文本对比\n      </Paragraph>\n\n      <Space style={{ marginBottom: 16 }}>\n        <Button type=\"primary\" icon={<DiffOutlined />} onClick={computeDiff}>\n          开始对比\n        </Button>\n        <Button icon={<SwapOutlined />} onClick={swapContent}>\n          交换内容\n        </Button>\n        <Button icon={<CopyOutlined />} onClick={loadExample}>\n          加载示例\n        </Button>\n        <Button icon={<ClearOutlined />} onClick={clearAll}>\n          清空\n        </Button>\n      </Space>\n\n      {showDiff && (\n        <Card size=\"small\" style={{ marginBottom: 16 }}>\n          <Space>\n            <Tag color=\"green\">新增: {stats.insertions} 行</Tag>\n            <Tag color=\"red\">删除: {stats.deletions} 行</Tag>\n            <Tag color=\"default\">不变: {stats.unchanged} 行</Tag>\n          </Space>\n        </Card>\n      )}\n\n      <Row gutter={24}>\n        <Col span={12}>\n          <Card title=\"原始文件\" size=\"small\">\n            <Editor\n              height={400}\n              language=\"javascript\"\n              value={oldCode}\n              onChange={(value) => { setOldCode(value || ''); setShowDiff(false); }}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"对比文件\" size=\"small\">\n            <Editor\n              height={400}\n              language=\"javascript\"\n              value={newCode}\n              onChange={(value) => { setNewCode(value || ''); setShowDiff(false); }}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n      </Row>\n\n      {showDiff && (\n        <Card title=\"对比结果\" style={{ marginTop: 24 }}>\n          <div style={{ \n            fontFamily: 'monospace', \n            fontSize: 14,\n            lineHeight: '1.5',\n            maxHeight: 500,\n            overflow: 'auto'\n          }}>\n            {diffResult.map((line, index) => (\n              <div\n                key={index}\n                style={{\n                  display: 'flex',\n                  backgroundColor: \n                    line.type === 'insert' ? '#f6ffed' : \n                    line.type === 'delete' ? '#fff1f0' : 'transparent',\n                  borderLeft: `3px solid ${\n                    line.type === 'insert' ? '#52c41a' : \n                    line.type === 'delete' ? '#f5222d' : 'transparent'\n                  }`,\n                  padding: '2px 8px',\n                }}\n              >\n                <span style={{ \n                  width: 80, \n                  color: '#999',\n                  flexShrink: 0,\n                  userSelect: 'none'\n                }}>\n                  {line.oldLine > 0 ? line.oldLine : ' '}\n                  {' '}\n                  {line.newLine > 0 ? line.newLine : ' '}\n                </span>\n                <span style={{ \n                  width: 20, \n                  flexShrink: 0,\n                  color: \n                    line.type === 'insert' ? '#52c41a' : \n                    line.type === 'delete' ? '#f5222d' : '#999'\n                }}>\n                  {line.type === 'insert' ? '+' : line.type === 'delete' ? '-' : ' '}\n                </span>\n                <span style={{ \n                  color: \n                    line.type === 'insert' ? '#52c41a' : \n                    line.type === 'delete' ? '#f5222d' : '#333'\n                }}>\n                  {line.content}\n                </span>\n              </div>\n            ))}\n          </div>\n        </Card>\n      )}\n    </div>\n  );\n};\n\nexport default FileDiff;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/file-diff.tsx"
+    },
+    "7": {
+      "path": "/blog",
+      "title": "技术博客",
+      "file": "@/pages/blog.tsx",
+      "parentId": "@@/global-layout",
+      "id": "7",
+      "absPath": "/blog",
+      "__content": "import React from 'react';\nimport { Card, List, Tag, Typography, Space, Avatar, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, StarOutlined, ArrowRightOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      <List\n        grid={{ gutter: 24, xs: 1, sm: 1, lg: 2 }}\n        dataSource={blogPosts}\n        renderItem={(post) => (\n          <List.Item>\n            <Card\n              hoverable\n              style={{ height: '100%' }}\n              actions={[\n                <Space>\n                  <EyeOutlined /> {post.views}\n                </Space>,\n                <Space>\n                  <LikeOutlined /> {post.likes}\n                </Space>,\n                <Button \n                  type=\"link\" \n                  href={post.url} \n                  target=\"_blank\"\n                  icon={<ArrowRightOutlined />}\n                >\n                  阅读全文\n                </Button>,\n              ]}\n            >\n              <Card.Meta\n                title={\n                  <a href={post.url} target=\"_blank\" rel=\"noopener noreferrer\" style={{ color: 'inherit' }}>\n                    {post.title}\n                  </a>\n                }\n                description={\n                  <div>\n                    <Paragraph ellipsis={{ rows: 2 }} style={{ marginBottom: 12 }}>\n                      {post.summary}\n                    </Paragraph>\n                    <Space wrap>\n                      {post.tags.map(tag => (\n                        <Tag key={tag} color=\"blue\">{tag}</Tag>\n                      ))}\n                    </Space>\n                    <div style={{ marginTop: 12, color: '#999', fontSize: 12 }}>\n                      发布于 {post.date}\n                    </div>\n                  </div>\n                }\n              />\n            </Card>\n          </List.Item>\n        )}\n      />\n\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default BlogPage;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
+    },
+    "8": {
+      "path": "/pricing",
+      "title": "定价",
+      "file": "@/pages/pricing.tsx",
+      "parentId": "@@/global-layout",
+      "id": "8",
+      "absPath": "/pricing",
+      "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href=\"mailto:contact@yma16.dev\"\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: contact@yma16.dev\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default PricingPage;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/pricing.tsx"
+    },
+    "@@/global-layout": {
+      "id": "@@/global-layout",
+      "path": "/",
+      "file": "/home/ubuntu/front_projects/react_home/src/layouts/index.tsx",
+      "absPath": "/",
+      "isLayout": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/layouts/index.tsx"
+    }
+  },
+  "apiRoutes": {},
+  "hasSrcDir": true,
+  "npmClient": "pnpm",
+  "umi": {
+    "version": "4.6.84",
+    "name": "Umi",
+    "importSource": "umi",
+    "cliName": "umi"
+  },
+  "bundleStatus": {
+    "done": false
+  },
+  "mfsuBundleStatus": {
+    "done": false
+  },
+  "react": {
+    "version": "18.3.1",
+    "path": "/home/ubuntu/front_projects/react_home/node_modules/react"
+  },
+  "react-dom": {
+    "version": "18.3.1",
+    "path": "/home/ubuntu/front_projects/react_home/node_modules/react-dom"
+  },
+  "appJS": {
+    "path": "/home/ubuntu/front_projects/react_home/src/app.tsx",
+    "exports": [
+      "rootContainer"
+    ]
+  },
+  "locale": "en-US",
+  "globalCSS": [],
+  "globalJS": [],
+  "overridesCSS": [],
+  "bundler": "webpack",
+  "framework": "react",
+  "typescript": {
+    "tsVersion": "5.9.3",
+    "tslibVersion": "2.8.1"
+  }
+}
