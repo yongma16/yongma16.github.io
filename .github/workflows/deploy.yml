@@ -1,0 +1,53 @@
+name: Build & Deploy Umi React to GitHub Pages
+
+# 触发条件：push到main分支执行
+on:
+  push:
+    branches: [ main, master ]
+
+# 权限设置
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 工作流
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取代码
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      # 2. 配置 pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      # 3. 配置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      # 4. 安装依赖
+      - name: Install dependencies
+        run: pnpm install
+
+      # 5. 打包项目
+      - name: Build project
+        run: pnpm run build
+
+      # 6. 复制 index.html 为 404.html，解决 SPA 刷新 404
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
+      # 7. 部署 dist 文件夹到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

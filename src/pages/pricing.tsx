@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';
 import { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';
+import { CONTACT_INFO } from '@/config/contact';
 
 const { Title, Paragraph } = Typography;
 
@@ -141,12 +142,12 @@ const PricingPage: React.FC = () => {
                   type="primary" 
                   size="large" 
                   icon={<MailOutlined />}
-                  href="mailto:contact@yma16.dev"
+                  href={`mailto:${CONTACT_INFO.email}`}
                 >
                   联系我
                 </Button>
                 <Paragraph type="secondary" style={{ marginTop: 12, fontSize: 13 }}>
-                  邮箱: contact@yma16.dev
+                  邮箱: {CONTACT_INFO.emailDisplay}
                 </Paragraph>
               </Col>
             </Row>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet, useLocation, history } from 'umi';
 import { Layout, Menu, Button, Badge, Avatar } from 'antd';
+import { CONTACT_INFO } from '@/config/contact';
 import {
   HomeOutlined,
   CodeOutlined,
@@ -102,7 +103,7 @@ const MainLayout: React.FC = () => {
           <Button
             type="link"
             icon={<GithubOutlined />}
-            href="https://github.com/yongma16"
+            href={CONTACT_INFO.github}
             target="_blank"
           >
             GitHub
@@ -115,15 +116,15 @@ const MainLayout: React.FC = () => {
       </Content>
       <Footer key="main-footer" style={{ textAlign: 'center', background: '#f0f2f5' }}>
         <div style={{ marginBottom: 16 }}>
-          <a href="https://blog.csdn.net/qq_38870145" target="_blank" rel="noopener noreferrer">
+          <a href={CONTACT_INFO.csdn} target="_blank" rel="noopener noreferrer">
             CSDN博客
           </a>{' '}
           |{' '}
-          <a href="https://github.com/yongma16" target="_blank" rel="noopener noreferrer">
+          <a href={CONTACT_INFO.github} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>
-        <div>© 2024 yma16. All rights reserved. 前端开发工具集</div>
+        <div>© {new Date().getFullYear()} yma16. All rights reserved. 前端开发工具集</div>
       </Footer>
     </Layout>
   );

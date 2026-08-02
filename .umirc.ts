@@ -5,6 +5,9 @@ export default defineConfig({
   title: 'yma16 - 前端开发工具集',
   favicons: ['/favicon.ico'],
   hash: true,
+  // GitHub Pages 个人主页仓库，base 为 /
+  base: '/',
+  publicPath: '/',
   routes: [
     { path: '/', component: '@/pages/index', title: '首页' },
     { path: '/tools/code-formatter', component: '@/pages/tools/code-formatter', title: '代码格式化' },
@@ -13,7 +16,7 @@ export default defineConfig({
     { path: '/tools/svg-processor', component: '@/pages/tools/svg-processor', title: 'SVG处理' },
     { path: '/tools/file-diff', component: '@/pages/tools/file-diff', title: '文件对比' },
     { path: '/blog', component: '@/pages/blog', title: '技术博客' },
-    { path: '/pricing', component: '@/pages/pricing', title: '定价' },
+    { path: '/pricing', component: '@/pages/pricing', title: '合作' },
   ],
   theme: {
     'primary-color': '#1890ff',

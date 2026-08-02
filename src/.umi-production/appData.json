@@ -66,7 +66,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -83,7 +83,7 @@
             3
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -130,7 +130,7 @@
             11
           ]
         },
-        "register": 26
+        "register": 29
       },
       "enableBy": "register",
       "type": "plugin",
@@ -193,7 +193,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -210,7 +210,7 @@
             0
           ]
         },
-        "register": 6
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1062,7 +1062,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1076,10 +1076,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1105,7 +1105,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 96
+        "register": 98
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1118,7 +1118,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 28
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1174,7 +1174,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1187,7 +1187,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 33
+        "register": 35
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1212,7 +1212,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1266,7 +1266,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1279,7 +1279,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1292,7 +1292,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1305,7 +1305,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1318,7 +1318,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1331,7 +1331,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1357,7 +1357,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1382,7 +1382,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1434,7 +1434,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1459,7 +1459,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1471,7 +1471,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1483,7 +1483,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 493
+        "register": 533
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1538,7 +1538,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1563,7 +1563,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1588,7 +1588,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1612,7 +1612,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 33
+        "register": 31
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1650,7 +1650,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 43
+        "register": 41
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1663,7 +1663,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 25
+        "register": 26
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1714,7 +1714,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1727,7 +1727,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1740,7 +1740,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1753,7 +1753,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1766,7 +1766,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1779,7 +1779,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1792,7 +1792,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1805,7 +1805,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1818,7 +1818,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1831,7 +1831,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1844,7 +1844,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1870,7 +1870,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2190,7 +2190,7 @@
       "parentId": "@@/global-layout",
       "id": "8",
       "absPath": "/pricing",
-      "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href=\"mailto:contact@yma16.dev\"\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: contact@yma16.dev\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default PricingPage;\n",
+      "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/pricing.tsx"
     },
@@ -2237,6 +2237,9 @@
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
+  "git": {
+    "originUrl": "git@github.com:yongma16/yongma16.github.io.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.9.3",
