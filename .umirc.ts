@@ -5,9 +5,9 @@ export default defineConfig({
   title: 'yma16 - 前端开发工具集',
   favicons: ['/favicon.ico'],
   hash: true,
-  // GitHub Pages 个人主页仓库，base 为 /
+  // GitHub Pages 个人主页仓库
   base: '/',
-  publicPath: '/',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   routes: [
     { path: '/', component: '@/pages/index', title: '首页' },
     { path: '/tools/code-formatter', component: '@/pages/tools/code-formatter', title: '代码格式化' },

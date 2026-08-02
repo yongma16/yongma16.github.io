@@ -83,7 +83,7 @@
             3
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -130,7 +130,7 @@
             11
           ]
         },
-        "register": 29
+        "register": 27
       },
       "enableBy": "register",
       "type": "plugin",
@@ -143,7 +143,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -177,10 +177,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1076,7 +1076,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1105,7 +1105,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 98
+        "register": 97
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1118,7 +1118,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 27
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1174,7 +1174,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1187,7 +1187,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 38
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1237,7 +1237,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1254,7 +1254,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1266,7 +1266,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1279,7 +1279,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1292,7 +1292,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1305,7 +1305,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1318,7 +1318,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1357,7 +1357,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1382,7 +1382,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1395,7 +1395,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1408,7 +1408,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1434,7 +1434,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1446,7 +1446,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 24
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1459,7 +1459,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1471,7 +1471,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1483,7 +1483,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 533
+        "register": 499
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1509,7 +1509,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1525,7 +1525,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1563,7 +1563,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1600,7 +1600,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1612,7 +1612,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 30
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1650,7 +1650,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 41
+        "register": 38
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1663,7 +1663,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 16
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1701,7 +1701,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1727,7 +1727,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1740,7 +1740,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1753,7 +1753,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1766,7 +1766,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1779,7 +1779,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1792,7 +1792,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1870,7 +1870,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1970,6 +1970,8 @@
       "/favicon.ico"
     ],
     "hash": true,
+    "base": "/",
+    "publicPath": "/",
     "routes": [
       {
         "path": "/",
@@ -2009,7 +2011,7 @@
       {
         "path": "/pricing",
         "component": "@/pages/pricing",
-        "title": "定价"
+        "title": "合作"
       }
     ],
     "theme": {
@@ -2092,7 +2094,7 @@
       {
         "path": "/pricing",
         "component": "@/pages/pricing",
-        "title": "定价"
+        "title": "合作"
       }
     ],
     "theme": {
@@ -2146,7 +2148,7 @@
       "parentId": "@@/global-layout",
       "id": "4",
       "absPath": "/tools/perf-check",
-      "__content": "import React, { useState, useEffect, useCallback } from 'react';\nimport { Card, Button, Progress, Statistic, Row, Col, Typography, List, Tag, Timeline, Alert, Space } from 'antd';\nimport { BarChartOutlined, PlayCircleOutlined, ReloadOutlined, CheckCircleOutlined, WarningOutlined, CloseCircleOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\ninterface PerfMetric {\n  name: string;\n  value: number;\n  unit: string;\n  threshold: number;\n  status: 'good' | 'warning' | 'poor';\n  description: string;\n}\n\nconst PerfCheck: React.FC = () => {\n  const [loading, setLoading] = useState(false);\n  const [metrics, setMetrics] = useState<PerfMetric[]>([]);\n  const [timeline, setTimeline] = useState<string[]>([]);\n\n  const runPerformanceCheck = useCallback(async () => {\n    setLoading(true);\n    setTimeline(['开始性能检测...']);\n\n    // 模拟性能检测过程\n    const steps = [\n      '检测页面加载时间...',\n      '分析 DOM 渲染性能...',\n      '检查资源加载情况...',\n      '评估 JavaScript 执行效率...',\n      '检测内存使用情况...',\n      '生成性能报告...',\n    ];\n\n    for (let i = 0; i < steps.length; i++) {\n      await new Promise(resolve => setTimeout(resolve, 800));\n      setTimeline(prev => [...prev, steps[i]]);\n    }\n\n    // 模拟性能指标\n    const mockMetrics: PerfMetric[] = [\n      {\n        name: '首次内容绘制 (FCP)',\n        value: 1.2,\n        unit: 's',\n        threshold: 1.8,\n        status: 'good',\n        description: '浏览器首次绘制任何文本、图像的时间',\n      },\n      {\n        name: '最大内容绘制 (LCP)',\n        value: 2.5,\n        unit: 's',\n        threshold: 2.5,\n        status: 'warning',\n        description: '视口中最大的图像或文本块渲染时间',\n      },\n      {\n        name: '首次输入延迟 (FID)',\n        value: 12,\n        unit: 'ms',\n        threshold: 100,\n        status: 'good',\n        description: '用户首次交互到浏览器响应的时间',\n      },\n      {\n        name: '累积布局偏移 (CLS)',\n        value: 0.15,\n        unit: '',\n        threshold: 0.1,\n        status: 'poor',\n        description: '页面布局的意外偏移量',\n      },\n      {\n        name: '总阻塞时间 (TBT)',\n        value: 180,\n        unit: 'ms',\n        threshold: 200,\n        status: 'good',\n        description: 'FCP 和 TTI 之间的总阻塞时间',\n      },\n      {\n        name: '可交互时间 (TTI)',\n        value: 3.8,\n        unit: 's',\n        threshold: 3.8,\n        status: 'warning',\n        description: '页面完全可交互的时间',\n      },\n    ];\n\n    setMetrics(mockMetrics);\n    setTimeline(prev => [...prev, '性能检测完成！']);\n    setLoading(false);\n  }, []);\n\n  const getStatusColor = (status: string) => {\n    switch (status) {\n      case 'good': return 'success';\n      case 'warning': return 'warning';\n      case 'poor': return 'error';\n      default: return 'default';\n    }\n  };\n\n  const getStatusIcon = (status: string) => {\n    switch (status) {\n      case 'good': return <CheckCircleOutlined style={{ color: '#52c41a' }} />;\n      case 'warning': return <WarningOutlined style={{ color: '#faad14' }} />;\n      case 'poor': return <CloseCircleOutlined style={{ color: '#f5222d' }} />;\n      default: return null;\n    }\n  };\n\n  const getOverallScore = () => {\n    if (metrics.length === 0) return 0;\n    const scores = metrics.map(m => {\n      if (m.status === 'good') return 100;\n      if (m.status === 'warning') return 70;\n      return 40;\n    });\n    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);\n  };\n\n  return (\n    <div>\n      <Title level={2}>\n        <BarChartOutlined /> 前端性能检测\n      </Title>\n      <Paragraph type=\"secondary\">\n        基于 Core Web Vitals 标准，检测页面加载性能、渲染效率和用户体验指标\n      </Paragraph>\n\n      <Row gutter={24} style={{ marginBottom: 24 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic\n              title=\"综合评分\"\n              value={getOverallScore()}\n              suffix=\"/ 100\"\n              valueStyle={{ color: getOverallScore() >= 80 ? '#52c41a' : getOverallScore() >= 60 ? '#faad14' : '#f5222d' }}\n            />\n            <Progress\n              percent={getOverallScore()}\n              status={getOverallScore() >= 80 ? 'success' : getOverallScore() >= 60 ? 'normal' : 'exception'}\n              style={{ marginTop: 16 }}\n            />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic\n              title=\"检测项目\"\n              value={metrics.length}\n              suffix=\"项\"\n            />\n            <div style={{ marginTop: 16 }}>\n              <Tag color=\"success\">优秀 {metrics.filter(m => m.status === 'good').length}</Tag>\n              <Tag color=\"warning\">警告 {metrics.filter(m => m.status === 'warning').length}</Tag>\n              <Tag color=\"error\">需优化 {metrics.filter(m => m.status === 'poor').length}</Tag>\n            </div>\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Button\n              type=\"primary\"\n              icon={<PlayCircleOutlined />}\n              onClick={runPerformanceCheck}\n              loading={loading}\n              block\n              size=\"large\"\n              style={{ marginBottom: 12 }}\n            >\n              {loading ? '检测中...' : '开始检测'}\n            </Button>\n            <Button\n              icon={<ReloadOutlined />}\n              onClick={() => { setMetrics([]); setTimeline([]); }}\n              block\n            >\n              重置\n            </Button>\n          </Card>\n        </Col>\n      </Row>\n\n      {timeline.length > 0 && (\n        <Card title=\"检测进度\" style={{ marginBottom: 24 }}>\n          <Timeline\n            items={timeline.map((item, index) => ({\n              children: item,\n              color: index === timeline.length - 1 && !loading ? 'green' : 'blue',\n            }))}\n          />\n        </Card>\n      )}\n\n      {metrics.length > 0 && (\n        <Card title=\"性能指标详情\">\n          <List\n            grid={{ gutter: 16, xs: 1, sm: 2, lg: 3 }}\n            dataSource={metrics}\n            renderItem={(metric) => (\n              <List.Item>\n                <Card\n                  size=\"small\"\n                  title={\n                    <Space>\n                      {getStatusIcon(metric.status)}\n                      <span>{metric.name}</span>\n                    </Space>\n                  }\n                  extra={<Tag color={getStatusColor(metric.status)}>{metric.value}{metric.unit}</Tag>}\n                >\n                  <Paragraph type=\"secondary\" style={{ fontSize: 12 }}>\n                    {metric.description}\n                  </Paragraph>\n                  <div style={{ marginTop: 8 }}>\n                    <span style={{ fontSize: 12, color: '#999' }}>\n                      阈值: {metric.threshold}{metric.unit}\n                    </span>\n                  </div>\n                </Card>\n              </List.Item>\n            )}\n          />\n        </Card>\n      )}\n\n      <Alert\n        message=\"优化建议\"\n        description={\n          <ul>\n            <li>优化图片加载：使用 WebP 格式，实现懒加载</li>\n            <li>减少 JavaScript 体积：代码分割，移除未使用代码</li>\n            <li>使用 CDN 加速静态资源加载</li>\n            <li>启用 Gzip/Brotli 压缩</li>\n            <li>优化关键渲染路径</li>\n          </ul>\n        }\n        type=\"info\"\n        showIcon\n        style={{ marginTop: 24 }}\n      />\n    </div>\n  );\n};\n\nexport default PerfCheck;\n",
+      "__content": "import React, { useState, useEffect, useCallback, useRef } from 'react';\nimport { Card, Button, Progress, Statistic, Row, Col, Typography, List, Tag, Timeline, Alert, Space, Divider, Badge } from 'antd';\nimport { BarChartOutlined, PlayCircleOutlined, ReloadOutlined, CheckCircleOutlined, WarningOutlined, CloseCircleOutlined, CodeOutlined, CopyOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\n\nconst { Title, Paragraph } = Typography;\n\ninterface PerfMetric {\n  name: string;\n  value: number;\n  unit: string;\n  threshold: number;\n  status: 'good' | 'warning' | 'poor';\n  description: string;\n}\n\ninterface CodeExample {\n  title: string;\n  code: string;\n  description: string;\n}\n\nconst codeExamples: CodeExample[] = [\n  {\n    title: 'Performance Observer API',\n    description: '使用 Performance Observer 监听核心 Web 指标',\n    code: `// 监听 LCP (最大内容绘制)\nconst observer = new PerformanceObserver((list) => {\n  const entries = list.getEntries();\n  const lastEntry = entries[entries.length - 1];\n  console.log('LCP:', lastEntry.startTime);\n});\nobserver.observe({ entryTypes: ['largest-contentful-paint'] });\n\n// 监听 CLS (累积布局偏移)\nlet clsValue = 0;\nconst clsObserver = new PerformanceObserver((list) => {\n  for (const entry of list.getEntries()) {\n    if (!entry.hadRecentInput) {\n      clsValue += entry.value;\n    }\n  }\n  console.log('CLS:', clsValue);\n});\nclsObserver.observe({ entryTypes: ['layout-shift'] });\n\n// 监听 FID (首次输入延迟)\nconst fidObserver = new PerformanceObserver((list) => {\n  for (const entry of list.getEntries()) {\n    const delay = entry.processingStart - entry.startTime;\n    console.log('FID:', delay);\n  }\n});\nfidObserver.observe({ entryTypes: ['first-input'] });`,\n  },\n  {\n    title: '内存泄漏检测',\n    description: '检测 DOM 节点和事件监听器的内存泄漏',\n    code: `// 检测 detached DOM 节点\nfunction findDetachedNodes() {\n  const walker = document.createTreeWalker(\n    document.body,\n    NodeFilter.SHOW_ELEMENT\n  );\n  const nodes = [];\n  let node;\n  while (node = walker.nextNode()) {\n    if (!document.contains(node)) {\n      nodes.push(node);\n    }\n  }\n  return nodes;\n}\n\n// 检测事件监听器泄漏\nconst originalAddEventListener = EventTarget.prototype.addEventListener;\nconst listenerMap = new WeakMap();\n\nEventTarget.prototype.addEventListener = function(type, listener, options) {\n  if (!listenerMap.has(this)) {\n    listenerMap.set(this, []);\n  }\n  listenerMap.get(this).push({ type, listener });\n  return originalAddEventListener.call(this, type, listener, options);\n};\n\n// 获取元素的所有监听器\nfunction getEventListeners(element) {\n  return listenerMap.get(element) || [];\n}`,\n  },\n  {\n    title: '长任务检测',\n    description: '检测阻塞主线程的长任务',\n    code: `// 监听长任务（超过 50ms 的任务）\nconst longTaskObserver = new PerformanceObserver((list) => {\n  for (const entry of list.getEntries()) {\n    console.warn('Long Task detected:', {\n      duration: entry.duration,\n      startTime: entry.startTime,\n      attribution: entry.attribution,\n    });\n  }\n});\nlongTaskObserver.observe({ entryTypes: ['longtask'] });\n\n// 使用 requestIdleCallback 优化低优先级任务\nfunction scheduleLowPriorityTask(callback) {\n  if ('requestIdleCallback' in window) {\n    requestIdleCallback(callback, { timeout: 2000 });\n  } else {\n    setTimeout(callback, 1);\n  }\n}\n\n// 分解长任务\nasync function breakLongTask(items, processItem) {\n  const chunkSize = 100;\n  for (let i = 0; i < items.length; i += chunkSize) {\n    const chunk = items.slice(i, i + chunkSize);\n    await new Promise(resolve => {\n      requestAnimationFrame(() => {\n        chunk.forEach(processItem);\n        resolve(null);\n      });\n    });\n  }\n}`,\n  },\n  {\n    title: '资源加载优化检测',\n    description: '检测资源加载性能并提供优化建议',\n    code: `// 检测资源加载时间\nconst resourceObserver = new PerformanceObserver((list) => {\n  for (const entry of list.getEntries()) {\n    if (entry.entryType === 'resource') {\n      const loadTime = entry.responseEnd - entry.startTime;\n      if (loadTime > 1000) {\n        console.warn('Slow resource:', entry.name, loadTime + 'ms');\n      }\n    }\n  }\n});\nresourceObserver.observe({ entryTypes: ['resource'] });\n\n// 检测图片是否在视口内加载\nconst imageObserver = new IntersectionObserver((entries) => {\n  entries.forEach(entry => {\n    if (entry.isIntersecting) {\n      const img = entry.target as HTMLImageElement;\n      img.src = img.dataset.src || img.src;\n      imageObserver.unobserve(img);\n    }\n  });\n});\n\n// 检测未使用的 CSS\nfunction findUnusedCSS() {\n  const sheets = Array.from(document.styleSheets);\n  const unusedRules = [];\n  \n  sheets.forEach(sheet => {\n    try {\n      const rules = Array.from(sheet.cssRules || sheet.rules);\n      rules.forEach(rule => {\n        if (rule instanceof CSSStyleRule) {\n          const elements = document.querySelectorAll(rule.selectorText);\n          if (elements.length === 0) {\n            unusedRules.push(rule.selectorText);\n          }\n        }\n      });\n    } catch (e) {\n      // 跨域样式表无法访问\n    }\n  });\n  \n  return unusedRules;\n}`,\n  },\n];\n\nconst PerfCheck: React.FC = () => {\n  const [loading, setLoading] = useState(false);\n  const [metrics, setMetrics] = useState<PerfMetric[]>([]);\n  const [timeline, setTimeline] = useState<string[]>([]);\n  const [codePanelVisible, setCodePanelVisible] = useState(false);\n  const [selectedCode, setSelectedCode] = useState<CodeExample>(codeExamples[0]);\n  const [realTimeMetrics, setRealTimeMetrics] = useState({\n    lcp: 0,\n    cls: 0,\n    fid: 0,\n    fcp: 0,\n    ttfb: 0,\n  });\n\n  // 真实的性能检测\n  const runRealPerformanceCheck = useCallback(async () => {\n    setLoading(true);\n    setTimeline(['开始性能检测...']);\n\n    const newMetrics: PerfMetric[] = [];\n\n    // 步骤 1: 检测 Navigation Timing\n    setTimeline(prev => [...prev, '检测页面加载时间...']);\n    await new Promise(resolve => setTimeout(resolve, 500));\n    \n    const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;\n    if (navigation) {\n      const ttfb = navigation.responseStart - navigation.startTime;\n      const fcp = performance.getEntriesByName('first-contentful-paint')[0]?.startTime || 0;\n      const loadTime = navigation.loadEventEnd - navigation.startTime;\n      \n      newMetrics.push({\n        name: '首字节时间 (TTFB)',\n        value: Math.round(ttfb),\n        unit: 'ms',\n        threshold: 600,\n        status: ttfb < 600 ? 'good' : ttfb < 1000 ? 'warning' : 'poor',\n        description: '浏览器收到服务器第一个字节的时间',\n      });\n      \n      newMetrics.push({\n        name: '页面完全加载时间',\n        value: Math.round(loadTime),\n        unit: 'ms',\n        threshold: 3000,\n        status: loadTime < 3000 ? 'good' : loadTime < 5000 ? 'warning' : 'poor',\n        description: '从请求开始到页面完全加载的时间',\n      });\n    }\n\n    // 步骤 2: 检测资源加载\n    setTimeline(prev => [...prev, '分析资源加载情况...']);\n    await new Promise(resolve => setTimeout(resolve, 500));\n    \n    const resources = performance.getEntriesByType('resource');\n    const totalResourceSize = resources.reduce((sum, r: any) => sum + (r.transferSize || 0), 0);\n    const slowResources = resources.filter((r: any) => {\n      const duration = r.responseEnd - r.startTime;\n      return duration > 1000;\n    });\n\n    newMetrics.push({\n      name: '资源总数',\n      value: resources.length,\n      unit: '个',\n      threshold: 50,\n      status: resources.length < 50 ? 'good' : resources.length < 100 ? 'warning' : 'poor',\n      description: '页面加载的资源文件数量',\n    });\n\n    newMetrics.push({\n      name: '慢资源数量',\n      value: slowResources.length,\n      unit: '个',\n      threshold: 0,\n      status: slowResources.length === 0 ? 'good' : slowResources.length < 5 ? 'warning' : 'poor',\n      description: '加载时间超过 1 秒的资源',\n    });\n\n    // 步骤 3: 检测内存使用\n    setTimeline(prev => [...prev, '检测内存使用情况...']);\n    await new Promise(resolve => setTimeout(resolve, 500));\n    \n    const memory = (performance as any).memory;\n    if (memory) {\n      const usedHeap = Math.round(memory.usedJSHeapSize / 1024 / 1024);\n      const totalHeap = Math.round(memory.totalJSHeapSize / 1024 / 1024);\n      \n      newMetrics.push({\n        name: 'JS 堆内存使用',\n        value: usedHeap,\n        unit: 'MB',\n        threshold: 100,\n        status: usedHeap < 100 ? 'good' : usedHeap < 200 ? 'warning' : 'poor',\n        description: 'JavaScript 堆内存使用量',\n      });\n    }\n\n    // 步骤 4: 检测 DOM 节点\n    setTimeline(prev => [...prev, '评估 DOM 渲染性能...']);\n    await new Promise(resolve => setTimeout(resolve, 500));\n    \n    const domNodes = document.getElementsByTagName('*').length;\n    const domDepth = getMaxDomDepth(document.body);\n\n    newMetrics.push({\n      name: 'DOM 节点数',\n      value: domNodes,\n      unit: '个',\n      threshold: 1500,\n      status: domNodes < 1500 ? 'good' : domNodes < 3000 ? 'warning' : 'poor',\n      description: '页面 DOM 元素总数',\n    });\n\n    newMetrics.push({\n      name: 'DOM 最大深度',\n      value: domDepth,\n      unit: '层',\n      threshold: 32,\n      status: domDepth < 32 ? 'good' : domDepth < 50 ? 'warning' : 'poor',\n      description: 'DOM 树的最大嵌套深度',\n    });\n\n    // 步骤 5: 检测事件监听器\n    setTimeline(prev => [...prev, '检查事件监听器...']);\n    await new Promise(resolve => setTimeout(resolve, 500));\n    \n    const eventListeners = countEventListeners();\n    \n    newMetrics.push({\n      name: '事件监听器数',\n      value: eventListeners,\n      unit: '个',\n      threshold: 100,\n      status: eventListeners < 100 ? 'good' : eventListeners < 200 ? 'warning' : 'poor',\n      description: '页面绑定的事件监听器数量',\n    });\n\n    setMetrics(newMetrics);\n    setTimeline(prev => [...prev, '性能检测完成！']);\n    setLoading(false);\n  }, []);\n\n  // 获取 DOM 最大深度\n  const getMaxDomDepth = (element: Element, depth = 1): number => {\n    const children = element.children;\n    if (children.length === 0) return depth;\n    let maxDepth = depth;\n    for (let i = 0; i < children.length; i++) {\n      maxDepth = Math.max(maxDepth, getMaxDomDepth(children[i], depth + 1));\n    }\n    return maxDepth;\n  };\n\n  // 估算事件监听器数量\n  const countEventListeners = (): number => {\n    const allElements = document.querySelectorAll('*');\n    let count = 0;\n    // 这是一个估算值，实际数量需要更复杂的检测\n    allElements.forEach(el => {\n      count += (el as any)._events ? Object.keys((el as any)._events).length : 0;\n    });\n    return count || allElements.length * 2; // 估算值\n  };\n\n  // 监听真实的 Web Vitals\n  useEffect(() => {\n    if ('PerformanceObserver' in window) {\n      // 监听 LCP\n      const lcpObserver = new PerformanceObserver((list) => {\n        const entries = list.getEntries();\n        const lastEntry = entries[entries.length - 1] as any;\n        setRealTimeMetrics(prev => ({ ...prev, lcp: Math.round(lastEntry.startTime) }));\n      });\n      lcpObserver.observe({ entryTypes: ['largest-contentful-paint'] as any });\n\n      // 监听 CLS\n      let clsValue = 0;\n      const clsObserver = new PerformanceObserver((list) => {\n        for (const entry of list.getEntries()) {\n          if (!(entry as any).hadRecentInput) {\n            clsValue += (entry as any).value;\n          }\n        }\n        setRealTimeMetrics(prev => ({ ...prev, cls: parseFloat(clsValue.toFixed(3)) }));\n      });\n      clsObserver.observe({ entryTypes: ['layout-shift'] as any });\n\n      // 监听 FID\n      const fidObserver = new PerformanceObserver((list) => {\n        for (const entry of list.getEntries()) {\n          const delay = (entry as any).processingStart - entry.startTime;\n          setRealTimeMetrics(prev => ({ ...prev, fid: Math.round(delay) }));\n        }\n      });\n      fidObserver.observe({ entryTypes: ['first-input'] as any });\n\n      // 监听 FCP\n      const fcpObserver = new PerformanceObserver((list) => {\n        for (const entry of list.getEntries()) {\n          if (entry.name === 'first-contentful-paint') {\n            setRealTimeMetrics(prev => ({ ...prev, fcp: Math.round(entry.startTime) }));\n          }\n        }\n      });\n      fcpObserver.observe({ entryTypes: ['paint'] as any });\n\n      return () => {\n        lcpObserver.disconnect();\n        clsObserver.disconnect();\n        fidObserver.disconnect();\n        fcpObserver.disconnect();\n      };\n    }\n  }, []);\n\n  const getStatusColor = (status: string) => {\n    switch (status) {\n      case 'good': return 'success';\n      case 'warning': return 'warning';\n      case 'poor': return 'error';\n      default: return 'default';\n    }\n  };\n\n  const getStatusIcon = (status: string) => {\n    switch (status) {\n      case 'good': return <CheckCircleOutlined style={{ color: '#52c41a' }} />;\n      case 'warning': return <WarningOutlined style={{ color: '#faad14' }} />;\n      case 'poor': return <CloseCircleOutlined style={{ color: '#f5222d' }} />;\n      default: return null;\n    }\n  };\n\n  const getOverallScore = () => {\n    if (metrics.length === 0) return 0;\n    const scores = metrics.map(m => {\n      if (m.status === 'good') return 100;\n      if (m.status === 'warning') return 70;\n      return 40;\n    });\n    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);\n  };\n\n  const copyCode = () => {\n    navigator.clipboard.writeText(selectedCode.code);\n    // message.success('代码已复制');\n  };\n\n  return (\n    <div>\n      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>\n        <div>\n          <Title level={2}>\n            <BarChartOutlined /> 前端性能检测\n          </Title>\n          <Paragraph type=\"secondary\">\n            基于 Performance API 和 Web Vitals 标准，实时检测页面加载性能、渲染效率和用户体验指标\n          </Paragraph>\n        </div>\n        <Button \n          type=\"primary\" \n          icon={<CodeOutlined />}\n          onClick={() => setCodePanelVisible(!codePanelVisible)}\n          size=\"large\"\n        >\n          {codePanelVisible ? '隐藏检测代码' : '查看检测代码'}\n        </Button>\n      </div>\n\n      {/* 实时 Web Vitals 指标 */}\n      <Row gutter={24} style={{ marginBottom: 24 }}>\n        <Col span={4}>\n          <Card size=\"small\">\n            <Statistic \n              title=\"LCP\" \n              value={realTimeMetrics.lcp} \n              suffix=\"ms\" \n              valueStyle={{ fontSize: 20, color: realTimeMetrics.lcp < 2500 ? '#52c41a' : realTimeMetrics.lcp < 4000 ? '#faad14' : '#f5222d' }}\n            />\n          </Card>\n        </Col>\n        <Col span={4}>\n          <Card size=\"small\">\n            <Statistic \n              title=\"CLS\" \n              value={realTimeMetrics.cls} \n              suffix=\"\" \n              valueStyle={{ fontSize: 20, color: realTimeMetrics.cls < 0.1 ? '#52c41a' : realTimeMetrics.cls < 0.25 ? '#faad14' : '#f5222d' }}\n            />\n          </Card>\n        </Col>\n        <Col span={4}>\n          <Card size=\"small\">\n            <Statistic \n              title=\"FID\" \n              value={realTimeMetrics.fid} \n              suffix=\"ms\" \n              valueStyle={{ fontSize: 20, color: realTimeMetrics.fid < 100 ? '#52c41a' : realTimeMetrics.fid < 300 ? '#faad14' : '#f5222d' }}\n            />\n          </Card>\n        </Col>\n        <Col span={4}>\n          <Card size=\"small\">\n            <Statistic \n              title=\"FCP\" \n              value={realTimeMetrics.fcp} \n              suffix=\"ms\" \n              valueStyle={{ fontSize: 20, color: realTimeMetrics.fcp < 1800 ? '#52c41a' : realTimeMetrics.fcp < 3000 ? '#faad14' : '#f5222d' }}\n            />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card size=\"small\">\n            <div style={{ textAlign: 'center' }}>\n              <Button \n                type=\"primary\" \n                icon={<PlayCircleOutlined />} \n                onClick={runRealPerformanceCheck}\n                loading={loading}\n                size=\"large\"\n              >\n                {loading ? '检测中...' : '开始全面检测'}\n              </Button>\n              <Button \n                icon={<ReloadOutlined />} \n                onClick={() => { setMetrics([]); setTimeline([]); }}\n                style={{ marginLeft: 8 }}\n                size=\"large\"\n              >\n                重置\n              </Button>\n            </div>\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 综合评分 */}\n      {metrics.length > 0 && (\n        <Row gutter={24} style={{ marginBottom: 24 }}>\n          <Col span={8}>\n            <Card>\n              <Statistic\n                title=\"综合评分\"\n                value={getOverallScore()}\n                suffix=\"/ 100\"\n                valueStyle={{ color: getOverallScore() >= 80 ? '#52c41a' : getOverallScore() >= 60 ? '#faad14' : '#f5222d' }}\n              />\n              <Progress\n                percent={getOverallScore()}\n                status={getOverallScore() >= 80 ? 'success' : getOverallScore() >= 60 ? 'normal' : 'exception'}\n                style={{ marginTop: 16 }}\n              />\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card>\n              <Statistic\n                title=\"检测项目\"\n                value={metrics.length}\n                suffix=\"项\"\n              />\n              <div style={{ marginTop: 16 }}>\n                <Tag color=\"success\">优秀 {metrics.filter(m => m.status === 'good').length}</Tag>\n                <Tag color=\"warning\">警告 {metrics.filter(m => m.status === 'warning').length}</Tag>\n                <Tag color=\"error\">需优化 {metrics.filter(m => m.status === 'poor').length}</Tag>\n              </div>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card>\n              <Statistic\n                title=\"检测状态\"\n                value={loading ? '检测中' : metrics.length > 0 ? '已完成' : '未开始'}\n                valueStyle={{ color: loading ? '#1890ff' : metrics.length > 0 ? '#52c41a' : '#999' }}\n              />\n              <div style={{ marginTop: 16 }}>\n                <Button \n                  icon={<ReloadOutlined />} \n                  onClick={() => { setMetrics([]); setTimeline([]); }}\n                  block\n                >\n                  重置检测\n                </Button>\n              </div>\n            </Card>\n          </Col>\n        </Row>\n      )}\n\n      {/* 检测进度 */}\n      {timeline.length > 0 && (\n        <Card title=\"检测进度\" style={{ marginBottom: 24 }}>\n          <Timeline\n            items={timeline.map((item, index) => ({\n              children: item,\n              color: index === timeline.length - 1 && !loading ? 'green' : 'blue',\n            }))}\n          />\n        </Card>\n      )}\n\n      {/* 性能指标详情 */}\n      {metrics.length > 0 && (\n        <Card title=\"性能指标详情\" style={{ marginBottom: 24 }}>\n          <List\n            grid={{ gutter: 16, xs: 1, sm: 2, lg: 3 }}\n            dataSource={metrics}\n            renderItem={(metric) => (\n              <List.Item>\n                <Card\n                  size=\"small\"\n                  title={\n                    <Space>\n                      {getStatusIcon(metric.status)}\n                      <span>{metric.name}</span>\n                    </Space>\n                  }\n                  extra={<Tag color={getStatusColor(metric.status)}>{metric.value}{metric.unit}</Tag>}\n                >\n                  <Paragraph type=\"secondary\" style={{ fontSize: 12 }}>\n                    {metric.description}\n                  </Paragraph>\n                  <div style={{ marginTop: 8 }}>\n                    <span style={{ fontSize: 12, color: '#999' }}>\n                      阈值: {metric.threshold}{metric.unit}\n                    </span>\n                  </div>\n                </Card>\n              </List.Item>\n            )}\n          />\n        </Card>\n      )}\n\n      {/* 代码示例面板 */}\n      {codePanelVisible && (\n        <Card title=\"性能检测代码示例\" style={{ marginBottom: 24 }}>\n          <Row gutter={24}>\n            <Col span={6}>\n              <List\n                size=\"small\"\n                dataSource={codeExamples}\n                renderItem={(item) => (\n                  <List.Item \n                    style={{ \n                      cursor: 'pointer',\n                      background: selectedCode.title === item.title ? '#e6f7ff' : 'transparent',\n                      borderLeft: selectedCode.title === item.title ? '3px solid #1890ff' : '3px solid transparent',\n                    }}\n                    onClick={() => setSelectedCode(item)}\n                  >\n                    <div>\n                      <div style={{ fontWeight: 'bold' }}>{item.title}</div>\n                      <div style={{ fontSize: 12, color: '#999' }}>{item.description}</div>\n                    </div>\n                  </List.Item>\n                )}\n              />\n            </Col>\n            <Col span={18}>\n              <Card \n                size=\"small\" \n                title={selectedCode.title}\n                extra={\n                  <Button icon={<CopyOutlined />} size=\"small\" onClick={copyCode}>\n                    复制\n                  </Button>\n                }\n              >\n                <Editor\n                  height={400}\n                  language=\"typescript\"\n                  value={selectedCode.code}\n                  options={{\n                    minimap: { enabled: false },\n                    fontSize: 14,\n                    lineNumbers: 'on',\n                    readOnly: true,\n                    automaticLayout: true,\n                  }}\n                />\n              </Card>\n            </Col>\n          </Row>\n        </Card>\n      )}\n\n      <Alert\n        message=\"优化建议\"\n        description={\n          <ul>\n            <li>优化图片加载：使用 WebP 格式，实现懒加载，压缩图片大小</li>\n            <li>减少 JavaScript 体积：代码分割，移除未使用代码，Tree Shaking</li>\n            <li>使用 CDN 加速静态资源加载，启用 HTTP/2</li>\n            <li>启用 Gzip/Brotli 压缩，减少传输体积</li>\n            <li>优化关键渲染路径：内联关键 CSS，延迟加载非关键资源</li>\n            <li>使用 Service Worker 缓存静态资源，实现离线访问</li>\n            <li>避免内存泄漏：及时移除事件监听器，清理定时器</li>\n          </ul>\n        }\n        type=\"info\"\n        showIcon\n        style={{ marginTop: 24 }}\n      />\n    </div>\n  );\n};\n\nexport default PerfCheck;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/perf-check.tsx"
     },
@@ -2185,7 +2187,7 @@
     },
     "8": {
       "path": "/pricing",
-      "title": "定价",
+      "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
       "id": "8",
