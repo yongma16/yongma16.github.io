@@ -22,6 +22,7 @@ import {
 
 const { Title, Paragraph } = Typography;
 
+// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计
 const tools = [
   {
     title: '代码格式化',
@@ -155,7 +156,7 @@ const HomePage: React.FC = () => {
       <Row gutter={24} style={{ marginBottom: 48 }}>
         <Col span={8}>
           <Card>
-            <Statistic title="工具数量" value={5} suffix="个" />
+            <Statistic title="工具数量" value={tools.length} suffix="+" />
           </Card>
         </Col>
         <Col span={8}>
@@ -172,7 +173,7 @@ const HomePage: React.FC = () => {
 
       {/* Tools Grid */}
       <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>
-        开发工具 <Tag color="blue">12</Tag>
+        开发工具 <Tag color="blue">{tools.length}+</Tag>
       </Title>
       <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>
         {tools.map((tool) => (
