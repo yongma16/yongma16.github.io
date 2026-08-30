@@ -34,6 +34,7 @@ import {
   BookOutlined,
   KeyOutlined,
   ColumnWidthOutlined,
+  BugOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -77,6 +78,7 @@ const items: MenuItem[] = [
       { key: '/tools/regex-lib', icon: <BookOutlined />, label: '正则模板' },
       { key: '/tools/random-string', icon: <KeyOutlined />, label: '随机字符串' },
       { key: '/tools/unit-convert', icon: <ColumnWidthOutlined />, label: '单位换算' },
+      { key: '/tools/ai-debug', icon: <BugOutlined />, label: 'AI调试' },
     ],
   },
   {

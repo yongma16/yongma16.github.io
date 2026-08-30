@@ -28,6 +28,7 @@ import {
   BookOutlined,
   KeyOutlined,
   ColumnWidthOutlined,
+  BugOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -200,6 +201,13 @@ const tools = [
     icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,
     desc: 'CSS px/rem/em/vw/vh单位换算',
     path: '/tools/unit-convert',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: 'AI调试',
+    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,
+    desc: 'Mock流式模拟 + 真实API请求调试',
+    path: '/tools/ai-debug',
     tags: ['免费', 'NEW'],
   },
 ];
