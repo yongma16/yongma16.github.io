@@ -131,14 +131,14 @@ import { Card, Upload, Button, ..., Statistic } from 'antd';
 
 ### 2026-08-30: 域名备案信息展示
 
-**新增功能:** 页脚展示域名备案信息
+**新增功能:** 页脚展示域名备案信息（根据访问URL动态显示）
 - 文件: 
-  - `src/config/beian.ts` - 备案信息配置
+  - `src/config/beian.ts` - 备案信息配置 + getCurrentDomain() 函数
   - `src/layouts/index.tsx` - 页脚展示备案信息
 - 配置项:
-  - `domain`: 当前访问域名 (yma16.cloud)
   - `beianNumber`: 备案号（等备案下来后填写）
   - `showBeian`: 是否显示备案信息（默认 false）
+- 动态域名: 通过 `window.location.hostname` 获取当前访问域名
 - 当前状态: 显示"备案申请中"，备案号下来后修改配置即可展示
 - 部署状态: ✅ 已部署到 Nginx
 
