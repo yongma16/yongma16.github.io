@@ -7,7 +7,7 @@ export default defineConfig({
   hash: true,
   // GitHub Pages 个人主页仓库
   base: '/',
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  publicPath: '/',
   routes: [
     { path: '/', component: '@/pages/index', title: '首页' },
     { path: '/tools/code-formatter', component: '@/pages/tools/code-formatter', title: '代码格式化' },
@@ -22,7 +22,7 @@ export default defineConfig({
     'primary-color': '#1890ff',
     'border-radius-base': '8px',
   },
-  // 禁用 SSR 和预渲染，避免重复渲染问题
+  // 启用静态导出，为每个路由生成 HTML 文件，解决 GitHub Pages 直接访问子路由 404 问题
   ssr: false,
-  exportStatic: false,
+  exportStatic: {},
 });
