@@ -14,6 +14,12 @@ import {
   CrownOutlined,
   GithubOutlined,
   GlobalOutlined,
+  BgColorsOutlined,
+  ScissorOutlined,
+  SwapOutlined,
+  ClockCircleOutlined,
+  CheckCircleOutlined,
+  LockOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -38,6 +44,12 @@ const items: MenuItem[] = [
       { key: '/tools/svg-processor', icon: <FileImageOutlined />, label: 'SVG处理' },
       { key: '/tools/file-diff', icon: <DiffOutlined />, label: '文件对比' },
       { key: '/tools/url-tools', icon: <GlobalOutlined />, label: 'URL工具' },
+      { key: '/tools/color-picker', icon: <BgColorsOutlined />, label: '颜色选择器' },
+      { key: '/tools/image-cropper', icon: <ScissorOutlined />, label: '图片裁剪' },
+      { key: '/tools/base64-tool', icon: <SwapOutlined />, label: 'Base64工具' },
+      { key: '/tools/timestamp-tool', icon: <ClockCircleOutlined />, label: '时间戳转换' },
+      { key: '/tools/regex-tester', icon: <CheckCircleOutlined />, label: '正则测试' },
+      { key: '/tools/hash-tool', icon: <LockOutlined />, label: '哈希工具' },
     ],
   },
   {

@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/tools/url-tools","title":"URL工具","parentId":"@@/global-layout","id":"7"},"8":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"8"},"9":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"9"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
+  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/tools/url-tools","title":"URL工具","parentId":"@@/global-layout","id":"7"},"8":{"path":"/tools/color-picker","title":"颜色选择器","parentId":"@@/global-layout","id":"8"},"9":{"path":"/tools/image-cropper","title":"图片裁剪","parentId":"@@/global-layout","id":"9"},"10":{"path":"/tools/base64-tool","title":"Base64工具","parentId":"@@/global-layout","id":"10"},"11":{"path":"/tools/timestamp-tool","title":"时间戳转换","parentId":"@@/global-layout","id":"11"},"12":{"path":"/tools/regex-tester","title":"正则测试","parentId":"@@/global-layout","id":"12"},"13":{"path":"/tools/hash-tool","title":"哈希工具","parentId":"@@/global-layout","id":"13"},"14":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"14"},"15":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"15"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
   return {
     routes,
     routeComponents: {
@@ -15,8 +15,14 @@ export async function getRoutes() {
 '5': React.lazy(() => import(/* webpackChunkName: "p__tools__svg-processor" */'@/pages/tools/svg-processor.tsx')),
 '6': React.lazy(() => import(/* webpackChunkName: "p__tools__file-diff" */'@/pages/tools/file-diff.tsx')),
 '7': React.lazy(() => import(/* webpackChunkName: "p__tools__url-tools" */'@/pages/tools/url-tools.tsx')),
-'8': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
-'9': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
+'8': React.lazy(() => import(/* webpackChunkName: "p__tools__color-picker" */'@/pages/tools/color-picker.tsx')),
+'9': React.lazy(() => import(/* webpackChunkName: "p__tools__image-cropper" */'@/pages/tools/image-cropper.tsx')),
+'10': React.lazy(() => import(/* webpackChunkName: "p__tools__base64-tool" */'@/pages/tools/base64-tool.tsx')),
+'11': React.lazy(() => import(/* webpackChunkName: "p__tools__timestamp-tool" */'@/pages/tools/timestamp-tool.tsx')),
+'12': React.lazy(() => import(/* webpackChunkName: "p__tools__regex-tester" */'@/pages/tools/regex-tester.tsx')),
+'13': React.lazy(() => import(/* webpackChunkName: "p__tools__hash-tool" */'@/pages/tools/hash-tool.tsx')),
+'14': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
+'15': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
 '@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/home/ubuntu/front_projects/react_home/src/layouts/index.tsx')),
 },
   };

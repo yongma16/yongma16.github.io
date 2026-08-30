@@ -12,6 +12,12 @@ import {
   TeamOutlined,
   CloudUploadOutlined,
   GlobalOutlined,
+  BgColorsOutlined,
+  ScissorOutlined,
+  SwapOutlined,
+  ClockCircleOutlined,
+  CheckCircleOutlined,
+  LockOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -50,6 +56,48 @@ const tools = [
     icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,
     desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',
     path: '/tools/url-tools',
+    tags: ['免费'],
+  },
+  {
+    title: '颜色选择器',
+    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,
+    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',
+    path: '/tools/color-picker',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: '图片裁剪',
+    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,
+    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',
+    path: '/tools/image-cropper',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: 'Base64 工具',
+    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,
+    desc: '文本 Base64 编解码、图片与 Base64 互转',
+    path: '/tools/base64-tool',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: '时间戳转换',
+    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,
+    desc: '时间戳与日期互相转换，支持多种格式',
+    path: '/tools/timestamp-tool',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: '正则测试',
+    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,
+    desc: '正则表达式实时匹配、高亮显示、分组捕获',
+    path: '/tools/regex-tester',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: '哈希工具',
+    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,
+    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',
+    path: '/tools/hash-tool',
     tags: ['免费', 'NEW'],
   },
 ];
@@ -66,7 +114,7 @@ const HomePage: React.FC = () => {
       <SEO
         title="首页"
         description="yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。"
-        keywords="前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,在线工具,前端开发工具集"
+        keywords="前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集"
         jsonLd={createWebsiteJsonLd()}
       />
       <div>
@@ -124,7 +172,7 @@ const HomePage: React.FC = () => {
 
       {/* Tools Grid */}
       <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>
-        开发工具
+        开发工具 <Tag color="blue">12</Tag>
       </Title>
       <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>
         {tools.map((tool) => (

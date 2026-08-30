@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 4
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -84,7 +84,7 @@
             3
           ]
         },
-        "register": 4
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -98,10 +98,10 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -131,7 +131,7 @@
             12
           ]
         },
-        "register": 24
+        "register": 26
       },
       "enableBy": "register",
       "type": "plugin",
@@ -161,7 +161,7 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
         "register": 1
@@ -211,7 +211,7 @@
             0
           ]
         },
-        "register": 7
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,10 +1077,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1093,7 +1093,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 97
+        "register": 95
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 26
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 11
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 35
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1242,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1259,7 +1259,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1362,7 +1362,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1374,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 22
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1464,7 +1464,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 510
+        "register": 486
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1501,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1514,7 +1514,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1530,7 +1530,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1543,7 +1543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1555,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1568,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 29
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 38
+        "register": 36
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 17
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1693,7 +1693,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1706,7 +1706,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1719,7 +1719,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1745,7 +1745,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1758,7 +1758,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1771,7 +1771,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1914,7 +1914,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2073,6 +2073,36 @@
         "path": "/tools/url-tools",
         "component": "@/pages/tools/url-tools",
         "title": "URL工具"
+      },
+      {
+        "path": "/tools/color-picker",
+        "component": "@/pages/tools/color-picker",
+        "title": "颜色选择器"
+      },
+      {
+        "path": "/tools/image-cropper",
+        "component": "@/pages/tools/image-cropper",
+        "title": "图片裁剪"
+      },
+      {
+        "path": "/tools/base64-tool",
+        "component": "@/pages/tools/base64-tool",
+        "title": "Base64工具"
+      },
+      {
+        "path": "/tools/timestamp-tool",
+        "component": "@/pages/tools/timestamp-tool",
+        "title": "时间戳转换"
+      },
+      {
+        "path": "/tools/regex-tester",
+        "component": "@/pages/tools/regex-tester",
+        "title": "正则测试"
+      },
+      {
+        "path": "/tools/hash-tool",
+        "component": "@/pages/tools/hash-tool",
+        "title": "哈希工具"
       },
       {
         "path": "/blog",
@@ -2225,6 +2255,36 @@
         "title": "URL工具"
       },
       {
+        "path": "/tools/color-picker",
+        "component": "@/pages/tools/color-picker",
+        "title": "颜色选择器"
+      },
+      {
+        "path": "/tools/image-cropper",
+        "component": "@/pages/tools/image-cropper",
+        "title": "图片裁剪"
+      },
+      {
+        "path": "/tools/base64-tool",
+        "component": "@/pages/tools/base64-tool",
+        "title": "Base64工具"
+      },
+      {
+        "path": "/tools/timestamp-tool",
+        "component": "@/pages/tools/timestamp-tool",
+        "title": "时间戳转换"
+      },
+      {
+        "path": "/tools/regex-tester",
+        "component": "@/pages/tools/regex-tester",
+        "title": "正则测试"
+      },
+      {
+        "path": "/tools/hash-tool",
+        "component": "@/pages/tools/hash-tool",
+        "title": "哈希工具"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2254,7 +2314,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={5} suffix=\"个\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={5} suffix=\"个\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">12</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -2325,22 +2385,88 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/url-tools.tsx"
     },
     "8": {
+      "path": "/tools/color-picker",
+      "title": "颜色选择器",
+      "file": "@/pages/tools/color-picker.tsx",
+      "parentId": "@@/global-layout",
+      "id": "8",
+      "absPath": "/tools/color-picker",
+      "__content": "import React, { useState, useCallback, useEffect } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Tabs, ColorPicker, Tag, Divider } from 'antd';\nimport { CopyOutlined, SyncOutlined, BgColorsOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\n// HEX 转 RGB\nconst hexToRgb = (hex: string): { r: number; g: number; b: number } | null => {\n  const result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);\n  return result ? {\n    r: parseInt(result[1], 16),\n    g: parseInt(result[2], 16),\n    b: parseInt(result[3], 16),\n  } : null;\n};\n\n// RGB 转 HEX\nconst rgbToHex = (r: number, g: number, b: number): string => {\n  return '#' + [r, g, b].map(x => {\n    const hex = Math.max(0, Math.min(255, x)).toString(16);\n    return hex.length === 1 ? '0' + hex : hex;\n  }).join('');\n};\n\n// RGB 转 HSL\nconst rgbToHsl = (r: number, g: number, b: number): { h: number; s: number; l: number } => {\n  r /= 255; g /= 255; b /= 255;\n  const max = Math.max(r, g, b);\n  const min = Math.min(r, g, b);\n  let h = 0, s = 0, l = (max + min) / 2;\n\n  if (max !== min) {\n    const d = max - min;\n    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);\n    switch (max) {\n      case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;\n      case g: h = ((b - r) / d + 2) / 6; break;\n      case b: h = ((r - g) / d + 4) / 6; break;\n    }\n  }\n  return { h: Math.round(h * 360), s: Math.round(s * 100), l: Math.round(l * 100) };\n};\n\n// HSL 转 RGB\nconst hslToRgb = (h: number, s: number, l: number): { r: number; g: number; b: number } => {\n  h /= 360; s /= 100; l /= 100;\n  let r: number, g: number, b: number;\n  if (s === 0) {\n    r = g = b = l;\n  } else {\n    const hue2rgb = (p: number, q: number, t: number) => {\n      if (t < 0) t += 1;\n      if (t > 1) t -= 1;\n      if (t < 1/6) return p + (q - p) * 6 * t;\n      if (t < 1/2) return q;\n      if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;\n      return p;\n    };\n    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;\n    const p = 2 * l - q;\n    r = hue2rgb(p, q, h + 1/3);\n    g = hue2rgb(p, q, h);\n    b = hue2rgb(p, q, h - 1/3);\n  }\n  return {\n    r: Math.round(r * 255),\n    g: Math.round(g * 255),\n    b: Math.round(b * 255),\n  };\n};\n\nconst ColorPickerTool: React.FC = () => {\n  const [color, setColor] = useState<string>('#1890ff');\n  const [hexInput, setHexInput] = useState('#1890ff');\n  const [rgbInput, setRgbInput] = useState({ r: 24, g: 144, b: 255 });\n  const [rgbaInput, setRgbaInput] = useState({ r: 24, g: 144, b: 255, a: 1 });\n  const [hslInput, setHslInput] = useState({ h: 212, s: 100, l: 54 });\n\n  const seoConfig = {\n    title: '颜色选择器工具',\n    description: '免费的在线颜色选择器工具，支持拾色器取色、HEX/RGB/RGBA/HSL 互相转换、颜色预览和一键复制色值。',\n    keywords: '颜色选择器,取色器,HEX转RGB,RGB转HEX,HSL转换,颜色转换工具,在线取色器,颜色拾取',\n    jsonLd: createToolJsonLd(\n      '颜色选择器工具',\n      '免费的在线颜色选择和转换工具',\n      'https://yma16.cloud/tools/color-picker',\n      'DeveloperApplication'\n    ),\n  };\n\n  const updateAllFormats = useCallback((newColor: string) => {\n    setColor(newColor);\n    setHexInput(newColor);\n    const rgb = hexToRgb(newColor);\n    if (rgb) {\n      setRgbInput(rgb);\n      setRgbaInput({ ...rgb, a: 1 });\n      setHslInput(rgbToHsl(rgb.r, rgb.g, rgb.b));\n    }\n  }, []);\n\n  const handleHexChange = (value: string) => {\n    setHexInput(value);\n    if (/^#[0-9A-Fa-f]{6}$/.test(value)) {\n      updateAllFormats(value);\n    }\n  };\n\n  const handleRgbChange = (key: string, value: number) => {\n    const newRgb = { ...rgbInput, [key]: Math.max(0, Math.min(255, value)) };\n    setRgbInput(newRgb);\n    const hex = rgbToHex(newRgb.r, newRgb.g, newRgb.b);\n    setColor(hex);\n    setHexInput(hex);\n    setRgbaInput({ ...newRgb, a: rgbaInput.a });\n    setHslInput(rgbToHsl(newRgb.r, newRgb.g, newRgb.b));\n  };\n\n  const handleRgbaChange = (key: string, value: number) => {\n    const newRgba = { ...rgbaInput, [key]: value };\n    setRgbaInput(newRgba);\n    if (key !== 'a') {\n      const hex = rgbToHex(newRgba.r, newRgba.g, newRgba.b);\n      setColor(hex);\n      setHexInput(hex);\n      setRgbInput({ r: newRgba.r, g: newRgba.g, b: newRgba.b });\n      setHslInput(rgbToHsl(newRgba.r, newRgba.g, newRgba.b));\n    }\n  };\n\n  const handleHslChange = (key: string, value: number) => {\n    const newHsl = { ...hslInput, [key]: value };\n    setHslInput(newHsl);\n    const rgb = hslToRgb(newHsl.h, newHsl.s, newHsl.l);\n    const hex = rgbToHex(rgb.r, rgb.g, rgb.b);\n    setColor(hex);\n    setHexInput(hex);\n    setRgbInput(rgb);\n    setRgbaInput({ ...rgb, a: rgbaInput.a });\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <BgColorsOutlined /> 颜色选择器\n        </Title>\n        <Text type=\"secondary\">拾色取色、格式转换、一键复制</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"颜色预览\">\n              <div style={{ textAlign: 'center', padding: 40 }}>\n                <div\n                  style={{\n                    width: 200,\n                    height: 200,\n                    margin: '0 auto 24px',\n                    backgroundColor: color,\n                    borderRadius: 12,\n                    border: '2px solid #d9d9d9',\n                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',\n                  }}\n                />\n                <ColorPicker\n                  value={color}\n                  onChange={(c) => updateAllFormats(c.toHexString())}\n                  showText\n                  style={{ marginBottom: 16 }}\n                />\n              </div>\n            </Card>\n          </Col>\n\n          <Col xs={24} lg={12}>\n            <Card title=\"颜色格式转换\">\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                {/* HEX */}\n                <div>\n                  <Text strong>HEX</Text>\n                  <Input.Group compact>\n                    <Input\n                      style={{ width: 'calc(100% - 80px)' }}\n                      value={hexInput}\n                      onChange={(e) => handleHexChange(e.target.value)}\n                      prefix=\"#\"\n                      maxLength={7}\n                    />\n                    <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(hexInput)}>\n                      复制\n                    </Button>\n                  </Input.Group>\n                </div>\n\n                {/* RGB */}\n                <div>\n                  <Text strong>RGB</Text>\n                  <Input.Group compact>\n                    <Input\n                      style={{ width: 80 }}\n                      value={rgbInput.r}\n                      onChange={(e) => handleRgbChange('r', Number(e.target.value))}\n                      addonBefore=\"R\"\n                      type=\"number\"\n                    />\n                    <Input\n                      style={{ width: 80 }}\n                      value={rgbInput.g}\n                      onChange={(e) => handleRgbChange('g', Number(e.target.value))}\n                      addonBefore=\"G\"\n                      type=\"number\"\n                    />\n                    <Input\n                      style={{ width: 80 }}\n                      value={rgbInput.b}\n                      onChange={(e) => handleRgbChange('b', Number(e.target.value))}\n                      addonBefore=\"B\"\n                      type=\"number\"\n                    />\n                    <Button\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(`rgb(${rgbInput.r}, ${rgbInput.g}, ${rgbInput.b})`)}\n                    >\n                      复制\n                    </Button>\n                  </Input.Group>\n                </div>\n\n                {/* RGBA */}\n                <div>\n                  <Text strong>RGBA</Text>\n                  <Input.Group compact>\n                    <Input\n                      style={{ width: 70 }}\n                      value={rgbaInput.r}\n                      onChange={(e) => handleRgbaChange('r', Number(e.target.value))}\n                      addonBefore=\"R\"\n                      type=\"number\"\n                    />\n                    <Input\n                      style={{ width: 70 }}\n                      value={rgbaInput.g}\n                      onChange={(e) => handleRgbaChange('g', Number(e.target.value))}\n                      addonBefore=\"G\"\n                      type=\"number\"\n                    />\n                    <Input\n                      style={{ width: 70 }}\n                      value={rgbaInput.b}\n                      onChange={(e) => handleRgbaChange('b', Number(e.target.value))}\n                      addonBefore=\"B\"\n                      type=\"number\"\n                    />\n                    <Input\n                      style={{ width: 90 }}\n                      value={rgbaInput.a}\n                      onChange={(e) => handleRgbaChange('a', Number(e.target.value))}\n                      addonBefore=\"A\"\n                      step={0.1}\n                      max={1}\n                      min={0}\n                      type=\"number\"\n                    />\n                    <Button\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(`rgba(${rgbaInput.r}, ${rgbaInput.g}, ${rgbaInput.b}, ${rgbaInput.a})`)}\n                    >\n                      复制\n                    </Button>\n                  </Input.Group>\n                </div>\n\n                {/* HSL */}\n                <div>\n                  <Text strong>HSL</Text>\n                  <Input.Group compact>\n                    <Input\n                      style={{ width: 80 }}\n                      value={hslInput.h}\n                      onChange={(e) => handleHslChange('h', Number(e.target.value))}\n                      addonBefore=\"H\"\n                      type=\"number\"\n                      max={360}\n                    />\n                    <Input\n                      style={{ width: 80 }}\n                      value={hslInput.s}\n                      onChange={(e) => handleHslChange('s', Number(e.target.value))}\n                      addonBefore=\"S\"\n                      type=\"number\"\n                      max={100}\n                    />\n                    <Input\n                      style={{ width: 80 }}\n                      value={hslInput.l}\n                      onChange={(e) => handleHslChange('l', Number(e.target.value))}\n                      addonBefore=\"L\"\n                      type=\"number\"\n                      max={100}\n                    />\n                    <Button\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(`hsl(${hslInput.h}, ${hslInput.s}%, ${hslInput.l}%)`)}\n                    >\n                      复制\n                    </Button>\n                  </Input.Group>\n                </div>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"常用颜色\">\n              <Space wrap>\n                {['#ff4d4f', '#ff7a45', '#ffa940', '#ffc53d', '#73d13d', '#36cfc9', '#40a9ff', '#597ef7', '#9254de', '#f759ab'].map(c => (\n                  <div\n                    key={c}\n                    style={{\n                      width: 40,\n                      height: 40,\n                      backgroundColor: c,\n                      borderRadius: 8,\n                      cursor: 'pointer',\n                      border: color === c ? '3px solid #1890ff' : '2px solid transparent',\n                    }}\n                    onClick={() => updateAllFormats(c)}\n                    title={c}\n                  />\n                ))}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default ColorPickerTool;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/color-picker.tsx"
+    },
+    "9": {
+      "path": "/tools/image-cropper",
+      "title": "图片裁剪",
+      "file": "@/pages/tools/image-cropper.tsx",
+      "parentId": "@@/global-layout",
+      "id": "9",
+      "absPath": "/tools/image-cropper",
+      "__content": "import React, { useState, useRef, useCallback } from 'react';\nimport { Card, Button, Slider, message, Typography, Space, Upload, Row, Col } from 'antd';\nimport { UploadOutlined, RotateLeftOutlined, RotateRightOutlined, DownloadOutlined, ScissorOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst ImageCropper: React.FC = () => {\n  const canvasRef = useRef<HTMLCanvasElement>(null);\n  const [image, setImage] = useState<HTMLImageElement | null>(null);\n  const [rotation, setRotation] = useState(0);\n  const [scale, setScale] = useState(1);\n  const [cropArea, setCropArea] = useState({ x: 0, y: 0, width: 200, height: 200 });\n  const [isDragging, setIsDragging] = useState(false);\n  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });\n  const [fileList, setFileList] = useState<UploadFile[]>([]);\n\n  const seoConfig = {\n    title: '图片裁剪工具',\n    description: '免费的在线图片裁剪工具，纯前端 Canvas 实现，支持调整裁剪框、旋转图片、导出下载，不上传服务器保护隐私。',\n    keywords: '图片裁剪,在线裁剪图片,图片旋转,图片编辑,Canvas裁剪,前端图片处理,图片裁剪工具',\n    jsonLd: createToolJsonLd(\n      '图片裁剪工具',\n      '免费的在线图片裁剪和编辑工具',\n      'https://yma16.cloud/tools/image-cropper',\n      'DeveloperApplication'\n    ),\n  };\n\n  const handleUpload = (file: File) => {\n    const reader = new FileReader();\n    reader.onload = (e) => {\n      const img = new Image();\n      img.onload = () => {\n        setImage(img);\n        setCropArea({\n          x: img.width * 0.1,\n          y: img.height * 0.1,\n          width: img.width * 0.8,\n          height: img.height * 0.8,\n        });\n        drawCanvas(img, rotation, scale, {\n          x: img.width * 0.1,\n          y: img.height * 0.1,\n          width: img.width * 0.8,\n          height: img.height * 0.8,\n        });\n      };\n      img.src = e.target?.result as string;\n    };\n    reader.readAsDataURL(file);\n    return false;\n  };\n\n  const drawCanvas = (\n    img: HTMLImageElement,\n    rot: number,\n    scl: number,\n    crop: typeof cropArea\n  ) => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    canvas.width = img.width * scl;\n    canvas.height = img.height * scl;\n\n    ctx.save();\n    ctx.translate(canvas.width / 2, canvas.height / 2);\n    ctx.rotate((rot * Math.PI) / 180);\n    ctx.scale(scl, scl);\n    ctx.drawImage(img, -img.width / 2, -img.height / 2);\n    ctx.restore();\n\n    // Draw crop overlay\n    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    ctx.clearRect(crop.x * scl, crop.y * scl, crop.width * scl, crop.height * scl);\n\n    // Draw crop border\n    ctx.strokeStyle = '#1890ff';\n    ctx.lineWidth = 2;\n    ctx.strokeRect(crop.x * scl, crop.y * scl, crop.width * scl, crop.height * scl);\n  };\n\n  const handleMouseDown = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    if (\n      x >= cropArea.x * scale &&\n      x <= (cropArea.x + cropArea.width) * scale &&\n      y >= cropArea.y * scale &&\n      y <= (cropArea.y + cropArea.height) * scale\n    ) {\n      setIsDragging(true);\n      setDragStart({ x: x - cropArea.x * scale, y: y - cropArea.y * scale });\n    }\n  };\n\n  const handleMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    if (!isDragging || !image) return;\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    const newX = (x - dragStart.x) / scale;\n    const newY = (y - dragStart.y) / scale;\n\n    setCropArea({\n      ...cropArea,\n      x: Math.max(0, Math.min(newX, image.width - cropArea.width)),\n      y: Math.max(0, Math.min(newY, image.height - cropArea.height)),\n    });\n\n    drawCanvas(image, rotation, scale, {\n      ...cropArea,\n      x: Math.max(0, Math.min(newX, image.width - cropArea.width)),\n      y: Math.max(0, Math.min(newY, image.height - cropArea.height)),\n    });\n  };\n\n  const handleMouseUp = () => {\n    setIsDragging(false);\n  };\n\n  const handleRotate = (deg: number) => {\n    const newRotation = rotation + deg;\n    setRotation(newRotation);\n    if (image) {\n      drawCanvas(image, newRotation, scale, cropArea);\n    }\n  };\n\n  const handleScale = (value: number) => {\n    setScale(value);\n    if (image) {\n      drawCanvas(image, rotation, value, cropArea);\n    }\n  };\n\n  const handleCrop = () => {\n    if (!image || !canvasRef.current) return;\n    const canvas = document.createElement('canvas');\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    canvas.width = cropArea.width;\n    canvas.height = cropArea.height;\n\n    ctx.drawImage(\n      canvasRef.current,\n      cropArea.x * scale,\n      cropArea.y * scale,\n      cropArea.width * scale,\n      cropArea.height * scale,\n      0,\n      0,\n      cropArea.width,\n      cropArea.height\n    );\n\n    const dataUrl = canvas.toDataURL('image/png');\n    const link = document.createElement('a');\n    link.download = 'cropped-image.png';\n    link.href = dataUrl;\n    link.click();\n    message.success('图片已下载');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <ScissorOutlined /> 图片裁剪\n        </Title>\n        <Text type=\"secondary\">纯前端 Canvas 实现，不上传服务器</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Upload\n                  fileList={fileList}\n                  beforeUpload={handleUpload}\n                  onChange={({ fileList }) => setFileList(fileList)}\n                  accept=\"image/*\"\n                  maxCount={1}\n                >\n                  <Button icon={<UploadOutlined />}>上传图片</Button>\n                </Upload>\n\n                {image && (\n                  <>\n                    <Space style={{ marginTop: 16 }}>\n                      <Button icon={<RotateLeftOutlined />} onClick={() => handleRotate(-90)}>\n                        左转 90°\n                      </Button>\n                      <Button icon={<RotateRightOutlined />} onClick={() => handleRotate(90)}>\n                        右转 90°\n                      </Button>\n                      <Button icon={<DownloadOutlined />} type=\"primary\" onClick={handleCrop}>\n                        裁剪并下载\n                      </Button>\n                    </Space>\n\n                    <div style={{ marginTop: 16 }}>\n                      <Text>缩放: {Math.round(scale * 100)}%</Text>\n                      <Slider\n                        min={0.5}\n                        max={2}\n                        step={0.1}\n                        value={scale}\n                        onChange={handleScale}\n                      />\n                    </div>\n\n                    <canvas\n                      ref={canvasRef}\n                      style={{\n                        maxWidth: '100%',\n                        border: '1px solid #d9d9d9',\n                        borderRadius: 8,\n                        cursor: isDragging ? 'grabbing' : 'grab',\n                      }}\n                      onMouseDown={handleMouseDown}\n                      onMouseMove={handleMouseMove}\n                      onMouseUp={handleMouseUp}\n                      onMouseLeave={handleMouseUp}\n                    />\n                  </>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default ImageCropper;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/image-cropper.tsx"
+    },
+    "10": {
+      "path": "/tools/base64-tool",
+      "title": "Base64工具",
+      "file": "@/pages/tools/base64-tool.tsx",
+      "parentId": "@@/global-layout",
+      "id": "10",
+      "absPath": "/tools/base64-tool",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Tabs, Upload } from 'antd';\nimport { CopyOutlined, DownloadOutlined, UploadOutlined, SwapOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { TextArea } = Input;\n\nconst Base64Tool: React.FC = () => {\n  const [textInput, setTextInput] = useState('');\n  const [textOutput, setTextOutput] = useState('');\n  const [imageBase64, setImageBase64] = useState('');\n  const [previewImage, setPreviewImage] = useState('');\n  const [activeTab, setActiveTab] = useState('text');\n  const [fileList, setFileList] = useState<UploadFile[]>([]);\n\n  const seoConfig = {\n    title: 'Base64 编解码工具',\n    description: '免费的在线 Base64 编解码工具，支持文本 Base64 编码解码、图片转 Base64、Base64 还原预览和下载图片。',\n    keywords: 'Base64编码,Base64解码,Base64工具,图片转Base64,Base64转图片,在线Base64,文本编码',\n    jsonLd: createToolJsonLd(\n      'Base64 编解码工具',\n      '免费的在线 Base64 编码解码和图片转换工具',\n      'https://yma16.cloud/tools/base64-tool',\n      'DeveloperApplication'\n    ),\n  };\n\n  const encodeText = () => {\n    try {\n      const encoded = btoa(unescape(encodeURIComponent(textInput)));\n      setTextOutput(encoded);\n    } catch (e) {\n      message.error('编码失败');\n    }\n  };\n\n  const decodeText = () => {\n    try {\n      const decoded = decodeURIComponent(escape(atob(textInput)));\n      setTextOutput(decoded);\n    } catch (e) {\n      message.error('解码失败，请检查输入是否为有效的 Base64');\n    }\n  };\n\n  const handleImageUpload = (file: File) => {\n    const reader = new FileReader();\n    reader.onload = (e) => {\n      const result = e.target?.result as string;\n      setImageBase64(result);\n      setPreviewImage(result);\n    };\n    reader.readAsDataURL(file);\n    return false;\n  };\n\n  const handleBase64Input = (value: string) => {\n    setImageBase64(value);\n    if (value.startsWith('data:image')) {\n      setPreviewImage(value);\n    } else {\n      setPreviewImage('');\n    }\n  };\n\n  const downloadImage = () => {\n    if (!previewImage) return;\n    const link = document.createElement('a');\n    link.href = previewImage;\n    link.download = 'base64-image.png';\n    link.click();\n    message.success('图片已下载');\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <SwapOutlined /> Base64 编解码\n        </Title>\n        <Text type=\"secondary\">文本编码解码、图片与 Base64 互转</Text>\n\n        <Tabs activeKey={activeTab} onChange={setActiveTab} style={{ marginTop: 24 }}>\n          <Tabs.TabPane tab=\"文本编解码\" key=\"text\">\n            <Row gutter={[24, 24]}>\n              <Col xs={24} lg={12}>\n                <Card title=\"输入\">\n                  <TextArea\n                    rows={10}\n                    value={textInput}\n                    onChange={(e) => setTextInput(e.target.value)}\n                    placeholder=\"输入要编码或解码的文本...\"\n                  />\n                  <Space style={{ marginTop: 16 }}>\n                    <Button type=\"primary\" onClick={encodeText}>\n                      编码 (Base64)\n                    </Button>\n                    <Button onClick={decodeText}>\n                      解码 (Base64)\n                    </Button>\n                    <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(textInput)}>\n                      复制输入\n                    </Button>\n                  </Space>\n                </Card>\n              </Col>\n              <Col xs={24} lg={12}>\n                <Card title=\"输出\">\n                  <TextArea\n                    rows={10}\n                    value={textOutput}\n                    readOnly\n                    placeholder=\"编码/解码结果...\"\n                  />\n                  <Space style={{ marginTop: 16 }}>\n                    <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(textOutput)}>\n                      复制结果\n                    </Button>\n                    <Button onClick={() => { setTextInput(''); setTextOutput(''); }}>\n                      清空\n                    </Button>\n                  </Space>\n                </Card>\n              </Col>\n            </Row>\n          </Tabs.TabPane>\n\n          <Tabs.TabPane tab=\"图片转 Base64\" key=\"image-to-base64\">\n            <Row gutter={[24, 24]}>\n              <Col xs={24} lg={12}>\n                <Card title=\"上传图片\">\n                  <Upload\n                    fileList={fileList}\n                    beforeUpload={handleImageUpload}\n                    onChange={({ fileList }) => setFileList(fileList)}\n                    accept=\"image/*\"\n                    maxCount={1}\n                    listType=\"picture\"\n                  >\n                    <Button icon={<UploadOutlined />}>上传图片</Button>\n                  </Upload>\n                </Card>\n              </Col>\n              <Col xs={24} lg={12}>\n                <Card title=\"Base64 结果\">\n                  <TextArea\n                    rows={8}\n                    value={imageBase64}\n                    readOnly\n                    placeholder=\"图片的 Base64 编码将显示在这里...\"\n                  />\n                  <Space style={{ marginTop: 16 }}>\n                    <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(imageBase64)}>\n                      复制 Base64\n                    </Button>\n                  </Space>\n                </Card>\n              </Col>\n            </Row>\n          </Tabs.TabPane>\n\n          <Tabs.TabPane tab=\"Base64 转图片\" key=\"base64-to-image\">\n            <Row gutter={[24, 24]}>\n              <Col xs={24} lg={12}>\n                <Card title=\"输入 Base64\">\n                  <TextArea\n                    rows={8}\n                    value={imageBase64}\n                    onChange={(e) => handleBase64Input(e.target.value)}\n                    placeholder=\"粘贴 Base64 编码...\"\n                  />\n                </Card>\n              </Col>\n              <Col xs={24} lg={12}>\n                <Card title=\"图片预览\">\n                  {previewImage ? (\n                    <>\n                      <img\n                        src={previewImage}\n                        alt=\"Preview\"\n                        style={{ maxWidth: '100%', maxHeight: 300, borderRadius: 8 }}\n                      />\n                      <Space style={{ marginTop: 16 }}>\n                        <Button icon={<DownloadOutlined />} type=\"primary\" onClick={downloadImage}>\n                          下载图片\n                        </Button>\n                      </Space>\n                    </>\n                  ) : (\n                    <Text type=\"secondary\">输入有效的 Base64 图片编码后预览</Text>\n                  )}\n                </Card>\n              </Col>\n            </Row>\n          </Tabs.TabPane>\n        </Tabs>\n      </div>\n    </>\n  );\n};\n\nexport default Base64Tool;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/base64-tool.tsx"
+    },
+    "11": {
+      "path": "/tools/timestamp-tool",
+      "title": "时间戳转换",
+      "file": "@/pages/tools/timestamp-tool.tsx",
+      "parentId": "@@/global-layout",
+      "id": "11",
+      "absPath": "/tools/timestamp-tool",
+      "__content": "import React, { useState, useEffect } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Select, DatePicker, Tag, Divider } from 'antd';\nimport { CopyOutlined, SyncOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport dayjs from 'dayjs';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { Option } = Select;\n\nconst dateFormats = [\n  { label: 'YYYY-MM-DD HH:mm:ss', value: 'YYYY-MM-DD HH:mm:ss' },\n  { label: 'YYYY-MM-DD HH:mm', value: 'YYYY-MM-DD HH:mm' },\n  { label: 'YYYY-MM-DD', value: 'YYYY-MM-DD' },\n  { label: 'YYYY/MM/DD HH:mm:ss', value: 'YYYY/MM/DD HH:mm:ss' },\n  { label: 'MM-DD-YYYY HH:mm:ss', value: 'MM-DD-YYYY HH:mm:ss' },\n  { label: 'YYYY年MM月DD日 HH:mm:ss', value: 'YYYY年MM月DD日 HH:mm:ss' },\n];\n\nconst TimestampTool: React.FC = () => {\n  const [timestamp, setTimestamp] = useState('');\n  const [dateStr, setDateStr] = useState('');\n  const [format, setFormat] = useState('YYYY-MM-DD HH:mm:ss');\n  const [unit, setUnit] = useState<'ms' | 's'>('ms');\n  const [currentTimestamp, setCurrentTimestamp] = useState('');\n\n  const seoConfig = {\n    title: '时间戳转换工具',\n    description: '免费的在线时间戳转换工具，支持时间戳与格式化日期互相转换，支持秒/毫秒时间戳，多种日期格式选择。',\n    keywords: '时间戳转换,时间戳工具,日期转换,Unix时间戳,毫秒时间戳,时间格式转换,在线时间戳',\n    jsonLd: createToolJsonLd(\n      '时间戳转换工具',\n      '免费的在线时间戳和日期格式转换工具',\n      'https://yma16.cloud/tools/timestamp-tool',\n      'DeveloperApplication'\n    ),\n  };\n\n  useEffect(() => {\n    const interval = setInterval(() => {\n      setCurrentTimestamp(Date.now().toString());\n    }, 1000);\n    return () => clearInterval(interval);\n  }, []);\n\n  const timestampToDate = () => {\n    if (!timestamp) {\n      message.warning('请输入时间戳');\n      return;\n    }\n    const ts = unit === 's' ? parseInt(timestamp) * 1000 : parseInt(timestamp);\n    if (isNaN(ts)) {\n      message.error('请输入有效的时间戳');\n      return;\n    }\n    const date = dayjs(ts);\n    if (!date.isValid()) {\n      message.error('时间戳无效');\n      return;\n    }\n    setDateStr(date.format(format));\n  };\n\n  const dateToTimestamp = () => {\n    if (!dateStr) {\n      message.warning('请输入日期');\n      return;\n    }\n    const date = dayjs(dateStr, format);\n    if (!date.isValid()) {\n      message.error('日期格式不匹配');\n      return;\n    }\n    const ts = unit === 's' ? date.valueOf() / 1000 : date.valueOf();\n    setTimestamp(Math.floor(ts).toString());\n  };\n\n  const getCurrentTime = () => {\n    const now = Date.now();\n    setTimestamp(unit === 's' ? Math.floor(now / 1000).toString() : now.toString());\n    setDateStr(dayjs(now).format(format));\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <ClockCircleOutlined /> 时间戳转换\n        </Title>\n        <Text type=\"secondary\">时间戳与日期互相转换，支持多种格式</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"当前时间\">\n              <Space size=\"large\">\n                <Tag color=\"blue\" style={{ fontSize: 16, padding: '8px 16px' }}>\n                  毫秒: {currentTimestamp}\n                </Tag>\n                <Tag color=\"green\" style={{ fontSize: 16, padding: '8px 16px' }}>\n                  秒: {currentTimestamp ? Math.floor(parseInt(currentTimestamp) / 1000) : ''}\n                </Tag>\n                <Tag color=\"purple\" style={{ fontSize: 16, padding: '8px 16px' }}>\n                  {dayjs().format('YYYY-MM-DD HH:mm:ss')}\n                </Tag>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"时间戳转日期\">\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"middle\">\n                <Input.Group compact>\n                  <Input\n                    style={{ width: 'calc(100% - 200px)' }}\n                    placeholder=\"输入时间戳\"\n                    value={timestamp}\n                    onChange={(e) => setTimestamp(e.target.value)}\n                    type=\"number\"\n                  />\n                  <Select value={unit} onChange={setUnit} style={{ width: 100 }}>\n                    <Option value=\"ms\">毫秒</Option>\n                    <Option value=\"s\">秒</Option>\n                  </Select>\n                </Input.Group>\n\n                <Select\n                  value={format}\n                  onChange={setFormat}\n                  style={{ width: '100%' }}\n                  placeholder=\"选择日期格式\"\n                >\n                  {dateFormats.map(f => (\n                    <Option key={f.value} value={f.value}>{f.label}</Option>\n                  ))}\n                </Select>\n\n                <Space>\n                  <Button type=\"primary\" icon={<SyncOutlined />} onClick={timestampToDate}>\n                    转换\n                  </Button>\n                  <Button onClick={getCurrentTime}>\n                    获取当前时间\n                  </Button>\n                  <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(timestamp)}>\n                    复制时间戳\n                  </Button>\n                </Space>\n\n                {dateStr && (\n                  <Card size=\"small\" style={{ background: '#f6ffed', borderColor: '#b7eb8f' }}>\n                    <Text strong style={{ fontSize: 18 }}>\n                      {dateStr}\n                    </Text>\n                    <Button\n                      size=\"small\"\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(dateStr)}\n                      style={{ marginLeft: 16 }}\n                    >\n                      复制\n                    </Button>\n                  </Card>\n                )}\n              </Space>\n            </Card>\n          </Col>\n\n          <Col xs={24} lg={12}>\n            <Card title=\"日期转时间戳\">\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"middle\">\n                <Input\n                  placeholder={`输入日期 (${format})`}\n                  value={dateStr}\n                  onChange={(e) => setDateStr(e.target.value)}\n                />\n\n                <Select\n                  value={format}\n                  onChange={setFormat}\n                  style={{ width: '100%' }}\n                  placeholder=\"选择日期格式\"\n                >\n                  {dateFormats.map(f => (\n                    <Option key={f.value} value={f.value}>{f.label}</Option>\n                  ))}\n                </Select>\n\n                <Select value={unit} onChange={setUnit} style={{ width: '100%' }}>\n                  <Option value=\"ms\">毫秒</Option>\n                  <Option value=\"s\">秒</Option>\n                </Select>\n\n                <Space>\n                  <Button type=\"primary\" icon={<SyncOutlined />} onClick={dateToTimestamp}>\n                    转换\n                  </Button>\n                  <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(dateStr)}>\n                    复制日期\n                  </Button>\n                </Space>\n\n                {timestamp && (\n                  <Card size=\"small\" style={{ background: '#e6f7ff', borderColor: '#91d5ff' }}>\n                    <Text strong style={{ fontSize: 18 }}>\n                      {timestamp}\n                    </Text>\n                    <Text type=\"secondary\" style={{ marginLeft: 8 }}>\n                      ({unit === 'ms' ? '毫秒' : '秒'})\n                    </Text>\n                    <Button\n                      size=\"small\"\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(timestamp)}\n                      style={{ marginLeft: 16 }}\n                    >\n                      复制\n                    </Button>\n                  </Card>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default TimestampTool;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/timestamp-tool.tsx"
+    },
+    "12": {
+      "path": "/tools/regex-tester",
+      "title": "正则测试",
+      "file": "@/pages/tools/regex-tester.tsx",
+      "parentId": "@@/global-layout",
+      "id": "12",
+      "absPath": "/tools/regex-tester",
+      "__content": "import React, { useState, useEffect } from 'react';\nimport { Card, Row, Col, Input, Button, Typography, Space, Tag, Checkbox, List, Divider } from 'antd';\nimport { CopyOutlined, PlayCircleOutlined, ClearOutlined, CheckCircleOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { TextArea } = Input;\n\nconst RegexTester: React.FC = () => {\n  const [pattern, setPattern] = useState('[a-zA-Z]+');\n  const [flags, setFlags] = useState({ g: true, i: false, m: false, s: false, u: false });\n  const [testText, setTestText] = useState('Hello World! This is a test.\\nAnother line here.');\n  const [matches, setMatches] = useState<RegExpMatchArray[]>([]);\n  const [error, setError] = useState('');\n  const [highlightedText, setHighlightedText] = useState<React.ReactNode[]>([]);\n\n  const seoConfig = {\n    title: '正则表达式测试工具',\n    description: '免费的在线正则表达式测试工具，支持实时匹配、高亮显示、分组捕获、多种修饰符，帮助调试和验证正则表达式。',\n    keywords: '正则表达式测试,正则工具,Regex测试,正则匹配,在线正则,正则调试,正则表达式工具',\n    jsonLd: createToolJsonLd(\n      '正则表达式测试工具',\n      '免费的在线正则表达式测试和调试工具',\n      'https://yma16.cloud/tools/regex-tester',\n      'DeveloperApplication'\n    ),\n  };\n\n  const testRegex = () => {\n    if (!pattern) {\n      setError('请输入正则表达式');\n      setMatches([]);\n      setHighlightedText([]);\n      return;\n    }\n\n    const flagStr = Object.entries(flags)\n      .filter(([, v]) => v)\n      .map(([k]) => k)\n      .join('');\n\n    try {\n      const regex = new RegExp(pattern, flagStr);\n      setError('');\n\n      const allMatches: RegExpMatchArray[] = [];\n      let match;\n\n      if (flags.g) {\n        while ((match = regex.exec(testText)) !== null) {\n          allMatches.push([...match]);\n          if (match.index === regex.lastIndex) {\n            regex.lastIndex++;\n          }\n        }\n      } else {\n        match = regex.exec(testText);\n        if (match) {\n          allMatches.push([...match]);\n        }\n      }\n\n      setMatches(allMatches);\n      highlightMatches(allMatches);\n    } catch (e) {\n      setError('正则表达式语法错误: ' + (e as Error).message);\n      setMatches([]);\n      setHighlightedText([]);\n    }\n  };\n\n  const highlightMatches = (matchResults: RegExpMatchArray[]) => {\n    if (matchResults.length === 0) {\n      setHighlightedText([<span key=\"0\">{testText}</span>]);\n      return;\n    }\n\n    const parts: React.ReactNode[] = [];\n    let lastIndex = 0;\n\n    matchResults.forEach((match, idx) => {\n      const matchStart = testText.indexOf(match[0], lastIndex);\n      const matchEnd = matchStart + match[0].length;\n\n      if (matchStart > lastIndex) {\n        parts.push(<span key={`text-${idx}`}>{testText.substring(lastIndex, matchStart)}</span>);\n      }\n\n      parts.push(\n        <mark\n          key={`match-${idx}`}\n          style={{\n            backgroundColor: '#ffd591',\n            padding: '2px 4px',\n            borderRadius: 4,\n            fontWeight: 'bold',\n          }}\n          title={`Match ${idx + 1}`}\n        >\n          {match[0]}\n        </mark>\n      );\n\n      lastIndex = matchEnd;\n    });\n\n    if (lastIndex < testText.length) {\n      parts.push(<span key=\"text-end\">{testText.substring(lastIndex)}</span>);\n    }\n\n    setHighlightedText(parts);\n  };\n\n  useEffect(() => {\n    testRegex();\n  }, []);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <CheckCircleOutlined /> 正则表达式测试\n        </Title>\n        <Text type=\"secondary\">实时匹配、高亮显示、分组捕获</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"正则表达式\">\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Input.Group compact>\n                  <span style={{ padding: '5px 10px', background: '#f5f5f5', border: '1px solid #d9d9d9', borderRight: 0, borderRadius: '6px 0 0 6px' }}>/</span>\n                  <Input\n                    style={{ width: 'calc(100% - 300px)' }}\n                    value={pattern}\n                    onChange={(e) => setPattern(e.target.value)}\n                    placeholder=\"输入正则表达式\"\n                  />\n                  <span style={{ padding: '5px 10px', background: '#f5f5f5', border: '1px solid #d9d9d9', borderLeft: 0, borderRight: 0 }}>/</span>\n                  <Input\n                    style={{ width: 100, borderRadius: 0 }}\n                    value={Object.entries(flags).filter(([, v]) => v).map(([k]) => k).join('')}\n                    readOnly\n                  />\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={testRegex}>\n                    测试\n                  </Button>\n                </Input.Group>\n\n                <Space>\n                  <Checkbox checked={flags.g} onChange={(e) => setFlags({ ...flags, g: e.target.checked })}>\n                    g (全局)\n                  </Checkbox>\n                  <Checkbox checked={flags.i} onChange={(e) => setFlags({ ...flags, i: e.target.checked })}>\n                    i (忽略大小写)\n                  </Checkbox>\n                  <Checkbox checked={flags.m} onChange={(e) => setFlags({ ...flags, m: e.target.checked })}>\n                    m (多行)\n                  </Checkbox>\n                  <Checkbox checked={flags.s} onChange={(e) => setFlags({ ...flags, s: e.target.checked })}>\n                    s (点匹配换行)\n                  </Checkbox>\n                  <Checkbox checked={flags.u} onChange={(e) => setFlags({ ...flags, u: e.target.checked })}>\n                    u (Unicode)\n                  </Checkbox>\n                </Space>\n\n                {error && (\n                  <Tag color=\"red\" style={{ marginTop: 8 }}>\n                    {error}\n                  </Tag>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"测试文本\">\n              <TextArea\n                rows={10}\n                value={testText}\n                onChange={(e) => setTestText(e.target.value)}\n                placeholder=\"输入要测试的文本...\"\n              />\n              <Space style={{ marginTop: 16 }}>\n                <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(testText)}>\n                  复制\n                </Button>\n                <Button icon={<ClearOutlined />} onClick={() => setTestText('')}>\n                  清空\n                </Button>\n              </Space>\n            </Card>\n          </Col>\n\n          <Col xs={24} lg={12}>\n            <Card title=\"匹配结果\">\n              <div style={{ minHeight: 200, maxHeight: 300, overflow: 'auto', padding: 12, background: '#f5f5f5', borderRadius: 8, fontFamily: 'monospace', whiteSpace: 'pre-wrap', wordBreak: 'break-all' }}>\n                {highlightedText}\n              </div>\n\n              <Divider />\n\n              <Text strong>匹配详情 ({matches.length} 个匹配)</Text>\n              <List\n                size=\"small\"\n                dataSource={matches}\n                renderItem={(match, idx) => (\n                  <List.Item>\n                    <Space direction=\"vertical\" style={{ width: '100%' }}>\n                      <Tag color=\"blue\">匹配 {idx + 1}</Tag>\n                      <Text code copyable>{match[0]}</Text>\n                      {match.length > 1 && (\n                        <div>\n                          <Text type=\"secondary\">分组:</Text>\n                          <Space wrap>\n                            {match.slice(1).map((group, gIdx) => (\n                              <Tag key={gIdx} color=\"green\">${gIdx + 1}: {group}</Tag>\n                            ))}\n                          </Space>\n                        </div>\n                      )}\n                    </Space>\n                  </List.Item>\n                )}\n                style={{ marginTop: 12, maxHeight: 200, overflow: 'auto' }}\n              />\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default RegexTester;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/regex-tester.tsx"
+    },
+    "13": {
+      "path": "/tools/hash-tool",
+      "title": "哈希工具",
+      "file": "@/pages/tools/hash-tool.tsx",
+      "parentId": "@@/global-layout",
+      "id": "13",
+      "absPath": "/tools/hash-tool",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Tabs, Tag } from 'antd';\nimport { CopyOutlined, LockOutlined, FileTextOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { TextArea } = Input;\n\n// MD5 实现\nconst md5 = (text: string): string => {\n  const crypto = require('crypto');\n  return crypto.createHash('md5').update(text).digest('hex');\n};\n\n// SHA1 实现\nconst sha1 = (text: string): string => {\n  const crypto = require('crypto');\n  return crypto.createHash('sha1').update(text).digest('hex');\n};\n\n// SHA256 实现\nconst sha256 = (text: string): string => {\n  const crypto = require('crypto');\n  return crypto.createHash('sha256').update(text).digest('hex');\n};\n\n// 前端 MD5 实现（备用）\nconst md5Frontend = (text: string): string => {\n  const rotateLeft = (lValue: number, iShiftBits: number) => (lValue << iShiftBits) | (lValue >>> (32 - iShiftBits));\n  const addUnsigned = (lX: number, lY: number) => {\n    const lX8 = lX & 0x80000000;\n    const lY8 = lY & 0x80000000;\n    const lX4 = lX & 0x40000000;\n    const lY4 = lY & 0x40000000;\n    const lResult = (lX & 0x3FFFFFFF) + (lY & 0x3FFFFFFF);\n    if (lX4 & lY4) return lResult ^ 0x80000000 ^ lX8 ^ lY8;\n    if (lX4 | lY4) {\n      if (lResult & 0x40000000) return lResult ^ 0xC0000000 ^ lX8 ^ lY8;\n      return lResult ^ 0x40000000 ^ lX8 ^ lY8;\n    }\n    return lResult ^ lX8 ^ lY8;\n  };\n  const f = (x: number, y: number, z: number) => (x & y) | (~x & z);\n  const g = (x: number, y: number, z: number) => (x & z) | (y & ~z);\n  const h = (x: number, y: number, z: number) => x ^ y ^ z;\n  const i = (x: number, y: number, z: number) => y ^ (x | ~z);\n  const ff = (a: number, b: number, c: number, d: number, x: number, s: number, ac: number) => addUnsigned(rotateLeft(addUnsigned(addUnsigned(a, f(b, c, d)), x), s), ac);\n  const gg = (a: number, b: number, c: number, d: number, x: number, s: number, ac: number) => addUnsigned(rotateLeft(addUnsigned(addUnsigned(a, g(b, c, d)), x), s), ac);\n  const hh = (a: number, b: number, c: number, d: number, x: number, s: number, ac: number) => addUnsigned(rotateLeft(addUnsigned(addUnsigned(a, h(b, c, d)), x), s), ac);\n  const ii = (a: number, b: number, c: number, d: number, x: number, s: number, ac: number) => addUnsigned(rotateLeft(addUnsigned(addUnsigned(a, i(b, c, d)), x), s), ac);\n\n  const convertToWordArray = (str: string) => {\n    const lWordCount: number[] = [];\n    const lMessageLength = str.length;\n    let lNumberOfWords_temp1 = lMessageLength + 8;\n    let lNumberOfWords_temp2 = (lNumberOfWords_temp1 - (lNumberOfWords_temp1 % 64)) / 64;\n    let lNumberOfWords = (lNumberOfWords_temp2 + 1) * 16;\n    let lWordArray: number[] = new Array(lNumberOfWords - 1);\n    let lBytePosition = 0;\n    let lByteCount = 0;\n    while (lByteCount < lMessageLength) {\n      lWordCount[(lByteCount - (lByteCount % 4)) / 4] |= str.charCodeAt(lByteCount) << ((lByteCount % 4) * 8);\n      lByteCount++;\n    }\n    lWordCount[(lByteCount - (lByteCount % 4)) / 4] |= 0x80 << ((lByteCount % 4) * 8);\n    lWordCount[lNumberOfWords - 2] = lMessageLength * 8;\n    return lWordCount;\n  };\n\n  let x = convertToWordArray(text);\n  let a = 0x67452301, b = 0xEFCDAB89, c = 0x98BADCFE, d = 0x10325476;\n\n  for (let k = 0; k < x.length; k += 16) {\n    const AA = a, BB = b, CC = c, DD = d;\n    a = ff(a, b, c, d, x[k + 0], 7, 0xD76AA478);\n    d = ff(d, a, b, c, x[k + 1], 12, 0xE8C7B756);\n    c = ff(c, d, a, b, x[k + 2], 17, 0x242070DB);\n    b = ff(b, c, d, a, x[k + 3], 22, 0xC1BDCEEE);\n    a = ff(a, b, c, d, x[k + 4], 7, 0xF57C0FAF);\n    d = ff(d, a, b, c, x[k + 5], 12, 0x4787C62A);\n    c = ff(c, d, a, b, x[k + 6], 17, 0xA8304613);\n    b = ff(b, c, d, a, x[k + 7], 22, 0xFD469501);\n    a = ff(a, b, c, d, x[k + 8], 7, 0x698098D8);\n    d = ff(d, a, b, c, x[k + 9], 12, 0x8B44F7AF);\n    c = ff(c, d, a, b, x[k + 10], 17, 0xFFFF5BB1);\n    b = ff(b, c, d, a, x[k + 11], 22, 0x895CD7BE);\n    a = ff(a, b, c, d, x[k + 12], 7, 0x6B901122);\n    d = ff(d, a, b, c, x[k + 13], 12, 0xFD987193);\n    c = ff(c, d, a, b, x[k + 14], 17, 0xA679438E);\n    b = ff(b, c, d, a, x[k + 15], 22, 0x49B40821);\n    a = gg(a, b, c, d, x[k + 1], 5, 0xF61E2562);\n    d = gg(d, a, b, c, x[k + 6], 9, 0xC040B340);\n    c = gg(c, d, a, b, x[k + 11], 14, 0x265E5A51);\n    b = gg(b, c, d, a, x[k + 0], 20, 0xE9B6C7AA);\n    a = gg(a, b, c, d, x[k + 5], 5, 0xD62F105D);\n    d = gg(d, a, b, c, x[k + 10], 9, 0x02441453);\n    c = gg(c, d, a, b, x[k + 15], 14, 0xD8A1E681);\n    b = gg(b, c, d, a, x[k + 4], 20, 0xE7D3FBC8);\n    a = gg(a, b, c, d, x[k + 9], 5, 0x21E1CDE6);\n    d = gg(d, a, b, c, x[k + 14], 9, 0xC33707D6);\n    c = gg(c, d, a, b, x[k + 3], 14, 0xF4D50D87);\n    b = gg(b, c, d, a, x[k + 8], 20, 0x455A14ED);\n    a = gg(a, b, c, d, x[k + 13], 5, 0xA9E3E905);\n    d = gg(d, a, b, c, x[k + 2], 9, 0xFCEFA3F8);\n    c = gg(c, d, a, b, x[k + 7], 14, 0x676F02D9);\n    b = gg(b, c, d, a, x[k + 12], 20, 0x8D2A4C8A);\n    a = hh(a, b, c, d, x[k + 5], 4, 0xFFFA3942);\n    d = hh(d, a, b, c, x[k + 8], 11, 0x8771F681);\n    c = hh(c, d, a, b, x[k + 11], 16, 0x6D9D6122);\n    b = hh(b, c, d, a, x[k + 14], 23, 0xFDE5380C);\n    a = hh(a, b, c, d, x[k + 1], 4, 0xA4BEEA44);\n    d = hh(d, a, b, c, x[k + 4], 11, 0x4BDECFA9);\n    c = hh(c, d, a, b, x[k + 7], 16, 0xF6BB4B60);\n    b = hh(b, c, d, a, x[k + 10], 23, 0xBEBFBC70);\n    a = hh(a, b, c, d, x[k + 13], 4, 0x289B7EC6);\n    d = hh(d, a, b, c, x[k + 0], 11, 0xEAA127FA);\n    c = hh(c, d, a, b, x[k + 3], 16, 0xD4EF3085);\n    b = hh(b, c, d, a, x[k + 6], 23, 0x04881D05);\n    a = hh(a, b, c, d, x[k + 9], 4, 0xD9D4D039);\n    d = hh(d, a, b, c, x[k + 12], 11, 0xE6DB99E5);\n    c = hh(c, d, a, b, x[k + 15], 16, 0x1FA27CF8);\n    b = hh(b, c, d, a, x[k + 2], 23, 0xC4AC5665);\n    a = ii(a, b, c, d, x[k + 0], 6, 0xF4292244);\n    d = ii(d, a, b, c, x[k + 7], 10, 0x432AFF97);\n    c = ii(c, d, a, b, x[k + 14], 15, 0xAB9423A7);\n    b = ii(b, c, d, a, x[k + 5], 21, 0xFC93A039);\n    a = ii(a, b, c, d, x[k + 12], 6, 0x655B59C3);\n    d = ii(d, a, b, c, x[k + 3], 10, 0x8F0CCC92);\n    c = ii(c, d, a, b, x[k + 10], 15, 0xFFEFF47D);\n    b = ii(b, c, d, a, x[k + 1], 21, 0x85845DD1);\n    a = ii(a, b, c, d, x[k + 8], 6, 0x6FA87E4F);\n    d = ii(d, a, b, c, x[k + 15], 10, 0xFE2CE6E0);\n    c = ii(c, d, a, b, x[k + 6], 15, 0xA3014314);\n    b = ii(b, c, d, a, x[k + 13], 21, 0x4E0811A1);\n    a = ii(a, b, c, d, x[k + 4], 6, 0xF7537E82);\n    d = ii(d, a, b, c, x[k + 11], 10, 0xBD3AF235);\n    c = ii(c, d, a, b, x[k + 2], 15, 0x2AD7D2BB);\n    b = ii(b, c, d, a, x[k + 9], 21, 0xEB86D391);\n    a = addUnsigned(a, AA);\n    b = addUnsigned(b, BB);\n    c = addUnsigned(c, CC);\n    d = addUnsigned(d, DD);\n  }\n\n  const wordToHex = (lValue: number) => {\n    let wordToHexValue = '', wordToHexValue_temp = '', lByte, lCount;\n    for (lCount = 0; lCount <= 3; lCount++) {\n      lByte = (lValue >>> (lCount * 8)) & 255;\n      wordToHexValue_temp = '0' + lByte.toString(16);\n      wordToHexValue += wordToHexValue_temp.substr(wordToHexValue_temp.length - 2, 2);\n    }\n    return wordToHexValue;\n  };\n\n  return (wordToHex(a) + wordToHex(b) + wordToHex(c) + wordToHex(d)).toLowerCase();\n};\n\n// 前端 SHA1 实现\nconst sha1Frontend = (text: string): string => {\n  const rotateLeft = (n: number, s: number) => (n << s) | (n >>> (32 - s));\n  const toHexStr = (n: number) => ('00000000' + (n >>> 0).toString(16)).slice(-8);\n\n  const msg = unescape(encodeURIComponent(text));\n  const msgLen = msg.length;\n  const wordArray: number[] = [];\n  for (let i = 0; i < msgLen - 3; i += 4) {\n    wordArray.push(\n      (msg.charCodeAt(i) << 24) | (msg.charCodeAt(i + 1) << 16) |\n      (msg.charCodeAt(i + 2) << 8) | msg.charCodeAt(i + 3)\n    );\n  }\n  let i = msgLen % 4;\n  let word = 0;\n  switch (i) {\n    case 3: word |= msg.charCodeAt(msgLen - 1) << 8;\n    case 2: word |= msg.charCodeAt(msgLen - 2) << 16;\n    case 1: word |= msg.charCodeAt(msgLen - 3) << 24;\n      wordArray.push(word | (0x80 << (24 - i * 8)));\n      break;\n    default: wordArray.push(0x80);\n  }\n  while ((wordArray.length % 16) !== 14) wordArray.push(0);\n  wordArray.push(msgLen * 8 >>> 32);\n  wordArray.push(msgLen * 8);\n\n  let H0 = 0x67452301, H1 = 0xEFCDAB89, H2 = 0x98BADCFE, H3 = 0x10325476, H4 = 0xC3D2E1F0;\n\n  for (let block = 0; block < wordArray.length; block += 16) {\n    const W: number[] = new Array(80);\n    for (let t = 0; t < 16; t++) W[t] = wordArray[block + t];\n    for (let t = 16; t < 80; t++) {\n      W[t] = rotateLeft(W[t - 3] ^ W[t - 8] ^ W[t - 14] ^ W[t - 16], 1);\n    }\n\n    let A = H0, B = H1, C = H2, D = H3, E = H4;\n    for (let t = 0; t < 80; t++) {\n      let temp = rotateLeft(A, 5) + (t < 20 ? (B & C) | (~B & D) : t < 40 ? B ^ C ^ D : t < 60 ? (B & C) | (B & D) | (C & D) : B ^ C ^ D) + E + W[t] + (t < 20 ? 0x5A827999 : t < 40 ? 0x6ED9EBA1 : t < 60 ? 0x8F1BBCDC : 0xCA62C1D6);\n      E = D; D = C; C = rotateLeft(B, 30); B = A; A = temp;\n    }\n    H0 += A; H1 += B; H2 += C; H3 += D; H4 += E;\n  }\n\n  return (toHexStr(H0) + toHexStr(H1) + toHexStr(H2) + toHexStr(H3) + toHexStr(H4)).toLowerCase();\n};\n\n// 前端 SHA256 实现（简化版）\nconst sha256Frontend = (text: string): string => {\n  const utf8Encode = (str: string) => {\n    return new TextEncoder().encode(str);\n  };\n\n  const toHexString = (bytes: Uint8Array) => {\n    return Array.from(bytes).map(b => ('0' + (b & 0xFF).toString(16)).slice(-2)).join('');\n  };\n\n  const data = utf8Encode(text);\n  // 使用 Web Crypto API\n  if (typeof crypto !== 'undefined' && crypto.subtle) {\n    crypto.subtle.digest('SHA-256', data).then(hash => {\n      return toHexString(new Uint8Array(hash));\n    });\n  }\n  \n  // 简化实现\n  return 'sha256-not-available-in-frontend';\n};\n\nconst HashTool: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [results, setResults] = useState({ md5: '', sha1: '', sha256: '' });\n  const [useFrontend, setUseFrontend] = useState(true);\n\n  const seoConfig = {\n    title: '哈希 MD5/SHA 工具',\n    description: '免费的在线哈希计算工具，支持 MD5、SHA1、SHA256 哈希算法，纯前端计算保护隐私，支持文本哈希计算。',\n    keywords: 'MD5工具,SHA1工具,SHA256工具,哈希计算,在线MD5,文件哈希,哈希值计算,前端哈希',\n    jsonLd: createToolJsonLd(\n      '哈希 MD5/SHA 工具',\n      '免费的在线 MD5、SHA1、SHA256 哈希计算工具',\n      'https://yma16.cloud/tools/hash-tool',\n      'DeveloperApplication'\n    ),\n  };\n\n  const calculateHash = useCallback(() => {\n    if (!input) {\n      message.warning('请输入文本');\n      return;\n    }\n\n    try {\n      if (useFrontend) {\n        setResults({\n          md5: md5Frontend(input),\n          sha1: sha1Frontend(input),\n          sha256: sha256Frontend(input),\n        });\n      } else {\n        setResults({\n          md5: md5(input),\n          sha1: sha1(input),\n          sha256: sha256(input),\n        });\n      }\n    } catch (e) {\n      message.error('计算失败');\n    }\n  }, [input, useFrontend]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <LockOutlined /> 哈希计算工具\n        </Title>\n        <Text type=\"secondary\">MD5 / SHA1 / SHA256 哈希计算，纯前端实现</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"输入文本\">\n              <TextArea\n                rows={6}\n                value={input}\n                onChange={(e) => setInput(e.target.value)}\n                placeholder=\"输入要计算哈希的文本...\"\n              />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" icon={<LockOutlined />} onClick={calculateHash}>\n                  计算哈希\n                </Button>\n                <Button onClick={() => { setInput(''); setResults({ md5: '', sha1: '', sha256: '' }); }}>\n                  清空\n                </Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        {results.md5 && (\n          <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n            <Col xs={24} lg={8}>\n              <Card title=\"MD5\">\n                <Text code copyable style={{ wordBreak: 'break-all' }}>\n                  {results.md5}\n                </Text>\n                <Button\n                  icon={<CopyOutlined />}\n                  size=\"small\"\n                  onClick={() => copyToClipboard(results.md5)}\n                  style={{ marginTop: 8 }}\n                >\n                  复制\n                </Button>\n              </Card>\n            </Col>\n            <Col xs={24} lg={8}>\n              <Card title=\"SHA1\">\n                <Text code copyable style={{ wordBreak: 'break-all' }}>\n                  {results.sha1}\n                </Text>\n                <Button\n                  icon={<CopyOutlined />}\n                  size=\"small\"\n                  onClick={() => copyToClipboard(results.sha1)}\n                  style={{ marginTop: 8 }}\n                >\n                  复制\n                </Button>\n              </Card>\n            </Col>\n            <Col xs={24} lg={8}>\n              <Card title=\"SHA256\">\n                <Text code copyable style={{ wordBreak: 'break-all' }}>\n                  {results.sha256}\n                </Text>\n                <Button\n                  icon={<CopyOutlined />}\n                  size=\"small\"\n                  onClick={() => copyToClipboard(results.sha256)}\n                  style={{ marginTop: 8 }}\n                >\n                  复制\n                </Button>\n              </Card>\n            </Col>\n          </Row>\n        )}\n\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Tag color=\"green\">纯前端计算</Tag>\n              <Text type=\"secondary\">所有哈希计算在浏览器本地完成，不会上传到服务器，保护您的数据隐私。</Text>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default HashTool;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/hash-tool.tsx"
+    },
+    "14": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "8",
+      "id": "14",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "9": {
+    "15": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "9",
+      "id": "15",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"合作与服务\"\n        description=\"yma16 提供前端技术咨询、项目合作、技术培训和开源贡献等服务，欢迎联系合作。\"\n        keywords=\"前端技术咨询,项目合作,技术培训,React开发,Vue开发,前端架构\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,
