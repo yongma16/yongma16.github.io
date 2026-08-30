@@ -4,6 +4,7 @@ import { Layout, Menu, Button, Badge, Avatar } from 'antd';
 import { CONTACT_INFO } from '@/config/contact';
 import { BEIAN_INFO, getCurrentDomain } from '@/config/beian';
 import { useTheme } from '@/contexts/ThemeContext';
+import { SiteIcon } from '@/components/SiteIcon';
 import {
   HomeOutlined,
   CodeOutlined,
@@ -102,15 +103,24 @@ const MainLayout: React.FC = () => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div
             style={{
-              fontSize: 20,
-              fontWeight: 'bold',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 12,
               marginRight: 48,
               cursor: 'pointer',
-              color: '#1890ff',
             }}
             onClick={() => history.push('/')}
           >
-            yma16.dev
+            <SiteIcon size={36} />
+            <span
+              style={{
+                fontSize: 20,
+                fontWeight: 'bold',
+                color: '#1890ff',
+              }}
+            >
+              yma16.dev
+            </span>
           </div>
           <Menu
             mode="horizontal"

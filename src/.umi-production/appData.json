@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 7
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -84,7 +84,7 @@
             3
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,10 +128,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            13
+            14
           ]
         },
-        "register": 22
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -164,7 +164,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -181,7 +181,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -194,7 +194,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,10 +1077,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1093,7 +1093,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 98
+        "register": 93
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 26
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 33
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1297,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1310,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1362,7 +1362,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1476,7 +1476,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 507
+        "register": 491
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1501,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1514,7 +1514,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1530,7 +1530,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1593,7 +1593,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1693,7 +1693,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1706,7 +1706,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1719,7 +1719,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1732,7 +1732,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1745,7 +1745,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1758,7 +1758,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1771,7 +1771,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1784,7 +1784,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1810,7 +1810,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1823,7 +1823,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1836,7 +1836,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1862,7 +1862,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1875,7 +1875,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1888,7 +1888,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1901,7 +1901,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1914,7 +1914,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1927,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2320,7 +2320,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },

@@ -2,6 +2,7 @@ import React from 'react';
 import { history } from 'umi';
 import { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';
 import { SEO, createWebsiteJsonLd } from '@/components/SEO';
+import { SiteIcon } from '@/components/SiteIcon';
 import {
   CodeOutlined,
   ToolOutlined,
@@ -122,6 +123,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <div style={{ textAlign: 'center', padding: '60px 0' }}>
         <Title level={1}>
+          <SiteIcon size={48} style={{ marginRight: 16 }} />
           前端开发工具集
           <Tag color="blue" style={{ marginLeft: 12, fontSize: 14 }}>
             React + TypeScript
