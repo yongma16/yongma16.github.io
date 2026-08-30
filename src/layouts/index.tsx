@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet, useLocation, history } from 'umi';
 import { Layout, Menu, Button, Badge, Avatar } from 'antd';
 import { CONTACT_INFO } from '@/config/contact';
+import { BEIAN_INFO } from '@/config/beian';
 import {
   HomeOutlined,
   CodeOutlined,
@@ -127,6 +128,40 @@ const MainLayout: React.FC = () => {
           </a>
         </div>
         <div>© {new Date().getFullYear()} yma16. All rights reserved. 前端开发工具集</div>
+        
+        {/* 域名备案信息展示 */}
+        <div style={{ marginTop: 12, fontSize: 12, color: '#999' }}>
+          <span>当前访问域名: {BEIAN_INFO.domain}</span>
+          {BEIAN_INFO.showBeian && BEIAN_INFO.beianNumber && (
+            <span style={{ marginLeft: 16 }}>
+              <a 
+                href={BEIAN_INFO.beianLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: '#999' }}
+              >
+                {BEIAN_INFO.beianNumber}
+              </a>
+            </span>
+          )}
+          {BEIAN_INFO.showBeian && BEIAN_INFO.gonganNumber && (
+            <span style={{ marginLeft: 16 }}>
+              <a 
+                href={BEIAN_INFO.gonganLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: '#999' }}
+              >
+                {BEIAN_INFO.gonganNumber}
+              </a>
+            </span>
+          )}
+          {!BEIAN_INFO.showBeian && (
+            <span style={{ marginLeft: 16, color: '#bbb' }}>
+              （备案申请中）
+            </span>
+          )}
+        </div>
       </Footer>
     </Layout>
   );

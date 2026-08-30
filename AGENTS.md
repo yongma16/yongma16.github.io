@@ -26,7 +26,8 @@ react_home/
 │   │       ├── perf-check.tsx       # 性能检测工具
 │   │       ├── svg-processor.tsx    # SVG 批量处理工具
 │   │       ├── file-diff.tsx        # 文件对比工具
-│   │       └── url-tools.tsx        # URL 编解码工具
+│   │       ├── url-tools.tsx        # URL 编解码工具
+│   │       └── beian.tsx            # 域名备案展示
 │   └── config/
 │       └── contact.ts     # 联系信息配置
 ├── dist/                  # 构建输出目录
@@ -87,6 +88,7 @@ server {
 | `/tools/svg-processor` | SVG 处理 | ✅ 已修复 (2026-08-30) |
 | `/tools/file-diff` | 文件对比 | ✅ 正常 |
 | `/tools/url-tools` | URL 编解码 | ✅ 已添加 (2026-08-30) |
+| `/tools/beian` | 域名备案展示 | ✅ 已添加 (2026-08-30) |
 | `/blog` | 技术博客 | ✅ 正常 |
 | `/pricing` | 合作 | ✅ 正常 |
 
@@ -125,6 +127,19 @@ import { Card, Upload, Button, ..., Statistic } from 'antd';
   5. 一键复制结果
 - 路由: `/tools/url-tools`
 - 图标: `GlobalOutlined`
+- 部署状态: ✅ 已部署到 Nginx
+
+### 2026-08-30: 域名备案信息展示
+
+**新增功能:** 页脚展示域名备案信息
+- 文件: 
+  - `src/config/beian.ts` - 备案信息配置
+  - `src/layouts/index.tsx` - 页脚展示备案信息
+- 配置项:
+  - `domain`: 当前访问域名 (yma16.cloud)
+  - `beianNumber`: 备案号（等备案下来后填写）
+  - `showBeian`: 是否显示备案信息（默认 false）
+- 当前状态: 显示"备案申请中"，备案号下来后修改配置即可展示
 - 部署状态: ✅ 已部署到 Nginx
 
 ### 2026-08-30: Nginx 部署资源路径问题
