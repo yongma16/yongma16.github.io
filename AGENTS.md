@@ -142,6 +142,18 @@ import { Card, Upload, Button, ..., Statistic } from 'antd';
 - 当前状态: 显示"备案申请中"，备案号下来后修改配置即可展示
 - 部署状态: ✅ 已部署到 Nginx
 
+### 2026-08-30: 全面 SEO 优化
+
+**优化内容:**
+- 添加 `react-helmet-async` 动态 SEO 组件 (`src/components/SEO.tsx`)
+- 每个页面独立 title/description/keywords，覆盖热门工具关键词
+- 添加 JSON-LD 结构化数据 (WebSite/SoftwareApplication)
+- 生成 `sitemap.xml` 和 `robots.txt`
+- 添加 `manifest.json` PWA 配置
+- 优化 `.umirc.ts` meta 标签配置 (Open Graph, Twitter Card)
+- 首页、工具页、博客页、合作页全部完成 SEO 配置
+- 部署状态: ✅ 已部署到 Nginx
+
 ### 2026-08-30: Nginx 部署资源路径问题
 
 **问题:** Nginx 部署时子路由 JS 资源 404
