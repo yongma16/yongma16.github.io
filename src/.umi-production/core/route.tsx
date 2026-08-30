@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/tools/url-tools","title":"URL工具","parentId":"@@/global-layout","id":"7"},"8":{"path":"/tools/color-picker","title":"颜色选择器","parentId":"@@/global-layout","id":"8"},"9":{"path":"/tools/image-cropper","title":"图片裁剪","parentId":"@@/global-layout","id":"9"},"10":{"path":"/tools/base64-tool","title":"Base64工具","parentId":"@@/global-layout","id":"10"},"11":{"path":"/tools/timestamp-tool","title":"时间戳转换","parentId":"@@/global-layout","id":"11"},"12":{"path":"/tools/regex-tester","title":"正则测试","parentId":"@@/global-layout","id":"12"},"13":{"path":"/tools/hash-tool","title":"哈希工具","parentId":"@@/global-layout","id":"13"},"14":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"14"},"15":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"15"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
+  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/tools/url-tools","title":"URL工具","parentId":"@@/global-layout","id":"7"},"8":{"path":"/tools/color-picker","title":"颜色选择器","parentId":"@@/global-layout","id":"8"},"9":{"path":"/tools/image-cropper","title":"图片裁剪","parentId":"@@/global-layout","id":"9"},"10":{"path":"/tools/base64-tool","title":"Base64工具","parentId":"@@/global-layout","id":"10"},"11":{"path":"/tools/timestamp-tool","title":"时间戳转换","parentId":"@@/global-layout","id":"11"},"12":{"path":"/tools/regex-tester","title":"正则测试","parentId":"@@/global-layout","id":"12"},"13":{"path":"/tools/hash-tool","title":"哈希工具","parentId":"@@/global-layout","id":"13"},"14":{"path":"/tools/json-to-ts","title":"JSON转TS","parentId":"@@/global-layout","id":"14"},"15":{"path":"/tools/mock-gen","title":"Mock生成","parentId":"@@/global-layout","id":"15"},"16":{"path":"/tools/css-formatter","title":"CSS格式化","parentId":"@@/global-layout","id":"16"},"17":{"path":"/tools/string-escape","title":"字符串转义","parentId":"@@/global-layout","id":"17"},"18":{"path":"/tools/radix-convert","title":"进制转换","parentId":"@@/global-layout","id":"18"},"19":{"path":"/tools/naming-convert","title":"命名转换","parentId":"@@/global-layout","id":"19"},"20":{"path":"/tools/image-convert","title":"图片转换","parentId":"@@/global-layout","id":"20"},"21":{"path":"/tools/jwt-parser","title":"JWT解析","parentId":"@@/global-layout","id":"21"},"22":{"path":"/tools/cookie-parser","title":"Cookie解析","parentId":"@@/global-layout","id":"22"},"23":{"path":"/tools/qrcode-tool","title":"二维码工具","parentId":"@@/global-layout","id":"23"},"24":{"path":"/tools/regex-lib","title":"正则模板","parentId":"@@/global-layout","id":"24"},"25":{"path":"/tools/random-string","title":"随机字符串","parentId":"@@/global-layout","id":"25"},"26":{"path":"/tools/unit-convert","title":"单位换算","parentId":"@@/global-layout","id":"26"},"27":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"27"},"28":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"28"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
   return {
     routes,
     routeComponents: {
@@ -21,8 +21,21 @@ export async function getRoutes() {
 '11': React.lazy(() => import(/* webpackChunkName: "p__tools__timestamp-tool" */'@/pages/tools/timestamp-tool.tsx')),
 '12': React.lazy(() => import(/* webpackChunkName: "p__tools__regex-tester" */'@/pages/tools/regex-tester.tsx')),
 '13': React.lazy(() => import(/* webpackChunkName: "p__tools__hash-tool" */'@/pages/tools/hash-tool.tsx')),
-'14': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
-'15': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
+'14': React.lazy(() => import(/* webpackChunkName: "p__tools__json-to-ts" */'@/pages/tools/json-to-ts.tsx')),
+'15': React.lazy(() => import(/* webpackChunkName: "p__tools__mock-gen" */'@/pages/tools/mock-gen.tsx')),
+'16': React.lazy(() => import(/* webpackChunkName: "p__tools__css-formatter" */'@/pages/tools/css-formatter.tsx')),
+'17': React.lazy(() => import(/* webpackChunkName: "p__tools__string-escape" */'@/pages/tools/string-escape.tsx')),
+'18': React.lazy(() => import(/* webpackChunkName: "p__tools__radix-convert" */'@/pages/tools/radix-convert.tsx')),
+'19': React.lazy(() => import(/* webpackChunkName: "p__tools__naming-convert" */'@/pages/tools/naming-convert.tsx')),
+'20': React.lazy(() => import(/* webpackChunkName: "p__tools__image-convert" */'@/pages/tools/image-convert.tsx')),
+'21': React.lazy(() => import(/* webpackChunkName: "p__tools__jwt-parser" */'@/pages/tools/jwt-parser.tsx')),
+'22': React.lazy(() => import(/* webpackChunkName: "p__tools__cookie-parser" */'@/pages/tools/cookie-parser.tsx')),
+'23': React.lazy(() => import(/* webpackChunkName: "p__tools__qrcode-tool" */'@/pages/tools/qrcode-tool.tsx')),
+'24': React.lazy(() => import(/* webpackChunkName: "p__tools__regex-lib" */'@/pages/tools/regex-lib.tsx')),
+'25': React.lazy(() => import(/* webpackChunkName: "p__tools__random-string" */'@/pages/tools/random-string.tsx')),
+'26': React.lazy(() => import(/* webpackChunkName: "p__tools__unit-convert" */'@/pages/tools/unit-convert.tsx')),
+'27': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
+'28': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
 '@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/home/ubuntu/front_projects/react_home/src/layouts/index.tsx')),
 },
   };

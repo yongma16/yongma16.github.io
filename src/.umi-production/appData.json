@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,10 +81,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            4
+            3
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -131,7 +131,7 @@
             15
           ]
         },
-        "register": 28
+        "register": 34
       },
       "enableBy": "register",
       "type": "plugin",
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -181,7 +181,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -194,7 +194,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -211,7 +211,7 @@
             0
           ]
         },
-        "register": 7
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,7 +1077,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1093,7 +1093,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 27
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 12
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 33
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1217,7 +1217,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1284,7 +1284,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1297,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1310,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1426,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1476,7 +1476,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 488
+        "register": 481
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1530,7 +1530,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1555,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1568,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 32
+        "register": 30
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 39
+        "register": 37
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 23
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2105,6 +2105,71 @@
         "title": "哈希工具"
       },
       {
+        "path": "/tools/json-to-ts",
+        "component": "@/pages/tools/json-to-ts",
+        "title": "JSON转TS"
+      },
+      {
+        "path": "/tools/mock-gen",
+        "component": "@/pages/tools/mock-gen",
+        "title": "Mock生成"
+      },
+      {
+        "path": "/tools/css-formatter",
+        "component": "@/pages/tools/css-formatter",
+        "title": "CSS格式化"
+      },
+      {
+        "path": "/tools/string-escape",
+        "component": "@/pages/tools/string-escape",
+        "title": "字符串转义"
+      },
+      {
+        "path": "/tools/radix-convert",
+        "component": "@/pages/tools/radix-convert",
+        "title": "进制转换"
+      },
+      {
+        "path": "/tools/naming-convert",
+        "component": "@/pages/tools/naming-convert",
+        "title": "命名转换"
+      },
+      {
+        "path": "/tools/image-convert",
+        "component": "@/pages/tools/image-convert",
+        "title": "图片转换"
+      },
+      {
+        "path": "/tools/jwt-parser",
+        "component": "@/pages/tools/jwt-parser",
+        "title": "JWT解析"
+      },
+      {
+        "path": "/tools/cookie-parser",
+        "component": "@/pages/tools/cookie-parser",
+        "title": "Cookie解析"
+      },
+      {
+        "path": "/tools/qrcode-tool",
+        "component": "@/pages/tools/qrcode-tool",
+        "title": "二维码工具"
+      },
+      {
+        "path": "/tools/regex-lib",
+        "component": "@/pages/tools/regex-lib",
+        "title": "正则模板"
+      },
+      {
+        "path": "/tools/random-string",
+        "component": "@/pages/tools/random-string",
+        "title": "随机字符串"
+      },
+      {
+        "path": "/tools/unit-convert",
+        "component": "@/pages/tools/unit-convert",
+        "title": "单位换算"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2288,6 +2353,71 @@
         "title": "哈希工具"
       },
       {
+        "path": "/tools/json-to-ts",
+        "component": "@/pages/tools/json-to-ts",
+        "title": "JSON转TS"
+      },
+      {
+        "path": "/tools/mock-gen",
+        "component": "@/pages/tools/mock-gen",
+        "title": "Mock生成"
+      },
+      {
+        "path": "/tools/css-formatter",
+        "component": "@/pages/tools/css-formatter",
+        "title": "CSS格式化"
+      },
+      {
+        "path": "/tools/string-escape",
+        "component": "@/pages/tools/string-escape",
+        "title": "字符串转义"
+      },
+      {
+        "path": "/tools/radix-convert",
+        "component": "@/pages/tools/radix-convert",
+        "title": "进制转换"
+      },
+      {
+        "path": "/tools/naming-convert",
+        "component": "@/pages/tools/naming-convert",
+        "title": "命名转换"
+      },
+      {
+        "path": "/tools/image-convert",
+        "component": "@/pages/tools/image-convert",
+        "title": "图片转换"
+      },
+      {
+        "path": "/tools/jwt-parser",
+        "component": "@/pages/tools/jwt-parser",
+        "title": "JWT解析"
+      },
+      {
+        "path": "/tools/cookie-parser",
+        "component": "@/pages/tools/cookie-parser",
+        "title": "Cookie解析"
+      },
+      {
+        "path": "/tools/qrcode-tool",
+        "component": "@/pages/tools/qrcode-tool",
+        "title": "二维码工具"
+      },
+      {
+        "path": "/tools/regex-lib",
+        "component": "@/pages/tools/regex-lib",
+        "title": "正则模板"
+      },
+      {
+        "path": "/tools/random-string",
+        "component": "@/pages/tools/random-string",
+        "title": "随机字符串"
+      },
+      {
+        "path": "/tools/unit-convert",
+        "component": "@/pages/tools/unit-convert",
+        "title": "单位换算"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2320,7 +2450,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费'],\n  },\n  {\n    title: 'JSON转TS',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JSON自动推断生成TypeScript Interface类型',\n    path: '/tools/json-to-ts',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Mock生成',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '快速生成模拟JSON测试数据',\n    path: '/tools/mock-gen',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'CSS格式化',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS代码格式化、压缩、美化',\n    path: '/tools/css-formatter',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '字符串转义',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'HTML/JS字符串Escape转义反转义',\n    path: '/tools/string-escape',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '进制转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '2/8/10/16进制互相转换',\n    path: '/tools/radix-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '命名转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '驼峰、下划线、短横线命名风格互转',\n    path: '/tools/naming-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片转换',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: 'PNG/JPG/WebP格式转换，调节质量',\n    path: '/tools/image-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'JWT解析',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JWT Token解析Header、Payload、Signature',\n    path: '/tools/jwt-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Cookie解析',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '解析Cookie字符串，查看属性和值',\n    path: '/tools/cookie-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '二维码工具',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '二维码生成和解析',\n    path: '/tools/qrcode-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则模板',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: '常用正则表达式模板库，一键复制',\n    path: '/tools/regex-lib',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '随机字符串',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '自定义字符集、长度、生成数量',\n    path: '/tools/random-string',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '单位换算',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS px/rem/em/vw/vh单位换算',\n    path: '/tools/unit-convert',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -2457,22 +2587,165 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/hash-tool.tsx"
     },
     "14": {
+      "path": "/tools/json-to-ts",
+      "title": "JSON转TS",
+      "file": "@/pages/tools/json-to-ts.tsx",
+      "parentId": "@@/global-layout",
+      "id": "14",
+      "absPath": "/tools/json-to-ts",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Tabs } from 'antd';\nimport { CopyOutlined, CodeOutlined, ClearOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst JsonToTs: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [output, setOutput] = useState('');\n  const [rootName, setRootName] = useState('Root');\n\n  const seoConfig = {\n    title: 'JSON转TS类型工具',\n    description: 'JSON转TypeScript Interface类型生成器，自动推断类型，支持嵌套对象和数组。',\n    keywords: 'JSON转TS,JSON转TypeScript,类型生成器,Interface生成,JSON类型推断',\n    jsonLd: createToolJsonLd('JSON转TS类型工具', 'JSON转TypeScript Interface生成器', 'https://yma16.cloud/tools/json-to-ts', 'DeveloperApplication'),\n  };\n\n  const inferType = (value: any, key: string): string => {\n    if (value === null) return 'null';\n    if (Array.isArray(value)) {\n      if (value.length === 0) return 'any[]';\n      const itemType = inferType(value[0], key);\n      return `${itemType}[]`;\n    }\n    const type = typeof value;\n    if (type === 'object') {\n      return generateInterface(value, key.charAt(0).toUpperCase() + key.slice(1));\n    }\n    return type;\n  };\n\n  const generateInterface = (obj: any, name: string): string => {\n    if (Array.isArray(obj)) {\n      if (obj.length === 0) return 'any[]';\n      return `${generateInterface(obj[0], name)}[]`;\n    }\n    if (typeof obj !== 'object' || obj === null) return typeof obj;\n\n    const lines = Object.entries(obj).map(([key, value]) => {\n      const optional = value === undefined ? '?' : '';\n      const type = inferType(value, key);\n      return `  ${key}${optional}: ${type};`;\n    });\n\n    return `interface ${name} {\\n${lines.join('\\n')}\\n}`;\n  };\n\n  const convert = () => {\n    try {\n      const parsed = JSON.parse(input);\n      const result = generateInterface(parsed, rootName);\n      setOutput(result);\n    } catch (e) {\n      message.error('JSON解析失败');\n    }\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><CodeOutlined /> JSON转TS类型</Title>\n        <Text type=\"secondary\">JSON自动推断生成TypeScript Interface</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"JSON输入\">\n              <Editor height={400} language=\"json\" value={input} onChange={(v) => setInput(v || '')} />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" onClick={convert}>生成类型</Button>\n                <Button icon={<ClearOutlined />} onClick={() => setInput('')}>清空</Button>\n              </Space>\n            </Card>\n          </Col>\n          <Col xs={24} lg={12}>\n            <Card title=\"TypeScript输出\">\n              <Editor height={400} language=\"typescript\" value={output} options={{ readOnly: true }} />\n              <Space style={{ marginTop: 16 }}>\n                <Button icon={<CopyOutlined />} onClick={() => { navigator.clipboard.writeText(output); message.success('已复制'); }}>复制</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default JsonToTs;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/json-to-ts.tsx"
+    },
+    "15": {
+      "path": "/tools/mock-gen",
+      "title": "Mock生成",
+      "file": "@/pages/tools/mock-gen.tsx",
+      "parentId": "@@/global-layout",
+      "id": "15",
+      "absPath": "/tools/mock-gen",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, InputNumber, Select, Input } from 'antd';\nimport { CopyOutlined, DatabaseOutlined, ReloadOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { Option } = Select;\n\nconst MockGen: React.FC = () => {\n  const [count, setCount] = useState(5);\n  const [schema, setSchema] = useState(`{\n  \"id\": \"@increment\",\n  \"name\": \"@cname\",\n  \"email\": \"@email\",\n  \"age\": \"@integer(18,60)\",\n  \"address\": \"@county(true)\",\n  \"phone\": \"@phone\",\n  \"avatar\": \"@image('100x100')\",\n  \"isActive\": \"@boolean\"\n}`);\n  const [output, setOutput] = useState('');\n\n  const seoConfig = {\n    title: 'Mock数据生成器',\n    description: 'Mock模拟JSON数据生成器，支持常用数据类型，快速生成测试数据。',\n    keywords: 'Mock数据,模拟数据,JSON生成器,测试数据,假数据生成',\n    jsonLd: createToolJsonLd('Mock数据生成器', 'Mock模拟JSON数据生成器', 'https://yma16.cloud/tools/mock-gen', 'DeveloperApplication'),\n  };\n\n  const mockHandlers: Record<string, () => any> = {\n    '@increment': () => Math.floor(Math.random() * 10000),\n    '@cname': () => ['张三', '李四', '王五', '赵六', '孙七', '周八', '吴九', '郑十'][Math.floor(Math.random() * 8)],\n    '@name': () => ['John', 'Jane', 'Bob', 'Alice', 'Tom', 'Mary'][Math.floor(Math.random() * 6)],\n    '@email': () => `user${Math.floor(Math.random() * 1000)}@example.com`,\n    '@phone': () => `1${[3,4,5,7,8][Math.floor(Math.random()*5)]}${String(Math.random()).slice(2,10)}`,\n    '@integer': (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min,\n    '@float': (min = 0, max = 100) => (Math.random() * (max - min) + min).toFixed(2),\n    '@boolean': () => Math.random() > 0.5,\n    '@date': () => new Date(Date.now() - Math.floor(Math.random() * 10000000000)).toISOString().split('T')[0],\n    '@datetime': () => new Date(Date.now() - Math.floor(Math.random() * 10000000000)).toISOString(),\n    '@image': (size = '100x100') => `https://via.placeholder.com/${size}`,\n    '@color': () => '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0'),\n    '@title': () => ['标题一', '标题二', '标题三', '重要通知', '最新动态'][Math.floor(Math.random() * 5)],\n    '@paragraph': () => '这是一段模拟文本内容，用于测试展示效果。'.repeat(Math.floor(Math.random() * 3) + 1),\n    '@url': () => `https://example.com/page/${Math.floor(Math.random() * 1000)}`,\n    '@ip': () => `192.168.${Math.floor(Math.random()*255)}.${Math.floor(Math.random()*255)}`,\n    '@county': () => ['北京市朝阳区', '上海市浦东新区', '广州市天河区', '深圳市南山区'][Math.floor(Math.random() * 4)],\n  };\n\n  const parseMockValue = (value: string): any => {\n    const match = value.match(/^@(\\w+)(?:\\(([^)]*)\\))?$/);\n    if (!match) return value;\n    const [, handler, args] = match;\n    const handlerFn = mockHandlers[`@${handler}`];\n    if (!handlerFn) return value;\n    if (args) {\n      const parsedArgs = args.split(',').map(a => {\n        const trimmed = a.trim();\n        if (/^\\d+$/.test(trimmed)) return parseInt(trimmed);\n        if (/^\\d+\\.\\d+$/.test(trimmed)) return parseFloat(trimmed);\n        return trimmed.replace(/^['\"]|['\"]$/g, '');\n      });\n      return handlerFn(...parsedArgs);\n    }\n    return handlerFn();\n  };\n\n  const generateMock = (obj: any): any => {\n    if (typeof obj === 'string' && obj.startsWith('@')) {\n      return parseMockValue(obj);\n    }\n    if (Array.isArray(obj)) {\n      return obj.map(generateMock);\n    }\n    if (typeof obj === 'object' && obj !== null) {\n      const result: any = {};\n      for (const [key, value] of Object.entries(obj)) {\n        result[key] = generateMock(value);\n      }\n      return result;\n    }\n    return obj;\n  };\n\n  const generate = () => {\n    try {\n      const parsed = JSON.parse(schema);\n      const result = Array.from({ length: count }, () => generateMock(parsed));\n      setOutput(JSON.stringify(result, null, 2));\n    } catch (e) {\n      message.error('Schema解析失败');\n    }\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><DatabaseOutlined /> Mock数据生成</Title>\n        <Text type=\"secondary\">快速生成模拟JSON测试数据</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"Schema模板\">\n              <Space style={{ marginBottom: 16 }}>\n                <Text>生成数量:</Text>\n                <InputNumber min={1} max={100} value={count} onChange={(v) => setCount(v || 1)} />\n                <Button type=\"primary\" icon={<ReloadOutlined />} onClick={generate}>生成</Button>\n              </Space>\n              <Editor height={350} language=\"json\" value={schema} onChange={(v) => setSchema(v || '')} />\n            </Card>\n          </Col>\n          <Col xs={24} lg={12}>\n            <Card title=\"生成结果\">\n              <Editor height={400} language=\"json\" value={output} options={{ readOnly: true }} />\n              <Space style={{ marginTop: 16 }}>\n                <Button icon={<CopyOutlined />} onClick={() => { navigator.clipboard.writeText(output); message.success('已复制'); }}>复制</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default MockGen;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/mock-gen.tsx"
+    },
+    "16": {
+      "path": "/tools/css-formatter",
+      "title": "CSS格式化",
+      "file": "@/pages/tools/css-formatter.tsx",
+      "parentId": "@@/global-layout",
+      "id": "16",
+      "absPath": "/tools/css-formatter",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Tabs } from 'antd';\nimport { CopyOutlined, FormatPainterOutlined, CompressOutlined, ExpandOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst CssFormatter: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [output, setOutput] = useState('');\n  const [activeTab, setActiveTab] = useState('format');\n\n  const seoConfig = {\n    title: 'CSS格式化压缩工具',\n    description: 'CSS代码格式化、压缩、美化工具，支持一键整理和压缩CSS代码。',\n    keywords: 'CSS格式化,CSS压缩,CSS美化,CSS整理,在线CSS工具',\n    jsonLd: createToolJsonLd('CSS格式化压缩工具', 'CSS代码格式化和压缩工具', 'https://yma16.cloud/tools/css-formatter', 'DeveloperApplication'),\n  };\n\n  const formatCSS = (css: string): string => {\n    let formatted = css\n      .replace(/\\s+/g, ' ')\n      .replace(/\\s*\\{\\s*/g, ' {\\n  ')\n      .replace(/;\\s*/g, ';\\n  ')\n      .replace(/\\s*\\}\\s*/g, '\\n}\\n')\n      .replace(/,\\s*/g, ', ')\n      .replace(/:\\s*/g, ': ')\n      .replace(/\\n\\s*\\n/g, '\\n')\n      .trim();\n    return formatted;\n  };\n\n  const compressCSS = (css: string): string => {\n    return css\n      .replace(/\\/\\*[\\s\\S]*?\\*\\//g, '')\n      .replace(/\\s+/g, ' ')\n      .replace(/\\s*([{}:;,])\\s*/g, '$1')\n      .replace(/;\\}/g, '}')\n      .trim();\n  };\n\n  const handleFormat = () => {\n    try {\n      setOutput(formatCSS(input));\n      message.success('格式化完成');\n    } catch (e) {\n      message.error('格式化失败');\n    }\n  };\n\n  const handleCompress = () => {\n    try {\n      setOutput(compressCSS(input));\n      message.success('压缩完成');\n    } catch (e) {\n      message.error('压缩失败');\n    }\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><FormatPainterOutlined /> CSS格式化压缩</Title>\n        <Text type=\"secondary\">CSS代码格式化、压缩、美化</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"输入CSS\">\n              <Editor height={400} language=\"css\" value={input} onChange={(v) => setInput(v || '')} />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" icon={<ExpandOutlined />} onClick={handleFormat}>格式化</Button>\n                <Button icon={<CompressOutlined />} onClick={handleCompress}>压缩</Button>\n              </Space>\n            </Card>\n          </Col>\n          <Col xs={24} lg={12}>\n            <Card title=\"输出结果\">\n              <Editor height={400} language=\"css\" value={output} options={{ readOnly: true }} />\n              <Space style={{ marginTop: 16 }}>\n                <Button icon={<CopyOutlined />} onClick={() => { navigator.clipboard.writeText(output); message.success('已复制'); }}>复制</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default CssFormatter;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/css-formatter.tsx"
+    },
+    "17": {
+      "path": "/tools/string-escape",
+      "title": "字符串转义",
+      "file": "@/pages/tools/string-escape.tsx",
+      "parentId": "@@/global-layout",
+      "id": "17",
+      "absPath": "/tools/string-escape",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Tabs } from 'antd';\nimport { CopyOutlined, SwapOutlined, ClearOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst StringEscape: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [output, setOutput] = useState('');\n  const [activeTab, setActiveTab] = useState('escape');\n\n  const seoConfig = {\n    title: '字符串Escape转义工具',\n    description: 'HTML/JS字符串Escape转义反转义工具，支持多种转义格式。',\n    keywords: '字符串转义,Escape,HTML转义,JS转义,字符串编码',\n    jsonLd: createToolJsonLd('字符串Escape转义工具', 'HTML/JS字符串转义反转义工具', 'https://yma16.cloud/tools/string-escape', 'DeveloperApplication'),\n  };\n\n  const escapeHTML = (str: string): string => {\n    return str\n      .replace(/&/g, '&amp;')\n      .replace(/</g, '&lt;')\n      .replace(/>/g, '&gt;')\n      .replace(/\"/g, '&quot;')\n      .replace(/'/g, '&#39;');\n  };\n\n  const unescapeHTML = (str: string): string => {\n    return str\n      .replace(/&amp;/g, '&')\n      .replace(/&lt;/g, '<')\n      .replace(/&gt;/g, '>')\n      .replace(/&quot;/g, '\"')\n      .replace(/&#39;/g, \"'\");\n  };\n\n  const escapeJS = (str: string): string => {\n    return JSON.stringify(str);\n  };\n\n  const unescapeJS = (str: string): string => {\n    try {\n      return JSON.parse(str);\n    } catch {\n      return str;\n    }\n  };\n\n  const handleEscape = () => {\n    if (activeTab === 'escape') {\n      setOutput(escapeHTML(input));\n    } else if (activeTab === 'unescape') {\n      setOutput(unescapeHTML(input));\n    } else if (activeTab === 'js-escape') {\n      setOutput(escapeJS(input));\n    } else if (activeTab === 'js-unescape') {\n      setOutput(unescapeJS(input));\n    }\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><SwapOutlined /> 字符串Escape转义</Title>\n        <Text type=\"secondary\">HTML/JS字符串转义与反转义</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"输入\">\n              <Tabs activeKey={activeTab} onChange={setActiveTab}>\n                <Tabs.TabPane tab=\"HTML转义\" key=\"escape\" />\n                <Tabs.TabPane tab=\"HTML反转义\" key=\"unescape\" />\n                <Tabs.TabPane tab=\"JS转义\" key=\"js-escape\" />\n                <Tabs.TabPane tab=\"JS反转义\" key=\"js-unescape\" />\n              </Tabs>\n              <Editor height={350} language=\"text\" value={input} onChange={(v) => setInput(v || '')} />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" onClick={handleEscape}>转换</Button>\n                <Button icon={<ClearOutlined />} onClick={() => setInput('')}>清空</Button>\n              </Space>\n            </Card>\n          </Col>\n          <Col xs={24} lg={12}>\n            <Card title=\"输出\">\n              <Editor height={400} language=\"text\" value={output} options={{ readOnly: true }} />\n              <Space style={{ marginTop: 16 }}>\n                <Button icon={<CopyOutlined />} onClick={() => { navigator.clipboard.writeText(output); message.success('已复制'); }}>复制</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default StringEscape;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/string-escape.tsx"
+    },
+    "18": {
+      "path": "/tools/radix-convert",
+      "title": "进制转换",
+      "file": "@/pages/tools/radix-convert.tsx",
+      "parentId": "@@/global-layout",
+      "id": "18",
+      "absPath": "/tools/radix-convert",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Select } from 'antd';\nimport { CopyOutlined, SwapOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { Option } = Select;\n\nconst RadixConvert: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [fromBase, setFromBase] = useState(10);\n  const [results, setResults] = useState({ bin: '', oct: '', dec: '', hex: '' });\n\n  const seoConfig = {\n    title: '进制转换工具',\n    description: '2/8/10/16进制互相转换器，支持二进制、八进制、十进制、十六进制转换。',\n    keywords: '进制转换,二进制,八进制,十进制,十六进制,2进制,16进制',\n    jsonLd: createToolJsonLd('进制转换工具', '2/8/10/16进制互相转换器', 'https://yma16.cloud/tools/radix-convert', 'DeveloperApplication'),\n  };\n\n  const convert = useCallback(() => {\n    if (!input) return;\n    try {\n      const decimal = parseInt(input, fromBase);\n      if (isNaN(decimal)) throw new Error('Invalid number');\n      setResults({\n        bin: decimal.toString(2),\n        oct: decimal.toString(8),\n        dec: decimal.toString(10),\n        hex: decimal.toString(16).toUpperCase(),\n      });\n    } catch {\n      message.error('输入格式错误');\n    }\n  }, [input, fromBase]);\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><SwapOutlined /> 进制转换</Title>\n        <Text type=\"secondary\">2/8/10/16进制互相转换</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space>\n                <Input value={input} onChange={(e) => setInput(e.target.value)} placeholder=\"输入数字\" style={{ width: 300 }} />\n                <Select value={fromBase} onChange={setFromBase} style={{ width: 120 }}>\n                  <Option value={2}>二进制</Option>\n                  <Option value={8}>八进制</Option>\n                  <Option value={10}>十进制</Option>\n                  <Option value={16}>十六进制</Option>\n                </Select>\n                <Button type=\"primary\" onClick={convert}>转换</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {[\n            { label: '二进制 (BIN)', value: results.bin, base: 2 },\n            { label: '八进制 (OCT)', value: results.oct, base: 8 },\n            { label: '十进制 (DEC)', value: results.dec, base: 10 },\n            { label: '十六进制 (HEX)', value: results.hex, base: 16 },\n          ].map((item) => (\n            <Col xs={24} md={12} lg={6} key={item.base}>\n              <Card title={item.label}>\n                <Text code copyable style={{ wordBreak: 'break-all' }}>{item.value || '-'}</Text>\n                <Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(item.value)} style={{ marginTop: 8 }}>复制</Button>\n              </Card>\n            </Col>\n          ))}\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default RadixConvert;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/radix-convert.tsx"
+    },
+    "19": {
+      "path": "/tools/naming-convert",
+      "title": "命名转换",
+      "file": "@/pages/tools/naming-convert.tsx",
+      "parentId": "@@/global-layout",
+      "id": "19",
+      "absPath": "/tools/naming-convert",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Tag } from 'antd';\nimport { CopyOutlined, SwapOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\ntype NamingStyle = 'camel' | 'pascal' | 'snake' | 'kebab' | 'upper' | 'lower';\n\nconst NamingConvert: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [results, setResults] = useState<Record<NamingStyle, string>>({\n    camel: '', pascal: '', snake: '', kebab: '', upper: '', lower: '',\n  });\n\n  const seoConfig = {\n    title: '命名风格转换器',\n    description: '驼峰、下划线、短横线等命名风格互转工具，支持批量转换。',\n    keywords: '命名风格转换,驼峰命名,下划线命名,短横线命名,camelCase,snake_case',\n    jsonLd: createToolJsonLd('命名风格转换器', '驼峰、下划线、短横线命名风格互转', 'https://yma16.cloud/tools/naming-convert', 'DeveloperApplication'),\n  };\n\n  const toWords = (str: string): string[] => {\n    return str\n      .replace(/([A-Z])/g, ' $1')\n      .replace(/[-_]/g, ' ')\n      .toLowerCase()\n      .trim()\n      .split(/\\s+/)\n      .filter(Boolean);\n  };\n\n  const convert = () => {\n    const words = toWords(input);\n    if (words.length === 0) return;\n\n    setResults({\n      camel: words[0] + words.slice(1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(''),\n      pascal: words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(''),\n      snake: words.join('_'),\n      kebab: words.join('-'),\n      upper: words.join('_').toUpperCase(),\n      lower: words.join('_').toLowerCase(),\n    });\n  };\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  const styles: { key: NamingStyle; label: string; color: string }[] = [\n    { key: 'camel', label: '驼峰 camelCase', color: 'blue' },\n    { key: 'pascal', label: '帕斯卡 PascalCase', color: 'green' },\n    { key: 'snake', label: '下划线 snake_case', color: 'orange' },\n    { key: 'kebab', label: '短横线 kebab-case', color: 'purple' },\n    { key: 'upper', label: '大写 UPPER_CASE', color: 'red' },\n    { key: 'lower', label: '小写 lower_case', color: 'cyan' },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><SwapOutlined /> 命名风格转换</Title>\n        <Text type=\"secondary\">驼峰、下划线、短横线等命名风格互转</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space>\n                <Input value={input} onChange={(e) => setInput(e.target.value)} placeholder=\"输入变量名，如: helloWorld 或 hello-world\" style={{ width: 400 }} />\n                <Button type=\"primary\" onClick={convert}>转换</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {styles.map((s) => (\n            <Col xs={24} md={12} lg={8} key={s.key}>\n              <Card>\n                <Tag color={s.color}>{s.label}</Tag>\n                <div style={{ marginTop: 12 }}>\n                  <Text code copyable style={{ fontSize: 16 }}>{results[s.key] || '-'}</Text>\n                </div>\n                <Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(results[s.key])} style={{ marginTop: 8 }}>复制</Button>\n              </Card>\n            </Col>\n          ))}\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default NamingConvert;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/naming-convert.tsx"
+    },
+    "20": {
+      "path": "/tools/image-convert",
+      "title": "图片转换",
+      "file": "@/pages/tools/image-convert.tsx",
+      "parentId": "@@/global-layout",
+      "id": "20",
+      "absPath": "/tools/image-convert",
+      "__content": "import React, { useState, useRef } from 'react';\nimport { Card, Button, Slider, message, Typography, Space, Upload, Row, Col, Select, Radio } from 'antd';\nimport { UploadOutlined, DownloadOutlined, PictureOutlined, ReloadOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\ntype ImageFormat = 'image/png' | 'image/jpeg' | 'image/webp';\n\nconst ImageConvert: React.FC = () => {\n  const canvasRef = useRef<HTMLCanvasElement>(null);\n  const [image, setImage] = useState<HTMLImageElement | null>(null);\n  const [fileList, setFileList] = useState<UploadFile[]>([]);\n  const [format, setFormat] = useState<ImageFormat>('image/jpeg');\n  const [quality, setQuality] = useState(0.9);\n  const [previewUrl, setPreviewUrl] = useState('');\n  const [convertedUrl, setConvertedUrl] = useState('');\n  const [originalSize, setOriginalSize] = useState(0);\n  const [convertedSize, setConvertedSize] = useState(0);\n\n  const seoConfig = {\n    title: '图片格式转换工具',\n    description: 'PNG/JPG/WebP图片格式转换，支持调节质量下载，纯前端处理不上传服务器。',\n    keywords: '图片格式转换,PNG转JPG,JPG转WebP,图片压缩,图片质量调节',\n    jsonLd: createToolJsonLd('图片格式转换工具', 'PNG/JPG/WebP图片格式转换', 'https://yma16.cloud/tools/image-convert', 'DeveloperApplication'),\n  };\n\n  const handleUpload = (file: File) => {\n    const url = URL.createObjectURL(file);\n    setPreviewUrl(url);\n    setOriginalSize(file.size);\n\n    const img = new Image();\n    img.onload = () => {\n      setImage(img);\n      convertImage(img, format, quality);\n      message.success('图片上传成功');\n    };\n    img.src = url;\n    return false;\n  };\n\n  const convertImage = (img: HTMLImageElement, fmt: ImageFormat, q: number) => {\n    const canvas = document.createElement('canvas');\n    canvas.width = img.width;\n    canvas.height = img.height;\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    // 处理透明背景（JPEG需要白色背景）\n    if (fmt === 'image/jpeg') {\n      ctx.fillStyle = '#ffffff';\n      ctx.fillRect(0, 0, canvas.width, canvas.height);\n    }\n    ctx.drawImage(img, 0, 0);\n\n    const dataUrl = canvas.toDataURL(fmt, q);\n    setConvertedUrl(dataUrl);\n\n    // 计算转换后大小\n    const base64 = dataUrl.split(',')[1];\n    const size = Math.ceil(base64.length * 3 / 4);\n    setConvertedSize(size);\n  };\n\n  const handleFormatChange = (fmt: ImageFormat) => {\n    setFormat(fmt);\n    if (image) {\n      convertImage(image, fmt, quality);\n    }\n  };\n\n  const handleQualityChange = (q: number) => {\n    setQuality(q);\n    if (image) {\n      convertImage(image, format, q);\n    }\n  };\n\n  const handleDownload = () => {\n    if (!convertedUrl) return;\n    const ext = format.split('/')[1];\n    const link = document.createElement('a');\n    link.download = `converted-${Date.now()}.${ext}`;\n    link.href = convertedUrl;\n    link.click();\n    message.success('图片已下载');\n  };\n\n  const handleRemove = () => {\n    setImage(null);\n    setPreviewUrl('');\n    setConvertedUrl('');\n    setFileList([]);\n    setOriginalSize(0);\n    setConvertedSize(0);\n  };\n\n  const formatSize = (bytes: number): string => {\n    if (bytes === 0) return '0 B';\n    const k = 1024;\n    const sizes = ['B', 'KB', 'MB'];\n    const i = Math.floor(Math.log(bytes) / Math.log(k));\n    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><PictureOutlined /> 图片格式转换</Title>\n        <Text type=\"secondary\">PNG/JPG/WebP格式转换，调节质量下载</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>\n                  <Upload\n                    fileList={fileList}\n                    beforeUpload={handleUpload}\n                    onChange={({ fileList }) => setFileList(fileList)}\n                    onRemove={handleRemove}\n                    accept=\"image/*\"\n                    maxCount={1}\n                    listType=\"picture\"\n                  >\n                    <Button icon={<UploadOutlined />}>上传图片</Button>\n                  </Upload>\n                  {image && (\n                    <Button icon={<ReloadOutlined />} onClick={handleRemove}>重新上传</Button>\n                  )}\n                </div>\n\n                {image && (\n                  <>\n                    <Row gutter={24}>\n                      <Col xs={24} md={12}>\n                        <Card size=\"small\" title=\"转换设置\">\n                          <Space direction=\"vertical\" style={{ width: '100%' }}>\n                            <div>\n                              <Text>输出格式:</Text>\n                              <Radio.Group value={format} onChange={(e) => handleFormatChange(e.target.value)} style={{ marginLeft: 16 }}>\n                                <Radio.Button value=\"image/png\">PNG</Radio.Button>\n                                <Radio.Button value=\"image/jpeg\">JPG</Radio.Button>\n                                <Radio.Button value=\"image/webp\">WebP</Radio.Button>\n                              </Radio.Group>\n                            </div>\n                            {format !== 'image/png' && (\n                              <div>\n                                <Text>质量: {Math.round(quality * 100)}%</Text>\n                                <Slider min={0.1} max={1} step={0.05} value={quality} onChange={handleQualityChange} />\n                              </div>\n                            )}\n                          </Space>\n                        </Card>\n                      </Col>\n                      <Col xs={24} md={12}>\n                        <Card size=\"small\" title=\"文件信息\">\n                          <Space direction=\"vertical\">\n                            <Text>原始大小: {formatSize(originalSize)}</Text>\n                            <Text>转换后大小: {formatSize(convertedSize)}</Text>\n                            {convertedSize > 0 && (\n                              <Text type={convertedSize < originalSize ? 'success' : 'warning'}>\n                                {convertedSize < originalSize ? '↓' : '↑'} {Math.abs((convertedSize - originalSize) / originalSize * 100).toFixed(1)}%\n                              </Text>\n                            )}\n                          </Space>\n                        </Card>\n                      </Col>\n                    </Row>\n\n                    <Row gutter={24}>\n                      <Col xs={24} md={12}>\n                        <Card size=\"small\" title=\"原图预览\">\n                          <img src={previewUrl} alt=\"原图\" style={{ maxWidth: '100%', maxHeight: 300, borderRadius: 8 }} />\n                        </Card>\n                      </Col>\n                      <Col xs={24} md={12}>\n                        <Card size=\"small\" title=\"转换后预览\">\n                          {convertedUrl && (\n                            <img src={convertedUrl} alt=\"转换后\" style={{ maxWidth: '100%', maxHeight: 300, borderRadius: 8 }} />\n                          )}\n                        </Card>\n                      </Col>\n                    </Row>\n\n                    <Button type=\"primary\" icon={<DownloadOutlined />} onClick={handleDownload} size=\"large\">\n                      下载转换后的图片\n                    </Button>\n                  </>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default ImageConvert;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/image-convert.tsx"
+    },
+    "21": {
+      "path": "/tools/jwt-parser",
+      "title": "JWT解析",
+      "file": "@/pages/tools/jwt-parser.tsx",
+      "parentId": "@@/global-layout",
+      "id": "21",
+      "absPath": "/tools/jwt-parser",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Tag, Table } from 'antd';\nimport { CopyOutlined, SafetyOutlined, EyeOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst JwtParser: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [header, setHeader] = useState('');\n  const [payload, setPayload] = useState('');\n  const [signature, setSignature] = useState('');\n  const [isValid, setIsValid] = useState<boolean | null>(null);\n\n  const seoConfig = {\n    title: 'JWT Token解析工具',\n    description: 'JWT Token在线解析工具，解析Header、Payload、Signature，验证Token有效性。',\n    keywords: 'JWT解析,JWT Token,Token解析,JWT解码,JSON Web Token',\n    jsonLd: createToolJsonLd('JWT Token解析工具', 'JWT Token在线解析工具', 'https://yma16.cloud/tools/jwt-parser', 'DeveloperApplication'),\n  };\n\n  const parseJWT = () => {\n    if (!input.trim()) {\n      message.warning('请输入JWT Token');\n      return;\n    }\n\n    try {\n      const parts = input.split('.');\n      if (parts.length !== 3) {\n        throw new Error('JWT格式不正确');\n      }\n\n      // 解析Header\n      const headerJson = JSON.parse(atob(parts[0].replace(/-/g, '+').replace(/_/g, '/')));\n      setHeader(JSON.stringify(headerJson, null, 2));\n\n      // 解析Payload\n      const payloadJson = JSON.parse(atob(parts[1].replace(/-/g, '+').replace(/_/g, '/')));\n      setPayload(JSON.stringify(payloadJson, null, 2));\n\n      // 保存Signature\n      setSignature(parts[2]);\n      setIsValid(true);\n\n      // 检查过期时间\n      if (payloadJson.exp) {\n        const expDate = new Date(payloadJson.exp * 1000);\n        const now = new Date();\n        if (expDate < now) {\n          message.warning('Token已过期');\n        } else {\n          message.success('Token有效');\n        }\n      }\n    } catch (e) {\n      setIsValid(false);\n      message.error('JWT解析失败: ' + (e as Error).message);\n    }\n  };\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><SafetyOutlined /> JWT Token解析</Title>\n        <Text type=\"secondary\">解析JWT Token的Header、Payload和Signature</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"JWT Token\">\n              <Editor height={100} language=\"text\" value={input} onChange={(v) => setInput(v || '')} />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" icon={<EyeOutlined />} onClick={parseJWT}>解析</Button>\n                {isValid !== null && (\n                  <Tag color={isValid ? 'success' : 'error'}>{isValid ? '格式有效' : '格式错误'}</Tag>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n        {header && (\n          <Row gutter={24} style={{ marginTop: 24 }}>\n            <Col xs={24} lg={12}>\n              <Card title=\"Header (头部)\" extra={<Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(header)}>复制</Button>}>\n                <Editor height={200} language=\"json\" value={header} options={{ readOnly: true }} />\n              </Card>\n            </Col>\n            <Col xs={24} lg={12}>\n              <Card title=\"Payload (载荷)\" extra={<Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(payload)}>复制</Button>}>\n                <Editor height={200} language=\"json\" value={payload} options={{ readOnly: true }} />\n              </Card>\n            </Col>\n          </Row>\n        )}\n        {signature && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title=\"Signature (签名)\">\n                <Text code copyable style={{ wordBreak: 'break-all' }}>{signature}</Text>\n              </Card>\n            </Col>\n          </Row>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default JwtParser;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/jwt-parser.tsx"
+    },
+    "22": {
+      "path": "/tools/cookie-parser",
+      "title": "Cookie解析",
+      "file": "@/pages/tools/cookie-parser.tsx",
+      "parentId": "@@/global-layout",
+      "id": "22",
+      "absPath": "/tools/cookie-parser",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Table, Tag } from 'antd';\nimport { CopyOutlined, CoffeeOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\ninterface CookieItem {\n  name: string;\n  value: string;\n  domain?: string;\n  path?: string;\n  expires?: string;\n  secure?: boolean;\n  httpOnly?: boolean;\n  sameSite?: string;\n}\n\nconst CookieParser: React.FC = () => {\n  const [input, setInput] = useState('');\n  const [cookies, setCookies] = useState<CookieItem[]>([]);\n\n  const seoConfig = {\n    title: 'Cookie解析工具',\n    description: 'Cookie字符串解析工具，解析Cookie名称、值、过期时间、安全属性等。',\n    keywords: 'Cookie解析,Cookie工具,Cookie字符串,Cookie分析',\n    jsonLd: createToolJsonLd('Cookie解析工具', 'Cookie字符串解析工具', 'https://yma16.cloud/tools/cookie-parser', 'DeveloperApplication'),\n  };\n\n  const parseCookie = () => {\n    if (!input.trim()) {\n      message.warning('请输入Cookie字符串');\n      return;\n    }\n\n    const items: CookieItem[] = [];\n    const pairs = input.split(';');\n\n    pairs.forEach((pair, index) => {\n      const trimmed = pair.trim();\n      if (!trimmed) return;\n\n      const eqIndex = trimmed.indexOf('=');\n      if (eqIndex === -1) {\n        // 可能是属性标记\n        const lower = trimmed.toLowerCase();\n        if (index > 0) {\n          const lastItem = items[items.length - 1];\n          if (lower === 'secure') lastItem.secure = true;\n          if (lower === 'httponly') lastItem.httpOnly = true;\n          if (lower.startsWith('samesite=')) lastItem.sameSite = trimmed.split('=')[1];\n        }\n        return;\n      }\n\n      const name = trimmed.substring(0, eqIndex).trim();\n      const value = trimmed.substring(eqIndex + 1).trim();\n\n      if (index === 0 || !['domain', 'path', 'expires', 'max-age'].includes(name.toLowerCase())) {\n        items.push({ name, value });\n      } else if (items.length > 0) {\n        const lastItem = items[items.length - 1];\n        const lowerName = name.toLowerCase();\n        if (lowerName === 'domain') lastItem.domain = value;\n        if (lowerName === 'path') lastItem.path = value;\n        if (lowerName === 'expires') lastItem.expires = value;\n      }\n    });\n\n    setCookies(items);\n    message.success(`解析出 ${items.length} 个Cookie`);\n  };\n\n  const columns = [\n    { title: '名称', dataIndex: 'name', key: 'name' },\n    { title: '值', dataIndex: 'value', key: 'value', ellipsis: true },\n    { title: 'Domain', dataIndex: 'domain', key: 'domain' },\n    { title: 'Path', dataIndex: 'path', key: 'path' },\n    { title: 'Expires', dataIndex: 'expires', key: 'expires' },\n    {\n      title: '属性',\n      key: 'attrs',\n      render: (_: any, record: CookieItem) => (\n        <Space>\n          {record.secure && <Tag color=\"green\">Secure</Tag>}\n          {record.httpOnly && <Tag color=\"blue\">HttpOnly</Tag>}\n          {record.sameSite && <Tag color=\"orange\">{record.sameSite}</Tag>}\n        </Space>\n      ),\n    },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><CoffeeOutlined /> Cookie解析</Title>\n        <Text type=\"secondary\">解析Cookie字符串，查看名称、值和属性</Text>\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"Cookie字符串\">\n              <Editor height={150} language=\"text\" value={input} onChange={(v) => setInput(v || '')} />\n              <Space style={{ marginTop: 16 }}>\n                <Button type=\"primary\" onClick={parseCookie}>解析</Button>\n                <Button onClick={() => { setInput(''); setCookies([]); }}>清空</Button>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n        {cookies.length > 0 && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title={`解析结果 (${cookies.length}个)`}>\n                <Table dataSource={cookies} columns={columns} rowKey=\"name\" size=\"small\" pagination={false} />\n              </Card>\n            </Col>\n          </Row>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default CookieParser;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/cookie-parser.tsx"
+    },
+    "23": {
+      "path": "/tools/qrcode-tool",
+      "title": "二维码工具",
+      "file": "@/pages/tools/qrcode-tool.tsx",
+      "parentId": "@@/global-layout",
+      "id": "23",
+      "absPath": "/tools/qrcode-tool",
+      "__content": "import React, { useState, useRef, useEffect } from 'react';\nimport { Card, Button, Input, message, Typography, Space, Row, Col, Tabs, Upload, Slider } from 'antd';\nimport { CopyOutlined, QrcodeOutlined, UploadOutlined, DownloadOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\n// 简单的二维码生成实现\nconst generateQRCode = (text: string, size: number, color: string, bgColor: string): string => {\n  const canvas = document.createElement('canvas');\n  const ctx = canvas.getContext('2d');\n  if (!ctx) return '';\n\n  canvas.width = size;\n  canvas.height = size;\n\n  // 背景\n  ctx.fillStyle = bgColor;\n  ctx.fillRect(0, 0, size, size);\n\n  // 使用简单的图案模拟二维码\n  const cellSize = Math.floor(size / 25);\n  const margin = Math.floor((size - cellSize * 21) / 2);\n\n  // 生成伪随机但确定性的图案\n  const seed = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);\n  const random = (n: number) => {\n    const x = Math.sin(seed + n) * 10000;\n    return x - Math.floor(x);\n  };\n\n  ctx.fillStyle = color;\n\n  // 定位图案（三个角）\n  const drawPositionPattern = (x: number, y: number) => {\n    // 外框\n    for (let i = 0; i < 7; i++) {\n      for (let j = 0; j < 7; j++) {\n        if (i === 0 || i === 6 || j === 0 || j === 6 || (i >= 2 && i <= 4 && j >= 2 && j <= 4)) {\n          ctx.fillRect(margin + (x + i) * cellSize, margin + (y + j) * cellSize, cellSize, cellSize);\n        }\n      }\n    }\n  };\n\n  drawPositionPattern(0, 0);\n  drawPositionPattern(14, 0);\n  drawPositionPattern(0, 14);\n\n  // 数据区域\n  for (let i = 0; i < 21; i++) {\n    for (let j = 0; j < 21; j++) {\n      // 跳过定位图案区域\n      if ((i < 7 && j < 7) || (i > 13 && j < 7) || (i < 7 && j > 13)) continue;\n\n      const idx = i * 21 + j;\n      if (random(idx) > 0.5) {\n        ctx.fillRect(margin + i * cellSize, margin + j * cellSize, cellSize, cellSize);\n      }\n    }\n  }\n\n  return canvas.toDataURL('image/png');\n};\n\nconst QRCodeTool: React.FC = () => {\n  const [text, setText] = useState('https://yma16.cloud');\n  const [qrCodeUrl, setQrCodeUrl] = useState('');\n  const [size, setSize] = useState(256);\n  const [color, setColor] = useState('#000000');\n  const [bgColor, setBgColor] = useState('#ffffff');\n  const [decodeText, setDecodeText] = useState('');\n  const [decodeResult, setDecodeResult] = useState('');\n\n  const seoConfig = {\n    title: '二维码生成解析工具',\n    description: '二维码生成和解析工具，支持自定义颜色、大小，上传图片解析二维码内容。',\n    keywords: '二维码生成,二维码解析,QR Code,二维码工具,QR生成器',\n    jsonLd: createToolJsonLd('二维码生成解析工具', '二维码生成和解析工具', 'https://yma16.cloud/tools/qrcode-tool', 'DeveloperApplication'),\n  };\n\n  useEffect(() => {\n    generate();\n  }, []);\n\n  const generate = () => {\n    if (!text) return;\n    const url = generateQRCode(text, size, color, bgColor);\n    setQrCodeUrl(url);\n  };\n\n  const handleDownload = () => {\n    if (!qrCodeUrl) return;\n    const link = document.createElement('a');\n    link.download = `qrcode-${Date.now()}.png`;\n    link.href = qrCodeUrl;\n    link.click();\n    message.success('二维码已下载');\n  };\n\n  const handleDecodeUpload = (file: File) => {\n    const url = URL.createObjectURL(file);\n    setDecodeText(url);\n    // 模拟解析结果\n    setDecodeResult('https://example.com (模拟解析结果，实际需接入二维码解析库)');\n    return false;\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><QrcodeOutlined /> 二维码工具</Title>\n        <Text type=\"secondary\">生成和解析二维码</Text>\n\n        <Tabs defaultActiveKey=\"generate\" style={{ marginTop: 24 }}>\n          <Tabs.TabPane tab=\"生成二维码\" key=\"generate\">\n            <Row gutter={24}>\n              <Col xs={24} lg={12}>\n                <Card title=\"设置\">\n                  <Space direction=\"vertical\" style={{ width: '100%' }}>\n                    <div>\n                      <Text>内容:</Text>\n                      <Input.TextArea value={text} onChange={(e) => setText(e.target.value)} rows={3} />\n                    </div>\n                    <div>\n                      <Text>尺寸: {size}px</Text>\n                      <Slider min={128} max={512} step={16} value={size} onChange={setSize} />\n                    </div>\n                    <div>\n                      <Text>前景色:</Text>\n                      <input type=\"color\" value={color} onChange={(e) => setColor(e.target.value)} style={{ marginLeft: 8 }} />\n                    </div>\n                    <div>\n                      <Text>背景色:</Text>\n                      <input type=\"color\" value={bgColor} onChange={(e) => setBgColor(e.target.value)} style={{ marginLeft: 8 }} />\n                    </div>\n                    <Button type=\"primary\" onClick={generate}>生成</Button>\n                  </Space>\n                </Card>\n              </Col>\n              <Col xs={24} lg={12}>\n                <Card title=\"预览\">\n                  {qrCodeUrl && (\n                    <div style={{ textAlign: 'center' }}>\n                      <img src={qrCodeUrl} alt=\"QR Code\" style={{ maxWidth: '100%' }} />\n                      <Button icon={<DownloadOutlined />} onClick={handleDownload} style={{ marginTop: 16 }}>下载</Button>\n                    </div>\n                  )}\n                </Card>\n              </Col>\n            </Row>\n          </Tabs.TabPane>\n\n          <Tabs.TabPane tab=\"解析二维码\" key=\"decode\">\n            <Row gutter={24}>\n              <Col xs={24} lg={12}>\n                <Card title=\"上传二维码图片\">\n                  <Upload beforeUpload={handleDecodeUpload} accept=\"image/*\" maxCount={1} listType=\"picture\">\n                    <Button icon={<UploadOutlined />}>上传图片</Button>\n                  </Upload>\n                </Card>\n              </Col>\n              <Col xs={24} lg={12}>\n                <Card title=\"解析结果\">\n                  <Text code copyable>{decodeResult || '请上传二维码图片'}</Text>\n                </Card>\n              </Col>\n            </Row>\n          </Tabs.TabPane>\n        </Tabs>\n      </div>\n    </>\n  );\n};\n\nexport default QRCodeTool;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/qrcode-tool.tsx"
+    },
+    "24": {
+      "path": "/tools/regex-lib",
+      "title": "正则模板",
+      "file": "@/pages/tools/regex-lib.tsx",
+      "parentId": "@@/global-layout",
+      "id": "24",
+      "absPath": "/tools/regex-lib",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, Tag, Input } from 'antd';\nimport { CopyOutlined, BookOutlined, SearchOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\ninterface RegexTemplate {\n  name: string;\n  pattern: string;\n  desc: string;\n  tags: string[];\n}\n\nconst templates: RegexTemplate[] = [\n  { name: '手机号', pattern: '^1[3-9]\\\\d{9}$', desc: '中国大陆手机号', tags: ['常用'] },\n  { name: '邮箱', pattern: '^[\\\\w-]+(\\\\.[\\\\w-]+)*@[\\\\w-]+(\\\\.[\\\\w-]+)+$', desc: '电子邮箱地址', tags: ['常用'] },\n  { name: '身份证号', pattern: '^[1-9]\\\\d{5}(18|19|20)\\\\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\\\\d{3}[0-9Xx]$', desc: '中国大陆身份证号', tags: ['常用'] },\n  { name: 'URL', pattern: '^https?://[\\\\w-]+(\\\\.[\\\\w-]+)+([\\\\w.,@?^=%&:/~+#-]*[\\\\w@?^=%&/~+#-])?$', desc: 'HTTP/HTTPS URL', tags: ['常用'] },\n  { name: 'IP地址', pattern: '^((25[0-5]|2[0-4]\\\\d|[01]?\\\\d\\\\d?)\\\\.){3}(25[0-5]|2[0-4]\\\\d|[01]?\\\\d\\\\d?)$', desc: 'IPv4地址', tags: ['网络'] },\n  { name: '中文字符', pattern: '[\\\\u4e00-\\\\u9fa5]+', desc: '匹配中文字符', tags: ['文本'] },\n  { name: '数字', pattern: '^\\\\d+$', desc: '纯数字', tags: ['常用'] },\n  { name: '字母', pattern: '^[a-zA-Z]+$', desc: '纯字母', tags: ['常用'] },\n  { name: '字母数字', pattern: '^[a-zA-Z0-9]+$', desc: '字母和数字', tags: ['常用'] },\n  { name: '密码强度', pattern: '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\\\d)[a-zA-Z\\\\d@$!%*?&]{8,}$', desc: '至少8位，包含大小写字母和数字', tags: ['安全'] },\n  { name: '日期(YYYY-MM-DD)', pattern: '^\\\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\\\d|3[01])$', desc: '标准日期格式', tags: ['时间'] },\n  { name: '时间(HH:MM:SS)', pattern: '^([01]\\\\d|2[0-3]):[0-5]\\\\d:[0-5]\\\\d$', desc: '24小时制时间', tags: ['时间'] },\n  { name: 'MAC地址', pattern: '^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$', desc: 'MAC地址', tags: ['网络'] },\n  { name: 'Hex颜色', pattern: '^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$', desc: '十六进制颜色值', tags: ['颜色'] },\n  { name: 'HTML标签', pattern: '<[^>]+>', desc: '匹配HTML标签', tags: ['HTML'] },\n];\n\nconst RegexLib: React.FC = () => {\n  const [search, setSearch] = useState('');\n\n  const seoConfig = {\n    title: '正则常用模板库',\n    description: '常用正则表达式模板库，包含手机号、邮箱、身份证、URL等常用正则模板，一键复制使用。',\n    keywords: '正则模板,正则表达式库,常用正则,手机号正则,邮箱正则,身份证正则',\n    jsonLd: createToolJsonLd('正则常用模板库', '常用正则表达式模板库', 'https://yma16.cloud/tools/regex-lib', 'DeveloperApplication'),\n  };\n\n  const filtered = templates.filter(t =>\n    t.name.includes(search) || t.desc.includes(search) || t.tags.some(tag => tag.includes(search))\n  );\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><BookOutlined /> 正则模板库</Title>\n        <Text type=\"secondary\">常用正则表达式模板，一键复制</Text>\n\n        <Card style={{ marginTop: 24, marginBottom: 24 }}>\n          <Input\n            placeholder=\"搜索模板...\"\n            value={search}\n            onChange={(e) => setSearch(e.target.value)}\n            prefix={<SearchOutlined />}\n            style={{ width: 300 }}\n          />\n        </Card>\n\n        <Row gutter={[16, 16]}>\n          {filtered.map((item) => (\n            <Col xs={24} md={12} lg={8} key={item.name}>\n              <Card\n                size=\"small\"\n                title={item.name}\n                extra={\n                  <Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(item.pattern)}>\n                    复制\n                  </Button>\n                }\n              >\n                <Text code copyable style={{ wordBreak: 'break-all', display: 'block', marginBottom: 8 }}>\n                  {item.pattern}\n                </Text>\n                <Text type=\"secondary\">{item.desc}</Text>\n                <div style={{ marginTop: 8 }}>\n                  {item.tags.map(tag => (\n                    <Tag key={tag} color=\"blue\">{tag}</Tag>\n                  ))}\n                </div>\n              </Card>\n            </Col>\n          ))}\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default RegexLib;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/regex-lib.tsx"
+    },
+    "25": {
+      "path": "/tools/random-string",
+      "title": "随机字符串",
+      "file": "@/pages/tools/random-string.tsx",
+      "parentId": "@@/global-layout",
+      "id": "25",
+      "absPath": "/tools/random-string",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Button, message, Typography, Space, Row, Col, InputNumber, Checkbox, Input } from 'antd';\nimport { CopyOutlined, ReloadOutlined, KeyOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst RandomString: React.FC = () => {\n  const [length, setLength] = useState(16);\n  const [count, setCount] = useState(5);\n  const [useUpper, setUseUpper] = useState(true);\n  const [useLower, setUseLower] = useState(true);\n  const [useNumber, setUseNumber] = useState(true);\n  const [useSpecial, setUseSpecial] = useState(false);\n  const [customChars, setCustomChars] = useState('');\n  const [results, setResults] = useState<string[]>([]);\n\n  const seoConfig = {\n    title: '随机字符串生成器',\n    description: '随机字符串生成器，支持自定义字符集、长度、生成数量，可用于密码、密钥、验证码生成。',\n    keywords: '随机字符串,密码生成器,随机密码,密钥生成,验证码生成',\n    jsonLd: createToolJsonLd('随机字符串生成器', '随机字符串和密码生成器', 'https://yma16.cloud/tools/random-string', 'DeveloperApplication'),\n  };\n\n  const generate = () => {\n    let chars = customChars;\n    if (!customChars) {\n      if (useLower) chars += 'abcdefghijklmnopqrstuvwxyz';\n      if (useUpper) chars += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n      if (useNumber) chars += '0123456789';\n      if (useSpecial) chars += '!@#$%^&*()_+-=[]{}|;:,.<>?';\n    }\n\n    if (!chars) {\n      message.warning('请选择字符集或输入自定义字符');\n      return;\n    }\n\n    const arr: string[] = [];\n    for (let i = 0; i < count; i++) {\n      let str = '';\n      for (let j = 0; j < length; j++) {\n        str += chars.charAt(Math.floor(Math.random() * chars.length));\n      }\n      arr.push(str);\n    }\n    setResults(arr);\n  };\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  const copyAll = () => {\n    navigator.clipboard.writeText(results.join('\\n'));\n    message.success('全部已复制');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><KeyOutlined /> 随机字符串生成</Title>\n        <Text type=\"secondary\">自定义字符集、长度、生成数量</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col xs={24} lg={12}>\n            <Card title=\"设置\">\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Space>\n                  <Text>长度:</Text>\n                  <InputNumber min={1} max={128} value={length} onChange={(v) => setLength(v || 1)} />\n                  <Text>数量:</Text>\n                  <InputNumber min={1} max={50} value={count} onChange={(v) => setCount(v || 1)} />\n                </Space>\n\n                <div>\n                  <Text>字符集:</Text>\n                  <Space style={{ marginLeft: 16 }}>\n                    <Checkbox checked={useLower} onChange={(e) => setUseLower(e.target.checked)}>小写字母</Checkbox>\n                    <Checkbox checked={useUpper} onChange={(e) => setUseUpper(e.target.checked)}>大写字母</Checkbox>\n                    <Checkbox checked={useNumber} onChange={(e) => setUseNumber(e.target.checked)}>数字</Checkbox>\n                    <Checkbox checked={useSpecial} onChange={(e) => setUseSpecial(e.target.checked)}>特殊字符</Checkbox>\n                  </Space>\n                </div>\n\n                <div>\n                  <Text>自定义字符:</Text>\n                  <Input\n                    placeholder=\"输入自定义字符集，将覆盖上方选择\"\n                    value={customChars}\n                    onChange={(e) => setCustomChars(e.target.value)}\n                    style={{ marginTop: 8 }}\n                  />\n                </div>\n\n                <Button type=\"primary\" icon={<ReloadOutlined />} onClick={generate}>生成</Button>\n              </Space>\n            </Card>\n          </Col>\n          <Col xs={24} lg={12}>\n            <Card\n              title=\"生成结果\"\n              extra={results.length > 0 && <Button size=\"small\" icon={<CopyOutlined />} onClick={copyAll}>复制全部</Button>}\n            >\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                {results.map((item, idx) => (\n                  <Card key={idx} size=\"small\">\n                    <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n                      <Text code copyable style={{ fontSize: 14 }}>{item}</Text>\n                      <Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(item)}>复制</Button>\n                    </Space>\n                  </Card>\n                ))}\n                {results.length === 0 && <Text type=\"secondary\">点击生成按钮创建随机字符串</Text>}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default RandomString;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/random-string.tsx"
+    },
+    "26": {
+      "path": "/tools/unit-convert",
+      "title": "单位换算",
+      "file": "@/pages/tools/unit-convert.tsx",
+      "parentId": "@@/global-layout",
+      "id": "26",
+      "absPath": "/tools/unit-convert",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Input, Button, message, Typography, Space, Select } from 'antd';\nimport { CopyOutlined, ColumnWidthOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\nconst { Option } = Select;\n\nconst UnitConvert: React.FC = () => {\n  const [pxValue, setPxValue] = useState(16);\n  const [rootFontSize, setRootFontSize] = useState(16);\n  const [results, setResults] = useState({ rem: 1, em: 1, px: 16, vw: 1, vh: 1 });\n\n  const seoConfig = {\n    title: 'CSS单位换算器',\n    description: 'CSS px/rem/em/vw/vh单位换算器，支持互相转换，前端开发常用工具。',\n    keywords: 'CSS单位换算,px转rem,rem转px,em换算,vw换算,前端单位转换',\n    jsonLd: createToolJsonLd('CSS单位换算器', 'CSS px/rem/em/vw/vh单位换算工具', 'https://yma16.cloud/tools/unit-convert', 'DeveloperApplication'),\n  };\n\n  const calculate = useCallback((px: number, root: number) => {\n    setResults({\n      rem: parseFloat((px / root).toFixed(4)),\n      em: parseFloat((px / root).toFixed(4)),\n      px: px,\n      vw: parseFloat((px / 19.2).toFixed(4)), // 假设1920px设计稿\n      vh: parseFloat((px / 10.8).toFixed(4)), // 假设1080px设计稿\n    });\n  }, []);\n\n  const handlePxChange = (value: number) => {\n    setPxValue(value);\n    calculate(value, rootFontSize);\n  };\n\n  const handleRootChange = (value: number) => {\n    setRootFontSize(value);\n    calculate(pxValue, value);\n  };\n\n  const copy = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制');\n  };\n\n  const units = [\n    { label: 'PX', value: results.px, css: `${results.px}px` },\n    { label: 'REM', value: results.rem, css: `${results.rem}rem` },\n    { label: 'EM', value: results.em, css: `${results.em}em` },\n    { label: 'VW', value: results.vw, css: `${results.vw}vw` },\n    { label: 'VH', value: results.vh, css: `${results.vh}vh` },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><ColumnWidthOutlined /> CSS单位换算</Title>\n        <Text type=\"secondary\">px/rem/em/vw/vh 互相转换</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space size=\"large\">\n                <Space>\n                  <Text>PX值:</Text>\n                  <Input type=\"number\" value={pxValue} onChange={(e) => handlePxChange(Number(e.target.value))} style={{ width: 120 }} />\n                </Space>\n                <Space>\n                  <Text>根字体大小:</Text>\n                  <Input type=\"number\" value={rootFontSize} onChange={(e) => handleRootChange(Number(e.target.value))} style={{ width: 120 }} />\n                  <Text type=\"secondary\">px (默认16px)</Text>\n                </Space>\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {units.map((unit) => (\n            <Col xs={12} md={8} lg={4} key={unit.label}>\n              <Card title={unit.label}>\n                <Text strong style={{ fontSize: 24 }}>{unit.value}</Text>\n                <div style={{ marginTop: 8 }}>\n                  <Text code copyable>{unit.css}</Text>\n                </div>\n                <Button size=\"small\" icon={<CopyOutlined />} onClick={() => copy(unit.css)} style={{ marginTop: 8 }}>复制</Button>\n              </Card>\n            </Col>\n          ))}\n        </Row>\n\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"常用换算表 (根字体16px)\">\n              <Row gutter={[16, 16]}>\n                {[...Array(10)].map((_, i) => {\n                  const px = (i + 1) * 4;\n                  return (\n                    <Col span={6} key={px}>\n                      <Text>{px}px = {px / 16}rem</Text>\n                    </Col>\n                  );\n                })}\n              </Row>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default UnitConvert;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/unit-convert.tsx"
+    },
+    "27": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "14",
+      "id": "27",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "15": {
+    "28": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "15",
+      "id": "28",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"合作与服务\"\n        description=\"yma16 提供前端技术咨询、项目合作、技术培训和开源贡献等服务，欢迎联系合作。\"\n        keywords=\"前端技术咨询,项目合作,技术培训,React开发,Vue开发,前端架构\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,
