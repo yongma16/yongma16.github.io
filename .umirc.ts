@@ -54,6 +54,7 @@ export default defineConfig({
     { path: '/tools/random-string', component: '@/pages/tools/random-string', title: '随机字符串' },
     { path: '/tools/unit-convert', component: '@/pages/tools/unit-convert', title: '单位换算' },
     { path: '/tools/ai-debug', component: '@/pages/tools/ai-debug', title: 'AI调试' },
+    { path: '/tools/perf-monitor', component: '@/pages/tools/perf-monitor', title: '性能监控' },
     { path: '/blog', component: '@/pages/blog', title: '技术博客' },
     { path: '/pricing', component: '@/pages/pricing', title: '合作' },
   ],

@@ -29,6 +29,7 @@ import {
   KeyOutlined,
   ColumnWidthOutlined,
   BugOutlined,
+  DashboardOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -208,6 +209,13 @@ const tools = [
     icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,
     desc: 'Mock流式模拟 + 真实API请求调试',
     path: '/tools/ai-debug',
+    tags: ['免费', 'NEW'],
+  },
+  {
+    title: '性能监控',
+    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,
+    desc: '前端可视化性能监控与浏览器压力测试',
+    path: '/tools/perf-monitor',
     tags: ['免费', 'NEW'],
   },
 ];

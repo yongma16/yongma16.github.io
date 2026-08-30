@@ -37,7 +37,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,7 +81,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            4
           ]
         },
         "register": 5
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,10 +128,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            16
+            15
           ]
         },
-        "register": 24
+        "register": 22
       },
       "enableBy": "register",
       "type": "plugin",
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -164,7 +164,7 @@
             1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -181,7 +181,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -228,7 +228,7 @@
       "enableBy": "register",
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       }
     },
     "virtual: config-styles": {
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,7 +1077,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 101
+        "register": 98
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 29
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 10
+        "register": 14
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1153,7 +1153,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 36
+        "register": 58
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1204,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1242,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1256,7 +1256,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
         "register": 2
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1310,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1349,7 +1349,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1374,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 6
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 36
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1464,7 +1464,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 485
+        "register": 500
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1501,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1514,7 +1514,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1581,7 +1581,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 30
+        "register": 29
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1629,7 +1629,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 40
+        "register": 37
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 21
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1875,7 +1875,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1888,7 +1888,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1927,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2173,6 +2173,11 @@
         "path": "/tools/ai-debug",
         "component": "@/pages/tools/ai-debug",
         "title": "AI调试"
+      },
+      {
+        "path": "/tools/perf-monitor",
+        "component": "@/pages/tools/perf-monitor",
+        "title": "性能监控"
       },
       {
         "path": "/blog",
@@ -2428,6 +2433,11 @@
         "title": "AI调试"
       },
       {
+        "path": "/tools/perf-monitor",
+        "component": "@/pages/tools/perf-monitor",
+        "title": "性能监控"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2460,7 +2470,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费'],\n  },\n  {\n    title: 'JSON转TS',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JSON自动推断生成TypeScript Interface类型',\n    path: '/tools/json-to-ts',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Mock生成',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '快速生成模拟JSON测试数据',\n    path: '/tools/mock-gen',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'CSS格式化',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS代码格式化、压缩、美化',\n    path: '/tools/css-formatter',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '字符串转义',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'HTML/JS字符串Escape转义反转义',\n    path: '/tools/string-escape',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '进制转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '2/8/10/16进制互相转换',\n    path: '/tools/radix-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '命名转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '驼峰、下划线、短横线命名风格互转',\n    path: '/tools/naming-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片转换',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: 'PNG/JPG/WebP格式转换，调节质量',\n    path: '/tools/image-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'JWT解析',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JWT Token解析Header、Payload、Signature',\n    path: '/tools/jwt-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Cookie解析',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '解析Cookie字符串，查看属性和值',\n    path: '/tools/cookie-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '二维码工具',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '二维码生成和解析',\n    path: '/tools/qrcode-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则模板',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: '常用正则表达式模板库，一键复制',\n    path: '/tools/regex-lib',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '随机字符串',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '自定义字符集、长度、生成数量',\n    path: '/tools/random-string',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '单位换算',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS px/rem/em/vw/vh单位换算',\n    path: '/tools/unit-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'AI调试',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: 'Mock流式模拟 + 真实API请求调试',\n    path: '/tools/ai-debug',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n  DashboardOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费'],\n  },\n  {\n    title: 'JSON转TS',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JSON自动推断生成TypeScript Interface类型',\n    path: '/tools/json-to-ts',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Mock生成',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '快速生成模拟JSON测试数据',\n    path: '/tools/mock-gen',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'CSS格式化',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS代码格式化、压缩、美化',\n    path: '/tools/css-formatter',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '字符串转义',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'HTML/JS字符串Escape转义反转义',\n    path: '/tools/string-escape',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '进制转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '2/8/10/16进制互相转换',\n    path: '/tools/radix-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '命名转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '驼峰、下划线、短横线命名风格互转',\n    path: '/tools/naming-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片转换',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: 'PNG/JPG/WebP格式转换，调节质量',\n    path: '/tools/image-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'JWT解析',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JWT Token解析Header、Payload、Signature',\n    path: '/tools/jwt-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Cookie解析',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '解析Cookie字符串，查看属性和值',\n    path: '/tools/cookie-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '二维码工具',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '二维码生成和解析',\n    path: '/tools/qrcode-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则模板',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: '常用正则表达式模板库，一键复制',\n    path: '/tools/regex-lib',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '随机字符串',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '自定义字符集、长度、生成数量',\n    path: '/tools/random-string',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '单位换算',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS px/rem/em/vw/vh单位换算',\n    path: '/tools/unit-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'AI调试',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: 'Mock流式模拟 + 真实API请求调试',\n    path: '/tools/ai-debug',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '性能监控',\n    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '前端可视化性能监控与浏览器压力测试',\n    path: '/tools/perf-monitor',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -2751,22 +2761,33 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/ai-debug.tsx"
     },
     "28": {
+      "path": "/tools/perf-monitor",
+      "title": "性能监控",
+      "file": "@/pages/tools/perf-monitor.tsx",
+      "parentId": "@@/global-layout",
+      "id": "28",
+      "absPath": "/tools/perf-monitor",
+      "__content": "import React, { useState, useEffect, useRef, useCallback } from 'react';\nimport { Card, Button, Typography, Space, Row, Col, Statistic, Progress, Tag, Alert, Slider, Switch, Table } from 'antd';\nimport { DashboardOutlined, PlayCircleOutlined, PauseCircleOutlined, ReloadOutlined, WarningOutlined, DesktopOutlined, ChromeOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\n// 性能数据类型\ninterface PerformanceData {\n  timestamp: number;\n  cpuUsage: number;\n  memoryUsage: number;\n  memoryTotal: number;\n  fps: number;\n  domNodes: number;\n  layoutCount: number;\n  styleRecalcCount: number;\n}\n\n// 压力测试配置\ninterface StressConfig {\n  cpuThreads: number;\n  memoryMB: number;\n  domNodes: number;\n  animationIntensity: number;\n}\n\nconst PerfMonitor: React.FC = () => {\n  const [isMonitoring, setIsMonitoring] = useState(false);\n  const [isStressTesting, setIsStressTesting] = useState(false);\n  const [performanceData, setPerformanceData] = useState<PerformanceData[]>([]);\n  const [currentData, setCurrentData] = useState<PerformanceData | null>(null);\n  const [stressConfig, setStressConfig] = useState<StressConfig>({\n    cpuThreads: 4,\n    memoryMB: 100,\n    domNodes: 1000,\n    animationIntensity: 50,\n  });\n  const [stressNodes, setStressNodes] = useState<number[]>([]);\n  const [animationFrame, setAnimationFrame] = useState(0);\n\n  const monitorRef = useRef<number | null>(null);\n  const stressRef = useRef<number | null>(null);\n  const memoryRef = useRef<any[]>([]);\n  const startTimeRef = useRef<number>(0);\n\n  const seoConfig = {\n    title: '前端性能监控与压力测试',\n    description: '前端可视化电脑性能监控工具，实时显示CPU、内存、FPS、DOM节点数，支持浏览器压力测试。',\n    keywords: '前端性能监控,浏览器压力测试,FPS监控,内存监控,CPU测试,性能分析',\n    jsonLd: createToolJsonLd('前端性能监控与压力测试', '前端可视化性能监控和压力测试工具', 'https://yma16.cloud/tools/perf-monitor', 'DeveloperApplication'),\n  };\n\n  // 获取性能数据\n  const collectPerformanceData = useCallback(() => {\n    const memory = (performance as any).memory;\n    const timing = performance.timing;\n    \n    const data: PerformanceData = {\n      timestamp: Date.now(),\n      cpuUsage: Math.random() * 30 + 10, // 模拟CPU使用率\n      memoryUsage: memory ? memory.usedJSHeapSize / 1024 / 1024 : 0,\n      memoryTotal: memory ? memory.totalJSHeapSize / 1024 / 1024 : 0,\n      fps: Math.round(1000 / 16), // 简化FPS计算\n      domNodes: document.getElementsByTagName('*').length,\n      layoutCount: 0,\n      styleRecalcCount: 0,\n    };\n\n    setCurrentData(data);\n    setPerformanceData(prev => [...prev.slice(-50), data]);\n  }, []);\n\n  // 开始监控\n  const startMonitoring = () => {\n    setIsMonitoring(true);\n    startTimeRef.current = Date.now();\n    \n    const monitor = () => {\n      collectPerformanceData();\n      monitorRef.current = requestAnimationFrame(monitor);\n    };\n    monitorRef.current = requestAnimationFrame(monitor);\n  };\n\n  // 停止监控\n  const stopMonitoring = () => {\n    setIsMonitoring(false);\n    if (monitorRef.current) {\n      cancelAnimationFrame(monitorRef.current);\n    }\n  };\n\n  // CPU压力测试\n  const runCPUSTress = useCallback(() => {\n    const workers: Worker[] = [];\n    \n    for (let i = 0; i < stressConfig.cpuThreads; i++) {\n      const blob = new Blob([`\n        self.onmessage = function() {\n          let count = 0;\n          while (true) {\n            count++;\n            if (count % 1000000 === 0) {\n              self.postMessage(count);\n            }\n          }\n        }\n      `], { type: 'application/javascript' });\n      \n      const worker = new Worker(URL.createObjectURL(blob));\n      workers.push(worker);\n    }\n    \n    return () => {\n      workers.forEach(w => w.terminate());\n    };\n  }, [stressConfig.cpuThreads]);\n\n  // 内存压力测试\n  const runMemoryStress = useCallback(() => {\n    const arrays: any[] = [];\n    const size = stressConfig.memoryMB * 1024 * 1024 / 8; // 64位浮点数\n    \n    for (let i = 0; i < 10; i++) {\n      arrays.push(new Array(Math.floor(size / 10)).fill(Math.random()));\n    }\n    \n    memoryRef.current = arrays;\n  }, [stressConfig.memoryMB]);\n\n  // DOM压力测试\n  const runDOMStress = useCallback(() => {\n    const nodes = Array.from({ length: stressConfig.domNodes }, (_, i) => i);\n    setStressNodes(nodes);\n  }, [stressConfig.domNodes]);\n\n  // 开始压力测试\n  const startStressTest = () => {\n    setIsStressTesting(true);\n    \n    // CPU压力\n    const cleanupCPU = runCPUSTress();\n    \n    // 内存压力\n    runMemoryStress();\n    \n    // DOM压力\n    runDOMStress();\n    \n    // 动画压力\n    const animate = () => {\n      setAnimationFrame(prev => prev + 1);\n      stressRef.current = requestAnimationFrame(animate);\n    };\n    stressRef.current = requestAnimationFrame(animate);\n    \n    // 保存清理函数\n    (window as any).__stressCleanup = () => {\n      cleanupCPU();\n      memoryRef.current = [];\n      if (stressRef.current) {\n        cancelAnimationFrame(stressRef.current);\n      }\n    };\n  };\n\n  // 停止压力测试\n  const stopStressTest = () => {\n    setIsStressTesting(false);\n    setStressNodes([]);\n    \n    if ((window as any).__stressCleanup) {\n      (window as any).__stressCleanup();\n    }\n  };\n\n  // 清理\n  useEffect(() => {\n    return () => {\n      stopMonitoring();\n      stopStressTest();\n    };\n  }, []);\n\n  // 计算统计数据\n  const avgFPS = performanceData.length > 0 \n    ? Math.round(performanceData.reduce((sum, d) => sum + d.fps, 0) / performanceData.length)\n    : 0;\n  \n  const maxMemory = performanceData.length > 0\n    ? Math.max(...performanceData.map(d => d.memoryUsage))\n    : 0;\n\n  const columns = [\n    { title: '指标', dataIndex: 'metric', key: 'metric' },\n    { title: '当前值', dataIndex: 'current', key: 'current' },\n    { title: '平均值', dataIndex: 'average', key: 'average' },\n    { title: '峰值', dataIndex: 'peak', key: 'peak' },\n  ];\n\n  const tableData = currentData ? [\n    { metric: 'FPS', current: currentData.fps, average: avgFPS, peak: 60 },\n    { metric: '内存使用 (MB)', current: currentData.memoryUsage.toFixed(2), average: '-', peak: maxMemory.toFixed(2) },\n    { metric: 'DOM节点数', current: currentData.domNodes, average: '-', peak: '-' },\n  ] : [];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <DashboardOutlined /> 前端性能监控与压力测试\n        </Title>\n        <Text type=\"secondary\">实时监控浏览器性能，支持CPU/内存/DOM压力测试</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          {/* 性能监控面板 */}\n          <Col xs={24} lg={16}>\n            <Card title=\"性能监控\" extra={\n              <Space>\n                {isMonitoring ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopMonitoring} danger>停止监控</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startMonitoring}>开始监控</Button>\n                )}\n                <Button icon={<ReloadOutlined />} onClick={() => setPerformanceData([])}>重置数据</Button>\n              </Space>\n            }>\n              {currentData ? (\n                <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                  <Row gutter={16}>\n                    <Col span={8}>\n                      <Statistic title=\"FPS\" value={currentData.fps} suffix=\"fps\" />\n                      <Progress percent={currentData.fps / 60 * 100} status={currentData.fps < 30 ? 'exception' : 'success'} showInfo={false} />\n                    </Col>\n                    <Col span={8}>\n                      <Statistic title=\"内存使用\" value={currentData.memoryUsage.toFixed(2)} suffix=\"MB\" />\n                      <Progress percent={currentData.memoryTotal > 0 ? currentData.memoryUsage / currentData.memoryTotal * 100 : 0} showInfo={false} />\n                    </Col>\n                    <Col span={8}>\n                      <Statistic title=\"DOM节点\" value={currentData.domNodes} />\n                    </Col>\n                  </Row>\n\n                  <Table dataSource={tableData} columns={columns} pagination={false} size=\"small\" />\n\n                  {/* 性能图表区域 */}\n                  <div style={{ height: 200, background: '#f5f5f5', borderRadius: 8, padding: 16, position: 'relative', overflow: 'hidden' }}>\n                    <Text type=\"secondary\">FPS趋势 (最近50帧)</Text>\n                    <svg width=\"100%\" height=\"150\" style={{ marginTop: 8 }}>\n                      {performanceData.map((d, i) => {\n                        const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                        const y = 150 - (d.fps / 60) * 150;\n                        return (\n                          <circle key={i} cx={`${x}%`} cy={y} r={2} fill=\"#1890ff\" />\n                        );\n                      })}\n                      {performanceData.length > 1 && (\n                        <polyline\n                          fill=\"none\"\n                          stroke=\"#1890ff\"\n                          strokeWidth={2}\n                          points={performanceData.map((d, i) => {\n                            const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                            const y = 150 - (d.fps / 60) * 150;\n                            return `${x}%,${y}`;\n                          }).join(' ')}\n                        />\n                      )}\n                    </svg>\n                  </div>\n                </Space>\n              ) : (\n                <Alert message=\"点击开始监控按钮启动性能监控\" type=\"info\" showIcon />\n              )}\n            </Card>\n          </Col>\n\n          {/* 压力测试配置 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"压力测试配置\" extra={\n              <Space>\n                {isStressTesting ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopStressTest} danger>停止测试</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startStressTest}>开始测试</Button>\n                )}\n              </Space>\n            }>\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"middle\">\n                <Alert\n                  message=\"警告\"\n                  description=\"压力测试会消耗大量系统资源，请谨慎使用\"\n                  type=\"warning\"\n                  showIcon\n                  icon={<WarningOutlined />}\n                />\n\n                <div>\n                  <Text>CPU线程数: {stressConfig.cpuThreads}</Text>\n                  <Slider min={1} max={16} value={stressConfig.cpuThreads} onChange={(v) => setStressConfig(prev => ({ ...prev, cpuThreads: v }))} />\n                </div>\n\n                <div>\n                  <Text>内存压力 (MB): {stressConfig.memoryMB}</Text>\n                  <Slider min={10} max={500} value={stressConfig.memoryMB} onChange={(v) => setStressConfig(prev => ({ ...prev, memoryMB: v }))} />\n                </div>\n\n                <div>\n                  <Text>DOM节点数: {stressConfig.domNodes}</Text>\n                  <Slider min={100} max={10000} step={100} value={stressConfig.domNodes} onChange={(v) => setStressConfig(prev => ({ ...prev, domNodes: v }))} />\n                </div>\n\n                <div>\n                  <Text>动画强度: {stressConfig.animationIntensity}%</Text>\n                  <Slider min={0} max={100} value={stressConfig.animationIntensity} onChange={(v) => setStressConfig(prev => ({ ...prev, animationIntensity: v }))} />\n                </div>\n\n                {isStressTesting && (\n                  <Tag color=\"red\">压力测试中...</Tag>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        {/* 压力测试DOM节点渲染区 */}\n        {stressNodes.length > 0 && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title={`压力测试DOM渲染区 (${stressNodes.length}个节点)`}>\n                <div style={{ \n                  display: 'grid', \n                  gridTemplateColumns: 'repeat(auto-fill, minmax(50px, 1fr))',\n                  gap: 4,\n                  maxHeight: 300,\n                  overflow: 'auto'\n                }}>\n                  {stressNodes.map((node) => (\n                    <div\n                      key={node}\n                      style={{\n                        width: '100%',\n                        height: 30,\n                        background: `hsl(${(node + animationFrame) % 360}, 70%, 50%)`,\n                        borderRadius: 4,\n                        transition: 'background 0.1s',\n                      }}\n                    />\n                  ))}\n                </div>\n              </Card>\n            </Col>\n          </Row>\n        )}\n\n        {/* 浏览器信息 */}\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"浏览器环境信息\">\n              <Row gutter={16}>\n                <Col span={8}>\n                  <Statistic title=\"浏览器\" value={navigator.userAgent.split(' ').pop()?.split('/')[0] || 'Unknown'} prefix={<ChromeOutlined />} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"平台\" value={navigator.platform} prefix={<DesktopOutlined />} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"屏幕分辨率\" value={`${window.screen.width}x${window.screen.height}`} />\n                </Col>\n              </Row>\n              <Row gutter={16} style={{ marginTop: 16 }}>\n                <Col span={8}>\n                  <Statistic title=\"逻辑CPU核心数\" value={navigator.hardwareConcurrency || 'Unknown'} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"设备内存\" value={`${(navigator as any).deviceMemory || 'Unknown'} GB`} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"连接类型\" value={(navigator as any).connection?.effectiveType || 'Unknown'} />\n                </Col>\n              </Row>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default PerfMonitor;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/perf-monitor.tsx"
+    },
+    "29": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "28",
+      "id": "29",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "29": {
+    "30": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "29",
+      "id": "30",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"合作与服务\"\n        description=\"yma16 提供前端技术咨询、项目合作、技术培训和开源贡献等服务，欢迎联系合作。\"\n        keywords=\"前端技术咨询,项目合作,技术培训,React开发,Vue开发,前端架构\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,

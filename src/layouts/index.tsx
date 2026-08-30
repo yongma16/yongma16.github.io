@@ -35,6 +35,7 @@ import {
   KeyOutlined,
   ColumnWidthOutlined,
   BugOutlined,
+  DashboardOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -79,6 +80,7 @@ const items: MenuItem[] = [
       { key: '/tools/random-string', icon: <KeyOutlined />, label: '随机字符串' },
       { key: '/tools/unit-convert', icon: <ColumnWidthOutlined />, label: '单位换算' },
       { key: '/tools/ai-debug', icon: <BugOutlined />, label: 'AI调试' },
+      { key: '/tools/perf-monitor', icon: <DashboardOutlined />, label: '性能监控' },
     ],
   },
   {
