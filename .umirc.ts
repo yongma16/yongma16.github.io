@@ -47,6 +47,14 @@ export default defineConfig({
     'primary-color': '#1890ff',
     'border-radius-base': '8px',
   },
+  // 全局样式
+  styles: [
+    `body {
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }`,
+  ],
   // 启用静态导出，为每个路由生成 HTML 文件，解决 GitHub Pages 直接访问子路由 404 问题
   ssr: false,
   exportStatic: {},

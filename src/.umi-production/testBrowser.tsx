@@ -10,7 +10,7 @@ import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
 
-
+import '/home/ubuntu/front_projects/react_home/src/global.less';
 const publicPath = '/';
 const runtimePublicPath = false;
 

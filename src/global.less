@@ -1,0 +1,367 @@
+// 全局样式 - 支持暗黑模式
+
+// 基础过渡动画
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+// 暗黑模式全局样式
+html[data-theme='dark'] {
+  body {
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  // 卡片样式适配
+  .ant-card {
+    background: #141414;
+    border-color: #303030;
+    
+    .ant-card-head {
+      background: #141414;
+      border-bottom-color: #303030;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .ant-card-body {
+      background: #141414;
+    }
+  }
+
+  // 输入框样式
+  .ant-input,
+  .ant-input-affix-wrapper,
+  .ant-input-textarea {
+    background: #1f1f1f;
+    border-color: #424242;
+    color: rgba(255, 255, 255, 0.85);
+    
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  // 选择器样式
+  .ant-select {
+    .ant-select-selector {
+      background: #1f1f1f !important;
+      border-color: #424242 !important;
+      color: rgba(255, 255, 255, 0.85) !important;
+    }
+  }
+
+  // 下拉菜单
+  .ant-select-dropdown {
+    background: #1f1f1f;
+    
+    .ant-select-item {
+      color: rgba(255, 255, 255, 0.85);
+      
+      &:hover {
+        background: #2c2c2c;
+      }
+    }
+    
+    .ant-select-item-option-selected {
+      background: #1890ff33;
+    }
+  }
+
+  // 按钮样式
+  .ant-btn-default {
+    background: #1f1f1f;
+    border-color: #424242;
+    color: rgba(255, 255, 255, 0.85);
+    
+    &:hover {
+      border-color: #1890ff;
+      color: #1890ff;
+    }
+  }
+
+  // 标签样式
+  .ant-tag {
+    background: #1f1f1f;
+    border-color: #424242;
+  }
+
+  // 代码块样式
+  code, pre {
+    background: #1f1f1f;
+    color: #d4d4d4;
+  }
+
+  // 表格样式
+  .ant-table {
+    background: #141414;
+    
+    .ant-table-thead > tr > th {
+      background: #1f1f1f;
+      color: rgba(255, 255, 255, 0.85);
+      border-bottom-color: #303030;
+    }
+    
+    .ant-table-tbody > tr > td {
+      border-bottom-color: #303030;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .ant-table-tbody > tr:hover > td {
+      background: #1f1f1f;
+    }
+  }
+
+  // 分页样式
+  .ant-pagination {
+    .ant-pagination-item {
+      background: #1f1f1f;
+      border-color: #424242;
+      
+      a {
+        color: rgba(255, 255, 255, 0.85);
+      }
+    }
+    
+    .ant-pagination-item-active {
+      background: #1890ff;
+      border-color: #1890ff;
+      
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  // 上传组件
+  .ant-upload {
+    .ant-upload-drag {
+      background: #1f1f1f;
+      border-color: #424242;
+      
+      &:hover {
+        border-color: #1890ff;
+      }
+    }
+  }
+
+  // 滑块样式
+  .ant-slider {
+    .ant-slider-rail {
+      background: #424242;
+    }
+    
+    .ant-slider-track {
+      background: #1890ff;
+    }
+  }
+
+  // 开关样式
+  .ant-switch {
+    background: #424242;
+    
+    &.ant-switch-checked {
+      background: #1890ff;
+    }
+  }
+
+  // 警告提示
+  .ant-alert {
+    &.ant-alert-info {
+      background: #111b26;
+      border-color: #153450;
+    }
+    
+    &.ant-alert-success {
+      background: #162312;
+      border-color: #274916;
+    }
+    
+    &.ant-alert-warning {
+      background: #2b2111;
+      border-color: #594214;
+    }
+    
+    &.ant-alert-error {
+      background: #2a1215;
+      border-color: #58181c;
+    }
+  }
+
+  // 模态框
+  .ant-modal {
+    .ant-modal-content {
+      background: #141414;
+      
+      .ant-modal-header {
+        background: #141414;
+        border-bottom-color: #303030;
+        
+        .ant-modal-title {
+          color: rgba(255, 255, 255, 0.85);
+        }
+      }
+      
+      .ant-modal-footer {
+        border-top-color: #303030;
+      }
+    }
+  }
+
+  // 菜单样式
+  .ant-menu {
+    background: transparent;
+    
+    .ant-menu-item {
+      color: rgba(255, 255, 255, 0.85);
+      
+      &:hover {
+        color: #1890ff;
+      }
+      
+      &.ant-menu-item-selected {
+        background: #1890ff33;
+        color: #1890ff;
+      }
+    }
+    
+    .ant-menu-submenu-title {
+      color: rgba(255, 255, 255, 0.85);
+      
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+
+  // 分割线
+  .ant-divider {
+    border-color: #303030;
+    
+    &.ant-divider-horizontal {
+      border-color: #303030;
+    }
+  }
+
+  // 时间轴
+  .ant-timeline {
+    .ant-timeline-item-tail {
+      border-color: #303030;
+    }
+  }
+
+  // 统计数字
+  .ant-statistic {
+    .ant-statistic-title {
+      color: rgba(255, 255, 255, 0.65);
+    }
+    
+    .ant-statistic-content {
+      color: rgba(255, 255, 255, 0.85);
+    }
+  }
+
+  // 列表样式
+  .ant-list {
+    .ant-list-item {
+      border-bottom-color: #303030;
+    }
+    
+    .ant-list-item-meta-title {
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .ant-list-item-meta-description {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  // 步骤条
+  .ant-steps {
+    .ant-steps-item-title {
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .ant-steps-item-description {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  // 单选框和复选框
+  .ant-radio-wrapper,
+  .ant-checkbox-wrapper {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  // 文本样式
+  .ant-typography {
+    color: rgba(255, 255, 255, 0.85);
+    
+    &.ant-typography-secondary {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  // 链接样式
+  a {
+    color: #40a9ff;
+    
+    &:hover {
+      color: #69c0ff;
+    }
+  }
+
+  // 滚动条样式
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #141414;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #424242;
+    border-radius: 4px;
+    
+    &:hover {
+      background: #555;
+    }
+  }
+}
+
+// 亮色模式（默认）
+html[data-theme='light'] {
+  body {
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.88);
+  }
+}
+
+// 页面内容区域过渡
+.ant-layout-content {
+  min-height: calc(100vh - 64px - 70px);
+}
+
+// 工具页面通用样式
+.tool-page {
+  .ant-card {
+    margin-bottom: 24px;
+  }
+  
+  .ant-input-group {
+    display: flex;
+    align-items: stretch;
+  }
+}
+
+// 响应式适配
+@media (max-width: 768px) {
+  .ant-layout-header {
+    padding: 0 16px;
+  }
+  
+  .ant-layout-content {
+    padding: 16px !important;
+  }
+}

@@ -3,6 +3,7 @@ import { Outlet, useLocation, history } from 'umi';
 import { Layout, Menu, Button, Badge, Avatar } from 'antd';
 import { CONTACT_INFO } from '@/config/contact';
 import { BEIAN_INFO, getCurrentDomain } from '@/config/beian';
+import { useTheme } from '@/contexts/ThemeContext';
 import {
   HomeOutlined,
   CodeOutlined,
@@ -20,6 +21,9 @@ import {
   ClockCircleOutlined,
   CheckCircleOutlined,
   LockOutlined,
+  SunOutlined,
+  MoonOutlined,
+  DesktopOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -66,6 +70,7 @@ const items: MenuItem[] = [
 
 const MainLayout: React.FC = () => {
   const location = useLocation();
+  const { isDark, theme, toggleTheme } = useTheme();
   const [selectedKeys, setSelectedKeys] = React.useState<string[]>([location.pathname]);
 
   React.useEffect(() => {
@@ -89,8 +94,9 @@ const MainLayout: React.FC = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          background: '#fff',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+          background: isDark ? '#141414' : '#fff',
+          boxShadow: isDark ? '0 2px 8px rgba(0,0,0,0.3)' : '0 2px 8px rgba(0,0,0,0.06)',
+          transition: 'all 0.3s ease',
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -116,6 +122,15 @@ const MainLayout: React.FC = () => {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <Button
+            type="text"
+            icon={isDark ? <MoonOutlined /> : <SunOutlined />}
+            onClick={toggleTheme}
+            title={`当前: ${theme === 'auto' ? '跟随系统' : theme === 'dark' ? '深色模式' : '浅色模式'} (点击切换)`}
+            style={{ color: isDark ? 'rgba(255,255,255,0.85)' : 'rgba(0,0,0,0.88)' }}
+          >
+            {theme === 'auto' ? '自动' : theme === 'dark' ? '深色' : '浅色'}
+          </Button>
+          <Button
             type="link"
             icon={<GithubOutlined />}
             href={CONTACT_INFO.github}
@@ -126,10 +141,19 @@ const MainLayout: React.FC = () => {
           <Avatar style={{ backgroundColor: '#1890ff' }}>Y</Avatar>
         </div>
       </Header>
-      <Content style={{ padding: 24, maxWidth: 1400, margin: '0 auto', width: '100%' }}>
+      <Content 
+        style={{ 
+          padding: 24, 
+          maxWidth: 1400, 
+          margin: '0 auto', 
+          width: '100%',
+          background: isDark ? '#000' : '#f5f5f5',
+          transition: 'background 0.3s ease',
+        }}
+      >
         <Outlet />
       </Content>
-      <Footer key="main-footer" style={{ textAlign: 'center', background: '#f0f2f5' }}>
+      <Footer key="main-footer" style={{ textAlign: 'center', background: isDark ? '#141414' : '#f0f2f5', transition: 'background 0.3s ease' }}>
         <div style={{ marginBottom: 16 }}>
           <a href={CONTACT_INFO.csdn} target="_blank" rel="noopener noreferrer">
             CSDN博客
