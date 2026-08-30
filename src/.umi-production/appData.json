@@ -36,7 +36,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "preset",
@@ -66,7 +66,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -83,7 +83,7 @@
             3
           ]
         },
-        "register": 2
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -130,7 +130,7 @@
             11
           ]
         },
-        "register": 27
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -143,7 +143,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -163,7 +163,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -177,10 +177,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1062,7 +1062,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1076,10 +1076,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1092,7 +1092,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1105,7 +1105,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 97
+        "register": 100
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1130,8 +1130,12 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 10
+        "hooks": {
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 13
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1148,7 +1152,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1161,7 +1165,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1174,7 +1178,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1187,7 +1191,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 38
+        "register": 34
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1212,7 +1216,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1237,7 +1241,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1254,7 +1258,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1266,7 +1270,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1279,7 +1283,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1292,7 +1296,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1305,7 +1309,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1318,7 +1322,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1357,7 +1361,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1382,7 +1386,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1395,7 +1399,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1421,7 +1425,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1434,7 +1438,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1459,7 +1463,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1483,7 +1487,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 499
+        "register": 505
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1496,7 +1500,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1612,7 +1616,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 30
+        "register": 31
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1663,7 +1667,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 23
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1870,7 +1874,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1971,7 +1975,7 @@
     ],
     "hash": true,
     "base": "/",
-    "publicPath": "/",
+    "publicPath": "./",
     "routes": [
       {
         "path": "/",
@@ -2004,6 +2008,11 @@
         "title": "文件对比"
       },
       {
+        "path": "/tools/url-tools",
+        "component": "@/pages/tools/url-tools",
+        "title": "URL工具"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2019,7 +2028,8 @@
       "border-radius-base": "8px"
     },
     "ssr": false,
-    "exportStatic": false
+    "exportStatic": {},
+    "runtimePublicPath": {}
   },
   "mainConfigFile": "/home/ubuntu/front_projects/react_home/.umirc.ts",
   "config": {
@@ -2032,7 +2042,7 @@
     },
     "base": "/",
     "svgr": {},
-    "publicPath": "/",
+    "publicPath": "./",
     "mfsu": {
       "strategy": "eager"
     },
@@ -2087,6 +2097,11 @@
         "title": "文件对比"
       },
       {
+        "path": "/tools/url-tools",
+        "component": "@/pages/tools/url-tools",
+        "title": "URL工具"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2102,7 +2117,8 @@
       "border-radius-base": "8px"
     },
     "ssr": false,
-    "exportStatic": false,
+    "exportStatic": {},
+    "runtimePublicPath": {},
     "targets": {
       "chrome": 80
     }
@@ -2115,7 +2131,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={4} suffix=\"个\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            查看定价\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={5} suffix=\"个\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>准备好提升开发效率了吗？</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          基础功能完全免费，高级功能支持团队协作和云端存储\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          查看定价方案\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -2159,7 +2175,7 @@
       "parentId": "@@/global-layout",
       "id": "5",
       "absPath": "/tools/svg-processor",
-      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio } from 'antd';\nimport { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\n\nconst { Title, Paragraph } = Typography;\nconst { Dragger } = Upload;\n\n\ninterface SVGFile {\n  uid: string;\n  name: string;\n  size: number;\n  originalSize: number;\n  compressedSize: number;\n  status: 'pending' | 'processing' | 'done' | 'error';\n  preview?: string;\n  content?: string;\n  processedContent?: string;\n}\n\nconst SVGProcessor: React.FC = () => {\n  const [fileList, setFileList] = useState<SVGFile[]>([]);\n  const [processing, setProcessing] = useState(false);\n  const [colorAction, setColorAction] = useState<'add' | 'remove'>('add');\n  const [targetColor, setTargetColor] = useState('#1890ff');\n  const [previewContent, setPreviewContent] = useState('');\n  const [previewVisible, setPreviewVisible] = useState(false);\n\n  const handleUpload = useCallback((info: any) => {\n    const { file, fileList: newFileList } = info;\n    \n    if (file.status === 'done' || file.status === 'uploading' || file.originFileObj) {\n      const processFile = async (f: any) => {\n        const content = f.originFileObj ? await f.originFileObj.text() : '';\n        return {\n          uid: f.uid || Math.random().toString(36).substr(2, 9),\n          name: f.name,\n          size: f.size || 0,\n          originalSize: f.size || 0,\n          compressedSize: f.size || 0,\n          status: 'pending' as const,\n          preview: f.thumbUrl || f.url,\n          content: content,\n          processedContent: content,\n        };\n      };\n\n      Promise.all(newFileList.map(processFile)).then(svgFiles => {\n        const validFiles = svgFiles.filter((f: SVGFile) => f.name.endsWith('.svg'));\n        setFileList(prev => [...prev, ...validFiles]);\n        if (validFiles.length < svgFiles.length) {\n          message.warning('部分文件不是 SVG 格式，已过滤');\n        }\n      });\n    }\n  }, []);\n\n  const processSVG = useCallback(async () => {\n    if (fileList.length === 0) {\n      message.warning('请先上传 SVG 文件');\n      return;\n    }\n    \n    setProcessing(true);\n    \n    for (let i = 0; i < fileList.length; i++) {\n      setFileList(prev => prev.map((file, index) => \n        index === i ? { ...file, status: 'processing' } : file\n      ));\n      \n      await new Promise(resolve => setTimeout(resolve, 500));\n      \n      let processedContent = fileList[i].content || '';\n      \n      // 处理颜色\n      if (colorAction === 'add') {\n        // 添加颜色：如果没有 fill/stroke 属性，添加默认颜色\n        processedContent = processedContent.replace(\n          /<svg([^>]*)>/i,\n          `<svg$1 fill=\"${targetColor}\">`\n        );\n        // 为没有 fill 属性的 path/circle/rect 添加颜色\n        processedContent = processedContent.replace(\n          /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(?<!fill=)([^>]*)>/gi,\n          (match, tag, attrs1, attrs2) => {\n            if (match.includes('fill=') || match.includes('stroke=')) {\n              return match;\n            }\n            return `<${tag}${attrs1} fill=\"${targetColor}\"${attrs2}>`;\n          }\n        );\n      } else {\n        // 移除颜色：移除 fill 和 stroke 属性（保留 none）\n        processedContent = processedContent.replace(/\\s*fill=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*stroke=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*style=\"[^\"]*fill[^\"]*\"/gi, '');\n      }\n      \n      // 压缩：移除注释、多余空格\n      processedContent = processedContent\n        .replace(/<!--[\\s\\S]*?-->/g, '')\n        .replace(/>\\s+</g, '><')\n        .replace(/\\s{2,}/g, ' ')\n        .trim();\n      \n      const compressedSize = new Blob([processedContent]).size;\n      \n      setFileList(prev => prev.map((file, index) => \n        index === i ? { \n          ...file, \n          status: 'done',\n          compressedSize,\n          processedContent,\n        } : file\n      ));\n    }\n    \n    setProcessing(false);\n    message.success('所有 SVG 文件处理完成！');\n  }, [fileList, colorAction, targetColor]);\n\n  const removeFile = (uid: string) => {\n    setFileList(prev => prev.filter(f => f.uid !== uid));\n  };\n\n  const clearAll = () => {\n    setFileList([]);\n    setPreviewVisible(false);\n  };\n\n  const downloadFile = (file: SVGFile) => {\n    const content = file.processedContent || file.content || '';\n    const blob = new Blob([content], { type: 'image/svg+xml' });\n    const url = URL.createObjectURL(blob);\n    const a = document.createElement('a');\n    a.href = url;\n    a.download = file.name;\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  };\n\n  const downloadAll = () => {\n    fileList.forEach(file => {\n      if (file.status === 'done') {\n        downloadFile(file);\n      }\n    });\n    message.success('开始下载处理后的文件...');\n  };\n\n  const showPreview = (file: SVGFile) => {\n    setPreviewContent(file.processedContent || file.content || '');\n    setPreviewVisible(true);\n  };\n\n  const columns = [\n    {\n      title: '文件名',\n      dataIndex: 'name',\n      key: 'name',\n    },\n    {\n      title: '原始大小',\n      dataIndex: 'originalSize',\n      key: 'originalSize',\n      render: (size: number) => `${(size / 1024).toFixed(2)} KB`,\n    },\n    {\n      title: '处理后',\n      dataIndex: 'compressedSize',\n      key: 'compressedSize',\n      render: (size: number, record: SVGFile) => (\n        <span style={{ color: record.compressedSize < record.originalSize ? '#52c41a' : 'inherit' }}>\n          {`${(size / 1024).toFixed(2)} KB`}\n        </span>\n      ),\n    },\n    {\n      title: '压缩率',\n      key: 'ratio',\n      render: (_: any, record: SVGFile) => {\n        const ratio = record.originalSize > 0 \n          ? ((1 - record.compressedSize / record.originalSize) * 100).toFixed(1) \n          : '0';\n        return (\n          <Progress \n            percent={parseFloat(ratio)} \n            size=\"small\" \n            status={parseFloat(ratio) > 0 ? 'success' : 'normal'}\n          />\n        );\n      },\n    },\n    {\n      title: '状态',\n      dataIndex: 'status',\n      key: 'status',\n      render: (status: string) => {\n        const colors: Record<string, string> = {\n          pending: 'default',\n          processing: 'processing',\n          done: 'success',\n          error: 'error',\n        };\n        const labels: Record<string, string> = {\n          pending: '待处理',\n          processing: '处理中',\n          done: '完成',\n          error: '错误',\n        };\n        return <Tag color={colors[status]}>{labels[status]}</Tag>;\n      },\n    },\n    {\n      title: '操作',\n      key: 'action',\n      render: (_: any, record: SVGFile) => (\n        <Space>\n          <Button icon={<EyeOutlined />} size=\"small\" onClick={() => showPreview(record)}>预览</Button>\n          <Button icon={<DownloadOutlined />} size=\"small\" onClick={() => downloadFile(record)}>下载</Button>\n          <Button icon={<DeleteOutlined />} size=\"small\" danger onClick={() => removeFile(record.uid)}>\n            删除\n          </Button>\n        </Space>\n      ),\n    },\n  ];\n\n  const totalOriginal = fileList.reduce((sum, f) => sum + f.originalSize, 0);\n  const totalCompressed = fileList.reduce((sum, f) => sum + f.compressedSize, 0);\n  const totalSaved = totalOriginal - totalCompressed;\n\n  return (\n    <div>\n      <Title level={2}>\n        <FileImageOutlined /> SVG 批量处理\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 SVG 压缩、颜色处理、格式转换、批量导出\n      </Paragraph>\n\n      <Row gutter={24}>\n        <Col span={16}>\n          <Card title=\"上传 SVG 文件\">\n            <Dragger\n              multiple\n              accept=\".svg\"\n              beforeUpload={() => false}\n              onChange={handleUpload}\n              showUploadList={false}\n            >\n              <p className=\"ant-upload-drag-icon\">\n                <UploadOutlined />\n              </p>\n              <p className=\"ant-upload-text\">点击或拖拽 SVG 文件到此处</p>\n              <p className=\"ant-upload-hint\">\n                支持批量上传，单个文件不超过 5MB\n              </p>\n            </Dragger>\n          </Card>\n\n          <Card title=\"颜色处理\" style={{ marginTop: 16 }}>\n            <Space direction=\"vertical\" style={{ width: '100%' }}>\n              <Radio.Group \n                value={colorAction} \n                onChange={(e) => setColorAction(e.target.value)}\n              >\n                <Radio.Button value=\"add\">\n                  <BgColorsOutlined /> 添加颜色\n                </Radio.Button>\n                <Radio.Button value=\"remove\">\n                  <ClearOutlined /> 移除颜色\n                </Radio.Button>\n              </Radio.Group>\n              \n              {colorAction === 'add' && (\n                <div style={{ marginTop: 8 }}>\n                  <span>目标颜色：</span>\n                  <Input \n                    type=\"color\" \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 60, marginLeft: 8 }}\n                  />\n                  <Input \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 120, marginLeft: 8 }}\n                  />\n                </div>\n              )}\n            </Space>\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card title=\"处理统计\">\n            <Statistic title=\"文件数量\" value={fileList.length} suffix=\"个\" />\n            <Statistic title=\"原始大小\" value={(totalOriginal / 1024).toFixed(2)} suffix=\"KB\" style={{ marginTop: 16 }} />\n            <Statistic \n              title=\"处理后\" \n              value={(totalCompressed / 1024).toFixed(2)} \n              suffix=\"KB\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#52c41a' }}\n            />\n            <Statistic \n              title=\"节省空间\" \n              value={totalOriginal > 0 ? ((totalSaved / totalOriginal) * 100).toFixed(1) : 0} \n              suffix=\"%\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#1890ff' }}\n            />\n          </Card>\n        </Col>\n      </Row>\n\n      {fileList.length > 0 && (\n        <Card \n          title=\"文件列表\" \n          style={{ marginTop: 24 }}\n          extra={\n            <Space>\n              <Button \n                type=\"primary\" \n                icon={<CompressOutlined />} \n                onClick={processSVG}\n                loading={processing}\n              >\n                开始处理\n              </Button>\n              <Button icon={<DownloadOutlined />} onClick={downloadAll}>\n                批量下载\n              </Button>\n              <Button icon={<DeleteOutlined />} danger onClick={clearAll}>\n                清空\n              </Button>\n            </Space>\n          }\n        >\n          <Table \n            dataSource={fileList} \n            columns={columns} \n            rowKey=\"uid\"\n            pagination={false}\n          />\n        </Card>\n      )}\n\n      {previewVisible && (\n        <Card title=\"预览\" style={{ marginTop: 24 }} extra={\n          <Button onClick={() => setPreviewVisible(false)}>关闭</Button>\n        }>\n          <div style={{ display: 'flex', gap: 24 }}>\n            <div style={{ flex: 1 }}>\n              <h4>SVG 代码</h4>\n              <pre style={{ \n                background: '#f5f5f5', \n                padding: 16, \n                borderRadius: 8,\n                maxHeight: 400,\n                overflow: 'auto',\n                fontSize: 12\n              }}>\n                {previewContent}\n              </pre>\n            </div>\n            <div style={{ flex: 1 }}>\n              <h4>渲染效果</h4>\n              <div \n                style={{ \n                  border: '1px solid #d9d9d9', \n                  borderRadius: 8,\n                  padding: 24,\n                  minHeight: 200,\n                  display: 'flex',\n                  alignItems: 'center',\n                  justifyContent: 'center',\n                  background: '#fafafa'\n                }}\n                dangerouslySetInnerHTML={{ __html: previewContent }}\n              />\n            </div>\n          </div>\n        </Card>\n      )}\n\n      <Card title=\"功能说明\" style={{ marginTop: 24 }}>\n        <Row gutter={24}>\n          <Col span={8}>\n            <Card size=\"small\" title=\"基础版（免费）\">\n              <ul>\n                <li>单文件 SVG 压缩</li>\n                <li>颜色添加/移除</li>\n                <li>文件预览</li>\n              </ul>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"PRO 版\" style={{ borderColor: '#faad14' }}>\n              <ul>\n                <li>批量文件处理（最多 50 个）</li>\n                <li>云端存储和同步</li>\n                <li>高级压缩算法</li>\n                <li>团队协作功能</li>\n              </ul>\n              <Tag color=\"gold\">推荐</Tag>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"企业版\">\n              <ul>\n                <li>无限批量处理</li>\n                <li>API 接口访问</li>\n                <li>私有化部署</li>\n                <li>专属技术支持</li>\n              </ul>\n            </Card>\n          </Col>\n        </Row>\n      </Card>\n    </div>\n  );\n};\n\nexport default SVGProcessor;\n",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio, Statistic } from 'antd';\nimport { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\n\nconst { Title, Paragraph } = Typography;\nconst { Dragger } = Upload;\n\n\ninterface SVGFile {\n  uid: string;\n  name: string;\n  size: number;\n  originalSize: number;\n  compressedSize: number;\n  status: 'pending' | 'processing' | 'done' | 'error';\n  preview?: string;\n  content?: string;\n  processedContent?: string;\n}\n\nconst SVGProcessor: React.FC = () => {\n  const [fileList, setFileList] = useState<SVGFile[]>([]);\n  const [processing, setProcessing] = useState(false);\n  const [colorAction, setColorAction] = useState<'add' | 'remove'>('add');\n  const [targetColor, setTargetColor] = useState('#1890ff');\n  const [previewContent, setPreviewContent] = useState('');\n  const [previewVisible, setPreviewVisible] = useState(false);\n\n  const handleUpload = useCallback((info: any) => {\n    const { file, fileList: newFileList } = info;\n    \n    if (file.status === 'done' || file.status === 'uploading' || file.originFileObj) {\n      const processFile = async (f: any) => {\n        const content = f.originFileObj ? await f.originFileObj.text() : '';\n        return {\n          uid: f.uid || Math.random().toString(36).substr(2, 9),\n          name: f.name,\n          size: f.size || 0,\n          originalSize: f.size || 0,\n          compressedSize: f.size || 0,\n          status: 'pending' as const,\n          preview: f.thumbUrl || f.url,\n          content: content,\n          processedContent: content,\n        };\n      };\n\n      Promise.all(newFileList.map(processFile)).then(svgFiles => {\n        const validFiles = svgFiles.filter((f: SVGFile) => f.name.endsWith('.svg'));\n        setFileList(prev => [...prev, ...validFiles]);\n        if (validFiles.length < svgFiles.length) {\n          message.warning('部分文件不是 SVG 格式，已过滤');\n        }\n      });\n    }\n  }, []);\n\n  const processSVG = useCallback(async () => {\n    if (fileList.length === 0) {\n      message.warning('请先上传 SVG 文件');\n      return;\n    }\n    \n    setProcessing(true);\n    \n    for (let i = 0; i < fileList.length; i++) {\n      setFileList(prev => prev.map((file, index) => \n        index === i ? { ...file, status: 'processing' } : file\n      ));\n      \n      await new Promise(resolve => setTimeout(resolve, 500));\n      \n      let processedContent = fileList[i].content || '';\n      \n      // 处理颜色\n      if (colorAction === 'add') {\n        // 添加颜色：如果没有 fill/stroke 属性，添加默认颜色\n        processedContent = processedContent.replace(\n          /<svg([^>]*)>/i,\n          `<svg$1 fill=\"${targetColor}\">`\n        );\n        // 为没有 fill 属性的 path/circle/rect 添加颜色\n        processedContent = processedContent.replace(\n          /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(?<!fill=)([^>]*)>/gi,\n          (match, tag, attrs1, attrs2) => {\n            if (match.includes('fill=') || match.includes('stroke=')) {\n              return match;\n            }\n            return `<${tag}${attrs1} fill=\"${targetColor}\"${attrs2}>`;\n          }\n        );\n      } else {\n        // 移除颜色：移除 fill 和 stroke 属性（保留 none）\n        processedContent = processedContent.replace(/\\s*fill=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*stroke=\"[^\"]*\"/gi, '');\n        processedContent = processedContent.replace(/\\s*style=\"[^\"]*fill[^\"]*\"/gi, '');\n      }\n      \n      // 压缩：移除注释、多余空格\n      processedContent = processedContent\n        .replace(/<!--[\\s\\S]*?-->/g, '')\n        .replace(/>\\s+</g, '><')\n        .replace(/\\s{2,}/g, ' ')\n        .trim();\n      \n      const compressedSize = new Blob([processedContent]).size;\n      \n      setFileList(prev => prev.map((file, index) => \n        index === i ? { \n          ...file, \n          status: 'done',\n          compressedSize,\n          processedContent,\n        } : file\n      ));\n    }\n    \n    setProcessing(false);\n    message.success('所有 SVG 文件处理完成！');\n  }, [fileList, colorAction, targetColor]);\n\n  const removeFile = (uid: string) => {\n    setFileList(prev => prev.filter(f => f.uid !== uid));\n  };\n\n  const clearAll = () => {\n    setFileList([]);\n    setPreviewVisible(false);\n  };\n\n  const downloadFile = (file: SVGFile) => {\n    const content = file.processedContent || file.content || '';\n    const blob = new Blob([content], { type: 'image/svg+xml' });\n    const url = URL.createObjectURL(blob);\n    const a = document.createElement('a');\n    a.href = url;\n    a.download = file.name;\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  };\n\n  const downloadAll = () => {\n    fileList.forEach(file => {\n      if (file.status === 'done') {\n        downloadFile(file);\n      }\n    });\n    message.success('开始下载处理后的文件...');\n  };\n\n  const showPreview = (file: SVGFile) => {\n    setPreviewContent(file.processedContent || file.content || '');\n    setPreviewVisible(true);\n  };\n\n  const columns = [\n    {\n      title: '文件名',\n      dataIndex: 'name',\n      key: 'name',\n    },\n    {\n      title: '原始大小',\n      dataIndex: 'originalSize',\n      key: 'originalSize',\n      render: (size: number) => `${(size / 1024).toFixed(2)} KB`,\n    },\n    {\n      title: '处理后',\n      dataIndex: 'compressedSize',\n      key: 'compressedSize',\n      render: (size: number, record: SVGFile) => (\n        <span style={{ color: record.compressedSize < record.originalSize ? '#52c41a' : 'inherit' }}>\n          {`${(size / 1024).toFixed(2)} KB`}\n        </span>\n      ),\n    },\n    {\n      title: '压缩率',\n      key: 'ratio',\n      render: (_: any, record: SVGFile) => {\n        const ratio = record.originalSize > 0 \n          ? ((1 - record.compressedSize / record.originalSize) * 100).toFixed(1) \n          : '0';\n        return (\n          <Progress \n            percent={parseFloat(ratio)} \n            size=\"small\" \n            status={parseFloat(ratio) > 0 ? 'success' : 'normal'}\n          />\n        );\n      },\n    },\n    {\n      title: '状态',\n      dataIndex: 'status',\n      key: 'status',\n      render: (status: string) => {\n        const colors: Record<string, string> = {\n          pending: 'default',\n          processing: 'processing',\n          done: 'success',\n          error: 'error',\n        };\n        const labels: Record<string, string> = {\n          pending: '待处理',\n          processing: '处理中',\n          done: '完成',\n          error: '错误',\n        };\n        return <Tag color={colors[status]}>{labels[status]}</Tag>;\n      },\n    },\n    {\n      title: '操作',\n      key: 'action',\n      render: (_: any, record: SVGFile) => (\n        <Space>\n          <Button icon={<EyeOutlined />} size=\"small\" onClick={() => showPreview(record)}>预览</Button>\n          <Button icon={<DownloadOutlined />} size=\"small\" onClick={() => downloadFile(record)}>下载</Button>\n          <Button icon={<DeleteOutlined />} size=\"small\" danger onClick={() => removeFile(record.uid)}>\n            删除\n          </Button>\n        </Space>\n      ),\n    },\n  ];\n\n  const totalOriginal = fileList.reduce((sum, f) => sum + f.originalSize, 0);\n  const totalCompressed = fileList.reduce((sum, f) => sum + f.compressedSize, 0);\n  const totalSaved = totalOriginal - totalCompressed;\n\n  return (\n    <div>\n      <Title level={2}>\n        <FileImageOutlined /> SVG 批量处理\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 SVG 压缩、颜色处理、格式转换、批量导出\n      </Paragraph>\n\n      <Row gutter={24}>\n        <Col span={16}>\n          <Card title=\"上传 SVG 文件\">\n            <Dragger\n              multiple\n              accept=\".svg\"\n              beforeUpload={() => false}\n              onChange={handleUpload}\n              showUploadList={false}\n            >\n              <p className=\"ant-upload-drag-icon\">\n                <UploadOutlined />\n              </p>\n              <p className=\"ant-upload-text\">点击或拖拽 SVG 文件到此处</p>\n              <p className=\"ant-upload-hint\">\n                支持批量上传，单个文件不超过 5MB\n              </p>\n            </Dragger>\n          </Card>\n\n          <Card title=\"颜色处理\" style={{ marginTop: 16 }}>\n            <Space direction=\"vertical\" style={{ width: '100%' }}>\n              <Radio.Group \n                value={colorAction} \n                onChange={(e) => setColorAction(e.target.value)}\n              >\n                <Radio.Button value=\"add\">\n                  <BgColorsOutlined /> 添加颜色\n                </Radio.Button>\n                <Radio.Button value=\"remove\">\n                  <ClearOutlined /> 移除颜色\n                </Radio.Button>\n              </Radio.Group>\n              \n              {colorAction === 'add' && (\n                <div style={{ marginTop: 8 }}>\n                  <span>目标颜色：</span>\n                  <Input \n                    type=\"color\" \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 60, marginLeft: 8 }}\n                  />\n                  <Input \n                    value={targetColor}\n                    onChange={(e) => setTargetColor(e.target.value)}\n                    style={{ width: 120, marginLeft: 8 }}\n                  />\n                </div>\n              )}\n            </Space>\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card title=\"处理统计\">\n            <Statistic title=\"文件数量\" value={fileList.length} suffix=\"个\" />\n            <Statistic title=\"原始大小\" value={(totalOriginal / 1024).toFixed(2)} suffix=\"KB\" style={{ marginTop: 16 }} />\n            <Statistic \n              title=\"处理后\" \n              value={(totalCompressed / 1024).toFixed(2)} \n              suffix=\"KB\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#52c41a' }}\n            />\n            <Statistic \n              title=\"节省空间\" \n              value={totalOriginal > 0 ? ((totalSaved / totalOriginal) * 100).toFixed(1) : 0} \n              suffix=\"%\" \n              style={{ marginTop: 16 }}\n              valueStyle={{ color: '#1890ff' }}\n            />\n          </Card>\n        </Col>\n      </Row>\n\n      {fileList.length > 0 && (\n        <Card \n          title=\"文件列表\" \n          style={{ marginTop: 24 }}\n          extra={\n            <Space>\n              <Button \n                type=\"primary\" \n                icon={<CompressOutlined />} \n                onClick={processSVG}\n                loading={processing}\n              >\n                开始处理\n              </Button>\n              <Button icon={<DownloadOutlined />} onClick={downloadAll}>\n                批量下载\n              </Button>\n              <Button icon={<DeleteOutlined />} danger onClick={clearAll}>\n                清空\n              </Button>\n            </Space>\n          }\n        >\n          <Table \n            dataSource={fileList} \n            columns={columns} \n            rowKey=\"uid\"\n            pagination={false}\n          />\n        </Card>\n      )}\n\n      {previewVisible && (\n        <Card title=\"预览\" style={{ marginTop: 24 }} extra={\n          <Button onClick={() => setPreviewVisible(false)}>关闭</Button>\n        }>\n          <div style={{ display: 'flex', gap: 24 }}>\n            <div style={{ flex: 1 }}>\n              <h4>SVG 代码</h4>\n              <pre style={{ \n                background: '#f5f5f5', \n                padding: 16, \n                borderRadius: 8,\n                maxHeight: 400,\n                overflow: 'auto',\n                fontSize: 12\n              }}>\n                {previewContent}\n              </pre>\n            </div>\n            <div style={{ flex: 1 }}>\n              <h4>渲染效果</h4>\n              <div \n                style={{ \n                  border: '1px solid #d9d9d9', \n                  borderRadius: 8,\n                  padding: 24,\n                  minHeight: 200,\n                  display: 'flex',\n                  alignItems: 'center',\n                  justifyContent: 'center',\n                  background: '#fafafa'\n                }}\n                dangerouslySetInnerHTML={{ __html: previewContent }}\n              />\n            </div>\n          </div>\n        </Card>\n      )}\n\n      <Card title=\"功能说明\" style={{ marginTop: 24 }}>\n        <Row gutter={24}>\n          <Col span={8}>\n            <Card size=\"small\" title=\"基础版（免费）\">\n              <ul>\n                <li>单文件 SVG 压缩</li>\n                <li>颜色添加/移除</li>\n                <li>文件预览</li>\n              </ul>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"PRO 版\" style={{ borderColor: '#faad14' }}>\n              <ul>\n                <li>批量文件处理（最多 50 个）</li>\n                <li>云端存储和同步</li>\n                <li>高级压缩算法</li>\n                <li>团队协作功能</li>\n              </ul>\n              <Tag color=\"gold\">推荐</Tag>\n            </Card>\n          </Col>\n          <Col span={8}>\n            <Card size=\"small\" title=\"企业版\">\n              <ul>\n                <li>无限批量处理</li>\n                <li>API 接口访问</li>\n                <li>私有化部署</li>\n                <li>专属技术支持</li>\n              </ul>\n            </Card>\n          </Col>\n        </Row>\n      </Card>\n    </div>\n  );\n};\n\nexport default SVGProcessor;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/svg-processor.tsx"
     },
@@ -2175,22 +2191,33 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/file-diff.tsx"
     },
     "7": {
+      "path": "/tools/url-tools",
+      "title": "URL工具",
+      "file": "@/pages/tools/url-tools.tsx",
+      "parentId": "@@/global-layout",
+      "id": "7",
+      "absPath": "/tools/url-tools",
+      "__content": "import React, { useState, useCallback, useEffect } from 'react';\nimport { Card, Row, Col, Button, message, Typography, Space, Tabs, Table, Tag, Switch, Input, Divider, Alert } from 'antd';\nimport { CopyOutlined, ClearOutlined, LinkOutlined, UnlockOutlined, LockOutlined, GlobalOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph, Text } = Typography;\nconst { TextArea } = Input;\n\ninterface ParsedParam {\n  key: string;\n  value: string;\n  decodedKey: string;\n  decodedValue: string;\n}\n\ninterface UrlParseResult {\n  protocol: string;\n  hostname: string;\n  port: string;\n  pathname: string;\n  search: string;\n  hash: string;\n  username: string;\n  password: string;\n}\n\nconst defaultUrl = 'https://example.com:8080/path/to/page?name=John%20Doe&age=25&tags=react%2Ctypescript#section-1';\n\nconst UrlTools: React.FC = () => {\n  const [inputUrl, setInputUrl] = useState(defaultUrl);\n  const [encodedUrl, setEncodedUrl] = useState('');\n  const [decodedUrl, setDecodedUrl] = useState('');\n  const [parsedParams, setParsedParams] = useState<ParsedParam[]>([]);\n  const [hashParams, setHashParams] = useState<ParsedParam[]>([]);\n  const [urlParts, setUrlParts] = useState<UrlParseResult | null>(null);\n  const [autoDecode, setAutoDecode] = useState(true);\n  const [activeTab, setActiveTab] = useState('encode');\n\n  // 解析 URL\n  const parseUrl = useCallback((url: string) => {\n    try {\n      const urlObj = new URL(url);\n      setUrlParts({\n        protocol: urlObj.protocol,\n        hostname: urlObj.hostname,\n        port: urlObj.port,\n        pathname: urlObj.pathname,\n        search: urlObj.search,\n        hash: urlObj.hash,\n        username: urlObj.username,\n        password: urlObj.password,\n      });\n\n      // 解析 search 参数\n      const searchParams = new URLSearchParams(urlObj.search);\n      const params: ParsedParam[] = [];\n      searchParams.forEach((value, key) => {\n        params.push({\n          key,\n          value,\n          decodedKey: decodeURIComponent(key),\n          decodedValue: decodeURIComponent(value),\n        });\n      });\n      setParsedParams(params);\n\n      // 解析 hash 参数 (支持 #/path?key=value 或 #key=value)\n      const hashStr = urlObj.hash;\n      const hashParamsList: ParsedParam[] = [];\n      \n      if (hashStr) {\n        // 尝试从 hash 中提取查询参数\n        // 支持格式: #/route?key=value 或 #key=value\n        const hashQueryIndex = hashStr.indexOf('?');\n        if (hashQueryIndex !== -1) {\n          const hashQuery = hashStr.substring(hashQueryIndex + 1);\n          const hashSearchParams = new URLSearchParams(hashQuery);\n          hashSearchParams.forEach((value, key) => {\n            hashParamsList.push({\n              key,\n              value,\n              decodedKey: decodeURIComponent(key),\n              decodedValue: decodeURIComponent(value),\n            });\n          });\n        }\n        \n        // 也支持纯 hash 参数格式 #key=value&key2=value2\n        if (hashParamsList.length === 0 && hashStr.includes('=')) {\n          const cleanHash = hashStr.startsWith('#') ? hashStr.slice(1) : hashStr;\n          // 如果包含 / 路径，跳过路径部分\n          const queryStart = cleanHash.indexOf('?');\n          const hashToParse = queryStart !== -1 ? cleanHash.slice(queryStart + 1) : cleanHash;\n          \n          if (hashToParse.includes('=')) {\n            const hashSearchParams = new URLSearchParams(hashToParse);\n            hashSearchParams.forEach((value, key) => {\n              hashParamsList.push({\n                key,\n                value,\n                decodedKey: decodeURIComponent(key),\n                decodedValue: decodeURIComponent(value),\n              });\n            });\n          }\n        }\n      }\n      setHashParams(hashParamsList);\n\n      return true;\n    } catch (error) {\n      setUrlParts(null);\n      setParsedParams([]);\n      setHashParams([]);\n      return false;\n    }\n  }, []);\n\n  // 编码\n  const handleEncode = useCallback(() => {\n    try {\n      const encoded = encodeURIComponent(inputUrl);\n      setEncodedUrl(encoded);\n      message.success('URL 编码完成');\n    } catch (error) {\n      message.error('编码失败：' + (error as Error).message);\n    }\n  }, [inputUrl]);\n\n  // 解码\n  const handleDecode = useCallback(() => {\n    try {\n      let toDecode = inputUrl;\n      // 如果输入的是编码后的 URL，尝试解码\n      if (toDecode.includes('%')) {\n        const decoded = decodeURIComponent(toDecode);\n        setDecodedUrl(decoded);\n        \n        // 如果解码后是完整 URL，自动解析\n        if (autoDecode && (decoded.startsWith('http://') || decoded.startsWith('https://'))) {\n          parseUrl(decoded);\n        }\n        message.success('URL 解码完成');\n      } else {\n        message.info('输入的 URL 似乎未编码');\n        setDecodedUrl(toDecode);\n        parseUrl(toDecode);\n      }\n    } catch (error) {\n      message.error('解码失败：' + (error as Error).message);\n    }\n  }, [inputUrl, autoDecode, parseUrl]);\n\n  // 自动解析输入的 URL\n  useEffect(() => {\n    if (inputUrl && (inputUrl.startsWith('http://') || inputUrl.startsWith('https://'))) {\n      parseUrl(inputUrl);\n    }\n  }, [inputUrl, parseUrl]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  const clearAll = () => {\n    setInputUrl('');\n    setEncodedUrl('');\n    setDecodedUrl('');\n    setParsedParams([]);\n    setHashParams([]);\n    setUrlParts(null);\n  };\n\n  const paramColumns = [\n    {\n      title: '参数名 (原始)',\n      dataIndex: 'key',\n      key: 'key',\n      render: (text: string) => <code>{text}</code>,\n    },\n    {\n      title: '参数值 (原始)',\n      dataIndex: 'value',\n      key: 'value',\n      render: (text: string) => <code>{text}</code>,\n    },\n    {\n      title: '参数名 (解码)',\n      dataIndex: 'decodedKey',\n      key: 'decodedKey',\n      render: (text: string) => <Text type=\"success\"><code>{text}</code></Text>,\n    },\n    {\n      title: '参数值 (解码)',\n      dataIndex: 'decodedValue',\n      key: 'decodedValue',\n      render: (text: string) => <Text type=\"success\"><code>{text}</code></Text>,\n    },\n  ];\n\n  const urlPartItems = urlParts ? [\n    { label: '协议', value: urlParts.protocol, color: 'blue' },\n    { label: '主机名', value: urlParts.hostname, color: 'green' },\n    { label: '端口', value: urlParts.port || '(默认)', color: 'orange' },\n    { label: '路径', value: urlParts.pathname, color: 'purple' },\n    { label: '查询字符串', value: urlParts.search || '(无)', color: 'cyan' },\n    { label: 'Hash', value: urlParts.hash || '(无)', color: 'magenta' },\n    ...(urlParts.username ? [{ label: '用户名', value: urlParts.username, color: 'red' }] : []),\n    ...(urlParts.password ? [{ label: '密码', value: '******', color: 'red' }] : []),\n  ] : [];\n\n  const tabItems = [\n    {\n      key: 'encode',\n      label: 'URL 编码',\n      children: (\n        <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n          <Card title=\"编码结果\">\n            <TextArea\n              value={encodedUrl}\n              readOnly\n              rows={6}\n              placeholder=\"编码后的 URL 将显示在这里\"\n            />\n            <Button\n              type=\"primary\"\n              icon={<CopyOutlined />}\n              onClick={() => copyToClipboard(encodedUrl)}\n              disabled={!encodedUrl}\n              style={{ marginTop: 12 }}\n            >\n              复制编码结果\n            </Button>\n          </Card>\n        </Space>\n      ),\n    },\n    {\n      key: 'decode',\n      label: 'URL 解码',\n      children: (\n        <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n          <Card title=\"解码结果\">\n            <TextArea\n              value={decodedUrl}\n              readOnly\n              rows={6}\n              placeholder=\"解码后的 URL 将显示在这里\"\n            />\n            <Button\n              type=\"primary\"\n              icon={<CopyOutlined />}\n              onClick={() => copyToClipboard(decodedUrl)}\n              disabled={!decodedUrl}\n              style={{ marginTop: 12 }}\n            >\n              复制解码结果\n            </Button>\n          </Card>\n        </Space>\n      ),\n    },\n    {\n      key: 'parse',\n      label: '参数解析',\n      children: (\n        <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n          {urlParts && (\n            <Card title=\"URL 结构解析\">\n              <Row gutter={[16, 16]}>\n                {urlPartItems.map((item) => (\n                  <Col span={12} key={item.label}>\n                    <Card size=\"small\">\n                      <Text type=\"secondary\">{item.label}:</Text>\n                      <br />\n                      <Tag color={item.color}>{item.value}</Tag>\n                    </Card>\n                  </Col>\n                ))}\n              </Row>\n            </Card>\n          )}\n\n          {parsedParams.length > 0 && (\n            <Card title={`Search 参数 (${parsedParams.length}个)`}>\n              <Table\n                dataSource={parsedParams}\n                columns={paramColumns}\n                rowKey=\"key\"\n                size=\"small\"\n                pagination={false}\n              />\n            </Card>\n          )}\n\n          {hashParams.length > 0 && (\n            <Card title={`Hash 参数 (${hashParams.length}个)`}>\n              <Alert\n                message=\"检测到 Hash 路由参数\"\n                description=\"URL 中包含 # 后的查询参数，常见于前端路由框架\"\n                type=\"info\"\n                showIcon\n                style={{ marginBottom: 16 }}\n              />\n              <Table\n                dataSource={hashParams}\n                columns={paramColumns}\n                rowKey=\"key\"\n                size=\"small\"\n                pagination={false}\n              />\n            </Card>\n          )}\n\n          {parsedParams.length === 0 && hashParams.length === 0 && (\n            <Alert\n              message=\"暂无参数\"\n              description=\"输入包含查询参数的 URL 后将自动解析\"\n              type=\"info\"\n              showIcon\n            />\n          )}\n        </Space>\n      ),\n    },\n  ];\n\n  return (\n    <div>\n      <Title level={2}>\n        <GlobalOutlined /> URL 编解码工具\n      </Title>\n      <Paragraph type=\"secondary\">\n        URL 编码/解码、查询参数解析、Hash 路由参数识别，支持二次操作场景\n      </Paragraph>\n\n      <Card style={{ marginBottom: 24 }}>\n        <Space direction=\"vertical\" style={{ width: '100%' }}>\n          <Text strong>输入 URL：</Text>\n          <TextArea\n            value={inputUrl}\n            onChange={(e) => setInputUrl(e.target.value)}\n            rows={4}\n            placeholder=\"请输入要处理的 URL，支持自动解析查询参数和 Hash 参数\"\n          />\n          <Space>\n            <Button type=\"primary\" icon={<LockOutlined />} onClick={handleEncode}>\n              编码\n            </Button>\n            <Button type=\"primary\" icon={<UnlockOutlined />} onClick={handleDecode}>\n              解码\n            </Button>\n            <Button icon={<ClearOutlined />} onClick={clearAll}>\n              清空\n            </Button>\n            <Switch\n              checked={autoDecode}\n              onChange={setAutoDecode}\n              checkedChildren=\"自动解析\"\n              unCheckedChildren=\"手动解析\"\n            />\n          </Space>\n        </Space>\n      </Card>\n\n      <Tabs\n        activeKey={activeTab}\n        onChange={setActiveTab}\n        items={tabItems}\n      />\n\n      <Divider />\n\n      <Card title=\"使用说明\" size=\"small\">\n        <Space direction=\"vertical\">\n          <Text>1. <Text strong>编码：</Text>将完整 URL 进行 encodeURIComponent 编码</Text>\n          <Text>2. <Text strong>解码：</Text>将编码后的 URL 进行 decodeURIComponent 解码</Text>\n          <Text>3. <Text strong>参数解析：</Text>自动识别 ?key=value 格式的查询参数</Text>\n          <Text>4. <Text strong>Hash 参数：</Text>支持识别 #/route?key=value 或 #key=value 格式的 Hash 路由参数</Text>\n          <Text>5. <Text strong>二次操作：</Text>解码后的 URL 如包含查询参数，自动触发参数解析</Text>\n        </Space>\n      </Card>\n    </div>\n  );\n};\n\nexport default UrlTools;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/url-tools.tsx"
+    },
+    "8": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "7",
+      "id": "8",
       "absPath": "/blog",
-      "__content": "import React from 'react';\nimport { Card, List, Tag, Typography, Space, Avatar, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, StarOutlined, ArrowRightOutlined } from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      <List\n        grid={{ gutter: 24, xs: 1, sm: 1, lg: 2 }}\n        dataSource={blogPosts}\n        renderItem={(post) => (\n          <List.Item>\n            <Card\n              hoverable\n              style={{ height: '100%' }}\n              actions={[\n                <Space>\n                  <EyeOutlined /> {post.views}\n                </Space>,\n                <Space>\n                  <LikeOutlined /> {post.likes}\n                </Space>,\n                <Button \n                  type=\"link\" \n                  href={post.url} \n                  target=\"_blank\"\n                  icon={<ArrowRightOutlined />}\n                >\n                  阅读全文\n                </Button>,\n              ]}\n            >\n              <Card.Meta\n                title={\n                  <a href={post.url} target=\"_blank\" rel=\"noopener noreferrer\" style={{ color: 'inherit' }}>\n                    {post.title}\n                  </a>\n                }\n                description={\n                  <div>\n                    <Paragraph ellipsis={{ rows: 2 }} style={{ marginBottom: 12 }}>\n                      {post.summary}\n                    </Paragraph>\n                    <Space wrap>\n                      {post.tags.map(tag => (\n                        <Tag key={tag} color=\"blue\">{tag}</Tag>\n                      ))}\n                    </Space>\n                    <div style={{ marginTop: 12, color: '#999', fontSize: 12 }}>\n                      发布于 {post.date}\n                    </div>\n                  </div>\n                }\n              />\n            </Card>\n          </List.Item>\n        )}\n      />\n\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default BlogPage;\n",
+      "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "8": {
+    "9": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "8",
+      "id": "9",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,

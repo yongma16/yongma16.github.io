@@ -12,6 +12,7 @@ import {
   ReadOutlined,
   CrownOutlined,
   GithubOutlined,
+  GlobalOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -35,6 +36,7 @@ const items: MenuItem[] = [
       { key: '/tools/perf-check', icon: <BarChartOutlined />, label: '性能检测' },
       { key: '/tools/svg-processor', icon: <FileImageOutlined />, label: 'SVG处理' },
       { key: '/tools/file-diff', icon: <DiffOutlined />, label: '文件对比' },
+      { key: '/tools/url-tools', icon: <GlobalOutlined />, label: 'URL工具' },
     ],
   },
   {

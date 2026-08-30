@@ -25,7 +25,8 @@ react_home/
 │   │       ├── component-gen.tsx    # 组件生成器
 │   │       ├── perf-check.tsx       # 性能检测工具
 │   │       ├── svg-processor.tsx    # SVG 批量处理工具
-│   │       └── file-diff.tsx        # 文件对比工具
+│   │       ├── file-diff.tsx        # 文件对比工具
+│   │       └── url-tools.tsx        # URL 编解码工具
 │   └── config/
 │       └── contact.ts     # 联系信息配置
 ├── dist/                  # 构建输出目录
@@ -85,6 +86,7 @@ server {
 | `/tools/perf-check` | 性能检测 | ✅ 正常 |
 | `/tools/svg-processor` | SVG 处理 | ✅ 已修复 (2026-08-30) |
 | `/tools/file-diff` | 文件对比 | ✅ 正常 |
+| `/tools/url-tools` | URL 编解码 | ✅ 已添加 (2026-08-30) |
 | `/blog` | 技术博客 | ✅ 正常 |
 | `/pricing` | 合作 | ✅ 正常 |
 
@@ -110,6 +112,20 @@ import { Card, Upload, Button, ..., Statistic } from 'antd';
 **问题:** GitHub Pages 直接访问 `/tools/*` 子路由返回 404
 - 原因: GitHub Pages 是静态服务器，不支持 SPA history 路由回退
 - 修复: 启用 `exportStatic` 静态导出，为每个路由生成独立 HTML 文件
+
+### 2026-08-30: URL 编解码工具添加
+
+**新增功能:** URL 编解码与参数解析工具
+- 文件: `src/pages/tools/url-tools.tsx`
+- 功能:
+  1. URL 编码/解码 (支持多次解码)
+  2. 查询参数解析 (键值对表格展示)
+  3. Hash 路由参数识别
+  4. 解码后自动解析参数 (二次操作联动)
+  5. 一键复制结果
+- 路由: `/tools/url-tools`
+- 图标: `GlobalOutlined`
+- 部署状态: ✅ 已部署到 Nginx
 
 ### 2026-08-30: Nginx 部署资源路径问题
 
@@ -166,4 +182,4 @@ pnpm run build && sudo cp -r dist/* /var/www/yma16.cloud/ && sudo systemctl relo
 ---
 
 *最后更新: 2026-08-30*  
-*更新内容: 修复 SVG 处理器组件 Statistic 导入问题*
+*更新内容: 添加 URL 编解码工具，支持编码/解码/参数解析/Hash识别*

@@ -10,6 +10,7 @@ import {
   ThunderboltOutlined,
   TeamOutlined,
   CloudUploadOutlined,
+  GlobalOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -42,6 +43,13 @@ const tools = [
     desc: 'SVG 压缩、转换、批量处理，图标库管理',
     path: '/tools/svg-processor',
     tags: ['免费', 'PRO'],
+  },
+  {
+    title: 'URL 工具',
+    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,
+    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',
+    path: '/tools/url-tools',
+    tags: ['免费', 'NEW'],
   },
 ];
 
@@ -91,7 +99,7 @@ const HomePage: React.FC = () => {
       <Row gutter={24} style={{ marginBottom: 48 }}>
         <Col span={8}>
           <Card>
-            <Statistic title="工具数量" value={4} suffix="个" />
+            <Statistic title="工具数量" value={5} suffix="个" />
           </Card>
         </Col>
         <Col span={8}>

@@ -15,6 +15,7 @@ export default defineConfig({
     { path: '/tools/perf-check', component: '@/pages/tools/perf-check', title: '性能检测' },
     { path: '/tools/svg-processor', component: '@/pages/tools/svg-processor', title: 'SVG处理' },
     { path: '/tools/file-diff', component: '@/pages/tools/file-diff', title: '文件对比' },
+    { path: '/tools/url-tools', component: '@/pages/tools/url-tools', title: 'URL工具' },
     { path: '/blog', component: '@/pages/blog', title: '技术博客' },
     { path: '/pricing', component: '@/pages/pricing', title: '合作' },
   ],

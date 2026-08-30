@@ -10,8 +10,8 @@ import { createHistory } from './core/history';
 import { ApplyPluginsType } from 'umi';
 
 
-const publicPath = "/";
-const runtimePublicPath = false;
+const publicPath = "./";
+const runtimePublicPath = true;
 
 async function render() {
   const pluginManager = createPluginManager();

@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"7"},"8":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"8"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
+  const routes = {"1":{"path":"/","title":"首页","parentId":"@@/global-layout","id":"1"},"2":{"path":"/tools/code-formatter","title":"代码格式化","parentId":"@@/global-layout","id":"2"},"3":{"path":"/tools/component-gen","title":"组件生成器","parentId":"@@/global-layout","id":"3"},"4":{"path":"/tools/perf-check","title":"性能检测","parentId":"@@/global-layout","id":"4"},"5":{"path":"/tools/svg-processor","title":"SVG处理","parentId":"@@/global-layout","id":"5"},"6":{"path":"/tools/file-diff","title":"文件对比","parentId":"@@/global-layout","id":"6"},"7":{"path":"/tools/url-tools","title":"URL工具","parentId":"@@/global-layout","id":"7"},"8":{"path":"/blog","title":"技术博客","parentId":"@@/global-layout","id":"8"},"9":{"path":"/pricing","title":"合作","parentId":"@@/global-layout","id":"9"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
   return {
     routes,
     routeComponents: {
@@ -14,8 +14,9 @@ export async function getRoutes() {
 '4': React.lazy(() => import(/* webpackChunkName: "p__tools__perf-check" */'@/pages/tools/perf-check.tsx')),
 '5': React.lazy(() => import(/* webpackChunkName: "p__tools__svg-processor" */'@/pages/tools/svg-processor.tsx')),
 '6': React.lazy(() => import(/* webpackChunkName: "p__tools__file-diff" */'@/pages/tools/file-diff.tsx')),
-'7': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
-'8': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
+'7': React.lazy(() => import(/* webpackChunkName: "p__tools__url-tools" */'@/pages/tools/url-tools.tsx')),
+'8': React.lazy(() => import(/* webpackChunkName: "p__blog" */'@/pages/blog.tsx')),
+'9': React.lazy(() => import(/* webpackChunkName: "p__pricing" */'@/pages/pricing.tsx')),
 '@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/home/ubuntu/front_projects/react_home/src/layouts/index.tsx')),
 },
   };
