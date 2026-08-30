@@ -37,7 +37,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 11
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,10 +81,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            6
           ]
         },
-        "register": 3
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -101,7 +101,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,10 +128,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            13
+            15
           ]
         },
-        "register": 29
+        "register": 34
       },
       "enableBy": "register",
       "type": "plugin",
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -161,10 +161,10 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -181,7 +181,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -194,7 +194,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -211,7 +211,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 18
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 94
+        "register": 123
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 68
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 10
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1166,7 +1166,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 33
+        "register": 57
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1242,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1256,10 +1256,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            2
           ]
         },
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1297,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1374,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1426,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 9
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 33
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1464,7 +1464,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 494
+        "register": 979
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1501,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1530,7 +1530,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1543,7 +1543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1593,7 +1593,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1605,7 +1605,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 35
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1629,7 +1629,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1642,7 +1642,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 55
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 67
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1706,7 +1706,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1732,7 +1732,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1745,7 +1745,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1758,7 +1758,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1784,7 +1784,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1810,7 +1810,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1836,7 +1836,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1875,7 +1875,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1914,7 +1914,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1927,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2408,7 +2408,7 @@
       "parentId": "@@/global-layout",
       "id": "9",
       "absPath": "/tools/image-cropper",
-      "__content": "import React, { useState, useRef, useCallback } from 'react';\nimport { Card, Button, Slider, message, Typography, Space, Upload, Row, Col } from 'antd';\nimport { UploadOutlined, RotateLeftOutlined, RotateRightOutlined, DownloadOutlined, ScissorOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst ImageCropper: React.FC = () => {\n  const canvasRef = useRef<HTMLCanvasElement>(null);\n  const [image, setImage] = useState<HTMLImageElement | null>(null);\n  const [rotation, setRotation] = useState(0);\n  const [scale, setScale] = useState(1);\n  const [cropArea, setCropArea] = useState({ x: 0, y: 0, width: 200, height: 200 });\n  const [isDragging, setIsDragging] = useState(false);\n  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });\n  const [fileList, setFileList] = useState<UploadFile[]>([]);\n\n  const seoConfig = {\n    title: '图片裁剪工具',\n    description: '免费的在线图片裁剪工具，纯前端 Canvas 实现，支持调整裁剪框、旋转图片、导出下载，不上传服务器保护隐私。',\n    keywords: '图片裁剪,在线裁剪图片,图片旋转,图片编辑,Canvas裁剪,前端图片处理,图片裁剪工具',\n    jsonLd: createToolJsonLd(\n      '图片裁剪工具',\n      '免费的在线图片裁剪和编辑工具',\n      'https://yma16.cloud/tools/image-cropper',\n      'DeveloperApplication'\n    ),\n  };\n\n  const handleUpload = (file: File) => {\n    const reader = new FileReader();\n    reader.onload = (e) => {\n      const img = new Image();\n      img.onload = () => {\n        setImage(img);\n        setCropArea({\n          x: img.width * 0.1,\n          y: img.height * 0.1,\n          width: img.width * 0.8,\n          height: img.height * 0.8,\n        });\n        drawCanvas(img, rotation, scale, {\n          x: img.width * 0.1,\n          y: img.height * 0.1,\n          width: img.width * 0.8,\n          height: img.height * 0.8,\n        });\n      };\n      img.src = e.target?.result as string;\n    };\n    reader.readAsDataURL(file);\n    return false;\n  };\n\n  const drawCanvas = (\n    img: HTMLImageElement,\n    rot: number,\n    scl: number,\n    crop: typeof cropArea\n  ) => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    canvas.width = img.width * scl;\n    canvas.height = img.height * scl;\n\n    ctx.save();\n    ctx.translate(canvas.width / 2, canvas.height / 2);\n    ctx.rotate((rot * Math.PI) / 180);\n    ctx.scale(scl, scl);\n    ctx.drawImage(img, -img.width / 2, -img.height / 2);\n    ctx.restore();\n\n    // Draw crop overlay\n    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    ctx.clearRect(crop.x * scl, crop.y * scl, crop.width * scl, crop.height * scl);\n\n    // Draw crop border\n    ctx.strokeStyle = '#1890ff';\n    ctx.lineWidth = 2;\n    ctx.strokeRect(crop.x * scl, crop.y * scl, crop.width * scl, crop.height * scl);\n  };\n\n  const handleMouseDown = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    if (\n      x >= cropArea.x * scale &&\n      x <= (cropArea.x + cropArea.width) * scale &&\n      y >= cropArea.y * scale &&\n      y <= (cropArea.y + cropArea.height) * scale\n    ) {\n      setIsDragging(true);\n      setDragStart({ x: x - cropArea.x * scale, y: y - cropArea.y * scale });\n    }\n  };\n\n  const handleMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    if (!isDragging || !image) return;\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    const newX = (x - dragStart.x) / scale;\n    const newY = (y - dragStart.y) / scale;\n\n    setCropArea({\n      ...cropArea,\n      x: Math.max(0, Math.min(newX, image.width - cropArea.width)),\n      y: Math.max(0, Math.min(newY, image.height - cropArea.height)),\n    });\n\n    drawCanvas(image, rotation, scale, {\n      ...cropArea,\n      x: Math.max(0, Math.min(newX, image.width - cropArea.width)),\n      y: Math.max(0, Math.min(newY, image.height - cropArea.height)),\n    });\n  };\n\n  const handleMouseUp = () => {\n    setIsDragging(false);\n  };\n\n  const handleRotate = (deg: number) => {\n    const newRotation = rotation + deg;\n    setRotation(newRotation);\n    if (image) {\n      drawCanvas(image, newRotation, scale, cropArea);\n    }\n  };\n\n  const handleScale = (value: number) => {\n    setScale(value);\n    if (image) {\n      drawCanvas(image, rotation, value, cropArea);\n    }\n  };\n\n  const handleCrop = () => {\n    if (!image || !canvasRef.current) return;\n    const canvas = document.createElement('canvas');\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    canvas.width = cropArea.width;\n    canvas.height = cropArea.height;\n\n    ctx.drawImage(\n      canvasRef.current,\n      cropArea.x * scale,\n      cropArea.y * scale,\n      cropArea.width * scale,\n      cropArea.height * scale,\n      0,\n      0,\n      cropArea.width,\n      cropArea.height\n    );\n\n    const dataUrl = canvas.toDataURL('image/png');\n    const link = document.createElement('a');\n    link.download = 'cropped-image.png';\n    link.href = dataUrl;\n    link.click();\n    message.success('图片已下载');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <ScissorOutlined /> 图片裁剪\n        </Title>\n        <Text type=\"secondary\">纯前端 Canvas 实现，不上传服务器</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Upload\n                  fileList={fileList}\n                  beforeUpload={handleUpload}\n                  onChange={({ fileList }) => setFileList(fileList)}\n                  accept=\"image/*\"\n                  maxCount={1}\n                >\n                  <Button icon={<UploadOutlined />}>上传图片</Button>\n                </Upload>\n\n                {image && (\n                  <>\n                    <Space style={{ marginTop: 16 }}>\n                      <Button icon={<RotateLeftOutlined />} onClick={() => handleRotate(-90)}>\n                        左转 90°\n                      </Button>\n                      <Button icon={<RotateRightOutlined />} onClick={() => handleRotate(90)}>\n                        右转 90°\n                      </Button>\n                      <Button icon={<DownloadOutlined />} type=\"primary\" onClick={handleCrop}>\n                        裁剪并下载\n                      </Button>\n                    </Space>\n\n                    <div style={{ marginTop: 16 }}>\n                      <Text>缩放: {Math.round(scale * 100)}%</Text>\n                      <Slider\n                        min={0.5}\n                        max={2}\n                        step={0.1}\n                        value={scale}\n                        onChange={handleScale}\n                      />\n                    </div>\n\n                    <canvas\n                      ref={canvasRef}\n                      style={{\n                        maxWidth: '100%',\n                        border: '1px solid #d9d9d9',\n                        borderRadius: 8,\n                        cursor: isDragging ? 'grabbing' : 'grab',\n                      }}\n                      onMouseDown={handleMouseDown}\n                      onMouseMove={handleMouseMove}\n                      onMouseUp={handleMouseUp}\n                      onMouseLeave={handleMouseUp}\n                    />\n                  </>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default ImageCropper;\n",
+      "__content": "import React, { useState, useRef, useCallback, useEffect } from 'react';\nimport { Card, Button, Slider, message, Typography, Space, Upload, Row, Col } from 'antd';\nimport { UploadOutlined, RotateLeftOutlined, RotateRightOutlined, DownloadOutlined, ScissorOutlined, ReloadOutlined } from '@ant-design/icons';\nimport type { UploadFile } from 'antd/es/upload/interface';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\nconst ImageCropper: React.FC = () => {\n  const canvasRef = useRef<HTMLCanvasElement>(null);\n  const containerRef = useRef<HTMLDivElement>(null);\n  const [image, setImage] = useState<HTMLImageElement | null>(null);\n  const [rotation, setRotation] = useState(0);\n  const [scale, setScale] = useState(1);\n  const [cropArea, setCropArea] = useState({ x: 0, y: 0, width: 200, height: 200 });\n  const [isDragging, setIsDragging] = useState(false);\n  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });\n  const [fileList, setFileList] = useState<UploadFile[]>([]);\n  const [previewUrl, setPreviewUrl] = useState('');\n\n  const seoConfig = {\n    title: '图片裁剪工具',\n    description: '免费的在线图片裁剪工具，纯前端 Canvas 实现，支持调整裁剪框、旋转图片、导出下载，不上传服务器保护隐私。',\n    keywords: '图片裁剪,在线裁剪图片,图片旋转,图片编辑,Canvas裁剪,前端图片处理,图片裁剪工具',\n    jsonLd: createToolJsonLd(\n      '图片裁剪工具',\n      '免费的在线图片裁剪和编辑工具',\n      'https://yma16.cloud/tools/image-cropper',\n      'DeveloperApplication'\n    ),\n  };\n\n  // 绘制画布\n  const drawCanvas = useCallback(() => {\n    if (!image || !canvasRef.current) return;\n    const canvas = canvasRef.current;\n    const ctx = canvas.getContext('2d');\n    if (!ctx) return;\n\n    // 计算旋转后的画布尺寸\n    const rad = (rotation * Math.PI) / 180;\n    const sin = Math.abs(Math.sin(rad));\n    const cos = Math.abs(Math.cos(rad));\n    const newWidth = image.width * cos + image.height * sin;\n    const newHeight = image.width * sin + image.height * cos;\n\n    canvas.width = newWidth * scale;\n    canvas.height = newHeight * scale;\n\n    ctx.clearRect(0, 0, canvas.width, canvas.height);\n    ctx.save();\n    ctx.translate(canvas.width / 2, canvas.height / 2);\n    ctx.rotate(rad);\n    ctx.scale(scale, scale);\n    ctx.drawImage(image, -image.width / 2, -image.height / 2);\n    ctx.restore();\n\n    // 绘制裁剪区域遮罩\n    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    \n    // 清除裁剪区域（显示原图）\n    ctx.clearRect(cropArea.x * scale, cropArea.y * scale, cropArea.width * scale, cropArea.height * scale);\n    \n    // 重新绘制裁剪区域内的图像\n    ctx.save();\n    ctx.beginPath();\n    ctx.rect(cropArea.x * scale, cropArea.y * scale, cropArea.width * scale, cropArea.height * scale);\n    ctx.clip();\n    ctx.translate(canvas.width / 2, canvas.height / 2);\n    ctx.rotate(rad);\n    ctx.scale(scale, scale);\n    ctx.drawImage(image, -image.width / 2, -image.height / 2);\n    ctx.restore();\n\n    // 绘制裁剪边框\n    ctx.strokeStyle = '#1890ff';\n    ctx.lineWidth = 2;\n    ctx.strokeRect(cropArea.x * scale, cropArea.y * scale, cropArea.width * scale, cropArea.height * scale);\n    \n    // 绘制角落控制点\n    const handleSize = 8;\n    ctx.fillStyle = '#1890ff';\n    [\n      [cropArea.x * scale, cropArea.y * scale],\n      [(cropArea.x + cropArea.width) * scale - handleSize, cropArea.y * scale],\n      [cropArea.x * scale, (cropArea.y + cropArea.height) * scale - handleSize],\n      [(cropArea.x + cropArea.width) * scale - handleSize, (cropArea.y + cropArea.height) * scale - handleSize],\n    ].forEach(([x, y]) => {\n      ctx.fillRect(x, y, handleSize, handleSize);\n    });\n  }, [image, rotation, scale, cropArea]);\n\n  // 当依赖变化时重绘画布\n  useEffect(() => {\n    drawCanvas();\n  }, [drawCanvas]);\n\n  const handleUpload = (file: File) => {\n    const url = URL.createObjectURL(file);\n    setPreviewUrl(url);\n    \n    const img = new Image();\n    img.onload = () => {\n      setImage(img);\n      // 初始化裁剪区域为图片中心 80%\n      const cropW = img.width * 0.8;\n      const cropH = img.height * 0.8;\n      setCropArea({\n        x: (img.width - cropW) / 2,\n        y: (img.height - cropH) / 2,\n        width: cropW,\n        height: cropH,\n      });\n      setRotation(0);\n      setScale(1);\n      message.success('图片上传成功');\n    };\n    img.onerror = () => {\n      message.error('图片加载失败');\n    };\n    img.src = url;\n    return false;\n  };\n\n  const handleRemove = () => {\n    setImage(null);\n    setPreviewUrl('');\n    setFileList([]);\n    setRotation(0);\n    setScale(1);\n    if (canvasRef.current) {\n      const ctx = canvasRef.current.getContext('2d');\n      if (ctx) {\n        ctx.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height);\n      }\n    }\n  };\n\n  const handleMouseDown = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    if (!image) return;\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    if (\n      x >= cropArea.x * scale &&\n      x <= (cropArea.x + cropArea.width) * scale &&\n      y >= cropArea.y * scale &&\n      y <= (cropArea.y + cropArea.height) * scale\n    ) {\n      setIsDragging(true);\n      setDragStart({ x: x - cropArea.x * scale, y: y - cropArea.y * scale });\n    }\n  };\n\n  const handleMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {\n    if (!isDragging || !image) return;\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const rect = canvas.getBoundingClientRect();\n    const x = (e.clientX - rect.left) * (canvas.width / rect.width);\n    const y = (e.clientY - rect.top) * (canvas.height / rect.height);\n\n    const newX = (x - dragStart.x) / scale;\n    const newY = (y - dragStart.y) / scale;\n\n    setCropArea({\n      ...cropArea,\n      x: Math.max(0, Math.min(newX, image.width - cropArea.width)),\n      y: Math.max(0, Math.min(newY, image.height - cropArea.height)),\n    });\n  };\n\n  const handleMouseUp = () => {\n    setIsDragging(false);\n  };\n\n  const handleRotate = (deg: number) => {\n    setRotation((prev) => prev + deg);\n  };\n\n  const handleScale = (value: number) => {\n    setScale(value);\n  };\n\n  const handleCrop = () => {\n    if (!image || !canvasRef.current) return;\n    \n    // 创建临时画布进行裁剪\n    const tempCanvas = document.createElement('canvas');\n    const tempCtx = tempCanvas.getContext('2d');\n    if (!tempCtx) return;\n\n    tempCanvas.width = cropArea.width;\n    tempCanvas.height = cropArea.height;\n\n    // 计算旋转后的画布尺寸\n    const rad = (rotation * Math.PI) / 180;\n    const sin = Math.abs(Math.sin(rad));\n    const cos = Math.abs(Math.cos(rad));\n    const fullWidth = image.width * cos + image.height * sin;\n    const fullHeight = image.width * sin + image.height * cos;\n\n    tempCtx.translate(tempCanvas.width / 2, tempCanvas.height / 2);\n    tempCtx.rotate(-rad);\n    tempCtx.drawImage(\n      image,\n      -(cropArea.x + cropArea.width / 2 - image.width / 2),\n      -(cropArea.y + cropArea.height / 2 - image.height / 2),\n      image.width,\n      image.height\n    );\n\n    const dataUrl = tempCanvas.toDataURL('image/png');\n    const link = document.createElement('a');\n    link.download = `cropped-${Date.now()}.png`;\n    link.href = dataUrl;\n    link.click();\n    message.success('图片已下载');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <ScissorOutlined /> 图片裁剪\n        </Title>\n        <Text type=\"secondary\">纯前端 Canvas 实现，不上传服务器</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card>\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                {/* 上传区域 */}\n                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>\n                  <Upload\n                    fileList={fileList}\n                    beforeUpload={handleUpload}\n                    onChange={({ fileList }) => setFileList(fileList)}\n                    onRemove={handleRemove}\n                    accept=\"image/*\"\n                    maxCount={1}\n                    listType=\"picture\"\n                  >\n                    <Button icon={<UploadOutlined />}>上传图片</Button>\n                  </Upload>\n                  {image && (\n                    <Button icon={<ReloadOutlined />} onClick={handleRemove}>\n                      重新上传\n                    </Button>\n                  )}\n                </div>\n\n                {/* 图片预览 */}\n                {previewUrl && !image && (\n                  <div style={{ textAlign: 'center', padding: 20 }}>\n                    <img\n                      src={previewUrl}\n                      alt=\"预览\"\n                      style={{ maxWidth: '100%', maxHeight: 400, borderRadius: 8 }}\n                    />\n                    <Text type=\"secondary\" style={{ display: 'block', marginTop: 8 }}>\n                      图片加载中...\n                    </Text>\n                  </div>\n                )}\n\n                {/* 编辑工具栏 */}\n                {image && (\n                  <>\n                    <Space wrap>\n                      <Button icon={<RotateLeftOutlined />} onClick={() => handleRotate(-90)}>\n                        左转 90°\n                      </Button>\n                      <Button icon={<RotateRightOutlined />} onClick={() => handleRotate(90)}>\n                        右转 90°\n                      </Button>\n                      <Button icon={<DownloadOutlined />} type=\"primary\" onClick={handleCrop}>\n                        裁剪并下载\n                      </Button>\n                    </Space>\n\n                    <div>\n                      <Text>缩放: {Math.round(scale * 100)}%</Text>\n                      <Slider\n                        min={0.1}\n                        max={3}\n                        step={0.1}\n                        value={scale}\n                        onChange={handleScale}\n                        marks={{ 0.1: '10%', 1: '100%', 2: '200%', 3: '300%' }}\n                      />\n                    </div>\n\n                    <div>\n                      <Text>旋转: {rotation}°</Text>\n                      <Slider\n                        min={-180}\n                        max={180}\n                        step={90}\n                        value={rotation}\n                        onChange={(val) => setRotation(val)}\n                        marks={{ '-180': '-180°', '-90': '-90°', 0: '0°', 90: '90°', 180: '180°' }}\n                      />\n                    </div>\n\n                    {/* Canvas 画布 */}\n                    <div\n                      ref={containerRef}\n                      style={{\n                        overflow: 'auto',\n                        maxHeight: 600,\n                        border: '1px solid #d9d9d9',\n                        borderRadius: 8,\n                        background: '#f5f5f5',\n                      }}\n                    >\n                      <canvas\n                        ref={canvasRef}\n                        style={{\n                          display: 'block',\n                          cursor: isDragging ? 'grabbing' : 'grab',\n                          maxWidth: '100%',\n                        }}\n                        onMouseDown={handleMouseDown}\n                        onMouseMove={handleMouseMove}\n                        onMouseUp={handleMouseUp}\n                        onMouseLeave={handleMouseUp}\n                      />\n                    </div>\n\n                    <Text type=\"secondary\">\n                      提示：拖动蓝色边框可调整裁剪位置，使用滑块调整缩放和旋转\n                    </Text>\n                  </>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default ImageCropper;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/image-cropper.tsx"
     },
