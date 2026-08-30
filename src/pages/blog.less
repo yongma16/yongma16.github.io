@@ -1,0 +1,184 @@
+// 变量定义
+@primary-color: #1890ff;
+@text-primary: #262626;
+@text-secondary: #595959;
+@text-tertiary: #8c8c8c;
+@border-color: #f0f0f0;
+@bg-white: #ffffff;
+@bg-gray: #f5f5f5;
+@card-height: 320px;
+@border-radius: 12px;
+@transition-duration: 0.3s;
+
+// 文章列表容器 - Grid 布局
+.articleList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+// 卡片链接
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+// 文章卡片 - 固定高度方案
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: @card-height;
+  background: @bg-white;
+  border: 1px solid @border-color;
+  border-radius: @border-radius;
+  overflow: hidden;
+  transition: all @transition-duration ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-4px);
+
+    .cardGlow {
+      border-color: rgba(24, 144, 255, 0.4);
+      box-shadow: 0 0 20px rgba(24, 144, 255, 0.15), inset 0 0 20px rgba(24, 144, 255, 0.05);
+    }
+
+    .readMore {
+      color: @primary-color;
+      
+      :global(.anticon) {
+        transform: translateX(4px);
+      }
+    }
+  }
+}
+
+// 悬浮边框光效（完全透明，不影响内容）
+.cardGlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: @border-radius;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 0 rgba(24, 144, 255, 0);
+  transition: all @transition-duration ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+// 内容区域
+.cardContent {
+  flex: 1;
+  padding: 20px 20px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+// 标签区域
+.cardTags {
+  margin-bottom: 10px;
+
+  .tag {
+    font-size: 12px;
+    padding: 2px 8px;
+    margin-right: 8px;
+  }
+}
+
+// 标题 - 最多2行
+.cardTitle {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: @text-primary;
+  margin: 0 0 10px 0;
+
+  // 多行省略
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// 摘要 - 最多3行
+.cardSummary {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.7;
+  color: @text-secondary;
+  margin: 0;
+
+  // 多行省略
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// 底部元信息
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  margin-top: auto;
+  border-top: 1px solid @border-color;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: @text-tertiary;
+
+  :global(.anticon) {
+    font-size: 14px;
+  }
+}
+
+// 卡片底部 - 阅读更多
+.cardFooter {
+  padding: 10px 20px 14px 24px;
+  border-top: 1px solid @border-color;
+  background: #fafafa;
+}
+
+.readMore {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: @text-secondary;
+  transition: color @transition-duration ease;
+
+  :global(.anticon) {
+    font-size: 12px;
+    transition: transform @transition-duration ease;
+  }
+}
+
+// 响应式适配
+@media (max-width: 768px) {
+  .articleList {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    height: auto;
+    min-height: @card-height;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .articleList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

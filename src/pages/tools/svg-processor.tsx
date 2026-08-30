@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio } from 'antd';
+import { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio, Statistic } from 'antd';
 import { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';
 import type { UploadFile } from 'antd/es/upload/interface';
 

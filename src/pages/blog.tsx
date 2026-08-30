@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, List, Tag, Typography, Space, Avatar, Button, Row, Col, Statistic } from 'antd';
-import { ReadOutlined, EyeOutlined, LikeOutlined, StarOutlined, ArrowRightOutlined } from '@ant-design/icons';
+import { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';
+import { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';
+import styles from './blog.less';
 
 const { Title, Paragraph } = Typography;
 
@@ -13,6 +14,7 @@ interface BlogPost {
   likes: number;
   date: string;
   url: string;
+  cover?: string;
 }
 
 const blogPosts: BlogPost[] = [
@@ -78,6 +80,73 @@ const blogPosts: BlogPost[] = [
   },
 ];
 
+// 格式化数字
+const formatNumber = (num: number): string => {
+  if (num >= 1000) {
+    return `${(num / 1000).toFixed(1)}k`;
+  }
+  return num.toString();
+};
+
+const BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {
+  return (
+    <a 
+      href={post.url} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className={styles.cardLink}
+    >
+      <div className={styles.card}>
+        {/* 悬浮光效层 */}
+        <div className={styles.cardGlow} />
+        
+        {/* 内容区 */}
+        <div className={styles.cardContent}>
+          {/* 标签 */}
+          <div className={styles.cardTags}>
+            {post.tags.slice(0, 2).map(tag => (
+              <Tag key={tag} color="blue" className={styles.tag}>{tag}</Tag>
+            ))}
+          </div>
+          
+          {/* 标题 */}
+          <h3 className={styles.cardTitle} title={post.title}>
+            {post.title}
+          </h3>
+          
+          {/* 摘要 */}
+          <p className={styles.cardSummary} title={post.summary}>
+            {post.summary}
+          </p>
+          
+          {/* 底部元信息 */}
+          <div className={styles.cardMeta}>
+            <span className={styles.metaItem}>
+              <ClockCircleOutlined />
+              {post.date}
+            </span>
+            <span className={styles.metaItem}>
+              <EyeOutlined />
+              {formatNumber(post.views)}
+            </span>
+            <span className={styles.metaItem}>
+              <LikeOutlined />
+              {post.likes}
+            </span>
+          </div>
+        </div>
+        
+        {/* 阅读更多 */}
+        <div className={styles.cardFooter}>
+          <span className={styles.readMore}>
+            阅读全文 <ArrowRightOutlined />
+          </span>
+        </div>
+      </div>
+    </a>
+  );
+};
+
 const BlogPage: React.FC = () => {
   const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);
   const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);
@@ -94,76 +163,33 @@ const BlogPage: React.FC = () => {
         </a>
       </Paragraph>
 
+      {/* 统计卡片 */}
       <Row gutter={24} style={{ marginBottom: 32 }}>
-        <Col span={8}>
+        <Col xs={24} sm={8}>
           <Card>
             <Statistic title="文章数量" value={blogPosts.length} suffix="篇" />
           </Card>
         </Col>
-        <Col span={8}>
+        <Col xs={24} sm={8}>
           <Card>
             <Statistic title="总阅读量" value={totalViews} suffix="次" />
           </Card>
         </Col>
-        <Col span={8}>
+        <Col xs={24} sm={8}>
           <Card>
             <Statistic title="总点赞数" value={totalLikes} suffix="个" />
           </Card>
         </Col>
       </Row>
 
-      <List
-        grid={{ gutter: 24, xs: 1, sm: 1, lg: 2 }}
-        dataSource={blogPosts}
-        renderItem={(post) => (
-          <List.Item>
-            <Card
-              hoverable
-              style={{ height: '100%' }}
-              actions={[
-                <Space>
-                  <EyeOutlined /> {post.views}
-                </Space>,
-                <Space>
-                  <LikeOutlined /> {post.likes}
-                </Space>,
-                <Button 
-                  type="link" 
-                  href={post.url} 
-                  target="_blank"
-                  icon={<ArrowRightOutlined />}
-                >
-                  阅读全文
-                </Button>,
-              ]}
-            >
-              <Card.Meta
-                title={
-                  <a href={post.url} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                    {post.title}
-                  </a>
-                }
-                description={
-                  <div>
-                    <Paragraph ellipsis={{ rows: 2 }} style={{ marginBottom: 12 }}>
-                      {post.summary}
-                    </Paragraph>
-                    <Space wrap>
-                      {post.tags.map(tag => (
-                        <Tag key={tag} color="blue">{tag}</Tag>
-                      ))}
-                    </Space>
-                    <div style={{ marginTop: 12, color: '#999', fontSize: 12 }}>
-                      发布于 {post.date}
-                    </div>
-                  </div>
-                }
-              />
-            </Card>
-          </List.Item>
-        )}
-      />
+      {/* 文章列表 - 固定高度卡片 */}
+      <div className={styles.articleList}>
+        {blogPosts.map(post => (
+          <BlogCard key={post.id} post={post} />
+        ))}
+      </div>
 
+      {/* 底部 CTA */}
       <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>
         <Title level={4}>查看更多技术文章</Title>
         <Paragraph>
