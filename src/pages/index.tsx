@@ -1,6 +1,7 @@
 import React from 'react';
 import { history } from 'umi';
 import { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';
+import { SEO, createWebsiteJsonLd } from '@/components/SEO';
 import {
   CodeOutlined,
   ToolOutlined,
@@ -61,7 +62,14 @@ const features = [
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <>
+      <SEO
+        title="首页"
+        description="yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。"
+        keywords="前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,在线工具,前端开发工具集"
+        jsonLd={createWebsiteJsonLd()}
+      />
+      <div>
       {/* Hero Section */}
       <div style={{ textAlign: 'center', padding: '60px 0' }}>
         <Title level={1}>
@@ -177,6 +185,7 @@ const HomePage: React.FC = () => {
         </Button>
       </Card>
     </div>
+    </>
   );
 };
 

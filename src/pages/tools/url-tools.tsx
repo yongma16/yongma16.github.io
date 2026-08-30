@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Card, Row, Col, Button, message, Typography, Space, Tabs, Table, Tag, Switch, Input, Divider, Alert } from 'antd';
 import { CopyOutlined, ClearOutlined, LinkOutlined, UnlockOutlined, LockOutlined, GlobalOutlined } from '@ant-design/icons';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph, Text } = Typography;
 const { TextArea } = Input;
@@ -27,6 +28,18 @@ const defaultUrl = 'https://example.com:8080/path/to/page?name=John%20Doe&age=25
 
 const UrlTools: React.FC = () => {
   const [inputUrl, setInputUrl] = useState(defaultUrl);
+
+  const seoConfig = {
+    title: 'URL 编解码工具',
+    description: '免费的在线 URL 编解码工具，支持 URL 编码解码、查询参数解析、Hash 路由参数识别，解码后自动解析参数，支持一键复制结果。',
+    keywords: 'URL编码,URL解码,URL编解码,查询参数解析,URL参数解析,Hash参数,URL工具,在线URL工具,URL编码解码',
+    jsonLd: createToolJsonLd(
+      'URL 编解码工具',
+      '免费的在线 URL 编码解码和参数解析工具',
+      'https://yma16.cloud/tools/url-tools',
+      'DeveloperApplication'
+    ),
+  };
   const [encodedUrl, setEncodedUrl] = useState('');
   const [decodedUrl, setDecodedUrl] = useState('');
   const [parsedParams, setParsedParams] = useState<ParsedParam[]>([]);
@@ -326,7 +339,9 @@ const UrlTools: React.FC = () => {
   ];
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <Title level={2}>
         <GlobalOutlined /> URL 编解码工具
       </Title>
@@ -381,6 +396,7 @@ const UrlTools: React.FC = () => {
         </Space>
       </Card>
     </div>
+    </>
   );
 };
 

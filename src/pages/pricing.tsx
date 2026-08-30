@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';
 import { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';
 import { CONTACT_INFO } from '@/config/contact';
+import { SEO } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 
@@ -55,7 +56,13 @@ const cooperations = [
 
 const PricingPage: React.FC = () => {
   return (
-    <div>
+    <>
+      <SEO
+        title="合作与服务"
+        description="yma16 提供前端技术咨询、项目合作、技术培训和开源贡献等服务，欢迎联系合作。"
+        keywords="前端技术咨询,项目合作,技术培训,React开发,Vue开发,前端架构"
+      />
+      <div>
       <div style={{ textAlign: 'center', marginBottom: 48 }}>
         <Title level={2}>开发合作</Title>
         <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>
@@ -196,6 +203,7 @@ const PricingPage: React.FC = () => {
         </Col>
       </Row>
     </div>
+    </>
   );
 };
 

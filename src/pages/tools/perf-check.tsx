@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Card, Button, Progress, Statistic, Row, Col, Typography, List, Tag, Timeline, Alert, Space, Divider, Badge } from 'antd';
 import { BarChartOutlined, PlayCircleOutlined, ReloadOutlined, CheckCircleOutlined, WarningOutlined, CloseCircleOutlined, CodeOutlined, CopyOutlined } from '@ant-design/icons';
 import Editor from '@monaco-editor/react';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 
@@ -181,6 +182,17 @@ function findUnusedCSS() {
 ];
 
 const PerfCheck: React.FC = () => {
+  const seoConfig = {
+    title: '前端性能检测工具',
+    description: '免费的前端性能检测工具，分析网页 Core Web Vitals 指标（LCP、FID、CLS），提供 Lighthouse 报告和性能优化建议，提升网站加载速度。',
+    keywords: '性能检测,前端性能优化,Lighthouse,Core Web Vitals,LCP,FID,CLS,网页性能分析,加载速度优化,性能测试工具',
+    jsonLd: createToolJsonLd(
+      '前端性能检测工具',
+      '免费的前端性能分析和优化工具',
+      'https://yma16.cloud/tools/perf-check',
+      'DeveloperApplication'
+    ),
+  };
   const [loading, setLoading] = useState(false);
   const [metrics, setMetrics] = useState<PerfMetric[]>([]);
   const [timeline, setTimeline] = useState<string[]>([]);
@@ -430,7 +442,9 @@ const PerfCheck: React.FC = () => {
   };
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
         <div>
           <Title level={2}>
@@ -686,6 +700,7 @@ const PerfCheck: React.FC = () => {
         style={{ marginTop: 24 }}
       />
     </div>
+    </>
   );
 };
 

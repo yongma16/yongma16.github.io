@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Card, Row, Col, Button, Typography, Space, message, Tag } from 'antd';
 import { DiffOutlined, CopyOutlined, ClearOutlined, SwapOutlined } from '@ant-design/icons';
 import Editor from '@monaco-editor/react';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 
@@ -14,6 +15,18 @@ interface DiffLine {
 
 const FileDiff: React.FC = () => {
   const [oldCode, setOldCode] = useState('');
+
+  const seoConfig = {
+    title: '代码对比工具',
+    description: '免费的在线代码对比工具，支持文本和代码差异比较，高亮显示增删改内容，支持行号显示和一键复制差异结果。',
+    keywords: '代码对比,文本对比,代码差异比较,文件对比工具,Diff工具,代码比较,在线对比工具,文本差异分析',
+    jsonLd: createToolJsonLd(
+      '代码对比工具',
+      '免费的在线代码和文本差异比较工具',
+      'https://yma16.cloud/tools/file-diff',
+      'DeveloperApplication'
+    ),
+  };
   const [newCode, setNewCode] = useState('');
   const [diffResult, setDiffResult] = useState<DiffLine[]>([]);
   const [showDiff, setShowDiff] = useState(false);
@@ -170,7 +183,9 @@ function goodbye() {
   const stats = getDiffStats();
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <Title level={2}>
         <DiffOutlined /> 文件对比
       </Title>
@@ -294,6 +309,7 @@ function goodbye() {
         </Card>
       )}
     </div>
+    </>
   );
 };
 

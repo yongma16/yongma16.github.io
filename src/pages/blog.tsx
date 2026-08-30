@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';
 import { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';
 import styles from './blog.less';
+import { SEO, createWebsiteJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 
@@ -152,7 +153,14 @@ const BlogPage: React.FC = () => {
   const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);
 
   return (
-    <div>
+    <>
+      <SEO
+        title="技术博客"
+        description="yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。"
+        keywords="技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章"
+        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}
+      />
+      <div>
       <Title level={2}>
         <ReadOutlined /> 技术博客
       </Title>
@@ -206,6 +214,7 @@ const BlogPage: React.FC = () => {
         </Button>
       </Card>
     </div>
+    </>
   );
 };
 

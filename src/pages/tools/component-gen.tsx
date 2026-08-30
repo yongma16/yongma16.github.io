@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card, Form, Input, Select, Button, Row, Col, message, Typography, Space, Tabs, Checkbox } from 'antd';
 import { ToolOutlined, CopyOutlined, DownloadOutlined } from '@ant-design/icons';
 import Editor from '@monaco-editor/react';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 const { Option } = Select;
@@ -23,6 +24,18 @@ const ComponentGen: React.FC = () => {
   const [form] = Form.useForm();
   const [generatedCode, setGeneratedCode] = useState('');
   const [activeTab, setActiveTab] = useState('component');
+
+  const seoConfig = {
+    title: 'React/Vue 组件生成器',
+    description: '免费的在线组件生成器，支持 React 和 Vue 框架，一键生成 TypeScript/JavaScript 组件代码模板，包含 Props、Hooks、样式、Storybook 和单元测试。',
+    keywords: '组件生成器,React组件生成器,Vue组件生成器,代码生成器,组件模板生成,TypeScript组件,前端组件工具,在线组件生成',
+    jsonLd: createToolJsonLd(
+      'React/Vue 组件生成器',
+      '免费的在线组件代码生成工具',
+      'https://yma16.cloud/tools/component-gen',
+      'DeveloperApplication'
+    ),
+  };
 
   const generateComponent = (values: ComponentConfig) => {
     const { name, framework, language, styleType, props, useHooks, withTypes, withStorybook, withTests } = values;
@@ -150,7 +163,9 @@ const ComponentGen: React.FC = () => {
   };
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <Title level={2}>
         <ToolOutlined /> 组件生成器
       </Title>
@@ -269,6 +284,7 @@ const ComponentGen: React.FC = () => {
         </Col>
       </Row>
     </div>
+    </>
   );
 };
 

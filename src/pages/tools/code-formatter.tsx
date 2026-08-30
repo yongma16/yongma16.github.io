@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Card, Row, Col, Select, Button, message, Typography, Space, Tabs } from 'antd';
 import { CopyOutlined, FormatPainterOutlined, ClearOutlined } from '@ant-design/icons';
 import Editor from '@monaco-editor/react';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 const { Option } = Select;
@@ -29,6 +30,18 @@ export default Example;`;
 
 const CodeFormatter: React.FC = () => {
   const [code, setCode] = useState(defaultCode);
+
+  const seoConfig = {
+    title: '代码格式化工具',
+    description: '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则，一键美化代码。',
+    keywords: '代码格式化,代码美化,Prettier,TypeScript格式化,JavaScript格式化,Vue格式化,React格式化,JSON格式化,HTML格式化,CSS格式化,在线代码格式化工具',
+    jsonLd: createToolJsonLd(
+      '代码格式化工具',
+      '免费的在线代码格式化工具，支持多种语言',
+      'https://yma16.cloud/tools/code-formatter',
+      'DeveloperApplication'
+    ),
+  };
   const [formattedCode, setFormattedCode] = useState('');
   const [language, setLanguage] = useState('typescript');
   const [loading, setLoading] = useState(false);
@@ -73,7 +86,9 @@ const CodeFormatter: React.FC = () => {
   };
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <Title level={2}>
         <FormatPainterOutlined /> 代码格式化
       </Title>
@@ -155,6 +170,7 @@ const CodeFormatter: React.FC = () => {
         </Col>
       </Row>
     </div>
+    </>
   );
 };
 

@@ -2,8 +2,26 @@ import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
   npmClient: 'pnpm',
-  title: 'yma16 - 前端开发工具集',
+  title: 'yma16 - 前端开发工具集 | 免费在线工具',
   favicons: ['/favicon.ico'],
+  metas: [
+    { name: 'description', content: 'yma16 前端开发工具集提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。' },
+    { name: 'keywords', content: '前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,在线工具,前端开发' },
+    { name: 'author', content: 'yma16' },
+    { name: 'robots', content: 'index, follow' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'yma16 - 前端开发工具集 | 免费在线工具' },
+    { property: 'og:description', content: 'yma16 前端开发工具集提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。' },
+    { property: 'og:image', content: 'https://yma16.cloud/og-image.png' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'yma16 - 前端开发工具集 | 免费在线工具' },
+    { name: 'twitter:description', content: 'yma16 前端开发工具集提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。' },
+    { name: 'twitter:image', content: 'https://yma16.cloud/og-image.png' },
+  ],
+  links: [
+    { rel: 'manifest', href: '/manifest.json' },
+    { rel: 'sitemap', href: '/sitemap.xml', type: 'application/xml' },
+  ],
   hash: true,
   // GitHub Pages 个人主页仓库
   base: '/',

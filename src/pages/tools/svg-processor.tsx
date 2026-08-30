@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio, Statistic } from 'antd';
 import { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';
 import type { UploadFile } from 'antd/es/upload/interface';
+import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Paragraph } = Typography;
 const { Dragger } = Upload;
@@ -21,6 +22,18 @@ interface SVGFile {
 
 const SVGProcessor: React.FC = () => {
   const [fileList, setFileList] = useState<SVGFile[]>([]);
+
+  const seoConfig = {
+    title: 'SVG 处理工具',
+    description: '免费的在线 SVG 处理工具，支持 SVG 压缩、批量转换、颜色替换、预览和下载，优化 SVG 图标和图形文件大小，提升网页加载性能。',
+    keywords: 'SVG处理,SVG压缩,SVG转换,SVG优化,SVG批量处理,SVG颜色替换,SVG预览,SVG工具,矢量图形处理',
+    jsonLd: createToolJsonLd(
+      'SVG 处理工具',
+      '免费的在线 SVG 压缩和转换工具',
+      'https://yma16.cloud/tools/svg-processor',
+      'DeveloperApplication'
+    ),
+  };
   const [processing, setProcessing] = useState(false);
   const [colorAction, setColorAction] = useState<'add' | 'remove'>('add');
   const [targetColor, setTargetColor] = useState('#1890ff');
@@ -234,7 +247,9 @@ const SVGProcessor: React.FC = () => {
   const totalSaved = totalOriginal - totalCompressed;
 
   return (
-    <div>
+    <>
+      <SEO {...seoConfig} />
+      <div>
       <Title level={2}>
         <FileImageOutlined /> SVG 批量处理
       </Title>
@@ -422,6 +437,7 @@ const SVGProcessor: React.FC = () => {
         </Row>
       </Card>
     </div>
+    </>
   );
 };
 
