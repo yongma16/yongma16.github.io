@@ -2,9 +2,6 @@
 // 备案号下来后，修改 beianNumber 字段即可
 
 export const BEIAN_INFO = {
-  // 当前访问的域名
-  domain: 'yma16.cloud',
-  
   // 备案号 - 目前为空，等备案下来后填写
   // 示例: '京ICP备12345678号-1'
   beianNumber: '',
@@ -18,4 +15,12 @@ export const BEIAN_INFO = {
   // 公安备案号（如果有）
   gonganNumber: '',
   gonganLink: 'https://www.beian.gov.cn/portal/registerSystemInfo',
+};
+
+// 获取当前访问的域名
+export const getCurrentDomain = (): string => {
+  if (typeof window !== 'undefined') {
+    return window.location.hostname;
+  }
+  return '';
 };

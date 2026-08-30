@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, useLocation, history } from 'umi';
 import { Layout, Menu, Button, Badge, Avatar } from 'antd';
 import { CONTACT_INFO } from '@/config/contact';
-import { BEIAN_INFO } from '@/config/beian';
+import { BEIAN_INFO, getCurrentDomain } from '@/config/beian';
 import {
   HomeOutlined,
   CodeOutlined,
@@ -131,7 +131,7 @@ const MainLayout: React.FC = () => {
         
         {/* 域名备案信息展示 */}
         <div style={{ marginTop: 12, fontSize: 12, color: '#999' }}>
-          <span>当前访问域名: {BEIAN_INFO.domain}</span>
+          <span>当前访问域名: {getCurrentDomain()}</span>
           {BEIAN_INFO.showBeian && BEIAN_INFO.beianNumber && (
             <span style={{ marginLeft: 16 }}>
               <a 
