@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 8
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,10 +81,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            4
+            3
           ]
         },
-        "register": 5
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -101,7 +101,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,7 +128,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            15
+            16
           ]
         },
         "register": 22
@@ -161,10 +161,10 @@
             0
           ],
           "onCheck": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 98
+        "register": 96
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 29
+        "register": 27
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 14
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1153,7 +1153,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 58
+        "register": 36
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1204,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1229,7 +1229,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1256,10 +1256,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1349,7 +1349,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1362,7 +1362,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1374,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 36
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1464,7 +1464,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 500
+        "register": 486
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1543,7 +1543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1555,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1568,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1581,7 +1581,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
@@ -1629,7 +1629,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1642,7 +1642,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 38
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 21
+        "register": 23
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1706,7 +1706,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1719,7 +1719,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1732,7 +1732,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1745,7 +1745,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1758,7 +1758,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1771,7 +1771,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1784,7 +1784,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1797,7 +1797,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1810,7 +1810,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1823,7 +1823,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1836,7 +1836,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1862,7 +1862,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1888,7 +1888,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1927,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2767,7 +2767,7 @@
       "parentId": "@@/global-layout",
       "id": "28",
       "absPath": "/tools/perf-monitor",
-      "__content": "import React, { useState, useEffect, useRef, useCallback } from 'react';\nimport { Card, Button, Typography, Space, Row, Col, Statistic, Progress, Tag, Alert, Slider, Switch, Table } from 'antd';\nimport { DashboardOutlined, PlayCircleOutlined, PauseCircleOutlined, ReloadOutlined, WarningOutlined, DesktopOutlined, ChromeOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\n// 性能数据类型\ninterface PerformanceData {\n  timestamp: number;\n  cpuUsage: number;\n  memoryUsage: number;\n  memoryTotal: number;\n  fps: number;\n  domNodes: number;\n  layoutCount: number;\n  styleRecalcCount: number;\n}\n\n// 压力测试配置\ninterface StressConfig {\n  cpuThreads: number;\n  memoryMB: number;\n  domNodes: number;\n  animationIntensity: number;\n}\n\nconst PerfMonitor: React.FC = () => {\n  const [isMonitoring, setIsMonitoring] = useState(false);\n  const [isStressTesting, setIsStressTesting] = useState(false);\n  const [performanceData, setPerformanceData] = useState<PerformanceData[]>([]);\n  const [currentData, setCurrentData] = useState<PerformanceData | null>(null);\n  const [stressConfig, setStressConfig] = useState<StressConfig>({\n    cpuThreads: 4,\n    memoryMB: 100,\n    domNodes: 1000,\n    animationIntensity: 50,\n  });\n  const [stressNodes, setStressNodes] = useState<number[]>([]);\n  const [animationFrame, setAnimationFrame] = useState(0);\n\n  const monitorRef = useRef<number | null>(null);\n  const stressRef = useRef<number | null>(null);\n  const memoryRef = useRef<any[]>([]);\n  const startTimeRef = useRef<number>(0);\n\n  const seoConfig = {\n    title: '前端性能监控与压力测试',\n    description: '前端可视化电脑性能监控工具，实时显示CPU、内存、FPS、DOM节点数，支持浏览器压力测试。',\n    keywords: '前端性能监控,浏览器压力测试,FPS监控,内存监控,CPU测试,性能分析',\n    jsonLd: createToolJsonLd('前端性能监控与压力测试', '前端可视化性能监控和压力测试工具', 'https://yma16.cloud/tools/perf-monitor', 'DeveloperApplication'),\n  };\n\n  // 获取性能数据\n  const collectPerformanceData = useCallback(() => {\n    const memory = (performance as any).memory;\n    const timing = performance.timing;\n    \n    const data: PerformanceData = {\n      timestamp: Date.now(),\n      cpuUsage: Math.random() * 30 + 10, // 模拟CPU使用率\n      memoryUsage: memory ? memory.usedJSHeapSize / 1024 / 1024 : 0,\n      memoryTotal: memory ? memory.totalJSHeapSize / 1024 / 1024 : 0,\n      fps: Math.round(1000 / 16), // 简化FPS计算\n      domNodes: document.getElementsByTagName('*').length,\n      layoutCount: 0,\n      styleRecalcCount: 0,\n    };\n\n    setCurrentData(data);\n    setPerformanceData(prev => [...prev.slice(-50), data]);\n  }, []);\n\n  // 开始监控\n  const startMonitoring = () => {\n    setIsMonitoring(true);\n    startTimeRef.current = Date.now();\n    \n    const monitor = () => {\n      collectPerformanceData();\n      monitorRef.current = requestAnimationFrame(monitor);\n    };\n    monitorRef.current = requestAnimationFrame(monitor);\n  };\n\n  // 停止监控\n  const stopMonitoring = () => {\n    setIsMonitoring(false);\n    if (monitorRef.current) {\n      cancelAnimationFrame(monitorRef.current);\n    }\n  };\n\n  // CPU压力测试\n  const runCPUSTress = useCallback(() => {\n    const workers: Worker[] = [];\n    \n    for (let i = 0; i < stressConfig.cpuThreads; i++) {\n      const blob = new Blob([`\n        self.onmessage = function() {\n          let count = 0;\n          while (true) {\n            count++;\n            if (count % 1000000 === 0) {\n              self.postMessage(count);\n            }\n          }\n        }\n      `], { type: 'application/javascript' });\n      \n      const worker = new Worker(URL.createObjectURL(blob));\n      workers.push(worker);\n    }\n    \n    return () => {\n      workers.forEach(w => w.terminate());\n    };\n  }, [stressConfig.cpuThreads]);\n\n  // 内存压力测试\n  const runMemoryStress = useCallback(() => {\n    const arrays: any[] = [];\n    const size = stressConfig.memoryMB * 1024 * 1024 / 8; // 64位浮点数\n    \n    for (let i = 0; i < 10; i++) {\n      arrays.push(new Array(Math.floor(size / 10)).fill(Math.random()));\n    }\n    \n    memoryRef.current = arrays;\n  }, [stressConfig.memoryMB]);\n\n  // DOM压力测试\n  const runDOMStress = useCallback(() => {\n    const nodes = Array.from({ length: stressConfig.domNodes }, (_, i) => i);\n    setStressNodes(nodes);\n  }, [stressConfig.domNodes]);\n\n  // 开始压力测试\n  const startStressTest = () => {\n    setIsStressTesting(true);\n    \n    // CPU压力\n    const cleanupCPU = runCPUSTress();\n    \n    // 内存压力\n    runMemoryStress();\n    \n    // DOM压力\n    runDOMStress();\n    \n    // 动画压力\n    const animate = () => {\n      setAnimationFrame(prev => prev + 1);\n      stressRef.current = requestAnimationFrame(animate);\n    };\n    stressRef.current = requestAnimationFrame(animate);\n    \n    // 保存清理函数\n    (window as any).__stressCleanup = () => {\n      cleanupCPU();\n      memoryRef.current = [];\n      if (stressRef.current) {\n        cancelAnimationFrame(stressRef.current);\n      }\n    };\n  };\n\n  // 停止压力测试\n  const stopStressTest = () => {\n    setIsStressTesting(false);\n    setStressNodes([]);\n    \n    if ((window as any).__stressCleanup) {\n      (window as any).__stressCleanup();\n    }\n  };\n\n  // 清理\n  useEffect(() => {\n    return () => {\n      stopMonitoring();\n      stopStressTest();\n    };\n  }, []);\n\n  // 计算统计数据\n  const avgFPS = performanceData.length > 0 \n    ? Math.round(performanceData.reduce((sum, d) => sum + d.fps, 0) / performanceData.length)\n    : 0;\n  \n  const maxMemory = performanceData.length > 0\n    ? Math.max(...performanceData.map(d => d.memoryUsage))\n    : 0;\n\n  const columns = [\n    { title: '指标', dataIndex: 'metric', key: 'metric' },\n    { title: '当前值', dataIndex: 'current', key: 'current' },\n    { title: '平均值', dataIndex: 'average', key: 'average' },\n    { title: '峰值', dataIndex: 'peak', key: 'peak' },\n  ];\n\n  const tableData = currentData ? [\n    { metric: 'FPS', current: currentData.fps, average: avgFPS, peak: 60 },\n    { metric: '内存使用 (MB)', current: currentData.memoryUsage.toFixed(2), average: '-', peak: maxMemory.toFixed(2) },\n    { metric: 'DOM节点数', current: currentData.domNodes, average: '-', peak: '-' },\n  ] : [];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <DashboardOutlined /> 前端性能监控与压力测试\n        </Title>\n        <Text type=\"secondary\">实时监控浏览器性能，支持CPU/内存/DOM压力测试</Text>\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          {/* 性能监控面板 */}\n          <Col xs={24} lg={16}>\n            <Card title=\"性能监控\" extra={\n              <Space>\n                {isMonitoring ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopMonitoring} danger>停止监控</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startMonitoring}>开始监控</Button>\n                )}\n                <Button icon={<ReloadOutlined />} onClick={() => setPerformanceData([])}>重置数据</Button>\n              </Space>\n            }>\n              {currentData ? (\n                <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                  <Row gutter={16}>\n                    <Col span={8}>\n                      <Statistic title=\"FPS\" value={currentData.fps} suffix=\"fps\" />\n                      <Progress percent={currentData.fps / 60 * 100} status={currentData.fps < 30 ? 'exception' : 'success'} showInfo={false} />\n                    </Col>\n                    <Col span={8}>\n                      <Statistic title=\"内存使用\" value={currentData.memoryUsage.toFixed(2)} suffix=\"MB\" />\n                      <Progress percent={currentData.memoryTotal > 0 ? currentData.memoryUsage / currentData.memoryTotal * 100 : 0} showInfo={false} />\n                    </Col>\n                    <Col span={8}>\n                      <Statistic title=\"DOM节点\" value={currentData.domNodes} />\n                    </Col>\n                  </Row>\n\n                  <Table dataSource={tableData} columns={columns} pagination={false} size=\"small\" />\n\n                  {/* 性能图表区域 */}\n                  <div style={{ height: 200, background: '#f5f5f5', borderRadius: 8, padding: 16, position: 'relative', overflow: 'hidden' }}>\n                    <Text type=\"secondary\">FPS趋势 (最近50帧)</Text>\n                    <svg width=\"100%\" height=\"150\" style={{ marginTop: 8 }}>\n                      {performanceData.map((d, i) => {\n                        const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                        const y = 150 - (d.fps / 60) * 150;\n                        return (\n                          <circle key={i} cx={`${x}%`} cy={y} r={2} fill=\"#1890ff\" />\n                        );\n                      })}\n                      {performanceData.length > 1 && (\n                        <polyline\n                          fill=\"none\"\n                          stroke=\"#1890ff\"\n                          strokeWidth={2}\n                          points={performanceData.map((d, i) => {\n                            const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                            const y = 150 - (d.fps / 60) * 150;\n                            return `${x}%,${y}`;\n                          }).join(' ')}\n                        />\n                      )}\n                    </svg>\n                  </div>\n                </Space>\n              ) : (\n                <Alert message=\"点击开始监控按钮启动性能监控\" type=\"info\" showIcon />\n              )}\n            </Card>\n          </Col>\n\n          {/* 压力测试配置 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"压力测试配置\" extra={\n              <Space>\n                {isStressTesting ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopStressTest} danger>停止测试</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startStressTest}>开始测试</Button>\n                )}\n              </Space>\n            }>\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"middle\">\n                <Alert\n                  message=\"警告\"\n                  description=\"压力测试会消耗大量系统资源，请谨慎使用\"\n                  type=\"warning\"\n                  showIcon\n                  icon={<WarningOutlined />}\n                />\n\n                <div>\n                  <Text>CPU线程数: {stressConfig.cpuThreads}</Text>\n                  <Slider min={1} max={16} value={stressConfig.cpuThreads} onChange={(v) => setStressConfig(prev => ({ ...prev, cpuThreads: v }))} />\n                </div>\n\n                <div>\n                  <Text>内存压力 (MB): {stressConfig.memoryMB}</Text>\n                  <Slider min={10} max={500} value={stressConfig.memoryMB} onChange={(v) => setStressConfig(prev => ({ ...prev, memoryMB: v }))} />\n                </div>\n\n                <div>\n                  <Text>DOM节点数: {stressConfig.domNodes}</Text>\n                  <Slider min={100} max={10000} step={100} value={stressConfig.domNodes} onChange={(v) => setStressConfig(prev => ({ ...prev, domNodes: v }))} />\n                </div>\n\n                <div>\n                  <Text>动画强度: {stressConfig.animationIntensity}%</Text>\n                  <Slider min={0} max={100} value={stressConfig.animationIntensity} onChange={(v) => setStressConfig(prev => ({ ...prev, animationIntensity: v }))} />\n                </div>\n\n                {isStressTesting && (\n                  <Tag color=\"red\">压力测试中...</Tag>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        {/* 压力测试DOM节点渲染区 */}\n        {stressNodes.length > 0 && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title={`压力测试DOM渲染区 (${stressNodes.length}个节点)`}>\n                <div style={{ \n                  display: 'grid', \n                  gridTemplateColumns: 'repeat(auto-fill, minmax(50px, 1fr))',\n                  gap: 4,\n                  maxHeight: 300,\n                  overflow: 'auto'\n                }}>\n                  {stressNodes.map((node) => (\n                    <div\n                      key={node}\n                      style={{\n                        width: '100%',\n                        height: 30,\n                        background: `hsl(${(node + animationFrame) % 360}, 70%, 50%)`,\n                        borderRadius: 4,\n                        transition: 'background 0.1s',\n                      }}\n                    />\n                  ))}\n                </div>\n              </Card>\n            </Col>\n          </Row>\n        )}\n\n        {/* 浏览器信息 */}\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"浏览器环境信息\">\n              <Row gutter={16}>\n                <Col span={8}>\n                  <Statistic title=\"浏览器\" value={navigator.userAgent.split(' ').pop()?.split('/')[0] || 'Unknown'} prefix={<ChromeOutlined />} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"平台\" value={navigator.platform} prefix={<DesktopOutlined />} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"屏幕分辨率\" value={`${window.screen.width}x${window.screen.height}`} />\n                </Col>\n              </Row>\n              <Row gutter={16} style={{ marginTop: 16 }}>\n                <Col span={8}>\n                  <Statistic title=\"逻辑CPU核心数\" value={navigator.hardwareConcurrency || 'Unknown'} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"设备内存\" value={`${(navigator as any).deviceMemory || 'Unknown'} GB`} />\n                </Col>\n                <Col span={8}>\n                  <Statistic title=\"连接类型\" value={(navigator as any).connection?.effectiveType || 'Unknown'} />\n                </Col>\n              </Row>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default PerfMonitor;\n",
+      "__content": "import React, { useState, useEffect, useRef, useCallback } from 'react';\nimport { Card, Button, Typography, Space, Row, Col, Statistic, Progress, Tag, Alert, Slider, Table, Modal } from 'antd';\nimport { DashboardOutlined, PlayCircleOutlined, PauseCircleOutlined, ReloadOutlined, WarningOutlined, DesktopOutlined, ChromeOutlined, InfoCircleOutlined } from '@ant-design/icons';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Text } = Typography;\n\n// 性能数据类型\ninterface PerformanceData {\n  timestamp: number;\n  fps: number;\n  memoryUsage: number;\n  memoryTotal: number;\n  domNodes: number;\n}\n\n// Worker管理器\nclass WorkerManager {\n  private workers: Worker[] = [];\n  private blobUrls: string[] = [];\n\n  createWorkers(count: number): Worker[] {\n    this.terminateAll();\n\n    const workerScript = `\n      self.onmessage = function(e) {\n        if (e.data === 'stop') {\n          self.close();\n          return;\n        }\n        // CPU密集型计算：质数计算\n        function isPrime(n) {\n          if (n < 2) return false;\n          for (let i = 2; i <= Math.sqrt(n); i++) {\n            if (n % i === 0) return false;\n          }\n          return true;\n        }\n        \n        let num = 2;\n        let count = 0;\n        while (true) {\n          if (isPrime(num)) count++;\n          num++;\n          // 每1000个数字发送一次心跳，防止浏览器认为worker卡死\n          if (num % 1000 === 0) {\n            self.postMessage({ type: 'heartbeat', count: count });\n          }\n        }\n      };\n    `;\n\n    for (let i = 0; i < count; i++) {\n      const blob = new Blob([workerScript], { type: 'application/javascript' });\n      const blobUrl = URL.createObjectURL(blob);\n      this.blobUrls.push(blobUrl);\n      const worker = new Worker(blobUrl);\n      worker.postMessage('start');\n      this.workers.push(worker);\n    }\n\n    return this.workers;\n  }\n\n  terminateAll() {\n    this.workers.forEach(worker => {\n      try {\n        worker.postMessage('stop');\n        worker.terminate();\n      } catch (e) {\n        // 忽略已终止的worker错误\n      }\n    });\n    this.workers = [];\n\n    this.blobUrls.forEach(url => {\n      try {\n        URL.revokeObjectURL(url);\n      } catch (e) {\n        // 忽略已释放的URL错误\n      }\n    });\n    this.blobUrls = [];\n  }\n}\n\n// WebGL压力测试管理器\nclass WebGLStressTester {\n  private canvas: HTMLCanvasElement | null = null;\n  private gl: WebGLRenderingContext | null = null;\n  private animationId: number | null = null;\n\n  start(container: HTMLElement) {\n    this.dispose();\n\n    this.canvas = document.createElement('canvas');\n    this.canvas.width = 512;\n    this.canvas.height = 512;\n    this.canvas.style.width = '100%';\n    this.canvas.style.height = '200px';\n    container.appendChild(this.canvas);\n\n    this.gl = this.canvas.getContext('webgl', { antialias: false });\n    if (!this.gl) return;\n\n    const gl = this.gl;\n\n    // 创建着色器\n    const vsSource = `\n      attribute vec4 position;\n      void main() {\n        gl_Position = position;\n      }\n    `;\n    const fsSource = `\n      precision mediump float;\n      uniform float time;\n      void main() {\n        vec2 uv = gl_FragCoord.xy / 512.0;\n        float r = sin(uv.x * 10.0 + time) * 0.5 + 0.5;\n        float g = sin(uv.y * 10.0 + time * 1.5) * 0.5 + 0.5;\n        float b = sin((uv.x + uv.y) * 10.0 + time * 0.5) * 0.5 + 0.5;\n        gl_FragColor = vec4(r, g, b, 1.0);\n      }\n    `;\n\n    const compileShader = (source: string, type: number) => {\n      const shader = gl.createShader(type)!;\n      gl.shaderSource(shader, source);\n      gl.compileShader(shader);\n      return shader;\n    };\n\n    const program = gl.createProgram()!;\n    gl.attachShader(program, compileShader(vsSource, gl.VERTEX_SHADER));\n    gl.attachShader(program, compileShader(fsSource, gl.FRAGMENT_SHADER));\n    gl.linkProgram(program);\n    gl.useProgram(program);\n\n    // 创建全屏三角形\n    const buffer = gl.createBuffer();\n    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);\n    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([\n      -1, -1, 1, -1, -1, 1,\n      -1, 1, 1, -1, 1, 1\n    ]), gl.STATIC_DRAW);\n\n    const position = gl.getAttribLocation(program, 'position');\n    gl.enableVertexAttribArray(position);\n    gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);\n\n    const timeUniform = gl.getUniformLocation(program, 'time');\n\n    const render = (time: number) => {\n      gl!.uniform1f(timeUniform, time * 0.001);\n      gl!.drawArrays(gl!.TRIANGLES, 0, 6);\n      this.animationId = requestAnimationFrame(render);\n    };\n\n    this.animationId = requestAnimationFrame(render);\n  }\n\n  dispose() {\n    if (this.animationId !== null) {\n      cancelAnimationFrame(this.animationId);\n      this.animationId = null;\n    }\n\n    if (this.gl) {\n      const gl = this.gl;\n      // 清理WebGL资源\n      const numTextureUnits = gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS);\n      for (let unit = 0; unit < numTextureUnits; unit++) {\n        gl.activeTexture(gl.TEXTURE0 + unit);\n        gl.bindTexture(gl.TEXTURE_2D, null);\n        gl.bindTexture(gl.TEXTURE_CUBE_MAP, null);\n      }\n      gl.bindBuffer(gl.ARRAY_BUFFER, null);\n      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null);\n      gl.bindRenderbuffer(gl.RENDERBUFFER, null);\n      gl.bindFramebuffer(gl.FRAMEBUFFER, null);\n\n      // 丢失上下文以强制释放资源\n      const ext = gl.getExtension('WEBGL_lose_context');\n      if (ext) ext.loseContext();\n\n      this.gl = null;\n    }\n\n    if (this.canvas && this.canvas.parentNode) {\n      this.canvas.parentNode.removeChild(this.canvas);\n      this.canvas = null;\n    }\n  }\n}\n\nconst PerfMonitor: React.FC = () => {\n  const [isMonitoring, setIsMonitoring] = useState(false);\n  const [isStressTesting, setIsStressTesting] = useState(false);\n  const [performanceData, setPerformanceData] = useState<PerformanceData[]>([]);\n  const [currentData, setCurrentData] = useState<PerformanceData | null>(null);\n  const [stressConfig, setStressConfig] = useState({\n    cpuThreads: 4,\n    memoryMB: 100,\n    domNodes: 1000,\n    useWebGL: false,\n  });\n  const [stressNodes, setStressNodes] = useState<number[]>([]);\n  const [animationFrame, setAnimationFrame] = useState(0);\n  const [showWarning, setShowWarning] = useState(false);\n  const [browserInfo, setBrowserInfo] = useState({\n    isChrome: false,\n    supportsMemory: false,\n    userAgent: '',\n  });\n\n  const monitorRef = useRef<number | null>(null);\n  const stressAnimationRef = useRef<number | null>(null);\n  const memoryArraysRef = useRef<any[]>([]);\n  const workerManagerRef = useRef(new WorkerManager());\n  const webglTesterRef = useRef(new WebGLStressTester());\n  const webglContainerRef = useRef<HTMLDivElement>(null);\n  const fpsRef = useRef({ lastTime: 0, frames: 0, fps: 60 });\n\n  const seoConfig = {\n    title: '前端性能监控与压力测试',\n    description: '前端可视化电脑性能监控工具，实时显示FPS、内存、DOM节点数，支持浏览器压力测试。',\n    keywords: '前端性能监控,浏览器压力测试,FPS监控,内存监控,CPU测试,性能分析',\n    jsonLd: createToolJsonLd('前端性能监控与压力测试', '前端可视化性能监控和压力测试工具', 'https://yma16.cloud/tools/perf-monitor', 'DeveloperApplication'),\n  };\n\n  // 检测浏览器能力\n  useEffect(() => {\n    const ua = navigator.userAgent;\n    const isChrome = /Chrome/.test(ua) && !/Edg/.test(ua);\n    const supportsMemory = 'memory' in performance;\n\n    setBrowserInfo({\n      isChrome,\n      supportsMemory,\n      userAgent: ua,\n    });\n  }, []);\n\n  // 计算FPS\n  const calculateFPS = useCallback(() => {\n    const now = performance.now();\n    const { lastTime, frames } = fpsRef.current;\n\n    if (lastTime === 0) {\n      fpsRef.current.lastTime = now;\n      return 60;\n    }\n\n    const newFrames = frames + 1;\n    const delta = now - lastTime;\n\n    if (delta >= 1000) {\n      fpsRef.current.fps = Math.round((newFrames * 1000) / delta);\n      fpsRef.current.frames = 0;\n      fpsRef.current.lastTime = now;\n    } else {\n      fpsRef.current.frames = newFrames;\n    }\n\n    return fpsRef.current.fps;\n  }, []);\n\n  // 收集性能数据\n  const collectPerformanceData = useCallback(() => {\n    const memory = browserInfo.supportsMemory ? (performance as any).memory : null;\n    const fps = calculateFPS();\n\n    const data: PerformanceData = {\n      timestamp: Date.now(),\n      fps,\n      memoryUsage: memory ? memory.usedJSHeapSize / 1024 / 1024 : 0,\n      memoryTotal: memory ? memory.totalJSHeapSize / 1024 / 1024 : 0,\n      domNodes: document.getElementsByTagName('*').length,\n    };\n\n    setCurrentData(data);\n    setPerformanceData(prev => [...prev.slice(-60), data]);\n  }, [browserInfo.supportsMemory, calculateFPS]);\n\n  // 开始监控\n  const startMonitoring = () => {\n    setIsMonitoring(true);\n    fpsRef.current = { lastTime: 0, frames: 0, fps: 60 };\n\n    const monitor = () => {\n      collectPerformanceData();\n      monitorRef.current = requestAnimationFrame(monitor);\n    };\n    monitorRef.current = requestAnimationFrame(monitor);\n  };\n\n  // 停止监控\n  const stopMonitoring = () => {\n    setIsMonitoring(false);\n    if (monitorRef.current) {\n      cancelAnimationFrame(monitorRef.current);\n      monitorRef.current = null;\n    }\n  };\n\n  // 内存压力测试\n  const runMemoryStress = useCallback(() => {\n    // 先清理旧数组\n    memoryArraysRef.current = [];\n\n    const chunkSize = 1024 * 1024; // 1MB chunks\n    const numChunks = stressConfig.memoryMB;\n\n    try {\n      for (let i = 0; i < numChunks; i++) {\n        // 创建1MB的数组 (256k floats * 4 bytes)\n        const arr = new Float64Array(1024 * 1024 / 8);\n        // 填充数据防止被优化掉\n        for (let j = 0; j < arr.length; j++) {\n          arr[j] = Math.random();\n        }\n        memoryArraysRef.current.push(arr);\n      }\n    } catch (e) {\n      message.warning('内存分配达到上限');\n    }\n  }, [stressConfig.memoryMB]);\n\n  // 开始压力测试\n  const startStressTest = () => {\n    // 高强度压测警告\n    const totalIntensity = stressConfig.cpuThreads + stressConfig.memoryMB / 50 + stressConfig.domNodes / 500;\n    if (totalIntensity > 20 || stressConfig.memoryMB > 300) {\n      Modal.confirm({\n        title: '⚠️ 高强度压力测试警告',\n        content: (\n          <Space direction=\"vertical\">\n            <Text>当前配置可能造成：</Text>\n            <ul>\n              <li>浏览器标签页卡死或崩溃</li>\n              <li>系统内存不足</li>\n              <li>CPU风扇高速运转</li>\n              <li>其他标签页响应缓慢</li>\n            </ul>\n            <Text strong>建议先保存重要工作！</Text>\n          </Space>\n        ),\n        okText: '我已了解，开始测试',\n        okButtonProps: { danger: true },\n        cancelText: '取消',\n        onOk: () => performStressTest(),\n      });\n    } else {\n      performStressTest();\n    }\n  };\n\n  const performStressTest = () => {\n    setIsStressTesting(true);\n    setShowWarning(true);\n\n    // 1. CPU压力 - 使用WebWorker\n    workerManagerRef.current.createWorkers(stressConfig.cpuThreads);\n\n    // 2. 内存压力\n    runMemoryStress();\n\n    // 3. DOM压力\n    const nodes = Array.from({ length: stressConfig.domNodes }, (_, i) => i);\n    setStressNodes(nodes);\n\n    // 4. WebGL压力（可选）\n    if (stressConfig.useWebGL && webglContainerRef.current) {\n      webglTesterRef.current.start(webglContainerRef.current);\n    }\n\n    // 5. 动画循环\n    const animate = () => {\n      setAnimationFrame(prev => prev + 1);\n      stressAnimationRef.current = requestAnimationFrame(animate);\n    };\n    stressAnimationRef.current = requestAnimationFrame(animate);\n  };\n\n  // 停止压力测试 - 必须完全释放资源\n  const stopStressTest = useCallback(() => {\n    setIsStressTesting(false);\n    setShowWarning(false);\n    setStressNodes([]);\n\n    // 1. 终止所有Worker\n    workerManagerRef.current.terminateAll();\n\n    // 2. 释放内存数组\n    memoryArraysRef.current = [];\n    // 强制触发垃圾回收提示（不保证立即执行）\n    if ((window as any).gc) {\n      try { (window as any).gc(); } catch (e) { }\n    }\n\n    // 3. 清空DOM\n    setStressNodes([]);\n\n    // 4. 停止动画\n    if (stressAnimationRef.current) {\n      cancelAnimationFrame(stressAnimationRef.current);\n      stressAnimationRef.current = null;\n    }\n\n    // 5. 释放WebGL资源\n    webglTesterRef.current.dispose();\n\n    // 6. 强制重绘以释放GPU资源\n    document.body.style.transform = 'translateZ(0)';\n    setTimeout(() => {\n      document.body.style.transform = '';\n    }, 100);\n\n    message.success('压力测试已停止，资源已释放');\n  }, []);\n\n  // 组件卸载时清理所有资源\n  useEffect(() => {\n    return () => {\n      stopMonitoring();\n      stopStressTest();\n    };\n  }, [stopStressTest]);\n\n  // 计算统计数据\n  const avgFPS = performanceData.length > 0\n    ? Math.round(performanceData.reduce((sum, d) => sum + d.fps, 0) / performanceData.length)\n    : 0;\n\n  const maxMemory = performanceData.length > 0\n    ? Math.max(...performanceData.map(d => d.memoryUsage))\n    : 0;\n\n  const minFPS = performanceData.length > 0\n    ? Math.min(...performanceData.map(d => d.fps))\n    : 0;\n\n  const columns = [\n    { title: '指标', dataIndex: 'metric', key: 'metric' },\n    { title: '当前', dataIndex: 'current', key: 'current' },\n    { title: '平均', dataIndex: 'average', key: 'average' },\n    { title: '最低', dataIndex: 'min', key: 'min' },\n    { title: '状态', dataIndex: 'status', key: 'status' },\n  ];\n\n  const tableData = currentData ? [\n    {\n      metric: 'FPS',\n      current: currentData.fps,\n      average: avgFPS,\n      min: minFPS,\n      status: currentData.fps < 30 ? <Tag color=\"error\">卡顿</Tag> : currentData.fps < 50 ? <Tag color=\"warning\">一般</Tag> : <Tag color=\"success\">流畅</Tag>,\n    },\n    {\n      metric: '内存 (MB)',\n      current: currentData.memoryUsage.toFixed(2),\n      average: '-',\n      min: '-',\n      status: browserInfo.supportsMemory ? <Tag color=\"processing\">已启用</Tag> : <Tag color=\"warning\">不支持</Tag>,\n    },\n    {\n      metric: 'DOM节点',\n      current: currentData.domNodes,\n      average: '-',\n      min: '-',\n      status: currentData.domNodes > 5000 ? <Tag color=\"warning\">过多</Tag> : <Tag color=\"success\">正常</Tag>,\n    },\n  ] : [];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}>\n          <DashboardOutlined /> 前端性能监控与压力测试\n        </Title>\n        <Text type=\"secondary\">实时监控浏览器性能，支持CPU/内存/DOM/WebGL压力测试</Text>\n\n        {/* 兼容性提示 */}\n        {!browserInfo.supportsMemory && (\n          <Alert\n            style={{ marginTop: 16 }}\n            message=\"内存监控不可用\"\n            description={\n              <Text>\n                当前浏览器不支持 performance.memory API。内存监控功能仅在 Chrome/Edge 浏览器中可用。\n                建议切换到 Chrome 以获得完整的性能监控体验。\n              </Text>\n            }\n            type=\"warning\"\n            showIcon\n            icon={<InfoCircleOutlined />}\n          />\n        )}\n\n        {/* 压力测试警告 */}\n        {showWarning && (\n          <Alert\n            style={{ marginTop: 16 }}\n            message=\"压力测试运行中\"\n            description=\"正在执行高强度压力测试，浏览器可能响应缓慢。点击停止测试按钮可立即释放所有资源。\"\n            type=\"error\"\n            showIcon\n            icon={<WarningOutlined />}\n          />\n        )}\n\n        <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n          {/* 性能监控面板 */}\n          <Col xs={24} lg={16}>\n            <Card title=\"性能监控\" extra={\n              <Space>\n                {isMonitoring ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopMonitoring} danger>停止监控</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startMonitoring}>开始监控</Button>\n                )}\n                <Button icon={<ReloadOutlined />} onClick={() => setPerformanceData([])}>重置数据</Button>\n              </Space>\n            }>\n              {currentData ? (\n                <Space direction=\"vertical\" style={{ width: '100%' }} size=\"large\">\n                  <Row gutter={16}>\n                    <Col span={8}>\n                      <Statistic\n                        title=\"FPS\"\n                        value={currentData.fps}\n                        suffix=\"fps\"\n                        valueStyle={{ color: currentData.fps < 30 ? '#ff4d4f' : currentData.fps < 50 ? '#faad14' : '#52c41a' }}\n                      />\n                      <Progress\n                        percent={Math.min(currentData.fps / 60 * 100, 100)}\n                        status={currentData.fps < 30 ? 'exception' : 'success'}\n                        showInfo={false}\n                      />\n                    </Col>\n                    <Col span={8}>\n                      <Statistic\n                        title=\"内存使用\"\n                        value={currentData.memoryUsage.toFixed(2)}\n                        suffix=\"MB\"\n                      />\n                      {browserInfo.supportsMemory && (\n                        <Progress\n                          percent={currentData.memoryTotal > 0 ? Math.min(currentData.memoryUsage / currentData.memoryTotal * 100, 100) : 0}\n                          showInfo={false}\n                        />\n                      )}\n                    </Col>\n                    <Col span={8}>\n                      <Statistic title=\"DOM节点\" value={currentData.domNodes} />\n                    </Col>\n                  </Row>\n\n                  <Table dataSource={tableData} columns={columns} pagination={false} size=\"small\" />\n\n                  {/* FPS趋势图 */}\n                  <div style={{ height: 200, background: '#f5f5f5', borderRadius: 8, padding: 16, position: 'relative' }}>\n                    <Text type=\"secondary\">FPS趋势 (最近60帧)</Text>\n                    <svg width=\"100%\" height=\"160\" style={{ marginTop: 8 }}>\n                      {/* 网格线 */}\n                      {[0, 25, 50, 75, 100].map(pct => (\n                        <line\n                          key={pct}\n                          x1=\"0\"\n                          y1={`${100 - pct}%`}\n                          x2=\"100%\"\n                          y2={`${100 - pct}%`}\n                          stroke=\"#ddd\"\n                          strokeDasharray=\"4\"\n                        />\n                      ))}\n                      {/* FPS线 */}\n                      {performanceData.length > 1 && (\n                        <polyline\n                          fill=\"none\"\n                          stroke=\"#1890ff\"\n                          strokeWidth={2}\n                          points={performanceData.map((d, i) => {\n                            const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                            const y = 100 - Math.min(d.fps / 60 * 100, 100);\n                            return `${x}%,${y}%`;\n                          }).join(' ')}\n                        />\n                      )}\n                      {/* 数据点 */}\n                      {performanceData.map((d, i) => {\n                        const x = (i / Math.max(performanceData.length - 1, 1)) * 100;\n                        const y = 100 - Math.min(d.fps / 60 * 100, 100);\n                        return (\n                          <circle\n                            key={i}\n                            cx={`${x}%`}\n                            cy={`${y}%`}\n                            r={3}\n                            fill={d.fps < 30 ? '#ff4d4f' : d.fps < 50 ? '#faad14' : '#1890ff'}\n                          />\n                        );\n                      })}\n                    </svg>\n                  </div>\n                </Space>\n              ) : (\n                <Alert message=\"点击开始监控按钮启动性能监控\" type=\"info\" showIcon />\n              )}\n            </Card>\n          </Col>\n\n          {/* 压力测试配置 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"压力测试配置\" extra={\n              <Space>\n                {isStressTesting ? (\n                  <Button icon={<PauseCircleOutlined />} onClick={stopStressTest} danger>停止测试</Button>\n                ) : (\n                  <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={startStressTest}>开始测试</Button>\n                )}\n              </Space>\n            }>\n              <Space direction=\"vertical\" style={{ width: '100%' }} size=\"middle\">\n                <Alert\n                  message=\"警告\"\n                  description=\"压力测试会消耗大量系统资源，高强度测试可能导致浏览器卡死\"\n                  type=\"warning\"\n                  showIcon\n                  icon={<WarningOutlined />}\n                />\n\n                <div>\n                  <Text>CPU线程数: {stressConfig.cpuThreads}</Text>\n                  <Slider\n                    min={1}\n                    max={16}\n                    value={stressConfig.cpuThreads}\n                    onChange={(v) => setStressConfig(prev => ({ ...prev, cpuThreads: v }))}\n                    disabled={isStressTesting}\n                  />\n                </div>\n\n                <div>\n                  <Text>内存压力 (MB): {stressConfig.memoryMB}</Text>\n                  <Slider\n                    min={10}\n                    max={500}\n                    value={stressConfig.memoryMB}\n                    onChange={(v) => setStressConfig(prev => ({ ...prev, memoryMB: v }))}\n                    disabled={isStressTesting}\n                  />\n                </div>\n\n                <div>\n                  <Text>DOM节点数: {stressConfig.domNodes}</Text>\n                  <Slider\n                    min={100}\n                    max={10000}\n                    step={100}\n                    value={stressConfig.domNodes}\n                    onChange={(v) => setStressConfig(prev => ({ ...prev, domNodes: v }))}\n                    disabled={isStressTesting}\n                  />\n                </div>\n\n                <div>\n                  <Space>\n                    <Text>WebGL压力:</Text>\n                    <Tag\n                      color={stressConfig.useWebGL ? 'blue' : 'default'}\n                      style={{ cursor: 'pointer' }}\n                      onClick={() => !isStressTesting && setStressConfig(prev => ({ ...prev, useWebGL: !prev.useWebGL }))}\n                    >\n                      {stressConfig.useWebGL ? '开启' : '关闭'}\n                    </Tag>\n                  </Space>\n                </div>\n\n                {isStressTesting && (\n                  <>\n                    <Tag color=\"red\">🔥 压力测试中...</Tag>\n                    <Text type=\"secondary\">Worker: {stressConfig.cpuThreads}个 | 内存: {stressConfig.memoryMB}MB | DOM: {stressConfig.domNodes}个</Text>\n                  </>\n                )}\n              </Space>\n            </Card>\n          </Col>\n        </Row>\n\n        {/* WebGL渲染区 */}\n        {isStressTesting && stressConfig.useWebGL && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title=\"WebGL压力测试\">\n                <div ref={webglContainerRef} style={{ width: '100%', height: 200 }} />\n              </Card>\n            </Col>\n          </Row>\n        )}\n\n        {/* DOM压力测试渲染区 */}\n        {stressNodes.length > 0 && (\n          <Row style={{ marginTop: 24 }}>\n            <Col span={24}>\n              <Card title={`DOM压力测试渲染区 (${stressNodes.length}个节点)`}>\n                <div style={{\n                  display: 'grid',\n                  gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))',\n                  gap: 2,\n                  maxHeight: 300,\n                  overflow: 'auto',\n                }}>\n                  {stressNodes.map((node) => (\n                    <div\n                      key={node}\n                      style={{\n                        width: '100%',\n                        height: 24,\n                        background: `hsl(${(node * 37 + animationFrame * 2) % 360}, 70%, 50%)`,\n                        borderRadius: 2,\n                        transition: 'background 0.05s',\n                      }}\n                    />\n                  ))}\n                </div>\n              </Card>\n            </Col>\n          </Row>\n        )}\n\n        {/* 浏览器信息 */}\n        <Row style={{ marginTop: 24 }}>\n          <Col span={24}>\n            <Card title=\"浏览器环境信息\">\n              <Row gutter={16}>\n                <Col span={6}>\n                  <Statistic\n                    title=\"浏览器\"\n                    value={browserInfo.isChrome ? 'Chrome' : 'Other'}\n                    prefix={<ChromeOutlined />}\n                  />\n                </Col>\n                <Col span={6}>\n                  <Statistic title=\"平台\" value={navigator.platform} prefix={<DesktopOutlined />} />\n                </Col>\n                <Col span={6}>\n                  <Statistic title=\"屏幕分辨率\" value={`${window.screen.width}x${window.screen.height}`} />\n                </Col>\n                <Col span={6}>\n                  <Statistic\n                    title=\"内存API\"\n                    value={browserInfo.supportsMemory ? '支持' : '不支持'}\n                    valueStyle={{ color: browserInfo.supportsMemory ? '#52c41a' : '#ff4d4f' }}\n                  />\n                </Col>\n              </Row>\n              <Row gutter={16} style={{ marginTop: 16 }}>\n                <Col span={6}>\n                  <Statistic title=\"逻辑CPU核心\" value={navigator.hardwareConcurrency || 'Unknown'} />\n                </Col>\n                <Col span={6}>\n                  <Statistic title=\"设备内存\" value={`${(navigator as any).deviceMemory || 'Unknown'} GB`} />\n                </Col>\n                <Col span={6}>\n                  <Statistic title=\"连接类型\" value={(navigator as any).connection?.effectiveType || 'Unknown'} />\n                </Col>\n                <Col span={6}>\n                  <Statistic title=\"UserAgent\" value={browserInfo.userAgent.slice(0, 30) + '...'} />\n                </Col>\n              </Row>\n            </Card>\n          </Col>\n        </Row>\n      </div>\n    </>\n  );\n};\n\nexport default PerfMonitor;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/perf-monitor.tsx"
     },
