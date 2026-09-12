@@ -178,14 +178,23 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
 // 语言切换组件 - 下拉选择
 export const LanguageSwitcher: React.FC = () => {
   const { locale, setLocale } = useI18n();
+  const [isDark, setIsDark] = React.useState(false);
 
-  const localeOptions: { value: Locale; label: string; flag: string }[] = [
-    { value: 'zh-CN', label: '简体中文', flag: '🇨🇳' },
-    { value: 'zh-TW', label: '繁體中文', flag: '🇭🇰' },
-    { value: 'en-US', label: 'English', flag: '🇺🇸' },
+  React.useEffect(() => {
+    const checkDark = () => {
+      setIsDark(document.documentElement.getAttribute('data-theme') === 'dark');
+    };
+    checkDark();
+    const observer = new MutationObserver(checkDark);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    return () => observer.disconnect();
+  }, []);
+
+  const localeOptions: { value: Locale; label: string }[] = [
+    { value: 'zh-CN', label: '简体中文' },
+    { value: 'zh-TW', label: '繁體中文' },
+    { value: 'en-US', label: 'English' },
   ];
-
-  const current = localeOptions.find((o) => o.value === locale);
 
   return React.createElement(
     'div',
@@ -196,7 +205,6 @@ export const LanguageSwitcher: React.FC = () => {
         value: locale,
         onChange: (e: React.ChangeEvent<HTMLSelectElement>) => {
           const newLocale = e.target.value as Locale;
-          // 使用原生 DOM 操作确保值正确设置后再刷新
           localStorage.setItem('yma16-locale', newLocale);
           window.location.reload();
         },
@@ -206,9 +214,9 @@ export const LanguageSwitcher: React.FC = () => {
           MozAppearance: 'none',
           padding: '6px 32px 6px 12px',
           borderRadius: 6,
-          border: '1px solid #d9d9d9',
-          background: '#fff',
-          color: '#333',
+          border: '1px solid ' + (isDark ? '#424242' : '#d9d9d9'),
+          background: isDark ? '#1f1f1f' : '#fff',
+          color: isDark ? 'rgba(255,255,255,0.85)' : '#333',
           cursor: 'pointer',
           fontSize: 14,
           lineHeight: '22px',
@@ -218,8 +226,8 @@ export const LanguageSwitcher: React.FC = () => {
       localeOptions.map((opt) =>
         React.createElement(
           'option',
-          { key: opt.value, value: opt.value },
-          `${opt.flag} ${opt.label}`
+          { key: opt.value, value: opt.value, style: { background: isDark ? '#1f1f1f' : '#fff', color: isDark ? 'rgba(255,255,255,0.85)' : '#333' } },
+          opt.label
         )
       )
     ),
@@ -233,7 +241,7 @@ export const LanguageSwitcher: React.FC = () => {
           transform: 'translateY(-50%)',
           pointerEvents: 'none',
           fontSize: 12,
-          color: '#999',
+          color: isDark ? 'rgba(255,255,255,0.45)' : '#999',
         },
       },
       '▼'
