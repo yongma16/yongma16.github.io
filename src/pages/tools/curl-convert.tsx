@@ -53,12 +53,14 @@ const parseCurl = (curlCommand: string): ParsedCurl | null => {
       result.method = methodMatch[2].toUpperCase();
     }
 
-    // Extract headers
-    const headerRegex = /-[Hh]\s+(['"]?)([^:]+):\s*([^\1]+)\1/g;
+    // Extract headers - improved regex to handle quotes better
+    const headerRegex = /-[Hh]\s+(['"]?)([^:]+):\s*([^\n\r]+?)\1(?:\s|$|\\)/g;
     let headerMatch;
     while ((headerMatch = headerRegex.exec(cleaned)) !== null) {
       const key = headerMatch[2].trim();
-      const value = headerMatch[3].trim();
+      let value = headerMatch[3].trim();
+      // Remove trailing quotes if present
+      value = value.replace(/['"]$/, '').trim();
       result.headers[key] = value;
     }
 
