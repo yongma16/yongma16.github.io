@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 7
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -84,7 +84,7 @@
             3
           ]
         },
-        "register": 5
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,7 +128,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            16
+            15
           ]
         },
         "register": 23
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -158,10 +158,10 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            0
+            1
           ],
           "onCheck": [
-            0
+            1
           ]
         },
         "register": 1
@@ -194,7 +194,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,7 +1077,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 101
+        "register": 99
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1204,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1242,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1256,10 +1256,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1362,7 +1362,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1426,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1464,7 +1464,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1476,7 +1476,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 486
+        "register": 492
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1543,7 +1543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1555,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1568,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1581,7 +1581,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 30
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1642,7 +1642,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 41
+        "register": 38
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 23
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1693,7 +1693,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2190,6 +2190,11 @@
         "title": "ESLint配置"
       },
       {
+        "path": "/tools/playground",
+        "component": "@/pages/tools/playground",
+        "title": "代码游乐场"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2458,6 +2463,11 @@
         "title": "ESLint配置"
       },
       {
+        "path": "/tools/playground",
+        "component": "@/pages/tools/playground",
+        "title": "代码游乐场"
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客"
@@ -2490,7 +2500,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n  DashboardOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费'],\n  },\n  {\n    title: 'JSON转TS',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JSON自动推断生成TypeScript Interface类型',\n    path: '/tools/json-to-ts',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Mock生成',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '快速生成模拟JSON测试数据',\n    path: '/tools/mock-gen',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'CSS格式化',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS代码格式化、压缩、美化',\n    path: '/tools/css-formatter',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '字符串转义',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'HTML/JS字符串Escape转义反转义',\n    path: '/tools/string-escape',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '进制转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '2/8/10/16进制互相转换',\n    path: '/tools/radix-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '命名转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '驼峰、下划线、短横线命名风格互转',\n    path: '/tools/naming-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片转换',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: 'PNG/JPG/WebP格式转换，调节质量',\n    path: '/tools/image-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'JWT解析',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JWT Token解析Header、Payload、Signature',\n    path: '/tools/jwt-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Cookie解析',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '解析Cookie字符串，查看属性和值',\n    path: '/tools/cookie-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '二维码工具',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '二维码生成和解析',\n    path: '/tools/qrcode-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则模板',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: '常用正则表达式模板库，一键复制',\n    path: '/tools/regex-lib',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '随机字符串',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '自定义字符集、长度、生成数量',\n    path: '/tools/random-string',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '单位换算',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS px/rem/em/vw/vh单位换算',\n    path: '/tools/unit-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'AI调试',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: 'Mock流式模拟 + 真实API请求调试',\n    path: '/tools/ai-debug',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '性能监控',\n    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '前端可视化性能监控与浏览器压力测试',\n    path: '/tools/perf-monitor',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'cURL转换',\n    icon: <ThunderboltOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '将 cURL 命令一键转换为 Axios/Fetch/Python/Node.js 代码',\n    path: '/tools/curl-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'ESLint配置',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '可视化生成 ESLint 配置文件，支持 TS/React/Vue/Prettier',\n    path: '/tools/eslint-config',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            一起合作\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>喜欢这些工具？一起交流吧！</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          所有工具完全免费，欢迎技术交流、开源共建和知识分享\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          一起搞事情\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n  DashboardOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 添加新工具只需在此数组中添加即可，数量会自动统计\nconst tools = [\n  {\n    title: '代码格式化',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '支持 Vue/React 代码格式化，Prettier 配置一键生成',\n    path: '/tools/code-formatter',\n    tags: ['免费'],\n  },\n  {\n    title: '组件生成器',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '根据配置快速生成 React/Vue 组件代码模板',\n    path: '/tools/component-gen',\n    tags: ['免费'],\n  },\n  {\n    title: '性能检测',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: '前端性能分析工具，Lighthouse 报告生成',\n    path: '/tools/perf-check',\n    tags: ['免费'],\n  },\n  {\n    title: 'SVG 处理',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'SVG 压缩、转换、批量处理，图标库管理',\n    path: '/tools/svg-processor',\n    tags: ['免费', 'PRO'],\n  },\n  {\n    title: 'URL 工具',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'URL 编解码、查询参数解析、Hash 路由参数识别',\n    path: '/tools/url-tools',\n    tags: ['免费'],\n  },\n  {\n    title: '颜色选择器',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '拾色器取色、HEX/RGB/HSL 互相转换、颜色预览',\n    path: '/tools/color-picker',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片裁剪',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '纯前端 Canvas 图片裁剪、旋转、导出下载',\n    path: '/tools/image-cropper',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Base64 工具',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '文本 Base64 编解码、图片与 Base64 互转',\n    path: '/tools/base64-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '时间戳转换',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '时间戳与日期互相转换，支持多种格式',\n    path: '/tools/timestamp-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则测试',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '正则表达式实时匹配、高亮显示、分组捕获',\n    path: '/tools/regex-tester',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '哈希工具',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: 'MD5/SHA1/SHA256 哈希计算，纯前端实现',\n    path: '/tools/hash-tool',\n    tags: ['免费'],\n  },\n  {\n    title: 'JSON转TS',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JSON自动推断生成TypeScript Interface类型',\n    path: '/tools/json-to-ts',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Mock生成',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '快速生成模拟JSON测试数据',\n    path: '/tools/mock-gen',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'CSS格式化',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS代码格式化、压缩、美化',\n    path: '/tools/css-formatter',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '字符串转义',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: 'HTML/JS字符串Escape转义反转义',\n    path: '/tools/string-escape',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '进制转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '2/8/10/16进制互相转换',\n    path: '/tools/radix-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '命名转换',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: '驼峰、下划线、短横线命名风格互转',\n    path: '/tools/naming-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '图片转换',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: 'PNG/JPG/WebP格式转换，调节质量',\n    path: '/tools/image-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'JWT解析',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: 'JWT Token解析Header、Payload、Signature',\n    path: '/tools/jwt-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'Cookie解析',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '解析Cookie字符串，查看属性和值',\n    path: '/tools/cookie-parser',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '二维码工具',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '二维码生成和解析',\n    path: '/tools/qrcode-tool',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '正则模板',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    desc: '常用正则表达式模板库，一键复制',\n    path: '/tools/regex-lib',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '随机字符串',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    desc: '自定义字符集、长度、生成数量',\n    path: '/tools/random-string',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '单位换算',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    desc: 'CSS px/rem/em/vw/vh单位换算',\n    path: '/tools/unit-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'AI调试',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    desc: 'Mock流式模拟 + 真实API请求调试',\n    path: '/tools/ai-debug',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '性能监控',\n    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    desc: '前端可视化性能监控与浏览器压力测试',\n    path: '/tools/perf-monitor',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'cURL转换',\n    icon: <ThunderboltOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    desc: '将 cURL 命令一键转换为 Axios/Fetch/Python/Node.js 代码',\n    path: '/tools/curl-convert',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: 'ESLint配置',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    desc: '可视化生成 ESLint 配置文件，支持 TS/React/Vue/Prettier',\n    path: '/tools/eslint-config',\n    tags: ['免费', 'NEW'],\n  },\n  {\n    title: '代码游乐场',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    desc: '在线编写 HTML/CSS/JS，实时预览，支持 Vue3/Tailwind 模板',\n    path: '/tools/playground',\n    tags: ['免费', 'NEW'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, title: '高效开发', desc: '一键生成代码，提升开发效率' },\n  { icon: <TeamOutlined />, title: '团队协作', desc: '云端存储，团队成员共享配置' },\n  { icon: <CloudUploadOutlined />, title: '批量导出', desc: '支持批量处理，导出多种格式' },\n];\n\nconst HomePage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"首页\"\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          前端开发工具集\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          基于 React + TypeScript + Umi 构建的前端工具集合。\n          <br />\n          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            开始使用\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            一起合作\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"工具数量\" value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"CSDN 阅读量\" value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title=\"技术文章\" value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        开发工具 <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.title}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {tool.title}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{tool.desc}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'PRO' ? 'gold' : 'green'}>\n                    {tag}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        功能特性\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.title}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{feature.title}</Title>\n              <Paragraph style={{ color: '#666' }}>{feature.desc}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>喜欢这些工具？一起交流吧！</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          所有工具完全免费，欢迎技术交流、开源共建和知识分享\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          一起搞事情\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -2814,22 +2824,33 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/eslint-config.tsx"
     },
     "31": {
+      "path": "/tools/playground",
+      "title": "代码游乐场",
+      "file": "@/pages/tools/playground.tsx",
+      "parentId": "@@/global-layout",
+      "id": "31",
+      "absPath": "/tools/playground",
+      "__content": "import React, { useState, useEffect, useRef, useCallback } from 'react';\nimport { Card, Row, Col, Button, message, Typography, Space, Select, Tabs, Tooltip, Badge } from 'antd';\nimport {\n  PlayCircleOutlined,\n  DownloadOutlined,\n  CopyOutlined,\n  SaveOutlined,\n  FolderOpenOutlined,\n  ClearOutlined,\n  CodeOutlined,\n  BugOutlined,\n  FullscreenOutlined,\n} from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph, Text } = Typography;\nconst { Option } = Select;\nconst { TabPane } = Tabs;\n\ninterface ConsoleMessage {\n  type: 'log' | 'error' | 'warn' | 'info';\n  message: string;\n  timestamp: number;\n}\n\ninterface Draft {\n  id: string;\n  name: string;\n  html: string;\n  css: string;\n  js: string;\n  createdAt: number;\n}\n\nconst PRESETS = {\n  html: {\n    label: '原生网页',\n    html: `<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>我的页面</title>\n</head>\n<body>\n  <h1>Hello World</h1>\n  <p>在这里编写你的 HTML 代码</p>\n  <button id=\"btn\">点击我</button>\n</body>\n</html>`,\n    css: `body {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n  max-width: 800px;\n  margin: 0 auto;\n  padding: 20px;\n  background: #f5f5f5;\n}\n\nh1 {\n  color: #1890ff;\n}\n\nbutton {\n  background: #1890ff;\n  color: white;\n  border: none;\n  padding: 8px 16px;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background: #40a9ff;\n}`,\n    js: `document.getElementById('btn').addEventListener('click', () => {\n  alert('你好，世界！');\n  console.log('按钮被点击了');\n});`,\n  },\n  vue3: {\n    label: 'Vue3 Snippet',\n    html: `<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Vue3 Demo</title>\n  <script src=\"https://unpkg.com/vue@3/dist/vue.global.js\"></script>\n</head>\n<body>\n  <div id=\"app\">\n    <h1>{{ title }}</h1>\n    <p>计数: {{ count }}</p>\n    <button @click=\"increment\">+1</button>\n    <button @click=\"decrement\">-1</button>\n    <ul>\n      <li v-for=\"item in items\" :key=\"item.id\">{{ item.name }}</li>\n    </ul>\n  </div>\n</body>\n</html>`,\n    css: `body {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n  max-width: 600px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\nh1 {\n  color: #42b883;\n}\n\nbutton {\n  background: #42b883;\n  color: white;\n  border: none;\n  padding: 8px 16px;\n  border-radius: 4px;\n  cursor: pointer;\n  margin-right: 8px;\n}\n\nbutton:hover {\n  background: #35495e;\n}\n\nul {\n  margin-top: 20px;\n  padding-left: 20px;\n}\n\nli {\n  padding: 4px 0;\n  color: #666;\n}`,\n    js: `const { createApp, ref } = Vue;\n\ncreateApp({\n  setup() {\n    const title = ref('Vue 3 响应式示例');\n    const count = ref(0);\n    const items = ref([\n      { id: 1, name: '学习 Vue3' },\n      { id: 2, name: '练习 Composition API' },\n      { id: 3, name: '构建组件库' },\n    ]);\n\n    const increment = () => {\n      count.value++;\n      console.log('当前计数:', count.value);\n    };\n\n    const decrement = () => {\n      count.value--;\n      console.log('当前计数:', count.value);\n    };\n\n    return {\n      title,\n      count,\n      items,\n      increment,\n      decrement,\n    };\n  }\n}).mount('#app');`,\n  },\n  tailwind: {\n    label: 'Tailwind 模板',\n    html: `<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Tailwind Demo</title>\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n</head>\n<body class=\"bg-gray-100 min-h-screen\">\n  <div class=\"container mx-auto px-4 py-8\">\n    <div class=\"bg-white rounded-lg shadow-lg p-6 max-w-md mx-auto\">\n      <h1 class=\"text-2xl font-bold text-gray-800 mb-4\">Tailwind CSS 示例</h1>\n      <p class=\"text-gray-600 mb-4\">快速构建现代化界面</p>\n      <div class=\"space-y-3\">\n        <button class=\"w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded transition\">\n          主要按钮\n        </button>\n        <button class=\"w-full bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded transition\">\n          成功按钮\n        </button>\n        <div class=\"flex gap-2\">\n          <span class=\"px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm\">标签1</span>\n          <span class=\"px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-sm\">标签2</span>\n        </div>\n      </div>\n    </div>\n    <div id=\"output\" class=\"mt-6 text-center text-gray-500\"></div>\n  </div>\n</body>\n</html>`,\n    css: `/* Tailwind 已通过 CDN 引入，这里写自定义样式 */\n\n.custom-animation {\n  animation: fadeIn 0.5s ease-in;\n}\n\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}`,\n    js: `document.querySelectorAll('button').forEach(btn => {\n  btn.addEventListener('click', (e) => {\n    const text = e.target.textContent.trim();\n    document.getElementById('output').innerHTML = \n      '<span style=\"color: #16a34a; font-weight: 500;\">✓ 点击了: ' + text + '</span>';\n    console.log('按钮点击:', text);\n  });\n});`,\n  },\n};\n\nconst DB_NAME = 'yma16-playground';\nconst DB_VERSION = 1;\nconst STORE_NAME = 'drafts';\n\nconst initDB = (): Promise<IDBDatabase> => {\n  return new Promise((resolve, reject) => {\n    const request = indexedDB.open(DB_NAME, DB_VERSION);\n    request.onerror = () => reject(request.error);\n    request.onsuccess = () => resolve(request.result);\n    request.onupgradeneeded = (event) => {\n      const db = (event.target as IDBOpenDBRequest).result;\n      if (!db.objectStoreNames.contains(STORE_NAME)) {\n        db.createObjectStore(STORE_NAME, { keyPath: 'id' });\n      }\n    };\n  });\n};\n\nconst saveDraft = async (draft: Draft) => {\n  const db = await initDB();\n  return new Promise<void>((resolve, reject) => {\n    const tx = db.transaction(STORE_NAME, 'readwrite');\n    const store = tx.objectStore(STORE_NAME);\n    const request = store.put(draft);\n    request.onsuccess = () => resolve();\n    request.onerror = () => reject(request.error);\n  });\n};\n\nconst getDrafts = async (): Promise<Draft[]> => {\n  const db = await initDB();\n  return new Promise((resolve, reject) => {\n    const tx = db.transaction(STORE_NAME, 'readonly');\n    const store = tx.objectStore(STORE_NAME);\n    const request = store.getAll();\n    request.onsuccess = () => resolve(request.result);\n    request.onerror = () => reject(request.error);\n  });\n};\n\nconst deleteDraft = async (id: string) => {\n  const db = await initDB();\n  return new Promise<void>((resolve, reject) => {\n    const tx = db.transaction(STORE_NAME, 'readwrite');\n    const store = tx.objectStore(STORE_NAME);\n    const request = store.delete(id);\n    request.onsuccess = () => resolve();\n    request.onerror = () => reject(request.error);\n  });\n};\n\nconst compileScss = async (scss: string): Promise<string> => {\n  // 简单的 SCSS 变量和嵌套处理（浏览器端简化版）\n  let css = scss;\n  \n  // 处理变量\n  const variables: Record<string, string> = {};\n  css = css.replace(/\\$([\\w-]+):\\s*([^;]+);/g, (match, name, value) => {\n    variables[name] = value.trim();\n    return '';\n  });\n  \n  // 替换变量使用\n  Object.entries(variables).forEach(([name, value]) => {\n    css = css.replace(new RegExp(`\\\\$${name}`, 'g'), value);\n  });\n  \n  // 处理嵌套（简化版）\n  let depth = 0;\n  const lines = css.split('\\n');\n  const result: string[] = [];\n  const selectors: string[] = [];\n  \n  for (const line of lines) {\n    const trimmed = line.trim();\n    if (!trimmed) continue;\n    \n    if (trimmed.includes('{')) {\n      const selector = trimmed.replace('{', '').trim();\n      if (depth === 0) {\n        selectors.push(selector);\n      } else {\n        const parent = selectors[selectors.length - 1];\n        selectors.push(`${parent} ${selector}`);\n      }\n      depth++;\n    } else if (trimmed === '}') {\n      depth--;\n      if (depth >= 0) selectors.pop();\n    } else if (trimmed.includes(':')) {\n      const currentSelector = selectors[selectors.length - 1] || '';\n      if (currentSelector) {\n        result.push(`${currentSelector} { ${trimmed} }`);\n      } else {\n        result.push(trimmed);\n      }\n    }\n  }\n  \n  return result.length > 0 ? result.join('\\n') : css;\n};\n\nconst CodePlayground: React.FC = () => {\n  const [html, setHtml] = useState(PRESETS.html.html);\n  const [css, setCss] = useState(PRESETS.html.css);\n  const [js, setJs] = useState(PRESETS.html.js);\n  const [activeTab, setActiveTab] = useState('html');\n  const [consoleMessages, setConsoleMessages] = useState<ConsoleMessage[]>([]);\n  const [showConsole, setShowConsole] = useState(true);\n  const [drafts, setDrafts] = useState<Draft[]>([]);\n  const [draftName, setDraftName] = useState('');\n  const [isScss, setIsScss] = useState(false);\n  const iframeRef = useRef<HTMLIFrameElement>(null);\n\n  const seoConfig = {\n    title: 'HTML/CSS/JS 在线代码预览游乐场',\n    description: '在线编写和预览 HTML/CSS/JS 代码，支持实时预览、控制台输出、预设模板、代码导出和本地草稿保存。适合上课写 demo、验证代码片段、作业快速测试。',\n    keywords: '在线代码编辑器,HTML预览,CSS预览,JS预览,代码游乐场,前端demo,代码片段测试,Vue3示例,Tailwind示例',\n    jsonLd: createToolJsonLd(\n      'HTML/CSS/JS 在线代码预览游乐场',\n      '在线编写和预览前端代码，支持实时预览和草稿保存',\n      'https://yma16.cloud/tools/playground',\n      'DeveloperApplication'\n    ),\n  };\n\n  const updatePreview = useCallback(async () => {\n    const iframe = iframeRef.current;\n    if (!iframe) return;\n\n    let compiledCss = css;\n    if (isScss) {\n      try {\n        compiledCss = await compileScss(css);\n      } catch (err) {\n        console.error('SCSS 编译错误:', err);\n      }\n    }\n\n    const doc = iframe.contentDocument || iframe.contentWindow?.document;\n    if (!doc) return;\n\n    // 捕获 console 输出\n    const consoleScript = `\n      <script>\n        (function() {\n          const originalLog = console.log;\n          const originalError = console.error;\n          const originalWarn = console.warn;\n          const originalInfo = console.info;\n          \n          function sendToParent(type, args) {\n            const message = args.map(arg => {\n              if (typeof arg === 'object') {\n                try {\n                  return JSON.stringify(arg, null, 2);\n                } catch {\n                  return String(arg);\n                }\n              }\n              return String(arg);\n            }).join(' ');\n            \n            window.parent.postMessage({\n              type: 'console',\n              consoleType: type,\n              message: message,\n              timestamp: Date.now()\n            }, '*');\n          }\n          \n          console.log = function(...args) {\n            originalLog.apply(console, args);\n            sendToParent('log', args);\n          };\n          \n          console.error = function(...args) {\n            originalError.apply(console, args);\n            sendToParent('error', args);\n          };\n          \n          console.warn = function(...args) {\n            originalWarn.apply(console, args);\n            sendToParent('warn', args);\n          };\n          \n          console.info = function(...args) {\n            originalInfo.apply(console, args);\n            sendToParent('info', args);\n          };\n          \n          window.onerror = function(msg, url, line, col, error) {\n            sendToParent('error', [msg + ' (line ' + line + ':' + col + ')']);\n            return false;\n          };\n        })();\n      </script>\n    `;\n\n    const htmlContent = html.replace('</head>', `${consoleScript}</head>`);\n    const fullContent = htmlContent.replace(\n      '</head>',\n      `<style>${compiledCss}</style></head>`\n    ).replace(\n      '</body>',\n      `<script>${js}</script></body>`\n    );\n\n    doc.open();\n    doc.write(fullContent);\n    doc.close();\n  }, [html, css, js, isScss]);\n\n  useEffect(() => {\n    const handleMessage = (event: MessageEvent) => {\n      if (event.data && event.data.type === 'console') {\n        setConsoleMessages(prev => [...prev, {\n          type: event.data.consoleType,\n          message: event.data.message,\n          timestamp: event.data.timestamp,\n        }]);\n      }\n    };\n\n    window.addEventListener('message', handleMessage);\n    return () => window.removeEventListener('message', handleMessage);\n  }, []);\n\n  useEffect(() => {\n    loadDrafts();\n  }, []);\n\n  const loadDrafts = async () => {\n    try {\n      const drafts = await getDrafts();\n      setDrafts(drafts.sort((a, b) => b.createdAt - a.createdAt));\n    } catch {\n      // IndexedDB 不可用时不报错\n    }\n  };\n\n  const handleRun = () => {\n    setConsoleMessages([]);\n    updatePreview();\n    message.success('代码已运行');\n  };\n\n  const handleDownload = () => {\n    const blob = new Blob([html.replace('</head>', `<style>${css}</style></head>`).replace('</body>', `<script>${js}</script></body>`)], { type: 'text/html' });\n    const url = URL.createObjectURL(blob);\n    const a = document.createElement('a');\n    a.href = url;\n    a.download = 'playground-demo.html';\n    a.click();\n    URL.revokeObjectURL(url);\n    message.success('HTML 文件已下载');\n  };\n\n  const handleCopy = () => {\n    const code = `<!-- HTML -->\\n${html}\\n\\n<!-- CSS -->\\n<style>\\n${css}\\n</style>\\n\\n<!-- JS -->\\n<script>\\n${js}\\n</script>`;\n    navigator.clipboard.writeText(code);\n    message.success('代码已复制');\n  };\n\n  const handleSave = async () => {\n    const name = draftName || `草稿 ${new Date().toLocaleString()}`;\n    const draft: Draft = {\n      id: Date.now().toString(),\n      name,\n      html,\n      css,\n      js,\n      createdAt: Date.now(),\n    };\n    \n    try {\n      await saveDraft(draft);\n      await loadDrafts();\n      message.success('草稿已保存');\n      setDraftName('');\n    } catch {\n      message.error('保存失败，浏览器可能不支持 IndexedDB');\n    }\n  };\n\n  const handleLoadDraft = (draft: Draft) => {\n    setHtml(draft.html);\n    setCss(draft.css);\n    setJs(draft.js);\n    message.success(`已加载: ${draft.name}`);\n  };\n\n  const handleDeleteDraft = async (id: string) => {\n    try {\n      await deleteDraft(id);\n      await loadDrafts();\n      message.success('草稿已删除');\n    } catch {\n      message.error('删除失败');\n    }\n  };\n\n  const handlePresetChange = (value: string) => {\n    const preset = PRESETS[value as keyof typeof PRESETS];\n    if (preset) {\n      setHtml(preset.html);\n      setCss(preset.css);\n      setJs(preset.js);\n      message.success(`已加载 ${preset.label} 模板`);\n    }\n  };\n\n  const clearConsole = () => {\n    setConsoleMessages([]);\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ height: 'calc(100vh - 140px)', display: 'flex', flexDirection: 'column' }}>\n        {/* 顶部工具栏 */}\n        <div style={{ padding: '12px 0', borderBottom: '1px solid #f0f0f0', marginBottom: 12 }}>\n          <Row justify=\"space-between\" align=\"middle\">\n            <Col>\n              <Space>\n                <Title level={4} style={{ margin: 0 }}>\n                  <CodeOutlined /> 代码游乐场\n                </Title>\n                <Select\n                  defaultValue=\"html\"\n                  style={{ width: 140 }}\n                  onChange={handlePresetChange}\n                >\n                  <Option value=\"html\">原生网页</Option>\n                  <Option value=\"vue3\">Vue3 Snippet</Option>\n                  <Option value=\"tailwind\">Tailwind 模板</Option>\n                </Select>\n                <Button\n                  type={isScss ? 'primary' : 'default'}\n                  size=\"small\"\n                  onClick={() => setIsScss(!isScss)}\n                >\n                  SCSS\n                </Button>\n              </Space>\n            </Col>\n            <Col>\n              <Space>\n                <Button type=\"primary\" icon={<PlayCircleOutlined />} onClick={handleRun}>\n                  运行\n                </Button>\n                <Button icon={<DownloadOutlined />} onClick={handleDownload}>\n                  下载 HTML\n                </Button>\n                <Button icon={<CopyOutlined />} onClick={handleCopy}>\n                  复制代码\n                </Button>\n                <Button icon={<SaveOutlined />} onClick={handleSave}>\n                  保存草稿\n                </Button>\n              </Space>\n            </Col>\n          </Row>\n        </div>\n\n        {/* 主编辑区 */}\n        <Row gutter={12} style={{ flex: 1, minHeight: 0 }}>\n          {/* 编辑器 */}\n          <Col span={12} style={{ height: '100%' }}>\n            <Card\n              bodyStyle={{ padding: 0, height: 'calc(100% - 48px)' }}\n              style={{ height: '100%' }}\n              title={\n                <Tabs activeKey={activeTab} onChange={setActiveTab} size=\"small\">\n                  <TabPane tab=\"HTML\" key=\"html\" />\n                  <TabPane tab={isScss ? 'SCSS' : 'CSS'} key=\"css\" />\n                  <TabPane tab=\"JavaScript\" key=\"js\" />\n                </Tabs>\n              }\n            >\n              {activeTab === 'html' && (\n                <Editor\n                  height=\"100%\"\n                  language=\"html\"\n                  value={html}\n                  onChange={(v) => setHtml(v || '')}\n                  options={{\n                    minimap: { enabled: false },\n                    fontSize: 14,\n                    lineNumbers: 'on',\n                    automaticLayout: true,\n                    wordWrap: 'on',\n                    tabSize: 2,\n                  }}\n                />\n              )}\n              {activeTab === 'css' && (\n                <Editor\n                  height=\"100%\"\n                  language={isScss ? 'scss' : 'css'}\n                  value={css}\n                  onChange={(v) => setCss(v || '')}\n                  options={{\n                    minimap: { enabled: false },\n                    fontSize: 14,\n                    lineNumbers: 'on',\n                    automaticLayout: true,\n                    wordWrap: 'on',\n                    tabSize: 2,\n                  }}\n                />\n              )}\n              {activeTab === 'js' && (\n                <Editor\n                  height=\"100%\"\n                  language=\"javascript\"\n                  value={js}\n                  onChange={(v) => setJs(v || '')}\n                  options={{\n                    minimap: { enabled: false },\n                    fontSize: 14,\n                    lineNumbers: 'on',\n                    automaticLayout: true,\n                    wordWrap: 'on',\n                    tabSize: 2,\n                  }}\n                />\n              )}\n            </Card>\n          </Col>\n\n          {/* 预览区 */}\n          <Col span={12} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>\n            <Card\n              bodyStyle={{ padding: 0, height: '100%' }}\n              style={{ height: '60%', marginBottom: 12 }}\n              title={\n                <Row justify=\"space-between\" align=\"middle\">\n                  <Col>实时预览</Col>\n                  <Col>\n                    <Button size=\"small\" icon={<FullscreenOutlined />} onClick={handleRun}>\n                      刷新\n                    </Button>\n                  </Col>\n                </Row>\n              }\n            >\n              <iframe\n                ref={iframeRef}\n                style={{ width: '100%', height: '100%', border: 'none' }}\n                sandbox=\"allow-scripts allow-modals\"\n                title=\"preview\"\n              />\n            </Card>\n\n            {/* 控制台 */}\n            <Card\n              bodyStyle={{ padding: 8, height: 'calc(100% - 48px)', overflow: 'auto' }}\n              style={{ height: '40%' }}\n              title={\n                <Row justify=\"space-between\" align=\"middle\">\n                  <Col>\n                    <Space>\n                      <BugOutlined />\n                      控制台\n                      {consoleMessages.length > 0 && (\n                        <Badge count={consoleMessages.length} size=\"small\" />\n                      )}\n                    </Space>\n                  </Col>\n                  <Col>\n                    <Button size=\"small\" icon={<ClearOutlined />} onClick={clearConsole}>\n                      清空\n                    </Button>\n                  </Col>\n                </Row>\n              }\n            >\n              {consoleMessages.length === 0 ? (\n                <Text type=\"secondary\" style={{ fontSize: 12 }}>\n                  点击「运行」按钮查看控制台输出...\n                </Text>\n              ) : (\n                <div style={{ fontFamily: 'monospace', fontSize: 12 }}>\n                  {consoleMessages.map((msg, index) => (\n                    <div\n                      key={index}\n                      style={{\n                        padding: '2px 0',\n                        color:\n                          msg.type === 'error'\n                            ? '#ff4d4f'\n                            : msg.type === 'warn'\n                            ? '#faad14'\n                            : msg.type === 'info'\n                            ? '#1890ff'\n                            : '#333',\n                        borderBottom: '1px solid #f0f0f0',\n                      }}\n                    >\n                      <span style={{ color: '#999', marginRight: 8 }}>\n                        {new Date(msg.timestamp).toLocaleTimeString()}\n                      </span>\n                      <span style={{ textTransform: 'uppercase', marginRight: 8, fontSize: 10 }}>\n                        [{msg.type}]\n                      </span>\n                      {msg.message}\n                    </div>\n                  ))}\n                </div>\n              )}\n            </Card>\n          </Col>\n        </Row>\n\n        {/* 草稿箱 */}\n        {drafts.length > 0 && (\n          <Card size=\"small\" style={{ marginTop: 12 }} title={<><FolderOpenOutlined /> 草稿箱</>}>\n            <Space wrap>\n              {drafts.map((draft) => (\n                <Button\n                  key={draft.id}\n                  size=\"small\"\n                  onClick={() => handleLoadDraft(draft)}\n                  onContextMenu={(e) => {\n                    e.preventDefault();\n                    handleDeleteDraft(draft.id);\n                  }}\n                >\n                  {draft.name}\n                </Button>\n              ))}\n            </Space>\n            <Text type=\"secondary\" style={{ fontSize: 12, marginLeft: 12 }}>\n              右键点击草稿可删除\n            </Text>\n          </Card>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default CodePlayground;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/playground.tsx"
+    },
+    "32": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "31",
+      "id": "32",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "32": {
+    "33": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "32",
+      "id": "33",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术交流',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案探讨、性能优化思路分享、架构设计交流',\n    features: [\n      '前端架构设计探讨',\n      '性能优化经验分享',\n      '技术选型交流',\n      '代码规范与最佳实践',\n      '线上问题排查思路',\n    ],\n    buttonText: '一起聊聊',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '开源共建',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: '开源项目贡献、工具开发协作、技术方案共建',\n    features: [\n      'React/Vue 生态贡献',\n      '前端工具链共建',\n      '组件库与物料体系',\n      '可视化与图表方案',\n      '跨端开发探索',\n    ],\n    buttonText: '参与共建',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '知识分享',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目经验分享',\n    features: [\n      '技术文章与博客撰写',\n      '开源项目文档完善',\n      '技术教程与案例分享',\n      '技术演讲与直播',\n      '社区互动与答疑',\n    ],\n    buttonText: '交流沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"一起搞事情\"\n        description=\"yma16 热爱前端技术，乐于交流分享。欢迎技术探讨、开源共建、知识分享，一起让前端生态更好。\"\n        keywords=\"前端技术交流,开源共建,知识分享,React开发,Vue开发,前端社区\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>一起搞事情</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          热爱前端技术，乐于交流分享。无论是技术探讨、开源共建还是知识分享，都欢迎来找我聊聊～\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，喜欢折腾各种前端工具和性能优化。\n                  活跃于技术社区，相信开源和分享能让技术变得更好。期待认识更多志同道合的朋友！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"交流方式\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '💬 技术讨论：前端技术选型、架构设计、性能优化',\n                '🔧 工具共建：一起开发好用的前端工具，提升效率',\n                '📝 经验分享：写文章、做教程，把踩过的坑变成经验',\n                '🎯 开源贡献：参与开源项目，一起让生态更好',\n                '🤝 互相学习：每个人都有擅长的地方，互相交流成长',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"我的态度\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '🌟 乐于分享：技术不应该藏着掖着，分享才能进步',\n                '💡 保持好奇：新技术、新工具都值得尝试和探索',\n                '🤗 开放包容：尊重不同的技术观点，求同存异',\n                '🔥 热爱折腾：代码不仅是工作，更是热爱和乐趣',\n                '🚀 持续成长：保持学习，和前端社区一起进步',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,

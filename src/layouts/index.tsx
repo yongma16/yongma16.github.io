@@ -84,6 +84,7 @@ const items: MenuItem[] = [
       { key: '/tools/perf-monitor', icon: <DashboardOutlined />, label: '性能监控' },
       { key: '/tools/curl-convert', icon: <ThunderboltOutlined />, label: 'cURL转换' },
       { key: '/tools/eslint-config', icon: <FileTextOutlined />, label: 'ESLint配置' },
+      { key: '/tools/playground', icon: <CodeOutlined />, label: '代码游乐场' },
     ],
   },
   {

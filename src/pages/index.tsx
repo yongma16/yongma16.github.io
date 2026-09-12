@@ -232,6 +232,13 @@ const tools = [
     path: '/tools/eslint-config',
     tags: ['免费', 'NEW'],
   },
+  {
+    title: '代码游乐场',
+    icon: <CodeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,
+    desc: '在线编写 HTML/CSS/JS，实时预览，支持 Vue3/Tailwind 模板',
+    path: '/tools/playground',
+    tags: ['免费', 'NEW'],
+  },
 ];
 
 const features = [
