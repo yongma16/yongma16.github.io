@@ -398,6 +398,35 @@ html[data-theme='light'] {
   }
 }
 
+// Monaco Editor 暗黑模式适配
+html[data-theme='dark'] {
+  .monaco-editor,
+  .monaco-editor .overflow-guard,
+  .monaco-editor .monaco-editor-background,
+  .monaco-editor .margin,
+  .monaco-editor .lines-content,
+  .monaco-editor .view-lines,
+  .monaco-editor .view-line {
+    background-color: #1f1f1f !important;
+  }
+  
+  .monaco-editor .margin-view-overlays {
+    background-color: #1f1f1f !important;
+  }
+  
+  .monaco-editor .current-line {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+  }
+  
+  .monaco-editor .line-numbers {
+    color: rgba(255, 255, 255, 0.45) !important;
+  }
+  
+  .monaco-editor .view-overlays .current-line {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+}
+
 // 响应式适配
 @media (max-width: 768px) {
   .ant-layout-header {

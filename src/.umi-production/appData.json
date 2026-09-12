@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,10 +81,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            5
           ]
         },
-        "register": 2
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -114,7 +114,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,10 +128,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            15
+            19
           ]
         },
-        "register": 25
+        "register": 24
       },
       "enableBy": "register",
       "type": "plugin",
@@ -161,7 +161,7 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
         "register": 1
@@ -211,7 +211,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1013,7 +1013,7 @@
       "enableBy": "register",
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       }
     },
     "virtual: config-autoprefixer": {
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,10 +1077,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1093,7 +1093,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 95
+        "register": 108
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 28
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 9
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 38
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1217,7 +1217,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1256,7 +1256,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1284,7 +1284,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1297,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1310,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1426,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1476,7 +1476,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 488
+        "register": 498
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 29
+        "register": 31
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1642,7 +1642,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 36
+        "register": 39
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 22
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1732,7 +1732,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1758,7 +1758,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1797,7 +1797,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1810,7 +1810,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1901,7 +1901,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1914,7 +1914,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1927,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2511,7 +2511,7 @@
       "parentId": "@@/global-layout",
       "id": "2",
       "absPath": "/tools/code-formatter",
-      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Select, Button, message, Typography, Space, Tabs } from 'antd';\nimport { CopyOutlined, FormatPainterOutlined, ClearOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\nconst { Option } = Select;\n\nconst defaultCode = `import React, { useState, useEffect } from 'react';\nimport { Button, Card } from 'antd';\n\nconst Example=()=>{\nconst [count,setCount]=useState(0);\n\nuseEffect(()=>{\nconsole.log('count changed:',count);\n},[count]);\n\nreturn (\n<Card title=\"Example\">\n<Button onClick={()=>setCount(count+1)}>\nCount: {count}\n</Button>\n</Card>\n);\n};\n\nexport default Example;`;\n\nconst CodeFormatter: React.FC = () => {\n  const [code, setCode] = useState(defaultCode);\n\n  const seoConfig = {\n    title: '代码格式化工具',\n    description: '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则，一键美化代码。',\n    keywords: '代码格式化,代码美化,Prettier,TypeScript格式化,JavaScript格式化,Vue格式化,React格式化,JSON格式化,HTML格式化,CSS格式化,在线代码格式化工具',\n    jsonLd: createToolJsonLd(\n      '代码格式化工具',\n      '免费的在线代码格式化工具，支持多种语言',\n      'https://yma16.cloud/tools/code-formatter',\n      'DeveloperApplication'\n    ),\n  };\n  const [formattedCode, setFormattedCode] = useState('');\n  const [language, setLanguage] = useState('typescript');\n  const [loading, setLoading] = useState(false);\n\n  const formatCode = useCallback(async () => {\n    setLoading(true);\n    try {\n      // 模拟格式化（实际项目中可以使用 prettier）\n      const formatted = code\n        .replace(/\\s*\\n\\s*/g, '\\n')\n        .replace(/\\{\\s*\\n/g, '{\\n')\n        .replace(/\\n\\s*\\}/g, '\\n}')\n        .replace(/;\\s*\\n/g, ';\\n')\n        .replace(/,\\s*/g, ', ')\n        .replace(/\\s*=>\\s*/g, ' => ')\n        .replace(/\\s*=\\s*/g, ' = ')\n        .replace(/\\s*\\+\\s*/g, ' + ')\n        .replace(/\\(\\s*/g, '(')\n        .replace(/\\s*\\)/g, ')')\n        .replace(/\\[\\s*/g, '[')\n        .replace(/\\s*\\]/g, ']')\n        .replace(/import\\s+\\{/g, 'import { ')\n        .replace(/\\}\\s+from/g, ' } from');\n\n      setFormattedCode(formatted);\n      message.success('代码格式化完成！');\n    } catch (error) {\n      message.error('格式化失败：' + (error as Error).message);\n    } finally {\n      setLoading(false);\n    }\n  }, [code]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  const clearCode = () => {\n    setCode('');\n    setFormattedCode('');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div>\n      <Title level={2}>\n        <FormatPainterOutlined /> 代码格式化\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 TypeScript、JavaScript、Vue、React 代码格式化，基于 Prettier 规则\n      </Paragraph>\n\n      <Card style={{ marginBottom: 24 }}>\n        <Space style={{ marginBottom: 16 }}>\n          <span>语言：</span>\n          <Select value={language} onChange={setLanguage} style={{ width: 150 }}>\n            <Option value=\"typescript\">TypeScript</Option>\n            <Option value=\"javascript\">JavaScript</Option>\n            <Option value=\"json\">JSON</Option>\n            <Option value=\"html\">HTML</Option>\n            <Option value=\"css\">CSS</Option>\n            <Option value=\"vue\">Vue</Option>\n          </Select>\n          <Button type=\"primary\" icon={<FormatPainterOutlined />} onClick={formatCode} loading={loading}>\n            格式化\n          </Button>\n          <Button icon={<ClearOutlined />} onClick={clearCode}>\n            清空\n          </Button>\n        </Space>\n      </Card>\n\n      <Row gutter={24}>\n        <Col span={12}>\n          <Card\n            title=\"输入代码\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(code)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={code}\n              onChange={(value) => setCode(value || '')}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: false,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card\n            title=\"格式化结果\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(formattedCode)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={formattedCode}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: true,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default CodeFormatter;\n",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Select, Button, message, Typography, Space, Tabs } from 'antd';\nimport { CopyOutlined, FormatPainterOutlined, ClearOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\nimport { useTheme } from '@/contexts/ThemeContext';\n\nconst { Title, Paragraph } = Typography;\nconst { Option } = Select;\n\nconst defaultCode = `import React, { useState, useEffect } from 'react';\nimport { Button, Card } from 'antd';\n\nconst Example=()=>{\nconst [count,setCount]=useState(0);\n\nuseEffect(()=>{\nconsole.log('count changed:',count);\n},[count]);\n\nreturn (\n<Card title=\"Example\">\n<Button onClick={()=>setCount(count+1)}>\nCount: {count}\n</Button>\n</Card>\n);\n};\n\nexport default Example;`;\n\nconst CodeFormatter: React.FC = () => {\n  const { isDark } = useTheme();\n  const [code, setCode] = useState(defaultCode);\n\n  const seoConfig = {\n    title: '代码格式化工具',\n    description: '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则，一键美化代码。',\n    keywords: '代码格式化,代码美化,Prettier,TypeScript格式化,JavaScript格式化,Vue格式化,React格式化,JSON格式化,HTML格式化,CSS格式化,在线代码格式化工具',\n    jsonLd: createToolJsonLd(\n      '代码格式化工具',\n      '免费的在线代码格式化工具，支持多种语言',\n      'https://yma16.cloud/tools/code-formatter',\n      'DeveloperApplication'\n    ),\n  };\n  const [formattedCode, setFormattedCode] = useState('');\n  const [language, setLanguage] = useState('typescript');\n  const [loading, setLoading] = useState(false);\n\n  const formatCode = useCallback(async () => {\n    setLoading(true);\n    try {\n      // 模拟格式化（实际项目中可以使用 prettier）\n      const formatted = code\n        .replace(/\\s*\\n\\s*/g, '\\n')\n        .replace(/\\{\\s*\\n/g, '{\\n')\n        .replace(/\\n\\s*\\}/g, '\\n}')\n        .replace(/;\\s*\\n/g, ';\\n')\n        .replace(/,\\s*/g, ', ')\n        .replace(/\\s*=>\\s*/g, ' => ')\n        .replace(/\\s*=\\s*/g, ' = ')\n        .replace(/\\s*\\+\\s*/g, ' + ')\n        .replace(/\\(\\s*/g, '(')\n        .replace(/\\s*\\)/g, ')')\n        .replace(/\\[\\s*/g, '[')\n        .replace(/\\s*\\]/g, ']')\n        .replace(/import\\s+\\{/g, 'import { ')\n        .replace(/\\}\\s+from/g, ' } from');\n\n      setFormattedCode(formatted);\n      message.success('代码格式化完成！');\n    } catch (error) {\n      message.error('格式化失败：' + (error as Error).message);\n    } finally {\n      setLoading(false);\n    }\n  }, [code]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  const clearCode = () => {\n    setCode('');\n    setFormattedCode('');\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div>\n      <Title level={2}>\n        <FormatPainterOutlined /> 代码格式化\n      </Title>\n      <Paragraph type=\"secondary\">\n        支持 TypeScript、JavaScript、Vue、React 代码格式化，基于 Prettier 规则\n      </Paragraph>\n\n      <Card style={{ marginBottom: 24 }}>\n        <Space style={{ marginBottom: 16 }}>\n          <span>语言：</span>\n          <Select value={language} onChange={setLanguage} style={{ width: 150 }}>\n            <Option value=\"typescript\">TypeScript</Option>\n            <Option value=\"javascript\">JavaScript</Option>\n            <Option value=\"json\">JSON</Option>\n            <Option value=\"html\">HTML</Option>\n            <Option value=\"css\">CSS</Option>\n            <Option value=\"vue\">Vue</Option>\n          </Select>\n          <Button type=\"primary\" icon={<FormatPainterOutlined />} onClick={formatCode} loading={loading}>\n            格式化\n          </Button>\n          <Button icon={<ClearOutlined />} onClick={clearCode}>\n            清空\n          </Button>\n        </Space>\n      </Card>\n\n      <Row gutter={24}>\n        <Col span={12}>\n          <Card\n            title=\"输入代码\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(code)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={code}\n              theme={isDark ? 'vs-dark' : 'light'}\n              onChange={(value) => setCode(value || '')}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: false,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card\n            title=\"格式化结果\"\n            extra={\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(formattedCode)}>\n                复制\n              </Button>\n            }\n          >\n            <Editor\n              height={500}\n              language={language}\n              value={formattedCode}\n              theme={isDark ? 'vs-dark' : 'light'}\n              options={{\n                minimap: { enabled: false },\n                fontSize: 14,\n                lineNumbers: 'on',\n                roundedSelection: false,\n                scrollBeyondLastLine: false,\n                readOnly: true,\n                automaticLayout: true,\n              }}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default CodeFormatter;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/code-formatter.tsx"
     },

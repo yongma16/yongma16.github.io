@@ -3,6 +3,7 @@ import { Card, Row, Col, Select, Button, message, Typography, Space, Tabs } from
 import { CopyOutlined, FormatPainterOutlined, ClearOutlined } from '@ant-design/icons';
 import Editor from '@monaco-editor/react';
 import { SEO, createToolJsonLd } from '@/components/SEO';
+import { useTheme } from '@/contexts/ThemeContext';
 
 const { Title, Paragraph } = Typography;
 const { Option } = Select;
@@ -29,6 +30,7 @@ Count: {count}
 export default Example;`;
 
 const CodeFormatter: React.FC = () => {
+  const { isDark } = useTheme();
   const [code, setCode] = useState(defaultCode);
 
   const seoConfig = {
@@ -130,6 +132,7 @@ const CodeFormatter: React.FC = () => {
               height={500}
               language={language}
               value={code}
+              theme={isDark ? 'vs-dark' : 'light'}
               onChange={(value) => setCode(value || '')}
               options={{
                 minimap: { enabled: false },
@@ -156,6 +159,7 @@ const CodeFormatter: React.FC = () => {
               height={500}
               language={language}
               value={formattedCode}
+              theme={isDark ? 'vs-dark' : 'light'}
               options={{
                 minimap: { enabled: false },
                 fontSize: 14,
