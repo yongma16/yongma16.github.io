@@ -12,41 +12,65 @@ html[data-theme='dark'] {
     color: rgba(255, 255, 255, 0.85);
   }
 
-  // 卡片样式适配
+  // 卡片样式适配 - 强制覆盖
   .ant-card {
-    background: #141414;
-    border-color: #303030;
+    background: #141414 !important;
+    border-color: #303030 !important;
     
     .ant-card-head {
-      background: #141414;
-      border-bottom-color: #303030;
-      color: rgba(255, 255, 255, 0.85);
+      background: #141414 !important;
+      border-bottom-color: #303030 !important;
+      color: rgba(255, 255, 255, 0.85) !important;
     }
     
     .ant-card-body {
-      background: #141414;
+      background: #141414 !important;
     }
   }
 
-  // 输入框样式
+  // 输入框样式 - 强制覆盖所有状态
   .ant-input,
   .ant-input-affix-wrapper,
-  .ant-input-textarea {
-    background: #1f1f1f;
-    border-color: #424242;
-    color: rgba(255, 255, 255, 0.85);
+  .ant-input-textarea,
+  .ant-input:hover,
+  .ant-input-affix-wrapper:hover,
+  .ant-input-textarea:hover,
+  .ant-input:focus,
+  .ant-input-affix-wrapper:focus,
+  .ant-input-textarea:focus,
+  .ant-input-focused,
+  .ant-input-affix-wrapper-focused {
+    background: #1f1f1f !important;
+    border-color: #424242 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
     
     &::placeholder {
-      color: rgba(255, 255, 255, 0.3);
+      color: rgba(255, 255, 255, 0.3) !important;
+    }
+  }
+  
+  // 确保输入框内部元素也适配
+  .ant-input-affix-wrapper {
+    .ant-input {
+      background: transparent !important;
     }
   }
 
-  // 选择器样式
+  // 选择器样式 - 强制覆盖所有状态
   .ant-select {
     .ant-select-selector {
       background: #1f1f1f !important;
       border-color: #424242 !important;
       color: rgba(255, 255, 255, 0.85) !important;
+    }
+    
+    &:hover .ant-select-selector {
+      border-color: #1890ff !important;
+    }
+    
+    &.ant-select-focused .ant-select-selector {
+      border-color: #1890ff !important;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
     }
   }
 
@@ -67,15 +91,34 @@ html[data-theme='dark'] {
     }
   }
 
-  // 按钮样式
-  .ant-btn-default {
-    background: #1f1f1f;
-    border-color: #424242;
-    color: rgba(255, 255, 255, 0.85);
+  // 按钮样式 - 强制覆盖所有状态
+  .ant-btn-default,
+  .ant-btn-default:hover,
+  .ant-btn-default:focus,
+  .ant-btn-default:active {
+    background: #1f1f1f !important;
+    border-color: #424242 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
     
     &:hover {
-      border-color: #1890ff;
-      color: #1890ff;
+      border-color: #1890ff !important;
+      color: #1890ff !important;
+    }
+  }
+  
+  // 主要按钮在暗黑模式下调整
+  .ant-btn-primary {
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+  
+  // 文本按钮在暗黑模式下
+  .ant-btn-text {
+    color: rgba(255, 255, 255, 0.85) !important;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
     }
   }
 
