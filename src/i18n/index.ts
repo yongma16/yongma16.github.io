@@ -195,10 +195,15 @@ export const LanguageSwitcher: React.FC = () => {
       {
         value: locale,
         onChange: (e: React.ChangeEvent<HTMLSelectElement>) => {
-          setLocale(e.target.value as Locale);
+          const newLocale = e.target.value as Locale;
+          // 使用原生 DOM 操作确保值正确设置后再刷新
+          localStorage.setItem('yma16-locale', newLocale);
+          window.location.reload();
         },
         style: {
           appearance: 'none',
+          WebkitAppearance: 'none',
+          MozAppearance: 'none',
           padding: '6px 32px 6px 12px',
           borderRadius: 6,
           border: '1px solid #d9d9d9',
