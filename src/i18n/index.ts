@@ -175,43 +175,63 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
   );
 };
 
-// 语言切换组件
+// 语言切换组件 - 下拉选择
 export const LanguageSwitcher: React.FC = () => {
   const { locale, setLocale } = useI18n();
 
-  const localeNames: Record<Locale, string> = {
-    'zh-CN': '简体中文',
-    'zh-TW': '繁體中文',
-    'en-US': 'English',
-  };
+  const localeOptions: { value: Locale; label: string; flag: string }[] = [
+    { value: 'zh-CN', label: '简体中文', flag: '🇨🇳' },
+    { value: 'zh-TW', label: '繁體中文', flag: '🇭🇰' },
+    { value: 'en-US', label: 'English', flag: '🇺🇸' },
+  ];
 
-  const localeFlags: Record<Locale, string> = {
-    'zh-CN': '🇨🇳',
-    'zh-TW': '🇭🇰',
-    'en-US': '🇺🇸',
-  };
+  const current = localeOptions.find((o) => o.value === locale);
 
-  return React.createElement('div', { style: { display: 'flex', gap: 8, alignItems: 'center' } },
-    (Object.keys(localeNames) as Locale[]).map((loc) =>
-      React.createElement('button', {
-        key: loc,
-        onClick: () => setLocale(loc),
+  return React.createElement(
+    'div',
+    { style: { position: 'relative', display: 'inline-block' } },
+    React.createElement(
+      'select',
+      {
+        value: locale,
+        onChange: (e: React.ChangeEvent<HTMLSelectElement>) => {
+          setLocale(e.target.value as Locale);
+        },
         style: {
-          padding: '4px 12px',
-          borderRadius: 4,
+          appearance: 'none',
+          padding: '6px 32px 6px 12px',
+          borderRadius: 6,
           border: '1px solid #d9d9d9',
-          background: locale === loc ? '#1890ff' : '#fff',
-          color: locale === loc ? '#fff' : '#333',
+          background: '#fff',
+          color: '#333',
           cursor: 'pointer',
-          fontSize: 13,
-          display: 'flex',
-          alignItems: 'center',
-          gap: 4,
-        }
-      }, [
-        React.createElement('span', { key: 'flag' }, localeFlags[loc]),
-        React.createElement('span', { key: 'name' }, localeNames[loc])
-      ])
+          fontSize: 14,
+          lineHeight: '22px',
+          outline: 'none',
+        },
+      },
+      localeOptions.map((opt) =>
+        React.createElement(
+          'option',
+          { key: opt.value, value: opt.value },
+          `${opt.flag} ${opt.label}`
+        )
+      )
+    ),
+    React.createElement(
+      'span',
+      {
+        style: {
+          position: 'absolute',
+          right: 10,
+          top: '50%',
+          transform: 'translateY(-50%)',
+          pointerEvents: 'none',
+          fontSize: 12,
+          color: '#999',
+        },
+      },
+      '▼'
     )
   );
 };
