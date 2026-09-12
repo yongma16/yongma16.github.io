@@ -77,20 +77,21 @@ const detectLocaleByBrowser = (): Locale => {
 };
 
 // 获取初始语言
+// 优先级：手动切换 > IP检测 > 浏览器语言
 const getInitialLocale = async (): Promise<Locale> => {
-  // 优先读取本地存储
+  // 1. 优先读取本地存储（用户手动切换过）
   const saved = localStorage.getItem('yma16-locale') as Locale;
   if (saved && messages[saved]) {
     return saved;
   }
 
-  // 其次检测 IP
+  // 2. 其次检测 IP
   try {
     const ipLocale = await detectLocaleByIP();
     localStorage.setItem('yma16-locale', ipLocale);
     return ipLocale;
   } catch {
-    // 最后 fallback 浏览器语言
+    // 3. 最后 fallback 浏览器语言
     const browserLocale = detectLocaleByBrowser();
     localStorage.setItem('yma16-locale', browserLocale);
     return browserLocale;
