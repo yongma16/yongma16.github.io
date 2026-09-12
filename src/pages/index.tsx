@@ -218,6 +218,13 @@ const tools = [
     path: '/tools/perf-monitor',
     tags: ['免费', 'NEW'],
   },
+  {
+    title: 'cURL转换',
+    icon: <ThunderboltOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,
+    desc: '将 cURL 命令一键转换为 Axios/Fetch/Python/Node.js 代码',
+    path: '/tools/curl-convert',
+    tags: ['免费', 'NEW'],
+  },
 ];
 
 const features = [
