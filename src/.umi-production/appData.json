@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 453
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -67,7 +67,7 @@
             0
           ]
         },
-        "register": 31
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -81,10 +81,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            5
+            4
           ]
         },
-        "register": 65
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -101,7 +101,7 @@
             0
           ]
         },
-        "register": 27
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,10 +128,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            836
+            16
           ]
         },
-        "register": 126
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -144,7 +144,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -161,10 +161,10 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -178,10 +178,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            1
+            0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -194,7 +194,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -211,7 +211,7 @@
             0
           ]
         },
-        "register": 165
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1063,7 +1063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1077,10 +1077,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1093,7 +1093,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1106,7 +1106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 337
+        "register": 96
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1119,7 +1119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 518
+        "register": 26
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1136,7 +1136,7 @@
             0
           ]
         },
-        "register": 275
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1166,7 +1166,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 209
+        "register": 36
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1204,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1242,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1256,10 +1256,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            48
+            1
           ]
         },
-        "register": 19
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1271,7 +1271,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1310,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1323,7 +1323,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1336,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1349,7 +1349,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1374,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1387,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 30
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1413,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1426,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1439,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 41
+        "register": 4
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1451,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 179
+        "register": 22
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1488,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6353
+        "register": 518
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1501,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1514,7 +1514,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1530,7 +1530,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1543,7 +1543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1555,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1581,7 +1581,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
@@ -1605,7 +1605,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1617,7 +1617,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 112
+        "register": 30
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1629,7 +1629,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1642,7 +1642,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1655,7 +1655,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 161
+        "register": 37
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1668,7 +1668,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 441
+        "register": 23
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1680,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1693,7 +1693,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1706,7 +1706,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1719,7 +1719,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1745,7 +1745,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1771,7 +1771,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1784,7 +1784,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1810,7 +1810,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1862,7 +1862,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1875,7 +1875,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1888,7 +1888,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1901,7 +1901,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 57
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2178,6 +2178,11 @@
         "path": "/tools/perf-monitor",
         "component": "@/pages/tools/perf-monitor",
         "title": "性能监控"
+      },
+      {
+        "path": "/tools/curl-convert",
+        "component": "@/pages/tools/curl-convert",
+        "title": "cURL转换"
       },
       {
         "path": "/blog",
@@ -2436,6 +2441,11 @@
         "path": "/tools/perf-monitor",
         "component": "@/pages/tools/perf-monitor",
         "title": "性能监控"
+      },
+      {
+        "path": "/tools/curl-convert",
+        "component": "@/pages/tools/curl-convert",
+        "title": "cURL转换"
       },
       {
         "path": "/blog",
@@ -2772,22 +2782,33 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/perf-monitor.tsx"
     },
     "29": {
+      "path": "/tools/curl-convert",
+      "title": "cURL转换",
+      "file": "@/pages/tools/curl-convert.tsx",
+      "parentId": "@@/global-layout",
+      "id": "29",
+      "absPath": "/tools/curl-convert",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Select, Button, message, Typography, Space, Tabs, Input, Divider } from 'antd';\nimport { CopyOutlined, CodeOutlined, ClearOutlined, ThunderboltOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph, Text } = Typography;\nconst { TextArea } = Input;\nconst { TabPane } = Tabs;\n\ninterface ParsedCurl {\n  url: string;\n  method: string;\n  headers: Record<string, string>;\n  body: string | null;\n  queryParams: Record<string, string>;\n}\n\nconst defaultCurl = `curl -X POST \"https://api.example.com/users\" \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -H \"Authorization: Bearer your-token-here\" \\\\\n  -d '{\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\",\n    \"age\": 30\n  }'`;\n\nconst parseCurl = (curlCommand: string): ParsedCurl | null => {\n  try {\n    const result: ParsedCurl = {\n      url: '',\n      method: 'GET',\n      headers: {},\n      body: null,\n      queryParams: {},\n    };\n\n    // Remove line continuation characters and extra whitespace\n    const cleaned = curlCommand\n      .replace(/\\\\\\s*\\n/g, ' ')\n      .replace(/\\s+/g, ' ')\n      .trim();\n\n    // Extract URL\n    const urlMatch = cleaned.match(/curl\\s+(?:-[Xx]\\s+\\w+\\s+)?(?:-[A-Za-z]*\\s+[^\\s-]+\\s+)*['\"]?([^\\s'\"]+)['\"]?/);\n    if (urlMatch) {\n      result.url = urlMatch[1].replace(/^['\"]|['\"]$/g, '');\n    }\n\n    // Extract method\n    const methodMatch = cleaned.match(/-[Xx]\\s+(['\"]?)(\\w+)\\1/);\n    if (methodMatch) {\n      result.method = methodMatch[2].toUpperCase();\n    }\n\n    // Extract headers\n    const headerRegex = /-[Hh]\\s+(['\"]?)([^:]+):\\s*([^\\1]+)\\1/g;\n    let headerMatch;\n    while ((headerMatch = headerRegex.exec(cleaned)) !== null) {\n      const key = headerMatch[2].trim();\n      const value = headerMatch[3].trim();\n      result.headers[key] = value;\n    }\n\n    // Extract body data\n    const bodyMatch = cleaned.match(/-[Dd]\\s+(['\"])([\\s\\S]*?)\\1/);\n    if (bodyMatch) {\n      result.body = bodyMatch[2];\n    }\n\n    // Parse query params from URL\n    try {\n      const urlObj = new URL(result.url);\n      urlObj.searchParams.forEach((value, key) => {\n        result.queryParams[key] = value;\n      });\n      // Remove query string from URL\n      result.url = result.url.split('?')[0];\n    } catch {\n      // URL might be relative, ignore parsing error\n    }\n\n    return result;\n  } catch (error) {\n    return null;\n  }\n};\n\nconst generateAxios = (parsed: ParsedCurl): string => {\n  const { url, method, headers, body } = parsed;\n  const hasHeaders = Object.keys(headers).length > 0;\n  const hasBody = body && method !== 'GET';\n\n  let code = `import axios from 'axios';\n\nconst ${method.toLowerCase()}Data = async () => {\\n`;\n\n  if (hasBody) {\n    code += `  const data = ${body};\\n\\n`;\n  }\n\n  code += `  try {\\n`;\n  code += `    const response = await axios({\\n`;\n  code += `      method: '${method.toLowerCase()}',\\n`;\n  code += `      url: '${url}',\\n`;\n\n  if (hasHeaders) {\n    code += `      headers: {\\n`;\n    Object.entries(headers).forEach(([key, value]) => {\n      code += `        '${key}': '${value}',\\n`;\n    });\n    code += `      },\\n`;\n  }\n\n  if (hasBody) {\n    code += `      data: data,\\n`;\n  }\n\n  code += `    });\\n\\n`;\n  code += `    console.log(response.data);\\n`;\n  code += `    return response.data;\\n`;\n  code += `  } catch (error) {\\n`;\n  code += `    console.error('Request failed:', error);\\n`;\n  code += `    throw error;\\n`;\n  code += `  }\\n`;\n  code += `};\\n\\n`;\n  code += `${method.toLowerCase()}Data();`;\n\n  return code;\n};\n\nconst generateFetch = (parsed: ParsedCurl): string => {\n  const { url, method, headers, body } = parsed;\n  const hasHeaders = Object.keys(headers).length > 0;\n  const hasBody = body && method !== 'GET';\n\n  let code = `const ${method.toLowerCase()}Data = async () => {\\n`;\n\n  if (hasBody) {\n    code += `  const data = ${body};\\n\\n`;\n  }\n\n  code += `  try {\\n`;\n  code += `    const response = await fetch('${url}', {\\n`;\n  code += `      method: '${method}',\\n`;\n\n  if (hasHeaders) {\n    code += `      headers: {\\n`;\n    Object.entries(headers).forEach(([key, value]) => {\n      code += `        '${key}': '${value}',\\n`;\n    });\n    code += `      },\\n`;\n  }\n\n  if (hasBody) {\n    code += `      body: JSON.stringify(data),\\n`;\n  }\n\n  code += `    });\\n\\n`;\n  code += `    if (!response.ok) {\\n`;\n  code += `      throw new Error(\\`HTTP error! status: \\${response.status}\\`);\\n`;\n  code += `    }\\n\\n`;\n  code += `    const result = await response.json();\\n`;\n  code += `    console.log(result);\\n`;\n  code += `    return result;\\n`;\n  code += `  } catch (error) {\\n`;\n  code += `    console.error('Request failed:', error);\\n`;\n  code += `    throw error;\\n`;\n  code += `  }\\n`;\n  code += `};\\n\\n`;\n  code += `${method.toLowerCase()}Data();`;\n\n  return code;\n};\n\nconst generatePython = (parsed: ParsedCurl): string => {\n  const { url, method, headers, body } = parsed;\n  const hasHeaders = Object.keys(headers).length > 0;\n  const hasBody = body && method !== 'GET';\n\n  let code = `import requests\\n\\n`;\n  code += `def ${method.lower()}_data():\\n`;\n\n  if (hasBody) {\n    try {\n      const jsonBody = JSON.parse(body);\n      code += `    data = ${JSON.stringify(jsonBody, null, 4).replace(/\"/g, \"'\").replace(/\\n/g, '\\n    ')}\\n\\n`;\n    } catch {\n      code += `    data = '''${body}'''\\n\\n`;\n    }\n  }\n\n  code += `    url = '${url}'\\n`;\n\n  if (hasHeaders) {\n    code += `    headers = {\\n`;\n    Object.entries(headers).forEach(([key, value]) => {\n      code += `        '${key}': '${value}',\\n`;\n    });\n    code += `    }\\n`;\n  }\n\n  code += `\\n    try:\\n`;\n  code += `        response = requests.${method.toLowerCase()}(\\n`;\n  code += `            url,\\n`;\n\n  if (hasHeaders) {\n    code += `            headers=headers,\\n`;\n  }\n\n  if (hasBody) {\n    code += `            json=data,\\n`;\n  }\n\n  code += `        )\\n`;\n  code += `        response.raise_for_status()\\n`;\n  code += `        print(response.json())\\n`;\n  code += `        return response.json()\\n`;\n  code += `    except requests.RequestException as e:\\n`;\n  code += `        print(f'Request failed: {e}')\\n`;\n  code += `        raise\\n\\n`;\n  code += `if __name__ == '__main__':\\n`;\n  code += `    ${method.lower()}_data()`;\n\n  return code;\n};\n\nconst generateNode = (parsed: ParsedCurl): string => {\n  const { url, method, headers, body } = parsed;\n  const hasHeaders = Object.keys(headers).length > 0;\n  const hasBody = body && method !== 'GET';\n\n  let code = `const https = require('https');\\n`;\n  code += `const { URL } = require('url');\\n\\n`;\n  code += `const ${method.toLowerCase()}Data = () => {\\n`;\n  code += `  return new Promise((resolve, reject) => {\\n`;\n\n  if (hasBody) {\n    code += `    const data = ${body};\\n`;\n    code += `    const postData = JSON.stringify(data);\\n\\n`;\n  }\n\n  code += `    const url = new URL('${url}');\\n`;\n  code += `    const options = {\\n`;\n  code += `      hostname: url.hostname,\\n`;\n  code += `      port: url.port || 443,\\n`;\n  code += `      path: url.pathname + url.search,\\n`;\n  code += `      method: '${method}',\\n`;\n\n  if (hasHeaders) {\n    code += `      headers: {\\n`;\n    Object.entries(headers).forEach(([key, value]) => {\n      code += `        '${key}': '${value}',\\n`;\n    });\n    if (hasBody) {\n      code += `        'Content-Length': Buffer.byteLength(postData),\\n`;\n    }\n    code += `      },\\n`;\n  }\n\n  code += `    };\\n\\n`;\n  code += `    const req = https.request(options, (res) => {\\n`;\n  code += `      let responseData = '';\\n\\n`;\n  code += `      res.on('data', (chunk) => {\\n`;\n  code += `        responseData += chunk;\\n`;\n  code += `      });\\n\\n`;\n  code += `      res.on('end', () => {\\n`;\n  code += `        try {\\n`;\n  code += `          const parsed = JSON.parse(responseData);\\n`;\n  code += `          console.log(parsed);\\n`;\n  code += `          resolve(parsed);\\n`;\n  code += `        } catch {\\n`;\n  code += `          console.log(responseData);\\n`;\n  code += `          resolve(responseData);\\n`;\n  code += `        }\\n`;\n  code += `      });\\n`;\n  code += `    });\\n\\n`;\n  code += `    req.on('error', (error) => {\\n`;\n  code += `      console.error('Request failed:', error);\\n`;\n  code += `      reject(error);\\n`;\n  code += `    });\\n\\n`;\n\n  if (hasBody) {\n    code += `    req.write(postData);\\n`;\n  }\n\n  code += `    req.end();\\n`;\n  code += `  });\\n`;\n  code += `};\\n\\n`;\n  code += `${method.toLowerCase()}Data()\\n`;\n  code += `  .then(data => console.log('Success:', data))\\n`;\n  code += `  .catch(err => console.error('Error:', err));`;\n\n  return code;\n};\n\nconst CurlConvert: React.FC = () => {\n  const [curlCommand, setCurlCommand] = useState(defaultCurl);\n  const [activeTab, setActiveTab] = useState('axios');\n  const [generatedCode, setGeneratedCode] = useState('');\n  const [parsedInfo, setParsedInfo] = useState<ParsedCurl | null>(null);\n\n  const seoConfig = {\n    title: 'cURL 代码转换工具',\n    description: '将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码，支持自动解析 URL、请求方法、请求头和请求体。',\n    keywords: 'cURL转换,Axios代码生成,Fetch代码生成,Python requests,Node.js HTTP,API调试工具,代码生成器',\n    jsonLd: createToolJsonLd(\n      'cURL 代码转换工具',\n      '将 cURL 命令转换为多种编程语言的 HTTP 请求代码',\n      'https://yma16.cloud/tools/curl-convert',\n      'DeveloperApplication'\n    ),\n  };\n\n  const convertCode = useCallback(() => {\n    const parsed = parseCurl(curlCommand);\n    if (!parsed) {\n      message.error('无法解析 cURL 命令，请检查格式');\n      return;\n    }\n\n    setParsedInfo(parsed);\n\n    let code = '';\n    switch (activeTab) {\n      case 'axios':\n        code = generateAxios(parsed);\n        break;\n      case 'fetch':\n        code = generateFetch(parsed);\n        break;\n      case 'python':\n        code = generatePython(parsed);\n        break;\n      case 'node':\n        code = generateNode(parsed);\n        break;\n      default:\n        code = generateAxios(parsed);\n    }\n\n    setGeneratedCode(code);\n    message.success('代码生成成功！');\n  }, [curlCommand, activeTab]);\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text);\n    message.success('已复制到剪贴板');\n  };\n\n  const clearCode = () => {\n    setCurlCommand('');\n    setGeneratedCode('');\n    setParsedInfo(null);\n  };\n\n  const getLanguage = (tab: string): string => {\n    switch (tab) {\n      case 'axios':\n      case 'fetch':\n      case 'node':\n        return 'javascript';\n      case 'python':\n        return 'python';\n      default:\n        return 'javascript';\n    }\n  };\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div>\n        <Title level={2}>\n          <ThunderboltOutlined /> cURL 代码转换\n        </Title>\n        <Paragraph type=\"secondary\">\n          将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码\n        </Paragraph>\n\n        <Card style={{ marginBottom: 24 }}>\n          <Space style={{ marginBottom: 16 }}>\n            <Button type=\"primary\" icon={<CodeOutlined />} onClick={convertCode}>\n              生成代码\n            </Button>\n            <Button icon={<ClearOutlined />} onClick={clearCode}>\n              清空\n            </Button>\n          </Space>\n\n          <TextArea\n            rows={8}\n            value={curlCommand}\n            onChange={(e) => setCurlCommand(e.target.value)}\n            placeholder=\"粘贴 cURL 命令 here...\"\n            style={{ fontFamily: 'monospace', fontSize: 14 }}\n          />\n        </Card>\n\n        {parsedInfo && (\n          <Card style={{ marginBottom: 24 }} title=\"解析信息\">\n            <Space direction=\"vertical\" style={{ width: '100%' }}>\n              <div>\n                <Text strong>请求方法: </Text>\n                <Text code>{parsedInfo.method}</Text>\n              </div>\n              <div>\n                <Text strong>请求 URL: </Text>\n                <Text code>{parsedInfo.url}</Text>\n              </div>\n              {Object.keys(parsedInfo.headers).length > 0 && (\n                <div>\n                  <Text strong>请求头:</Text>\n                  <ul>\n                    {Object.entries(parsedInfo.headers).map(([key, value]) => (\n                      <li key={key}>\n                        <Text code>{key}</Text>: <Text>{value}</Text>\n                      </li>\n                    ))}\n                  </ul>\n                </div>\n              )}\n              {parsedInfo.body && (\n                <div>\n                  <Text strong>请求体:</Text>\n                  <pre style={{ background: '#f5f5f5', padding: 12, borderRadius: 4 }}>\n                    {parsedInfo.body}\n                  </pre>\n                </div>\n              )}\n            </Space>\n          </Card>\n        )}\n\n        <Card>\n          <Tabs activeKey={activeTab} onChange={setActiveTab}>\n            <TabPane tab=\"Axios\" key=\"axios\">\n              <Row gutter={24}>\n                <Col span={24}>\n                  <Card\n                    title=\"生成的 Axios 代码\"\n                    extra={\n                      <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(generatedCode)}>\n                        复制\n                      </Button>\n                    }\n                  >\n                    <Editor\n                      height={500}\n                      language=\"javascript\"\n                      value={generatedCode}\n                      options={{\n                        minimap: { enabled: false },\n                        fontSize: 14,\n                        lineNumbers: 'on',\n                        roundedSelection: false,\n                        scrollBeyondLastLine: false,\n                        readOnly: true,\n                        automaticLayout: true,\n                      }}\n                    />\n                  </Card>\n                </Col>\n              </Row>\n            </TabPane>\n            <TabPane tab=\"Fetch\" key=\"fetch\">\n              <Row gutter={24}>\n                <Col span={24}>\n                  <Card\n                    title=\"生成的 Fetch 代码\"\n                    extra={\n                      <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(generatedCode)}>\n                        复制\n                      </Button>\n                    }\n                  >\n                    <Editor\n                      height={500}\n                      language=\"javascript\"\n                      value={generatedCode}\n                      options={{\n                        minimap: { enabled: false },\n                        fontSize: 14,\n                        lineNumbers: 'on',\n                        roundedSelection: false,\n                        scrollBeyondLastLine: false,\n                        readOnly: true,\n                        automaticLayout: true,\n                      }}\n                    />\n                  </Card>\n                </Col>\n              </Row>\n            </TabPane>\n            <TabPane tab=\"Python\" key=\"python\">\n              <Row gutter={24}>\n                <Col span={24}>\n                  <Card\n                    title=\"生成的 Python 代码\"\n                    extra={\n                      <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(generatedCode)}>\n                        复制\n                      </Button>\n                    }\n                  >\n                    <Editor\n                      height={500}\n                      language=\"python\"\n                      value={generatedCode}\n                      options={{\n                        minimap: { enabled: false },\n                        fontSize: 14,\n                        lineNumbers: 'on',\n                        roundedSelection: false,\n                        scrollBeyondLastLine: false,\n                        readOnly: true,\n                        automaticLayout: true,\n                      }}\n                    />\n                  </Card>\n                </Col>\n              </Row>\n            </TabPane>\n            <TabPane tab=\"Node.js\" key=\"node\">\n              <Row gutter={24}>\n                <Col span={24}>\n                  <Card\n                    title=\"生成的 Node.js 代码\"\n                    extra={\n                      <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(generatedCode)}>\n                        复制\n                      </Button>\n                    }\n                  >\n                    <Editor\n                      height={500}\n                      language=\"javascript\"\n                      value={generatedCode}\n                      options={{\n                        minimap: { enabled: false },\n                        fontSize: 14,\n                        lineNumbers: 'on',\n                        roundedSelection: false,\n                        scrollBeyondLastLine: false,\n                        readOnly: true,\n                        automaticLayout: true,\n                      }}\n                    />\n                  </Card>\n                </Col>\n              </Row>\n            </TabPane>\n          </Tabs>\n        </Card>\n      </div>\n    </>\n  );\n};\n\nexport default CurlConvert;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/curl-convert.tsx"
+    },
+    "30": {
       "path": "/blog",
       "title": "技术博客",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "29",
+      "id": "30",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "30": {
+    "31": {
       "path": "/pricing",
       "title": "合作",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "30",
+      "id": "31",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术咨询',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案设计、性能优化、架构升级',\n    features: [\n      '前端架构设计与评估',\n      '性能瓶颈分析与优化',\n      '技术选型与方案评审',\n      '代码审查与规范制定',\n      '线上问题排查支持',\n    ],\n    buttonText: '了解详情',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '项目合作',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: 'Web应用开发、工具开发、组件库建设',\n    features: [\n      'React/Vue 项目开发',\n      '前端工具链定制开发',\n      '组件库与物料体系建设',\n      '可视化与图表开发',\n      '小程序与跨端开发',\n    ],\n    buttonText: '洽谈合作',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '内容合作',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目推广',\n    features: [\n      '技术专栏文章撰写',\n      '开源项目文档优化',\n      '技术教程与视频制作',\n      '技术分享与演讲',\n      '社区运营与推广',\n    ],\n    buttonText: '联系沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"合作与服务\"\n        description=\"yma16 提供前端技术咨询、项目合作、技术培训和开源贡献等服务，欢迎联系合作。\"\n        keywords=\"前端技术咨询,项目合作,技术培训,React开发,Vue开发,前端架构\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>开发合作</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          专注于前端技术领域，提供技术咨询、项目开发与内容合作服务\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，有丰富的 Web 应用开发和性能优化经验。\n                  活跃于技术社区，乐于分享和交流。期待与志同道合的伙伴一起合作！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"合作流程\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '1. 需求沟通：详细了解项目背景和技术需求',\n                '2. 方案评估：提供技术方案和合作建议',\n                '3. 确定合作：明确交付物、时间节点和费用',\n                '4. 项目执行：按计划推进，保持沟通',\n                '5. 交付验收：确保质量，提供后续支持',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"服务承诺\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '✓ 专业可靠：基于实际项目经验提供解决方案',\n                '✓ 高效沟通：及时响应，保持信息透明',\n                '✓ 质量保障：注重代码质量和用户体验',\n                '✓ 持续支持：项目交付后提供必要的技术支持',\n                '✓ 保密原则：严格保护客户商业信息和数据',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,

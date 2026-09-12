@@ -36,6 +36,7 @@ import {
   ColumnWidthOutlined,
   BugOutlined,
   DashboardOutlined,
+  ThunderboltOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -81,6 +82,7 @@ const items: MenuItem[] = [
       { key: '/tools/unit-convert', icon: <ColumnWidthOutlined />, label: '单位换算' },
       { key: '/tools/ai-debug', icon: <BugOutlined />, label: 'AI调试' },
       { key: '/tools/perf-monitor', icon: <DashboardOutlined />, label: '性能监控' },
+      { key: '/tools/curl-convert', icon: <ThunderboltOutlined />, label: 'cURL转换' },
     ],
   },
   {
