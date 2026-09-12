@@ -3,6 +3,7 @@ import { history } from 'umi';
 import { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';
 import { SEO, createWebsiteJsonLd } from '@/components/SEO';
 import { SiteIcon } from '@/components/SiteIcon';
+import { useI18n } from '@/i18n';
 import {
   CodeOutlined,
   ToolOutlined,
@@ -248,10 +249,12 @@ const features = [
 ];
 
 const HomePage: React.FC = () => {
+  const { t } = useI18n();
+
   return (
     <>
       <SEO
-        title="首页"
+        title={t('nav.home')}
         description="yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。"
         keywords="前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集"
         jsonLd={createWebsiteJsonLd()}
@@ -261,15 +264,15 @@ const HomePage: React.FC = () => {
       <div style={{ textAlign: 'center', padding: '60px 0' }}>
         <Title level={1}>
           <SiteIcon size={48} style={{ marginRight: 16 }} />
-          前端开发工具集
+          {t('home.title')}
           <Tag color="blue" style={{ marginLeft: 12, fontSize: 14 }}>
             React + TypeScript
           </Tag>
         </Title>
         <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>
-          基于 React + TypeScript + Umi 构建的前端工具集合。
+          {t('home.subtitle')}
           <br />
-          提供代码格式化、组件生成、性能检测、SVG处理等开发工具。
+          {t('home.description')}
         </Paragraph>
         <div style={{ marginTop: 32 }}>
           <Button
@@ -278,7 +281,7 @@ const HomePage: React.FC = () => {
             icon={<CodeOutlined />}
             onClick={() => history.push('/tools/code-formatter')}
           >
-            开始使用
+            {t('home.start')}
           </Button>
           <Button
             size="large"
@@ -286,7 +289,7 @@ const HomePage: React.FC = () => {
             icon={<ArrowRightOutlined />}
             onClick={() => history.push('/pricing')}
           >
-            一起合作
+            {t('home.cooperate')}
           </Button>
         </div>
       </div>
@@ -295,24 +298,24 @@ const HomePage: React.FC = () => {
       <Row gutter={24} style={{ marginBottom: 48 }}>
         <Col span={8}>
           <Card>
-            <Statistic title="工具数量" value={tools.length} suffix="+" />
+            <Statistic title={t('home.toolCount')} value={tools.length} suffix="+" />
           </Card>
         </Col>
         <Col span={8}>
           <Card>
-            <Statistic title="CSDN 阅读量" value={10000} suffix="+" />
+            <Statistic title={t('home.csdnViews')} value={10000} suffix="+" />
           </Card>
         </Col>
         <Col span={8}>
           <Card>
-            <Statistic title="技术文章" value={50} suffix="+" />
+            <Statistic title={t('home.articles')} value={50} suffix="+" />
           </Card>
         </Col>
       </Row>
 
       {/* Tools Grid */}
       <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>
-        开发工具 <Tag color="blue">{tools.length}+</Tag>
+        {t('home.toolsTitle')} <Tag color="blue">{tools.length}+</Tag>
       </Title>
       <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>
         {tools.map((tool) => (
@@ -341,7 +344,7 @@ const HomePage: React.FC = () => {
 
       {/* Features */}
       <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>
-        功能特性
+        {t('home.features.efficient')}
       </Title>
       <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>
         {features.map((feature) => (
@@ -359,9 +362,9 @@ const HomePage: React.FC = () => {
 
       {/* CTA */}
       <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>
-        <Title level={3}>喜欢这些工具？一起交流吧！</Title>
+        <Title level={3}>{t('home.ctaTitle')}</Title>
         <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>
-          所有工具完全免费，欢迎技术交流、开源共建和知识分享
+          {t('home.ctaDesc')}
         </Paragraph>
         <Button
           type="primary"
@@ -369,7 +372,7 @@ const HomePage: React.FC = () => {
           icon={<ArrowRightOutlined />}
           onClick={() => history.push('/pricing')}
         >
-          一起搞事情
+          {t('home.ctaButton')}
         </Button>
       </Card>
     </div>
