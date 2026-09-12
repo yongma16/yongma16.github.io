@@ -1,16 +1,27 @@
 import React from 'react';
 import { ConfigProvider, theme } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
+import zhTW from 'antd/locale/zh_TW';
+import enUS from 'antd/locale/en_US';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider, useTheme } from '@/contexts/ThemeContext';
+import { I18nProvider, useI18n, type Locale } from '@/i18n';
+
+// Ant Design locale mapping
+const antdLocales: Record<Locale, any> = {
+  'zh-CN': zhCN,
+  'zh-TW': zhTW,
+  'en-US': enUS,
+};
 
 // 内部组件，用于获取主题状态
 const ThemedConfigProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { isDark } = useTheme();
-  
+  const { locale } = useI18n();
+
   return (
     <ConfigProvider
-      locale={zhCN}
+      locale={antdLocales[locale] || zhCN}
       theme={{
         algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
         token: {
@@ -31,11 +42,13 @@ const ThemedConfigProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 export function rootContainer(container: React.ReactNode) {
   return (
     <HelmetProvider>
-      <ThemeProvider>
-        <ThemedConfigProvider>
-          {container}
-        </ThemedConfigProvider>
-      </ThemeProvider>
+      <I18nProvider>
+        <ThemeProvider>
+          <ThemedConfigProvider>
+            {container}
+          </ThemedConfigProvider>
+        </ThemeProvider>
+      </I18nProvider>
     </HelmetProvider>
   );
 }

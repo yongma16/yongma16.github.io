@@ -4,6 +4,7 @@ import { Layout, Menu, Button, Badge, Avatar } from 'antd';
 import { CONTACT_INFO } from '@/config/contact';
 import { BEIAN_INFO, getCurrentDomain } from '@/config/beian';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useI18n, LanguageSwitcher } from '@/i18n';
 import { SiteIcon } from '@/components/SiteIcon';
 import {
   HomeOutlined,
@@ -44,64 +45,10 @@ const { Header, Content, Footer } = Layout;
 
 type MenuItem = Required<MenuProps>['items'][number];
 
-const items: MenuItem[] = [
-  {
-    key: '/',
-    icon: <HomeOutlined />,
-    label: '首页',
-  },
-  {
-    key: 'tools',
-    icon: <ToolOutlined />,
-    label: '开发工具',
-    children: [
-      { key: '/tools/code-formatter', icon: <CodeOutlined />, label: '代码格式化' },
-      { key: '/tools/component-gen', icon: <ToolOutlined />, label: '组件生成器' },
-      { key: '/tools/perf-check', icon: <BarChartOutlined />, label: '性能检测' },
-      { key: '/tools/svg-processor', icon: <FileImageOutlined />, label: 'SVG处理' },
-      { key: '/tools/file-diff', icon: <DiffOutlined />, label: '文件对比' },
-      { key: '/tools/url-tools', icon: <GlobalOutlined />, label: 'URL工具' },
-      { key: '/tools/color-picker', icon: <BgColorsOutlined />, label: '颜色选择器' },
-      { key: '/tools/image-cropper', icon: <ScissorOutlined />, label: '图片裁剪' },
-      { key: '/tools/base64-tool', icon: <SwapOutlined />, label: 'Base64工具' },
-      { key: '/tools/timestamp-tool', icon: <ClockCircleOutlined />, label: '时间戳转换' },
-      { key: '/tools/regex-tester', icon: <CheckCircleOutlined />, label: '正则测试' },
-      { key: '/tools/hash-tool', icon: <LockOutlined />, label: '哈希工具' },
-      { key: '/tools/json-to-ts', icon: <FileTextOutlined />, label: 'JSON转TS' },
-      { key: '/tools/mock-gen', icon: <DatabaseOutlined />, label: 'Mock生成' },
-      { key: '/tools/css-formatter', icon: <FormatPainterOutlined />, label: 'CSS格式化' },
-      { key: '/tools/string-escape', icon: <SwapOutlined />, label: '字符串转义' },
-      { key: '/tools/radix-convert', icon: <SwapOutlined />, label: '进制转换' },
-      { key: '/tools/naming-convert', icon: <SwapOutlined />, label: '命名转换' },
-      { key: '/tools/image-convert', icon: <FileImageOutlined />, label: '图片转换' },
-      { key: '/tools/jwt-parser', icon: <SafetyOutlined />, label: 'JWT解析' },
-      { key: '/tools/cookie-parser', icon: <CoffeeOutlined />, label: 'Cookie解析' },
-      { key: '/tools/qrcode-tool', icon: <QrcodeOutlined />, label: '二维码工具' },
-      { key: '/tools/regex-lib', icon: <BookOutlined />, label: '正则模板' },
-      { key: '/tools/random-string', icon: <KeyOutlined />, label: '随机字符串' },
-      { key: '/tools/unit-convert', icon: <ColumnWidthOutlined />, label: '单位换算' },
-      { key: '/tools/ai-debug', icon: <BugOutlined />, label: 'AI调试' },
-      { key: '/tools/perf-monitor', icon: <DashboardOutlined />, label: '性能监控' },
-      { key: '/tools/curl-convert', icon: <ThunderboltOutlined />, label: 'cURL转换' },
-      { key: '/tools/eslint-config', icon: <FileTextOutlined />, label: 'ESLint配置' },
-      { key: '/tools/playground', icon: <CodeOutlined />, label: '代码游乐场' },
-    ],
-  },
-  {
-    key: '/blog',
-    icon: <ReadOutlined />,
-    label: '技术博客',
-  },
-  {
-    key: '/pricing',
-    icon: <CrownOutlined />,
-    label: '合作',
-  },
-];
-
 const MainLayout: React.FC = () => {
   const location = useLocation();
   const { isDark, theme, toggleTheme } = useTheme();
+  const { t } = useI18n();
   const [selectedKeys, setSelectedKeys] = React.useState<string[]>([location.pathname]);
 
   React.useEffect(() => {
@@ -114,130 +61,177 @@ const MainLayout: React.FC = () => {
     }
   };
 
+  const isLight = theme === 'light';
+
+  const items: MenuItem[] = [
+    {
+      key: '/',
+      icon: <HomeOutlined />,
+      label: t('nav.home'),
+    },
+    {
+      key: 'tools',
+      icon: <ToolOutlined />,
+      label: t('nav.tools'),
+      children: [
+        { key: '/tools/code-formatter', icon: <CodeOutlined />, label: t('codeFormatter.title') },
+        { key: '/tools/component-gen', icon: <ToolOutlined />, label: t('componentGen.title') },
+        { key: '/tools/perf-check', icon: <BarChartOutlined />, label: t('perfCheck.title') },
+        { key: '/tools/svg-processor', icon: <FileImageOutlined />, label: t('svgProcessor.title') },
+        { key: '/tools/file-diff', icon: <DiffOutlined />, label: '文件对比' },
+        { key: '/tools/url-tools', icon: <GlobalOutlined />, label: t('urlTools.title') },
+        { key: '/tools/color-picker', icon: <BgColorsOutlined />, label: t('colorPicker.title') },
+        { key: '/tools/image-cropper', icon: <ScissorOutlined />, label: t('imageCropper.title') },
+        { key: '/tools/base64-tool', icon: <SwapOutlined />, label: t('base64Tool.title') },
+        { key: '/tools/timestamp-tool', icon: <ClockCircleOutlined />, label: t('timestampTool.title') },
+        { key: '/tools/regex-tester', icon: <CheckCircleOutlined />, label: t('regexTester.title') },
+        { key: '/tools/hash-tool', icon: <LockOutlined />, label: t('hashTool.title') },
+        { key: '/tools/json-to-ts', icon: <FileTextOutlined />, label: t('jsonToTs.title') },
+        { key: '/tools/mock-gen', icon: <DatabaseOutlined />, label: t('mockGen.title') },
+        { key: '/tools/css-formatter', icon: <FormatPainterOutlined />, label: t('cssFormatter.title') },
+        { key: '/tools/string-escape', icon: <SwapOutlined />, label: t('stringEscape.title') },
+        { key: '/tools/radix-convert', icon: <SwapOutlined />, label: t('radixConvert.title') },
+        { key: '/tools/naming-convert', icon: <SwapOutlined />, label: t('namingConvert.title') },
+        { key: '/tools/image-convert', icon: <FileImageOutlined />, label: t('imageConvert.title') },
+        { key: '/tools/jwt-parser', icon: <SafetyOutlined />, label: t('jwtParser.title') },
+        { key: '/tools/cookie-parser', icon: <CoffeeOutlined />, label: t('cookieParser.title') },
+        { key: '/tools/qrcode-tool', icon: <QrcodeOutlined />, label: t('qrcodeTool.title') },
+        { key: '/tools/regex-lib', icon: <BookOutlined />, label: t('regexLib.title') },
+        { key: '/tools/random-string', icon: <KeyOutlined />, label: t('randomString.title') },
+        { key: '/tools/unit-convert', icon: <ColumnWidthOutlined />, label: t('unitConvert.title') },
+        { key: '/tools/ai-debug', icon: <BugOutlined />, label: t('aiDebug.title') },
+        { key: '/tools/perf-monitor', icon: <DashboardOutlined />, label: t('perfMonitor.title') },
+        { key: '/tools/curl-convert', icon: <ThunderboltOutlined />, label: t('curlConvert.title') },
+        { key: '/tools/eslint-config', icon: <FileTextOutlined />, label: t('eslintConfig.title') },
+        { key: '/tools/playground', icon: <CodeOutlined />, label: t('playground.title') },
+      ],
+    },
+    {
+      key: '/blog',
+      icon: <ReadOutlined />,
+      label: t('nav.blog'),
+    },
+    {
+      key: '/pricing',
+      icon: <CrownOutlined />,
+      label: t('nav.cooperate'),
+    },
+  ];
+
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Header
         key="main-header"
         style={{
-          position: 'sticky',
+          position: 'fixed',
           top: 0,
+          left: 0,
+          right: 0,
           zIndex: 1000,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          background: isDark ? '#141414' : '#fff',
-          boxShadow: isDark ? '0 2px 8px rgba(0,0,0,0.3)' : '0 2px 8px rgba(0,0,0,0.06)',
-          transition: 'all 0.3s ease',
+          padding: '0 24px',
+          background: isDark ? '#141414' : '#ffffff',
+          boxShadow: '0 2px 8px rgba(0, 0, 0, 0.06)',
+          height: 64,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          <div
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <SiteIcon />
+          <span
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 12,
-              marginRight: 48,
-              cursor: 'pointer',
+              fontSize: 18,
+              fontWeight: 600,
+              color: isDark ? '#ffffff' : '#000000',
             }}
-            onClick={() => history.push('/')}
           >
-            <SiteIcon size={36} />
-            <span
-              style={{
-                fontSize: 20,
-                fontWeight: 'bold',
-                color: '#1890ff',
-              }}
-            >
-              yma16.dev
-            </span>
-          </div>
-          <Menu
-            mode="horizontal"
-            selectedKeys={selectedKeys}
-            items={items}
-            onClick={onMenuClick}
-            style={{ borderBottom: 'none', minWidth: 500 }}
-          />
+            yma16.dev
+          </span>
         </div>
+
+        <Menu
+          mode="horizontal"
+          selectedKeys={selectedKeys}
+          items={items}
+          onClick={onMenuClick}
+          style={{
+            flex: 1,
+            justifyContent: 'center',
+            background: 'transparent',
+            borderBottom: 'none',
+            minWidth: 0,
+          }}
+        />
+
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+          <LanguageSwitcher />
           <Button
             type="text"
-            icon={isDark ? <MoonOutlined /> : <SunOutlined />}
+            icon={isDark ? <SunOutlined /> : <MoonOutlined />}
             onClick={toggleTheme}
-            title={`当前: ${theme === 'auto' ? '跟随系统' : theme === 'dark' ? '深色模式' : '浅色模式'} (点击切换)`}
-            style={{ color: isDark ? 'rgba(255,255,255,0.85)' : 'rgba(0,0,0,0.88)' }}
           >
-            {theme === 'auto' ? '自动' : theme === 'dark' ? '深色' : '浅色'}
+            {isDark ? '亮色' : isLight ? '暗色' : '自动'}
           </Button>
-          <Button
-            type="link"
-            icon={<GithubOutlined />}
-            href={CONTACT_INFO.github}
-            target="_blank"
-          >
-            GitHub
-          </Button>
-          <Avatar style={{ backgroundColor: '#1890ff' }}>Y</Avatar>
+          <a href="https://github.com/yongma16/yongma16.github.io" target="_blank" rel="noopener noreferrer">
+            <Button type="text" icon={<GithubOutlined />}>GitHub</Button>
+          </a>
         </div>
       </Header>
-      <Content 
-        style={{ 
-          padding: 24, 
-          maxWidth: 1400, 
-          margin: '0 auto', 
-          width: '100%',
-          background: isDark ? '#000' : '#f5f5f5',
-          transition: 'background 0.3s ease',
+
+      <Content
+        style={{
+          marginTop: 64,
+          padding: '24px 48px',
+          minHeight: 'calc(100vh - 64px - 70px)',
+          background: isDark ? '#0a0a0a' : '#f5f5f5',
         }}
       >
         <Outlet />
       </Content>
-      <Footer key="main-footer" style={{ textAlign: 'center', background: isDark ? '#141414' : '#f0f2f5', transition: 'background 0.3s ease' }}>
-        <div style={{ marginBottom: 16 }}>
-          <a href={CONTACT_INFO.csdn} target="_blank" rel="noopener noreferrer">
+
+      <Footer
+        style={{
+          textAlign: 'center',
+          background: isDark ? '#141414' : '#ffffff',
+          borderTop: '1px solid ' + (isDark ? '#303030' : '#f0f0f0'),
+          padding: '24px 48px',
+        }}
+      >
+        <div style={{ marginBottom: 12 }}>
+          <a
+            href={CONTACT_INFO.csdn}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: 16 }}
+          >
             CSDN博客
-          </a>{' '}
-          |{' '}
-          <a href={CONTACT_INFO.github} target="_blank" rel="noopener noreferrer">
+          </a>
+          <span style={{ marginRight: 16 }}>|</span>
+          <a
+            href="https://github.com/yongma16"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>
         </div>
-        <div>© {new Date().getFullYear()} yma16. All rights reserved. 前端开发工具集</div>
-        
-        {/* 域名备案信息展示 */}
-        <div style={{ marginTop: 12, fontSize: 12, color: '#999' }}>
-          <span>当前访问域名: {getCurrentDomain()}</span>
-          {BEIAN_INFO.showBeian && BEIAN_INFO.beianNumber && (
-            <span style={{ marginLeft: 16 }}>
-              <a 
-                href={BEIAN_INFO.beianLink} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                style={{ color: '#999' }}
-              >
-                {BEIAN_INFO.beianNumber}
-              </a>
-            </span>
-          )}
-          {BEIAN_INFO.showBeian && BEIAN_INFO.gonganNumber && (
-            <span style={{ marginLeft: 16 }}>
-              <a 
-                href={BEIAN_INFO.gonganLink} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                style={{ color: '#999' }}
-              >
-                {BEIAN_INFO.gonganNumber}
-              </a>
-            </span>
-          )}
-          {!BEIAN_INFO.showBeian && (
-            <span style={{ marginLeft: 16, color: '#bbb' }}>
-              （备案申请中）
-            </span>
-          )}
+        <div>
+          <span>© {new Date().getFullYear()} yma16. All rights reserved. 前端开发工具集</span>
         </div>
+        {BEIAN_INFO.showBeian && (
+          <div style={{ marginTop: 8, fontSize: 12 }}>
+            <span style={{ marginRight: 8 }}>当前访问域名: {getCurrentDomain()}</span>
+            <a
+              href={BEIAN_INFO.beianLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#999' }}
+            >
+              {BEIAN_INFO.beianNumber}
+            </a>
+          </div>
+        )}
       </Footer>
     </Layout>
   );
