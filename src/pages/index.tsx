@@ -279,7 +279,7 @@ const HomePage: React.FC = () => {
             icon={<ArrowRightOutlined />}
             onClick={() => history.push('/pricing')}
           >
-            查看定价
+            一起合作
           </Button>
         </div>
       </div>
@@ -352,9 +352,9 @@ const HomePage: React.FC = () => {
 
       {/* CTA */}
       <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>
-        <Title level={3}>准备好提升开发效率了吗？</Title>
+        <Title level={3}>喜欢这些工具？一起交流吧！</Title>
         <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>
-          基础功能完全免费，高级功能支持团队协作和云端存储
+          所有工具完全免费，欢迎技术交流、开源共建和知识分享
         </Paragraph>
         <Button
           type="primary"
@@ -362,7 +362,7 @@ const HomePage: React.FC = () => {
           icon={<ArrowRightOutlined />}
           onClick={() => history.push('/pricing')}
         >
-          查看定价方案
+          一起搞事情
         </Button>
       </Card>
     </div>
