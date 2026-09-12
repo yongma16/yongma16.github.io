@@ -175,7 +175,7 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
   );
 };
 
-// 语言切换组件 - 下拉选择
+// 语言切换组件 - 无框下拉选择，带前缀图标
 export const LanguageSwitcher: React.FC = () => {
   const { locale, setLocale } = useI18n();
   const [isDark, setIsDark] = React.useState(false);
@@ -190,11 +190,13 @@ export const LanguageSwitcher: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
-  const localeOptions: { value: Locale; label: string }[] = [
-    { value: 'zh-CN', label: '简体中文' },
-    { value: 'zh-TW', label: '繁體中文' },
-    { value: 'en-US', label: 'English' },
+  const localeOptions: { value: Locale; label: string; icon: string }[] = [
+    { value: 'zh-CN', label: '简体中文', icon: '文' },
+    { value: 'zh-TW', label: '繁體中文', icon: '繁' },
+    { value: 'en-US', label: 'English', icon: 'En' },
   ];
+
+  const current = localeOptions.find((o) => o.value === locale);
 
   return React.createElement(
     'div',
@@ -212,10 +214,10 @@ export const LanguageSwitcher: React.FC = () => {
           appearance: 'none',
           WebkitAppearance: 'none',
           MozAppearance: 'none',
-          padding: '6px 32px 6px 12px',
-          borderRadius: 6,
-          border: '1px solid ' + (isDark ? '#424242' : '#d9d9d9'),
-          background: isDark ? '#1f1f1f' : '#fff',
+          padding: '4px 24px 4px 28px',
+          borderRadius: 4,
+          border: 'none',
+          background: 'transparent',
           color: isDark ? 'rgba(255,255,255,0.85)' : '#333',
           cursor: 'pointer',
           fontSize: 14,
@@ -231,16 +233,41 @@ export const LanguageSwitcher: React.FC = () => {
         )
       )
     ),
+    // 前缀图标
     React.createElement(
       'span',
       {
         style: {
           position: 'absolute',
-          right: 10,
+          left: 6,
           top: '50%',
           transform: 'translateY(-50%)',
           pointerEvents: 'none',
           fontSize: 12,
+          fontWeight: 600,
+          color: isDark ? 'rgba(255,255,255,0.65)' : '#666',
+          width: 18,
+          height: 18,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '50%',
+          background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.06)',
+        },
+      },
+      current?.icon
+    ),
+    // 下拉箭头
+    React.createElement(
+      'span',
+      {
+        style: {
+          position: 'absolute',
+          right: 4,
+          top: '50%',
+          transform: 'translateY(-50%)',
+          pointerEvents: 'none',
+          fontSize: 10,
           color: isDark ? 'rgba(255,255,255,0.45)' : '#999',
         },
       },
