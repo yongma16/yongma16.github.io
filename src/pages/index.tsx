@@ -225,6 +225,13 @@ const tools = [
     path: '/tools/curl-convert',
     tags: ['免费', 'NEW'],
   },
+  {
+    title: 'ESLint配置',
+    icon: <FileTextOutlined style={{ fontSize: 32, color: '#52c41a' }} />,
+    desc: '可视化生成 ESLint 配置文件，支持 TS/React/Vue/Prettier',
+    path: '/tools/eslint-config',
+    tags: ['免费', 'NEW'],
+  },
 ];
 
 const features = [

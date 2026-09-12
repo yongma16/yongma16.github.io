@@ -56,6 +56,7 @@ export default defineConfig({
     { path: '/tools/ai-debug', component: '@/pages/tools/ai-debug', title: 'AI调试' },
     { path: '/tools/perf-monitor', component: '@/pages/tools/perf-monitor', title: '性能监控' },
     { path: '/tools/curl-convert', component: '@/pages/tools/curl-convert', title: 'cURL转换' },
+    { path: '/tools/eslint-config', component: '@/pages/tools/eslint-config', title: 'ESLint配置' },
     { path: '/blog', component: '@/pages/blog', title: '技术博客' },
     { path: '/pricing', component: '@/pages/pricing', title: '合作' },
   ],
