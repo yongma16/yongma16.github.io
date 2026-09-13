@@ -24,12 +24,13 @@ const SVGProcessor: React.FC = () => {
   const [fileList, setFileList] = useState<SVGFile[]>([]);
 
   const seoConfig = {
-    title: 'SVG 处理工具',
-    description: '免费的在线 SVG 处理工具，支持 SVG 压缩、批量转换、颜色替换、预览和下载，优化 SVG 图标和图形文件大小，提升网页加载性能。',
-    keywords: 'SVG处理,SVG压缩,SVG转换,SVG优化,SVG批量处理,SVG颜色替换,SVG预览,SVG工具,矢量图形处理',
+    title: 'SVG 压缩处理工具',
+    description: '免费的在线 SVG 处理工具，支持 SVG 压缩、批量转换、颜色替换、预览和下载，优化 SVG 图标和图形文件大小，提升网页加载性能。纯前端处理，不上传服务器。',
+    keywords: 'SVG处理,SVG压缩,SVG转换,SVG优化,SVG批量处理,SVG颜色替换,SVG预览,SVG工具,矢量图形处理,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/svg-processor',
     jsonLd: createToolJsonLd(
-      'SVG 处理工具',
-      '免费的在线 SVG 压缩和转换工具',
+      'SVG 压缩处理工具',
+      '免费的在线 SVG 压缩和转换工具，支持批量处理、颜色替换、预览和下载。纯前端处理，不上传服务器。',
       'https://yma16.cloud/tools/svg-processor',
       'DeveloperApplication'
     ),
@@ -250,11 +251,11 @@ const SVGProcessor: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div>
-      <Title level={2}>
-        <FileImageOutlined /> SVG 批量处理
+      <Title level={1} style={{ fontSize: '1.75rem' }}>
+        <FileImageOutlined /> SVG 压缩处理工具
       </Title>
       <Paragraph type="secondary">
-        支持 SVG 压缩、颜色处理、格式转换、批量导出
+        免费的在线 SVG 处理工具，支持 SVG 压缩、批量转换、颜色替换、预览和下载。纯前端处理，不上传服务器，保护您的文件隐私。
       </Paragraph>
 
       <Row gutter={24}>

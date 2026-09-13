@@ -12,10 +12,11 @@ const JsonToTs: React.FC = () => {
   const [rootName, setRootName] = useState('Root');
 
   const seoConfig = {
-    title: 'JSON转TS类型工具',
-    description: 'JSON转TypeScript Interface类型生成器，自动推断类型，支持嵌套对象和数组。',
-    keywords: 'JSON转TS,JSON转TypeScript,类型生成器,Interface生成,JSON类型推断',
-    jsonLd: createToolJsonLd('JSON转TS类型工具', 'JSON转TypeScript Interface生成器', 'https://yma16.cloud/tools/json-to-ts', 'DeveloperApplication'),
+    title: 'JSON 转 TypeScript 类型工具',
+    description: '免费的 JSON 转 TypeScript Interface 类型生成器，自动推断类型，支持嵌套对象和数组。纯前端处理，不上传服务器，保护数据隐私。',
+    keywords: 'JSON转TS,JSON转TypeScript,类型生成器,Interface生成,JSON类型推断,TS类型生成,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/json-to-ts',
+    jsonLd: createToolJsonLd('JSON 转 TypeScript 类型工具', '免费的 JSON 转 TypeScript Interface 类型生成器，自动推断类型，支持嵌套对象和数组。纯前端处理，不上传服务器。', 'https://yma16.cloud/tools/json-to-ts', 'DeveloperApplication'),
   };
 
   const inferType = (value: any, key: string): string => {
@@ -62,8 +63,8 @@ const JsonToTs: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div style={{ padding: 24 }}>
-        <Title level={2}><CodeOutlined /> JSON转TS类型</Title>
-        <Text type="secondary">JSON自动推断生成TypeScript Interface</Text>
+        <Title level={1} style={{ fontSize: '1.75rem' }}><CodeOutlined /> JSON 转 TypeScript 类型</Title>
+        <Text type="secondary">免费的 JSON 转 TypeScript Interface 类型生成器，自动推断类型，支持嵌套对象和数组。纯前端处理，不上传服务器。</Text>
         <Row gutter={24} style={{ marginTop: 24 }}>
           <Col xs={24} lg={12}>
             <Card title="JSON输入">

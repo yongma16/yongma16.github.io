@@ -17,11 +17,12 @@ const Base64Tool: React.FC = () => {
 
   const seoConfig = {
     title: 'Base64 编解码工具',
-    description: '免费的在线 Base64 编解码工具，支持文本 Base64 编码解码、图片转 Base64、Base64 还原预览和下载图片。',
-    keywords: 'Base64编码,Base64解码,Base64工具,图片转Base64,Base64转图片,在线Base64,文本编码',
+    description: '免费的在线 Base64 编解码工具，支持文本 Base64 编码解码、图片转 Base64、Base64 还原预览和下载图片。纯前端处理，不上传服务器，保护数据隐私。',
+    keywords: 'Base64编码,Base64解码,Base64工具,图片转Base64,Base64转图片,在线Base64,文本编码,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/base64-tool',
     jsonLd: createToolJsonLd(
       'Base64 编解码工具',
-      '免费的在线 Base64 编码解码和图片转换工具',
+      '免费的在线 Base64 编码解码工具，支持文本编码解码、图片转 Base64、Base64 还原预览和下载。纯前端处理，不上传服务器，保护数据隐私。',
       'https://yma16.cloud/tools/base64-tool',
       'DeveloperApplication'
     ),
@@ -83,10 +84,10 @@ const Base64Tool: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div style={{ padding: 24 }}>
-        <Title level={2}>
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
           <SwapOutlined /> Base64 编解码
         </Title>
-        <Text type="secondary">文本编码解码、图片与 Base64 互转</Text>
+        <Text type="secondary">免费的在线 Base64 编解码工具，支持文本编码解码、图片转 Base64、Base64 还原预览和下载。纯前端处理，不上传服务器，保护您的数据隐私。</Text>
 
         <Tabs activeKey={activeTab} onChange={setActiveTab} style={{ marginTop: 24 }}>
           <Tabs.TabPane tab="文本编解码" key="text">

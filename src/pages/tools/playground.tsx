@@ -340,12 +340,13 @@ const CodePlayground: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   const seoConfig = {
-    title: 'HTML/CSS/JS 在线代码预览游乐场',
-    description: '在线编写和预览 HTML/CSS/JS 代码，支持实时预览、控制台输出、预设模板、代码导出和本地草稿保存。适合上课写 demo、验证代码片段、作业快速测试。',
-    keywords: '在线代码编辑器,HTML预览,CSS预览,JS预览,代码游乐场,前端demo,代码片段测试,Vue3示例,Tailwind示例',
+    title: 'HTML/CSS/JS 在线代码编辑器',
+    description: '免费的在线 HTML/CSS/JS 代码编辑器和实时预览工具，支持控制台输出、Vue3/Tailwind 预设模板、代码导出和本地草稿保存。适合上课写 demo、验证代码片段、作业快速测试。纯前端运行，不上传服务器。',
+    keywords: '在线代码编辑器,HTML预览,CSS预览,JS预览,代码游乐场,前端demo,代码片段测试,Vue3示例,Tailwind示例,在线编程工具',
+    canonical: 'https://yma16.cloud/tools/playground',
     jsonLd: createToolJsonLd(
-      'HTML/CSS/JS 在线代码预览游乐场',
-      '在线编写和预览前端代码，支持实时预览和草稿保存',
+      'HTML/CSS/JS 在线代码编辑器',
+      '免费的在线 HTML/CSS/JS 代码编辑器和实时预览工具，支持控制台输出、Vue3/Tailwind 预设模板、代码导出和本地草稿保存。纯前端运行，不上传服务器。',
       'https://yma16.cloud/tools/playground',
       'DeveloperApplication'
     ),

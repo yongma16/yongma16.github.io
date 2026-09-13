@@ -18,11 +18,12 @@ const FileDiff: React.FC = () => {
 
   const seoConfig = {
     title: '代码对比工具',
-    description: '免费的在线代码对比工具，支持文本和代码差异比较，高亮显示增删改内容，支持行号显示和一键复制差异结果。',
-    keywords: '代码对比,文本对比,代码差异比较,文件对比工具,Diff工具,代码比较,在线对比工具,文本差异分析',
+    description: '免费的在线代码对比工具，支持文本和代码差异比较，高亮显示增删改内容，支持行号显示和一键复制差异结果。纯前端计算，不上传服务器，保护代码隐私。',
+    keywords: '代码对比,文本对比,代码差异比较,文件对比工具,Diff工具,代码比较,在线对比工具,文本差异分析,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/file-diff',
     jsonLd: createToolJsonLd(
       '代码对比工具',
-      '免费的在线代码和文本差异比较工具',
+      '免费的在线代码和文本差异比较工具，支持高亮显示增删改内容。纯前端计算，不上传服务器，保护代码隐私。',
       'https://yma16.cloud/tools/file-diff',
       'DeveloperApplication'
     ),
@@ -186,11 +187,11 @@ function goodbye() {
     <>
       <SEO {...seoConfig} />
       <div>
-      <Title level={2}>
-        <DiffOutlined /> 文件对比
+      <Title level={1} style={{ fontSize: '1.75rem' }}>
+        <DiffOutlined /> 代码对比工具
       </Title>
       <Paragraph type="secondary">
-        对比两个文本文件的差异，支持代码、配置文件等文本对比
+        免费的在线代码和文本差异比较工具，支持高亮显示增删改内容，支持行号显示和一键复制差异结果。纯前端计算，不上传服务器，保护您的代码隐私。
       </Paragraph>
 
       <Space style={{ marginBottom: 16 }}>

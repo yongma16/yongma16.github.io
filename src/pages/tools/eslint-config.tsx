@@ -117,12 +117,13 @@ const EslintConfigGenerator: React.FC = () => {
   const [generatedConfig, setGeneratedConfig] = useState<string>('');
 
   const seoConfig = {
-    title: 'ESLint 规则集配置生成器',
-    description: '可视化生成 ESLint 配置文件，支持 TypeScript、React、Vue、Prettier 等多种规则集组合，一键导出 .eslintrc 配置。',
-    keywords: 'ESLint配置,ESLint规则,TypeScript ESLint,React ESLint,Vue ESLint,Prettier配置,代码规范,lint规则生成器',
+    title: 'ESLint 配置生成器',
+    description: '可视化生成 ESLint 配置文件，支持 TypeScript、React、Vue、Prettier 等多种规则集组合，一键导出 .eslintrc.js 配置。纯前端生成，不上传服务器。',
+    keywords: 'ESLint配置,ESLint规则,TypeScript ESLint,React ESLint,Vue ESLint,Prettier配置,代码规范,lint规则生成器,在线ESLint配置,eslintrc生成',
+    canonical: 'https://yma16.cloud/tools/eslint-config',
     jsonLd: createToolJsonLd(
-      'ESLint 规则集配置生成器',
-      '可视化生成 ESLint 配置文件，支持多种框架和规则集',
+      'ESLint 配置生成器',
+      '可视化生成 ESLint 配置文件，支持 TypeScript、React、Vue、Prettier 等多种规则集组合，一键导出 .eslintrc.js 配置。纯前端生成，不上传服务器。',
       'https://yma16.cloud/tools/eslint-config',
       'DeveloperApplication'
     ),
@@ -228,11 +229,11 @@ const EslintConfigGenerator: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div>
-        <Title level={2}>
-          <FileTextOutlined /> ESLint 规则集配置生成器
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
+          <FileTextOutlined /> ESLint 配置生成器
         </Title>
         <Paragraph type="secondary">
-          可视化生成 ESLint 配置文件，支持 TypeScript、React、Vue、Prettier 等多种规则集组合
+          免费的在线 ESLint 配置生成工具，支持 TypeScript、React、Vue、Prettier 等多种规则集组合，一键导出 .eslintrc.js 配置。纯前端生成，不上传服务器。
         </Paragraph>
 
         <Row gutter={24}>

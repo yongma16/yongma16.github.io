@@ -35,11 +35,12 @@ const CodeFormatter: React.FC = () => {
 
   const seoConfig = {
     title: '代码格式化工具',
-    description: '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则，一键美化代码。',
-    keywords: '代码格式化,代码美化,Prettier,TypeScript格式化,JavaScript格式化,Vue格式化,React格式化,JSON格式化,HTML格式化,CSS格式化,在线代码格式化工具',
+    description: '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则，一键美化代码。全部运算在浏览器本地完成，不上传服务器，保护代码隐私。',
+    keywords: '代码格式化,代码美化,Prettier,TypeScript格式化,JavaScript格式化,Vue格式化,React格式化,JSON格式化,HTML格式化,CSS格式化,在线代码格式化工具,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/code-formatter',
     jsonLd: createToolJsonLd(
       '代码格式化工具',
-      '免费的在线代码格式化工具，支持多种语言',
+      '免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 等多种语言，基于 Prettier 规则一键美化代码。全部运算在浏览器本地完成，不上传服务器，保护代码隐私。',
       'https://yma16.cloud/tools/code-formatter',
       'DeveloperApplication'
     ),
@@ -91,11 +92,11 @@ const CodeFormatter: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div>
-      <Title level={2}>
+      <Title level={1} style={{ fontSize: '1.75rem' }}>
         <FormatPainterOutlined /> 代码格式化
       </Title>
       <Paragraph type="secondary">
-        支持 TypeScript、JavaScript、Vue、React 代码格式化，基于 Prettier 规则
+        免费的在线代码格式化工具，支持 TypeScript、JavaScript、Vue、React、JSON、HTML、CSS 代码格式化，基于 Prettier 规则一键美化代码。全部运算在浏览器本地完成，不上传服务器，保护您的代码隐私。
       </Paragraph>
 
       <Card style={{ marginBottom: 24 }}>

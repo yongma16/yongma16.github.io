@@ -231,12 +231,13 @@ const HashTool: React.FC = () => {
   const [useFrontend, setUseFrontend] = useState(true);
 
   const seoConfig = {
-    title: '哈希 MD5/SHA 工具',
-    description: '免费的在线哈希计算工具，支持 MD5、SHA1、SHA256 哈希算法，纯前端计算保护隐私，支持文本哈希计算。',
-    keywords: 'MD5工具,SHA1工具,SHA256工具,哈希计算,在线MD5,文件哈希,哈希值计算,前端哈希',
+    title: 'MD5/SHA1/SHA256 哈希计算工具',
+    description: '免费的在线哈希计算工具，支持 MD5、SHA1、SHA256 哈希算法。纯前端计算保护隐私，文本哈希计算不上传服务器。',
+    keywords: 'MD5工具,SHA1工具,SHA256工具,哈希计算,在线MD5,文件哈希,哈希值计算,前端哈希,MD5在线计算,SHA在线计算',
+    canonical: 'https://yma16.cloud/tools/hash-tool',
     jsonLd: createToolJsonLd(
-      '哈希 MD5/SHA 工具',
-      '免费的在线 MD5、SHA1、SHA256 哈希计算工具',
+      'MD5/SHA1/SHA256 哈希计算工具',
+      '免费的在线 MD5、SHA1、SHA256 哈希计算工具。纯前端计算保护隐私，文本哈希计算不上传服务器。',
       'https://yma16.cloud/tools/hash-tool',
       'DeveloperApplication'
     ),
@@ -276,10 +277,10 @@ const HashTool: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div style={{ padding: 24 }}>
-        <Title level={2}>
-          <LockOutlined /> 哈希计算工具
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
+          <LockOutlined /> MD5/SHA1/SHA256 哈希计算
         </Title>
-        <Text type="secondary">MD5 / SHA1 / SHA256 哈希计算，纯前端实现</Text>
+        <Text type="secondary">免费的在线哈希计算工具，支持 MD5、SHA1、SHA256 哈希算法。纯前端计算保护隐私，不上传服务器。</Text>
 
         <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
           <Col span={24}>

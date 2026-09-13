@@ -16,11 +16,12 @@ const RegexTester: React.FC = () => {
 
   const seoConfig = {
     title: '正则表达式测试工具',
-    description: '免费的在线正则表达式测试工具，支持实时匹配、高亮显示、分组捕获、多种修饰符，帮助调试和验证正则表达式。',
-    keywords: '正则表达式测试,正则工具,Regex测试,正则匹配,在线正则,正则调试,正则表达式工具',
+    description: '免费的在线正则表达式测试工具，支持实时匹配、高亮显示、分组捕获、多种修饰符（g/i/m/s/u），帮助调试和验证正则表达式。纯前端运行，不上传服务器。',
+    keywords: '正则表达式测试,正则工具,Regex测试,正则匹配,在线正则,正则调试,正则表达式工具,RegExp测试,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/regex-tester',
     jsonLd: createToolJsonLd(
       '正则表达式测试工具',
-      '免费的在线正则表达式测试和调试工具',
+      '免费的在线正则表达式测试和调试工具，支持实时匹配、高亮显示、分组捕获、多种修饰符。纯前端运行，不上传服务器。',
       'https://yma16.cloud/tools/regex-tester',
       'DeveloperApplication'
     ),
@@ -124,10 +125,10 @@ const RegexTester: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div style={{ padding: 24 }}>
-        <Title level={2}>
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
           <CheckCircleOutlined /> 正则表达式测试
         </Title>
-        <Text type="secondary">实时匹配、高亮显示、分组捕获</Text>
+        <Text type="secondary">免费的在线正则表达式测试工具，支持实时匹配、高亮显示、分组捕获、多种修饰符。纯前端运行，不上传服务器。</Text>
 
         <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
           <Col span={24}>

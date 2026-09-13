@@ -13,6 +13,7 @@ interface SEOProps {
   canonical?: string;
   noindex?: boolean;
   jsonLd?: Record<string, any>;
+  lang?: string;
 }
 
 const defaultSEO = {
@@ -35,6 +36,7 @@ export const SEO: React.FC<SEOProps> = ({
   canonical,
   noindex = false,
   jsonLd,
+  lang = 'zh-CN',
 }) => {
   const finalTitle = title ? `${title} | yma16 前端工具集` : defaultSEO.title;
   const finalDescription = description || defaultSEO.description;
@@ -43,33 +45,35 @@ export const SEO: React.FC<SEOProps> = ({
   const finalOgDescription = ogDescription || finalDescription;
 
   return (
-    <Helmet>
+    <Helmet htmlAttributes={{ lang }}>
       {/* 基础 Meta */}
       <title>{finalTitle}</title>
       <meta name="description" content={finalDescription} />
       <meta name="keywords" content={finalKeywords} />
       <meta name="author" content={author} />
       <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
-      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       {/* Canonical URL */}
       {canonical && <link rel="canonical" href={canonical} />}
-      
+
       {/* Open Graph */}
       <meta property="og:type" content="website" />
+      <meta property="og:locale" content="zh_CN" />
       <meta property="og:title" content={finalOgTitle} />
       <meta property="og:description" content={finalOgDescription} />
       <meta property="og:image" content={ogImage} />
       {ogUrl && <meta property="og:url" content={ogUrl} />}
-      
+
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={finalOgTitle} />
       <meta name="twitter:description" content={finalOgDescription} />
       <meta name="twitter:image" content={ogImage} />
-      
+
       {/* 百度验证（如果需要） */}
       <meta name="baidu-site-verification" content="" />
-      
+
       {/* JSON-LD 结构化数据 */}
       {jsonLd && (
         <script type="application/ld+json">

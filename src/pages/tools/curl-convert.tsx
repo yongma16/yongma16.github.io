@@ -303,12 +303,13 @@ const CurlConvert: React.FC = () => {
   const [parsedInfo, setParsedInfo] = useState<ParsedCurl | null>(null);
 
   const seoConfig = {
-    title: 'cURL 代码转换工具',
-    description: '将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码，支持自动解析 URL、请求方法、请求头和请求体。',
-    keywords: 'cURL转换,Axios代码生成,Fetch代码生成,Python requests,Node.js HTTP,API调试工具,代码生成器',
+    title: 'cURL 转 Axios/Fetch/Python 代码工具',
+    description: '将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码，支持自动解析 URL、请求方法、请求头和请求体。纯前端转换，不上传服务器，保护 API 隐私。',
+    keywords: 'cURL转换,Axios代码生成,Fetch代码生成,Python requests,Node.js HTTP,API调试工具,代码生成器,cURL转Axios,cURL转Fetch,在线代码转换',
+    canonical: 'https://yma16.cloud/tools/curl-convert',
     jsonLd: createToolJsonLd(
-      'cURL 代码转换工具',
-      '将 cURL 命令转换为多种编程语言的 HTTP 请求代码',
+      'cURL 转 Axios/Fetch/Python 代码工具',
+      '将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码，支持自动解析 URL、请求方法、请求头和请求体。纯前端转换，不上传服务器，保护 API 隐私。',
       'https://yma16.cloud/tools/curl-convert',
       'DeveloperApplication'
     ),
@@ -373,11 +374,11 @@ const CurlConvert: React.FC = () => {
     <>
       <SEO {...seoConfig} />
       <div>
-        <Title level={2}>
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
           <ThunderboltOutlined /> cURL 代码转换
         </Title>
         <Paragraph type="secondary">
-          将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码
+          将 cURL 命令一键转换为 Axios、Fetch、Python requests、Node.js 代码。支持自动解析 URL、请求方法、请求头和请求体。纯前端转换，不上传服务器，保护您的 API 隐私。
         </Paragraph>
 
         <Card style={{ marginBottom: 24 }}>

@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Card, Row, Col, Input, Button, message, Typography, Space, Tabs, ColorPicker, Tag, Divider } from 'antd';
-import { CopyOutlined, SyncOutlined, BgColorsOutlined } from '@ant-design/icons';
+import { CopyOutlined, SyncOutlined, BgColorsOutlined, EyeOutlined } from '@ant-design/icons';
 import { SEO, createToolJsonLd } from '@/components/SEO';
 
 const { Title, Text } = Typography;
@@ -70,20 +70,31 @@ const hslToRgb = (h: number, s: number, l: number): { r: number; g: number; b: n
   };
 };
 
+// EyeDropper API 类型声明（Chrome/Edge 支持，Firefox 不支持）
+declare global {
+  interface Window {
+    EyeDropper?: new () => {
+      open: (options?: { signal?: AbortSignal }) => Promise<{ sRGBHex: string }>;
+    };
+  }
+}
+
 const ColorPickerTool: React.FC = () => {
   const [color, setColor] = useState<string>('#1890ff');
   const [hexInput, setHexInput] = useState('#1890ff');
   const [rgbInput, setRgbInput] = useState({ r: 24, g: 144, b: 255 });
   const [rgbaInput, setRgbaInput] = useState({ r: 24, g: 144, b: 255, a: 1 });
   const [hslInput, setHslInput] = useState({ h: 212, s: 100, l: 54 });
+  const [eyeDropping, setEyeDropping] = useState(false);
 
   const seoConfig = {
-    title: '颜色选择器工具',
-    description: '免费的在线颜色选择器工具，支持拾色器取色、HEX/RGB/RGBA/HSL 互相转换、颜色预览和一键复制色值。',
-    keywords: '颜色选择器,取色器,HEX转RGB,RGB转HEX,HSL转换,颜色转换工具,在线取色器,颜色拾取',
+    title: '颜色选择器',
+    description: '免费的在线颜色选择器工具，支持拾色器取色、HEX/RGB/RGBA/HSL 互相转换、颜色预览和一键复制色值。纯前端运行，不上传服务器。',
+    keywords: '颜色选择器,取色器,HEX转RGB,RGB转HEX,HSL转换,颜色转换工具,在线取色器,颜色拾取,吸管工具,前端开发工具',
+    canonical: 'https://yma16.cloud/tools/color-picker',
     jsonLd: createToolJsonLd(
-      '颜色选择器工具',
-      '免费的在线颜色选择和转换工具',
+      '颜色选择器',
+      '免费的在线颜色选择和转换工具，支持拾色器取色、HEX/RGB/RGBA/HSL 互相转换。纯前端运行，不上传服务器。',
       'https://yma16.cloud/tools/color-picker',
       'DeveloperApplication'
     ),
@@ -145,14 +156,41 @@ const ColorPickerTool: React.FC = () => {
     message.success('已复制到剪贴板');
   };
 
+  // 检测浏览器是否支持 EyeDropper API
+  const isEyeDropperSupported = typeof window !== 'undefined' && 'EyeDropper' in window;
+
+  // 调用 EyeDropper API 拾取屏幕颜色
+  const handleEyeDropper = async () => {
+    if (!window.EyeDropper) {
+      message.warning('当前浏览器不支持吸管工具，请使用 Chrome/Edge 浏览器');
+      return;
+    }
+    try {
+      setEyeDropping(true);
+      const eyeDropper = new window.EyeDropper();
+      const result = await eyeDropper.open();
+      if (result && result.sRGBHex) {
+        updateAllFormats(result.sRGBHex);
+        message.success(`已拾取颜色: ${result.sRGBHex}`);
+      }
+    } catch (err: any) {
+      // 用户取消或操作中断，不报错
+      if (err?.name !== 'AbortError') {
+        console.log('EyeDropper cancelled or failed:', err);
+      }
+    } finally {
+      setEyeDropping(false);
+    }
+  };
+
   return (
     <>
       <SEO {...seoConfig} />
       <div style={{ padding: 24 }}>
-        <Title level={2}>
+        <Title level={1} style={{ fontSize: '1.75rem' }}>
           <BgColorsOutlined /> 颜色选择器
         </Title>
-        <Text type="secondary">拾色取色、格式转换、一键复制</Text>
+        <Text type="secondary">免费的在线颜色选择器工具，支持拾色器取色、HEX/RGB/RGBA/HSL 互相转换、颜色预览和一键复制色值。纯前端运行，不上传服务器。</Text>
 
         <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
           <Col xs={24} lg={12}>
@@ -175,6 +213,23 @@ const ColorPickerTool: React.FC = () => {
                   showText
                   style={{ marginBottom: 16 }}
                 />
+                <div style={{ marginTop: 12 }}>
+                  <Button
+                    type="primary"
+                    icon={<EyeOutlined />}
+                    onClick={handleEyeDropper}
+                    loading={eyeDropping}
+                    disabled={!isEyeDropperSupported}
+                    title={isEyeDropperSupported ? '点击拾取屏幕任意位置颜色' : '吸管工具需要 Chrome/Edge 浏览器'}
+                  >
+                    {eyeDropping ? '拾取中...' : '吸管工具'}
+                  </Button>
+                  {!isEyeDropperSupported && (
+                    <Text type="warning" style={{ display: 'block', marginTop: 8, fontSize: 12 }}>
+                      ⚠️ 当前浏览器不支持吸管工具，请使用 Chrome 或 Edge 浏览器
+                    </Text>
+                  )}
+                </div>
               </div>
             </Card>
           </Col>
