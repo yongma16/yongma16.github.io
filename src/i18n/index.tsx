@@ -1,4 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import type { ReactNode } from 'react';
+import { Select } from 'antd';
+import { GlobalOutlined } from '@ant-design/icons';
 
 import zhCN from './locales/zh-CN';
 import zhTW from './locales/zh-TW';
@@ -139,7 +142,7 @@ const translate = (messages: any, key: string, params?: Record<string, string>):
   return value;
 };
 
-export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [locale, setLocaleState] = useState<Locale>('zh-CN');
   const [isReady, setIsReady] = useState(false);
 
@@ -168,111 +171,33 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return null; // 或者显示 loading
   }
 
-  return React.createElement(
-    I18nContext.Provider,
-    { value: { locale, setLocale, t } },
-    children
+  return (
+    <I18nContext.Provider value={{ locale, setLocale, t }}>
+      {children}
+    </I18nContext.Provider>
   );
 };
 
-// 语言切换组件 - 无框下拉选择，带前缀图标
+// 语言切换组件 - 使用 Ant Design Select
 export const LanguageSwitcher: React.FC = () => {
   const { locale, setLocale } = useI18n();
-  const [isDark, setIsDark] = React.useState(false);
 
-  React.useEffect(() => {
-    const checkDark = () => {
-      setIsDark(document.documentElement.getAttribute('data-theme') === 'dark');
-    };
-    checkDark();
-    const observer = new MutationObserver(checkDark);
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-    return () => observer.disconnect();
-  }, []);
-
-  const localeOptions: { value: Locale; label: string; icon: string }[] = [
-    { value: 'zh-CN', label: '简体中文', icon: '文' },
-    { value: 'zh-TW', label: '繁體中文', icon: '繁' },
-    { value: 'en-US', label: 'English', icon: 'En' },
+  const localeOptions = [
+    { value: 'zh-CN', label: '简体中文' },
+    { value: 'zh-TW', label: '繁體中文' },
+    { value: 'en-US', label: 'English' },
   ];
 
-  const current = localeOptions.find((o) => o.value === locale);
-
-  return React.createElement(
-    'div',
-    { style: { position: 'relative', display: 'inline-block' } },
-    React.createElement(
-      'select',
-      {
-        value: locale,
-        onChange: (e: React.ChangeEvent<HTMLSelectElement>) => {
-          const newLocale = e.target.value as Locale;
-          localStorage.setItem('yma16-locale', newLocale);
-          window.location.reload();
-        },
-        style: {
-          appearance: 'none',
-          WebkitAppearance: 'none',
-          MozAppearance: 'none',
-          padding: '4px 24px 4px 28px',
-          borderRadius: 4,
-          border: 'none',
-          background: 'transparent',
-          color: isDark ? 'rgba(255,255,255,0.85)' : '#333',
-          cursor: 'pointer',
-          fontSize: 14,
-          lineHeight: '22px',
-          outline: 'none',
-        },
-      },
-      localeOptions.map((opt) =>
-        React.createElement(
-          'option',
-          { key: opt.value, value: opt.value, style: { background: isDark ? '#1f1f1f' : '#fff', color: isDark ? 'rgba(255,255,255,0.85)' : '#333' } },
-          opt.label
-        )
-      )
-    ),
-    // 前缀图标
-    React.createElement(
-      'span',
-      {
-        style: {
-          position: 'absolute',
-          left: 6,
-          top: '50%',
-          transform: 'translateY(-50%)',
-          pointerEvents: 'none',
-          fontSize: 12,
-          fontWeight: 600,
-          color: isDark ? 'rgba(255,255,255,0.65)' : '#666',
-          width: 18,
-          height: 18,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          borderRadius: '50%',
-          background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.06)',
-        },
-      },
-      current?.icon
-    ),
-    // 下拉箭头
-    React.createElement(
-      'span',
-      {
-        style: {
-          position: 'absolute',
-          right: 4,
-          top: '50%',
-          transform: 'translateY(-50%)',
-          pointerEvents: 'none',
-          fontSize: 10,
-          color: isDark ? 'rgba(255,255,255,0.45)' : '#999',
-        },
-      },
-      '▼'
-    )
+  return (
+    <Select
+      value={locale}
+      options={localeOptions}
+      onChange={(value) => setLocale(value as Locale)}
+      variant="borderless"
+      prefix={<GlobalOutlined />}
+      style={{ minWidth: 120 }}
+      popupMatchSelectWidth={false}
+    />
   );
 };
 
