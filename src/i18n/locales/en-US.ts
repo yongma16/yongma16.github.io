@@ -256,6 +256,12 @@ export default {
     deleteDraftTip: 'Right-click draft to delete',
   },
 
+  // Favicon Generator
+  faviconGenerator: {
+    title: 'Favicon Generator',
+    description: 'Drag & drop image to generate multi-size ICO/PNG favicons',
+  },
+
   // Cooperate Page
   cooperate: {
     title: "Let's Build Together",

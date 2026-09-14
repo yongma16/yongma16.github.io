@@ -256,6 +256,12 @@ export default {
     deleteDraftTip: '右鍵點擊草稿可刪除',
   },
 
+  // Favicon生成器
+  faviconGenerator: {
+    title: 'Favicon生成',
+    description: '拖拽上傳圖片，一鍵生成多尺寸 ICO/PNG 網站圖示',
+  },
+
   // 合作頁面
   cooperate: {
     title: '一起搞事情',

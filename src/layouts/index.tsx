@@ -38,6 +38,7 @@ import {
   BugOutlined,
   DashboardOutlined,
   ThunderboltOutlined,
+  PictureOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -104,6 +105,7 @@ const MainLayout: React.FC = () => {
         { key: '/tools/curl-convert', icon: <ThunderboltOutlined />, label: t('curlConvert.title') },
         { key: '/tools/eslint-config', icon: <FileTextOutlined />, label: t('eslintConfig.title') },
         { key: '/tools/playground', icon: <CodeOutlined />, label: t('playground.title') },
+        { key: '/tools/favicon-generator', icon: <PictureOutlined />, label: t('faviconGenerator.title') },
       ],
     },
     {

@@ -31,6 +31,7 @@ import {
   ColumnWidthOutlined,
   BugOutlined,
   DashboardOutlined,
+  PictureOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -209,6 +210,12 @@ const tools = [
     key: 'playground',
     icon: <CodeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,
     path: '/tools/playground',
+    tags: ['free', 'new'],
+  },
+  {
+    key: 'faviconGenerator',
+    icon: <PictureOutlined style={{ fontSize: 32, color: '#1890ff' }} />,
+    path: '/tools/favicon-generator',
     tags: ['free', 'new'],
   },
 ];
