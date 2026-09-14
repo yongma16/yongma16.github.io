@@ -51,7 +51,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 52
       },
       "enableBy": "register",
       "type": "preset",
@@ -68,7 +68,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -85,7 +85,7 @@
             3
           ]
         },
-        "register": 2
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -115,7 +115,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -129,10 +129,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            18
+            16
           ]
         },
-        "register": 26
+        "register": 23
       },
       "enableBy": "register",
       "type": "plugin",
@@ -145,7 +145,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -182,7 +182,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -195,7 +195,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -212,7 +212,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1064,7 +1064,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1078,10 +1078,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1094,7 +1094,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1107,7 +1107,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 94
+        "register": 97
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1120,7 +1120,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 33
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1137,7 +1137,7 @@
             0
           ]
         },
-        "register": 9
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1193,7 +1193,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 37
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1218,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1230,7 +1230,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1243,7 +1243,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1260,7 +1260,7 @@
             1
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1311,7 +1311,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1324,7 +1324,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1337,7 +1337,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1375,7 +1375,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1401,7 +1401,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1414,7 +1414,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1440,7 +1440,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 5
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1452,7 +1452,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 22
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1489,7 +1489,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 481
+        "register": 592
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1502,7 +1502,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1515,7 +1515,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1531,7 +1531,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1556,7 +1556,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1569,7 +1569,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1594,7 +1594,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1618,7 +1618,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 29
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1656,7 +1656,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 36
+        "register": 42
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1669,7 +1669,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 38
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1837,7 +1837,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1850,7 +1850,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1941,7 +1941,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1954,7 +1954,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2291,6 +2291,14 @@
         "title": "Favicon/ICO图标生成器 | yma16前端工具集",
         "meta": {
           "description": "拖拽上传图片，一键生成多尺寸网站图标（ICO/PNG），支持 16×16 到 256×256 全尺寸，纯前端本地处理不上传服务器。"
+        }
+      },
+      {
+        "path": "/tools/git-hook-config",
+        "component": "@/pages/tools/git-hook-config",
+        "title": "Git Hook / Husky 配置生成器 | yma16前端工具集",
+        "meta": {
+          "description": "一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。"
         }
       },
       {
@@ -2671,6 +2679,14 @@
         }
       },
       {
+        "path": "/tools/git-hook-config",
+        "component": "@/pages/tools/git-hook-config",
+        "title": "Git Hook / Husky 配置生成器 | yma16前端工具集",
+        "meta": {
+          "description": "一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。"
+        }
+      },
+      {
         "path": "/blog",
         "component": "@/pages/blog",
         "title": "技术博客 | yma16前端工具集",
@@ -2709,7 +2725,7 @@
       "parentId": "@@/global-layout",
       "id": "1",
       "absPath": "/",
-      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport { useI18n } from '@/i18n';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n  DashboardOutlined,\n  PictureOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 使用翻译键名，实际文案从 i18n 获取\nconst tools = [\n  {\n    key: 'codeFormatter',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/code-formatter',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'componentGen',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/component-gen',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'perfCheck',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/perf-check',\n    tags: ['free'],\n  },\n  {\n    key: 'svgProcessor',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/svg-processor',\n    tags: ['free', 'pro'],\n  },\n  {\n    key: 'urlTools',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/url-tools',\n    tags: ['free'],\n  },\n  {\n    key: 'colorPicker',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/color-picker',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'imageCropper',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/image-cropper',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'base64Tool',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/base64-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'timestampTool',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/timestamp-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'regexTester',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/regex-tester',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'hashTool',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/hash-tool',\n    tags: ['free'],\n  },\n  {\n    key: 'jsonToTs',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/json-to-ts',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'mockGen',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/mock-gen',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'cssFormatter',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/css-formatter',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'stringEscape',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/string-escape',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'radixConvert',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/radix-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'namingConvert',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/naming-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'imageConvert',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/image-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'jwtParser',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/jwt-parser',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'cookieParser',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/cookie-parser',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'qrcodeTool',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/qrcode-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'regexLib',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/regex-lib',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'randomString',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/random-string',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'unitConvert',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/unit-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'aiDebug',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/ai-debug',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'perfMonitor',\n    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/perf-monitor',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'curlConvert',\n    icon: <ThunderboltOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/curl-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'eslintConfig',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/eslint-config',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'playground',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/playground',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'faviconGenerator',\n    icon: <PictureOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/favicon-generator',\n    tags: ['free', 'new'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, key: 'efficient' },\n  { icon: <TeamOutlined />, key: 'teamwork' },\n  { icon: <CloudUploadOutlined />, key: 'export' },\n];\n\nconst HomePage: React.FC = () => {\n  const { t } = useI18n();\n\n  return (\n    <>\n      <SEO\n        title={t('nav.home')}\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          {t('home.title')}\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          {t('home.subtitle')}\n          <br />\n          {t('home.description')}\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            {t('home.start')}\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            {t('home.cooperate')}\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.toolCount')} value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.csdnViews')} value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.articles')} value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        {t('home.toolsTitle')} <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.key}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {t(`${tool.key}.title`)}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{t(`${tool.key}.description`)}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'pro' ? 'gold' : 'green'}>\n                    {t(`common.${tag}`)}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        {t('home.features.efficient')}\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.key}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{t(`home.features.${feature.key}`)}</Title>\n              <Paragraph style={{ color: '#666' }}>{t(`home.features.${feature.key}Desc`)}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>{t('home.ctaTitle')}</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          {t('home.ctaDesc')}\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          {t('home.ctaButton')}\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
+      "__content": "import React from 'react';\nimport { history } from 'umi';\nimport { Card, Row, Col, Typography, Button, Badge, Tag, Statistic } from 'antd';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\nimport { SiteIcon } from '@/components/SiteIcon';\nimport { useI18n } from '@/i18n';\nimport {\n  CodeOutlined,\n  ToolOutlined,\n  BarChartOutlined,\n  FileImageOutlined,\n  ArrowRightOutlined,\n  ThunderboltOutlined,\n  TeamOutlined,\n  CloudUploadOutlined,\n  GlobalOutlined,\n  BgColorsOutlined,\n  ScissorOutlined,\n  SwapOutlined,\n  ClockCircleOutlined,\n  CheckCircleOutlined,\n  LockOutlined,\n  FileTextOutlined,\n  DatabaseOutlined,\n  FormatPainterOutlined,\n  SafetyOutlined,\n  CoffeeOutlined,\n  QrcodeOutlined,\n  BookOutlined,\n  KeyOutlined,\n  ColumnWidthOutlined,\n  BugOutlined,\n  DashboardOutlined,\n  PictureOutlined,\n  BranchesOutlined,\n} from '@ant-design/icons';\n\nconst { Title, Paragraph } = Typography;\n\n// 工具列表 - 使用翻译键名，实际文案从 i18n 获取\nconst tools = [\n  {\n    key: 'codeFormatter',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/code-formatter',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'componentGen',\n    icon: <ToolOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/component-gen',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'perfCheck',\n    icon: <BarChartOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/perf-check',\n    tags: ['free'],\n  },\n  {\n    key: 'svgProcessor',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/svg-processor',\n    tags: ['free', 'pro'],\n  },\n  {\n    key: 'urlTools',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/url-tools',\n    tags: ['free'],\n  },\n  {\n    key: 'colorPicker',\n    icon: <BgColorsOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/color-picker',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'imageCropper',\n    icon: <ScissorOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/image-cropper',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'base64Tool',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/base64-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'timestampTool',\n    icon: <ClockCircleOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/timestamp-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'regexTester',\n    icon: <CheckCircleOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/regex-tester',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'hashTool',\n    icon: <LockOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/hash-tool',\n    tags: ['free'],\n  },\n  {\n    key: 'jsonToTs',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/json-to-ts',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'mockGen',\n    icon: <DatabaseOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/mock-gen',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'cssFormatter',\n    icon: <FormatPainterOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/css-formatter',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'stringEscape',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/string-escape',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'radixConvert',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/radix-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'namingConvert',\n    icon: <SwapOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/naming-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'imageConvert',\n    icon: <FileImageOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/image-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'jwtParser',\n    icon: <SafetyOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/jwt-parser',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'cookieParser',\n    icon: <CoffeeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/cookie-parser',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'qrcodeTool',\n    icon: <QrcodeOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/qrcode-tool',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'regexLib',\n    icon: <BookOutlined style={{ fontSize: 32, color: '#722ed1' }} />,\n    path: '/tools/regex-lib',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'randomString',\n    icon: <KeyOutlined style={{ fontSize: 32, color: '#13c2c2' }} />,\n    path: '/tools/random-string',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'unitConvert',\n    icon: <ColumnWidthOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    path: '/tools/unit-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'aiDebug',\n    icon: <BugOutlined style={{ fontSize: 32, color: '#ff4d4f' }} />,\n    path: '/tools/ai-debug',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'perfMonitor',\n    icon: <DashboardOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/perf-monitor',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'curlConvert',\n    icon: <ThunderboltOutlined style={{ fontSize: 32, color: '#fa8c16' }} />,\n    path: '/tools/curl-convert',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'eslintConfig',\n    icon: <FileTextOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/eslint-config',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'playground',\n    icon: <CodeOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,\n    path: '/tools/playground',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'faviconGenerator',\n    icon: <PictureOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    path: '/tools/favicon-generator',\n    tags: ['free', 'new'],\n  },\n  {\n    key: 'gitHookConfig',\n    icon: <BranchesOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    path: '/tools/git-hook-config',\n    tags: ['free', 'new'],\n  },\n];\n\nconst features = [\n  { icon: <ThunderboltOutlined />, key: 'efficient' },\n  { icon: <TeamOutlined />, key: 'teamwork' },\n  { icon: <CloudUploadOutlined />, key: 'export' },\n];\n\nconst HomePage: React.FC = () => {\n  const { t } = useI18n();\n\n  return (\n    <>\n      <SEO\n        title={t('nav.home')}\n        description=\"yma16 前端开发工具集 - 提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。\"\n        keywords=\"前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,颜色选择器,图片裁剪,Base64工具,时间戳转换,正则测试,哈希工具,在线工具,前端开发工具集\"\n        jsonLd={createWebsiteJsonLd()}\n      />\n      <div>\n      {/* Hero Section */}\n      <div style={{ textAlign: 'center', padding: '60px 0' }}>\n        <Title level={1}>\n          <SiteIcon size={48} style={{ marginRight: 16 }} />\n          {t('home.title')}\n          <Tag color=\"blue\" style={{ marginLeft: 12, fontSize: 14 }}>\n            React + TypeScript\n          </Tag>\n        </Title>\n        <Paragraph style={{ fontSize: 18, color: '#666', maxWidth: 700, margin: '24px auto' }}>\n          {t('home.subtitle')}\n          <br />\n          {t('home.description')}\n        </Paragraph>\n        <div style={{ marginTop: 32 }}>\n          <Button\n            type=\"primary\"\n            size=\"large\"\n            icon={<CodeOutlined />}\n            onClick={() => history.push('/tools/code-formatter')}\n          >\n            {t('home.start')}\n          </Button>\n          <Button\n            size=\"large\"\n            style={{ marginLeft: 16 }}\n            icon={<ArrowRightOutlined />}\n            onClick={() => history.push('/pricing')}\n          >\n            {t('home.cooperate')}\n          </Button>\n        </div>\n      </div>\n\n      {/* Stats */}\n      <Row gutter={24} style={{ marginBottom: 48 }}>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.toolCount')} value={tools.length} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.csdnViews')} value={10000} suffix=\"+\" />\n          </Card>\n        </Col>\n        <Col span={8}>\n          <Card>\n            <Statistic title={t('home.articles')} value={50} suffix=\"+\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* Tools Grid */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        {t('home.toolsTitle')} <Tag color=\"blue\">{tools.length}+</Tag>\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {tools.map((tool) => (\n          <Col xs={24} sm={12} lg={6} key={tool.key}>\n            <Card\n              hoverable\n              onClick={() => history.push(tool.path)}\n              style={{ height: '100%', cursor: 'pointer' }}\n            >\n              <div style={{ textAlign: 'center', marginBottom: 16 }}>{tool.icon}</div>\n              <Title level={4} style={{ textAlign: 'center', marginBottom: 8 }}>\n                {t(`${tool.key}.title`)}\n              </Title>\n              <Paragraph style={{ textAlign: 'center', color: '#666' }}>{t(`${tool.key}.description`)}</Paragraph>\n              <div style={{ textAlign: 'center', marginTop: 12 }}>\n                {tool.tags.map((tag) => (\n                  <Tag key={tag} color={tag === 'pro' ? 'gold' : 'green'}>\n                    {t(`common.${tag}`)}\n                  </Tag>\n                ))}\n              </div>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* Features */}\n      <Title level={2} style={{ textAlign: 'center', marginBottom: 32 }}>\n        {t('home.features.efficient')}\n      </Title>\n      <Row gutter={[24, 24]} style={{ marginBottom: 48 }}>\n        {features.map((feature) => (\n          <Col xs={24} sm={8} key={feature.key}>\n            <Card style={{ textAlign: 'center', height: '100%' }}>\n              <div style={{ fontSize: 36, color: '#1890ff', marginBottom: 16 }}>\n                {feature.icon}\n              </div>\n              <Title level={4}>{t(`home.features.${feature.key}`)}</Title>\n              <Paragraph style={{ color: '#666' }}>{t(`home.features.${feature.key}Desc`)}</Paragraph>\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      {/* CTA */}\n      <Card style={{ textAlign: 'center', background: '#f0f5ff', border: 'none' }}>\n        <Title level={3}>{t('home.ctaTitle')}</Title>\n        <Paragraph style={{ fontSize: 16, marginBottom: 24 }}>\n          {t('home.ctaDesc')}\n        </Paragraph>\n        <Button\n          type=\"primary\"\n          size=\"large\"\n          icon={<ArrowRightOutlined />}\n          onClick={() => history.push('/pricing')}\n        >\n          {t('home.ctaButton')}\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/index.tsx"
     },
@@ -3055,22 +3071,33 @@
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/favicon-generator.tsx"
     },
     "33": {
+      "path": "/tools/git-hook-config",
+      "title": "Git Hook / Husky 配置生成器 | yma16前端工具集",
+      "file": "@/pages/tools/git-hook-config.tsx",
+      "parentId": "@@/global-layout",
+      "id": "33",
+      "absPath": "/tools/git-hook-config",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Button, message, Typography, Space, Checkbox, Tabs, Tag, Steps, Alert } from 'antd';\nimport { CopyOutlined, FileTextOutlined, CheckCircleOutlined, CodeOutlined, BranchesOutlined, SafetyOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\nimport { useTheme } from '@/contexts/ThemeContext';\n\nconst { Title, Paragraph, Text } = Typography;\n\ninterface HookConfig {\n  preCommit: boolean;\n  commitMsg: boolean;\n  prePush: boolean;\n  preCommitLint: boolean;\n  lintStaged: boolean;\n  commitlint: boolean;\n  commitlintConfig: 'angular' | 'conventional' | 'custom';\n  packageManager: 'npm' | 'yarn' | 'pnpm';\n  eslint: boolean;\n  prettier: boolean;\n  stylelint: boolean;\n  test: boolean;\n  typescript: boolean;\n}\n\nconst DEFAULT_CONFIG: HookConfig = {\n  preCommit: true,\n  commitMsg: true,\n  prePush: false,\n  preCommitLint: true,\n  lintStaged: true,\n  commitlint: true,\n  commitlintConfig: 'conventional',\n  packageManager: 'npm',\n  eslint: true,\n  prettier: true,\n  stylelint: false,\n  test: false,\n  typescript: true,\n};\n\nconst GitHookConfig: React.FC = () => {\n  const { isDark } = useTheme();\n  const [config, setConfig] = useState<HookConfig>(DEFAULT_CONFIG);\n  const [activeTab, setActiveTab] = useState('package');\n\n  const seoConfig = {\n    title: 'Git Hook / Husky 配置生成器',\n    description: '一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。',\n    keywords: 'Husky配置,Git Hook,commitlint,lint-staged,代码提交规范,Git钩子配置',\n    jsonLd: createToolJsonLd('Git Hook / Husky 配置生成器', '一键生成 Husky、commitlint、lint-staged 配置代码', 'https://yma16.cloud/tools/git-hook-config', 'DeveloperApplication'),\n  };\n\n  const updateConfig = useCallback((key: keyof HookConfig, value: any) => {\n    setConfig(prev => ({ ...prev, [key]: value }));\n  }, []);\n\n  const getPackageJson = () => {\n    const devDeps: Record<string, string> = {};\n    \n    devDeps['husky'] = '^9.0.0';\n    \n    if (config.lintStaged) {\n      devDeps['lint-staged'] = '^15.0.0';\n    }\n    if (config.commitlint) {\n      devDeps['@commitlint/cli'] = '^19.0.0';\n      devDeps['@commitlint/config-conventional'] = '^19.0.0';\n    }\n    if (config.eslint) {\n      devDeps['eslint'] = '^8.0.0';\n    }\n    if (config.prettier) {\n      devDeps['prettier'] = '^3.0.0';\n    }\n    if (config.stylelint) {\n      devDeps['stylelint'] = '^16.0.0';\n    }\n    if (config.typescript && config.eslint) {\n      devDeps['@typescript-eslint/eslint-plugin'] = '^7.0.0';\n      devDeps['@typescript-eslint/parser'] = '^7.0.0';\n    }\n\n    const scripts: Record<string, string> = {\n      prepare: 'husky',\n    };\n\n    if (config.lintStaged) {\n      scripts['lint-staged'] = 'lint-staged';\n    }\n\n    const lintStagedConfig: Record<string, string[]> = {};\n    if (config.eslint && config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix', 'prettier --write'];\n    } else if (config.eslint) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix'];\n    } else if (config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['prettier --write'];\n    }\n    if (config.prettier) {\n      lintStagedConfig['*.{json,md,yml,yaml}'] = ['prettier --write'];\n    }\n    if (config.stylelint) {\n      lintStagedConfig['*.{css,scss,less}'] = ['stylelint --fix'];\n    }\n\n    const packageJson: any = {\n      devDependencies: devDeps,\n      scripts,\n    };\n\n    if (config.lintStaged && Object.keys(lintStagedConfig).length > 0) {\n      packageJson['lint-staged'] = lintStagedConfig;\n    }\n\n    return JSON.stringify(packageJson, null, 2);\n  };\n\n  const getInstallCommand = () => {\n    const deps: string[] = ['husky'];\n    \n    if (config.lintStaged) deps.push('lint-staged');\n    if (config.commitlint) {\n      deps.push('@commitlint/cli');\n      deps.push('@commitlint/config-conventional');\n    }\n    if (config.eslint) deps.push('eslint');\n    if (config.prettier) deps.push('prettier');\n    if (config.stylelint) deps.push('stylelint');\n    if (config.typescript && config.eslint) {\n      deps.push('@typescript-eslint/eslint-plugin');\n      deps.push('@typescript-eslint/parser');\n    }\n\n    const cmd = config.packageManager === 'yarn' ? 'yarn add -D' : \n                config.packageManager === 'pnpm' ? 'pnpm add -D' : 'npm install -D';\n    \n    return `${cmd} ${deps.join(' ')}`;\n  };\n\n  const getHuskyScripts = () => {\n    const scripts: string[] = [];\n    \n    if (config.preCommit) {\n      let hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\n';\n      if (config.lintStaged && config.preCommitLint) {\n        hook += 'npx lint-staged\\n';\n      }\n      if (config.test) {\n        hook += 'npm test\\n';\n      }\n      scripts.push(`// .husky/pre-commit\\n${hook}`);\n    }\n\n    if (config.commitMsg && config.commitlint) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpx --no -- commitlint --edit ${1}\\n';\n      scripts.push(`// .husky/commit-msg\\n${hook}`);\n    }\n\n    if (config.prePush) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpm run build\\n';\n      scripts.push(`// .husky/pre-push\\n${hook}`);\n    }\n\n    return scripts.join('\\n\\n---\\n\\n');\n  };\n\n  const getCommitlintConfig = () => {\n    if (!config.commitlint) return '';\n\n    const configs: Record<string, string> = {\n      conventional: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat',      // 新功能\n      'fix',       // 修复\n      'docs',      // 文档\n      'style',     // 格式\n      'refactor',  // 重构\n      'perf',      // 性能\n      'test',      // 测试\n      'chore',     // 构建\n      'ci',        // CI\n      'revert',    // 回滚\n      'build',     // 依赖\n    ]],\n    'type-case': [2, 'always', 'lower-case'],\n    'type-empty': [2, 'never'],\n    'scope-case': [2, 'always', 'lower-case'],\n    'subject-empty': [2, 'never'],\n    'subject-full-stop': [2, 'never', '.'],\n    'header-max-length': [2, 'always', 72],\n  },\n};`,\n      angular: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'build',\n      'ci',\n      'docs',\n      'feat',\n      'fix',\n      'perf',\n      'refactor',\n      'revert',\n      'style',\n      'test',\n    ]],\n    'scope-enum': [0], // 可选 scope\n    'subject-case': [2, 'always', 'sentence-case'],\n  },\n};`,\n      custom: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  // 自定义规则\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat', 'fix', 'docs', 'style', \n      'refactor', 'perf', 'test', 'chore'\n    ]],\n    'scope-empty': [0],      // scope 可选\n    'subject-min-length': [2, 'always', 4],\n    'subject-max-length': [2, 'always', 100],\n    'body-max-line-length': [0],\n    'footer-max-line-length': [0],\n  },\n};`,\n    };\n\n    return configs[config.commitlintConfig] || configs.conventional;\n  };\n\n  const getSetupSteps = () => {\n    const steps = [\n      {\n        title: '安装依赖',\n        code: getInstallCommand(),\n      },\n      {\n        title: '初始化 Husky',\n        code: 'npx husky init',\n      },\n    ];\n\n    if (config.lintStaged) {\n      steps.push({\n        title: '配置 lint-staged',\n        code: `// 在 package.json 中添加\\n${getPackageJson()}`,\n      });\n    }\n\n    if (config.commitlint) {\n      steps.push({\n        title: '配置 commitlint',\n        code: `// commitlint.config.js\\n${getCommitlintConfig()}`,\n      });\n    }\n\n    steps.push({\n      title: '配置 Git Hooks',\n      code: getHuskyScripts(),\n    });\n\n    return steps;\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text).then(() => {\n      message.success('已复制到剪贴板');\n    });\n  };\n\n  const editorTheme = isDark ? 'vs-dark' : 'light';\n\n  const tabItems = [\n    {\n      key: 'package',\n      label: 'package.json 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>package.json 片段</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getPackageJson())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"json\"\n              value={getPackageJson()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'install',\n      label: '安装命令',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>安装命令</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getInstallCommand())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={100}\n              language=\"bash\"\n              value={getInstallCommand()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n            <Alert\n              message=\"提示\"\n              description=\"执行安装命令后，运行 npx husky init 初始化 husky 配置目录\"\n              type=\"info\"\n              showIcon\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'hooks',\n      label: 'Git Hooks',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>Hook 脚本</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getHuskyScripts())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"shell\"\n              value={getHuskyScripts()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'commitlint',\n      label: 'Commitlint 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>commitlint.config.js</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getCommitlintConfig())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={500}\n              language=\"javascript\"\n              value={getCommitlintConfig()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'guide',\n      label: '完整指南',\n      children: (\n        <Card>\n          <Steps direction=\"vertical\" current={-1}>\n            {getSetupSteps().map((step, index) => (\n              <Steps.Step\n                key={index}\n                title={step.title}\n                description={\n                  <div style={{ marginTop: 8 }}>\n                    <Editor\n                      height={Math.min(200 + step.code.split('\\n').length * 20, 400)}\n                      language={index === 0 ? 'bash' : index === 1 ? 'bash' : 'javascript'}\n                      value={step.code}\n                      theme={editorTheme}\n                      options={{ readOnly: true, minimap: { enabled: false } }}\n                    />\n                    <Button\n                      size=\"small\"\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(step.code)}\n                      style={{ marginTop: 8 }}\n                    >\n                      复制\n                    </Button>\n                  </div>\n                }\n              />\n            ))}\n          </Steps>\n        </Card>\n      ),\n    },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><BranchesOutlined /> Git Hook / Husky 配置生成器</Title>\n        <Text type=\"secondary\">一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {/* 配置选项 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"配置选项\" style={{ marginBottom: 24 }}>\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Text strong><SafetyOutlined /> Git Hooks</Text>\n                <Checkbox\n                  checked={config.preCommit}\n                  onChange={(e) => updateConfig('preCommit', e.target.checked)}\n                >\n                  pre-commit（提交前）\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitMsg}\n                  onChange={(e) => updateConfig('commitMsg', e.target.checked)}\n                >\n                  commit-msg（提交信息检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.prePush}\n                  onChange={(e) => updateConfig('prePush', e.target.checked)}\n                >\n                  pre-push（推送前）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><CodeOutlined /> 代码检查</Text>\n                <Checkbox\n                  checked={config.lintStaged}\n                  onChange={(e) => updateConfig('lintStaged', e.target.checked)}\n                >\n                  lint-staged（暂存区检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.preCommitLint}\n                  onChange={(e) => updateConfig('preCommitLint', e.target.checked)}\n                  disabled={!config.preCommit || !config.lintStaged}\n                >\n                  提交前运行 lint-staged\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitlint}\n                  onChange={(e) => updateConfig('commitlint', e.target.checked)}\n                  disabled={!config.commitMsg}\n                >\n                  commitlint（提交信息规范）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><FileTextOutlined /> 检查工具</Text>\n                <Checkbox\n                  checked={config.eslint}\n                  onChange={(e) => updateConfig('eslint', e.target.checked)}\n                >\n                  ESLint\n                </Checkbox>\n                <Checkbox\n                  checked={config.prettier}\n                  onChange={(e) => updateConfig('prettier', e.target.checked)}\n                >\n                  Prettier\n                </Checkbox>\n                <Checkbox\n                  checked={config.stylelint}\n                  onChange={(e) => updateConfig('stylelint', e.target.checked)}\n                >\n                  Stylelint\n                </Checkbox>\n                <Checkbox\n                  checked={config.test}\n                  onChange={(e) => updateConfig('test', e.target.checked)}\n                >\n                  运行测试\n                </Checkbox>\n                <Checkbox\n                  checked={config.typescript}\n                  onChange={(e) => updateConfig('typescript', e.target.checked)}\n                >\n                  TypeScript 项目\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong>包管理器</Text>\n                <Space>\n                  {(['npm', 'yarn', 'pnpm'] as const).map((pm) => (\n                    <Tag\n                      key={pm}\n                      color={config.packageManager === pm ? 'blue' : 'default'}\n                      style={{ cursor: 'pointer' }}\n                      onClick={() => updateConfig('packageManager', pm)}\n                    >\n                      {pm}\n                    </Tag>\n                  ))}\n                </Space>\n\n                {config.commitlint && (\n                  <>\n                    <Divider />\n                    <Text strong>Commitlint 规范</Text>\n                    <Space direction=\"vertical\">\n                      {([\n                        { key: 'conventional', label: 'Conventional Commits' },\n                        { key: 'angular', label: 'Angular 规范' },\n                        { key: 'custom', label: '自定义规则' },\n                      ] as const).map((item) => (\n                        <Tag\n                          key={item.key}\n                          color={config.commitlintConfig === item.key ? 'blue' : 'default'}\n                          style={{ cursor: 'pointer' }}\n                          onClick={() => updateConfig('commitlintConfig', item.key)}\n                        >\n                          {item.label}\n                        </Tag>\n                      ))}\n                    </Space>\n                  </>\n                )}\n              </Space>\n            </Card>\n\n            <Alert\n              message=\"快速开始\"\n              description={\n                <ol style={{ paddingLeft: 16, margin: 0 }}>\n                  <li>选择需要的配置选项</li>\n                  <li>复制安装命令执行</li>\n                  <li>运行 npx husky init 初始化</li>\n                  <li>复制生成的配置到项目</li>\n                </ol>\n              }\n              type=\"info\"\n              showIcon\n            />\n          </Col>\n\n          {/* 生成的配置 */}\n          <Col xs={24} lg={16}>\n            <Tabs activeKey={activeTab} onChange={setActiveTab} items={tabItems} />\n          </Col>\n        </Row>\n\n        {/* 提交规范说明 */}\n        {config.commitlint && (\n          <Card style={{ marginTop: 24 }} title=\"提交信息规范\">\n            <Row gutter={24}>\n              <Col xs={24} md={12}>\n                <Text strong>格式：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`<type>(<scope>): <subject>\n\n<body>\n\n<footer>`}\n                </pre>\n              </Col>\n              <Col xs={24} md={12}>\n                <Text strong>示例：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`feat(user): 添加用户登录功能\n\n实现基于 JWT 的用户认证系统，\n支持邮箱和密码登录。\n\nCloses #123`}\n                </pre>\n              </Col>\n            </Row>\n            <div style={{ marginTop: 16 }}>\n              <Text strong>Type 类型：</Text>\n              <Space wrap style={{ marginTop: 8 }}>\n                {[\n                  { type: 'feat', desc: '新功能' },\n                  { type: 'fix', desc: '修复' },\n                  { type: 'docs', desc: '文档' },\n                  { type: 'style', desc: '格式' },\n                  { type: 'refactor', desc: '重构' },\n                  { type: 'perf', desc: '性能' },\n                  { type: 'test', desc: '测试' },\n                  { type: 'chore', desc: '构建' },\n                  { type: 'ci', desc: 'CI配置' },\n                  { type: 'revert', desc: '回滚' },\n                ].map((item) => (\n                  <Tag key={item.type} color=\"blue\">{item.type}: {item.desc}</Tag>\n                ))}\n              </Space>\n            </div>\n          </Card>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default GitHookConfig;\n",
+      "__isJSFile": true,
+      "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/git-hook-config.tsx"
+    },
+    "34": {
       "path": "/blog",
       "title": "技术博客 | yma16前端工具集",
       "file": "@/pages/blog.tsx",
       "parentId": "@@/global-layout",
-      "id": "33",
+      "id": "34",
       "absPath": "/blog",
       "__content": "import React from 'react';\nimport { Card, Tag, Typography, Space, Button, Row, Col, Statistic } from 'antd';\nimport { ReadOutlined, EyeOutlined, LikeOutlined, ArrowRightOutlined, ClockCircleOutlined } from '@ant-design/icons';\nimport styles from './blog.less';\nimport { SEO, createWebsiteJsonLd } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\ninterface BlogPost {\n  id: number;\n  title: string;\n  summary: string;\n  tags: string[];\n  views: number;\n  likes: number;\n  date: string;\n  url: string;\n  cover?: string;\n}\n\nconst blogPosts: BlogPost[] = [\n  {\n    id: 1,\n    title: '前端 React 模拟内存溢出 —— Chrome DevTools 查找未释放内存',\n    summary: '本文通过一个真实的前端内存溢出演示项目，深入剖析浏览器内存管理机制、V8 垃圾回收原理，以及如何在实际开发中避免内存泄漏问题。',\n    tags: ['React', '性能优化', '内存管理'],\n    views: 1761,\n    likes: 16,\n    date: '2026-02-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158068113',\n  },\n  {\n    id: 2,\n    title: 'React Flow 自定义节点、边 —— 使用 DAG 布局树状结构',\n    summary: 'React Flow 是一个用于构建交互式节点和基于图的编辑器的开源 React 库。本文介绍如何自定义节点、边，以及使用 DAG 布局实现树状结构。',\n    tags: ['React', '可视化', '流程图'],\n    views: 1220,\n    likes: 25,\n    date: '2025-06-16',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148679238',\n  },\n  {\n    id: 3,\n    title: '前端 Gmail 邮件加载动态样式 —— 动态评分交互邮件可提交 API',\n    summary: 'AMP 电子邮件是一种通过动态交互技术增强传统邮件功能的方案，允许在邮件中嵌入实时更新、表单提交、轮播图等交互式内容。',\n    tags: ['前端', 'AMP', '邮件开发'],\n    views: 1998,\n    likes: 10,\n    date: '2025-06-02',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/148372632',\n  },\n  {\n    id: 4,\n    title: '利用 InsCode 帮我用前端页面展示分析博客数据',\n    summary: '本文分享利用 InsCode 平台快速搭建前端页面，展示和分析博客数据的方法。包括数据获取、可视化和部署上线。',\n    tags: ['Node.js', '数据可视化', '博客'],\n    views: 943,\n    likes: 22,\n    date: '2025-10-24',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153850161',\n  },\n  {\n    id: 5,\n    title: '前端 —— DeepSeek 一分钟帮我实现富文本编辑选取输入判断变量',\n    summary: '利用 HTML5 的 contenteditable 属性和 Selection 对象实现富文本编辑中的变量输入检测功能，当用户输入 {{var}} 格式时自动弹出选择框。',\n    tags: ['前端', '富文本', 'AI'],\n    views: 484,\n    likes: 3,\n    date: '2025-10-14',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/153274341',\n  },\n  {\n    id: 6,\n    title: '虚拟机中 Windows 11 安装 OpenClaw',\n    summary: '详细介绍在虚拟机中安装和配置 OpenClaw 的步骤，包括环境准备、安装过程和常见问题解决。',\n    tags: ['OpenClaw', '虚拟机', 'Windows'],\n    views: 721,\n    likes: 6,\n    date: '2026-03-29',\n    url: 'https://blog.csdn.net/qq_38870145/article/details/158806703',\n  },\n];\n\n// 格式化数字\nconst formatNumber = (num: number): string => {\n  if (num >= 1000) {\n    return `${(num / 1000).toFixed(1)}k`;\n  }\n  return num.toString();\n};\n\nconst BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {\n  return (\n    <a \n      href={post.url} \n      target=\"_blank\" \n      rel=\"noopener noreferrer\"\n      className={styles.cardLink}\n    >\n      <div className={styles.card}>\n        {/* 悬浮光效层 */}\n        <div className={styles.cardGlow} />\n        \n        {/* 内容区 */}\n        <div className={styles.cardContent}>\n          {/* 标签 */}\n          <div className={styles.cardTags}>\n            {post.tags.slice(0, 2).map(tag => (\n              <Tag key={tag} color=\"blue\" className={styles.tag}>{tag}</Tag>\n            ))}\n          </div>\n          \n          {/* 标题 */}\n          <h3 className={styles.cardTitle} title={post.title}>\n            {post.title}\n          </h3>\n          \n          {/* 摘要 */}\n          <p className={styles.cardSummary} title={post.summary}>\n            {post.summary}\n          </p>\n          \n          {/* 底部元信息 */}\n          <div className={styles.cardMeta}>\n            <span className={styles.metaItem}>\n              <ClockCircleOutlined />\n              {post.date}\n            </span>\n            <span className={styles.metaItem}>\n              <EyeOutlined />\n              {formatNumber(post.views)}\n            </span>\n            <span className={styles.metaItem}>\n              <LikeOutlined />\n              {post.likes}\n            </span>\n          </div>\n        </div>\n        \n        {/* 阅读更多 */}\n        <div className={styles.cardFooter}>\n          <span className={styles.readMore}>\n            阅读全文 <ArrowRightOutlined />\n          </span>\n        </div>\n      </div>\n    </a>\n  );\n};\n\nconst BlogPage: React.FC = () => {\n  const totalViews = blogPosts.reduce((sum, post) => sum + post.views, 0);\n  const totalLikes = blogPosts.reduce((sum, post) => sum + post.likes, 0);\n\n  return (\n    <>\n      <SEO\n        title=\"技术博客\"\n        description=\"yma16 技术博客 - 分享前端开发、React、Vue、性能优化、内存管理等技术的深度文章和实战经验。\"\n        keywords=\"技术博客,前端博客,React教程,Vue教程,性能优化,内存管理,前端开发文章\"\n        jsonLd={createWebsiteJsonLd('https://yma16.cloud/blog')}\n      />\n      <div>\n      <Title level={2}>\n        <ReadOutlined /> 技术博客\n      </Title>\n      <Paragraph type=\"secondary\">\n        分享前端开发、性能优化、工具使用等技术文章，更多内容请访问{' '}\n        <a href=\"https://blog.csdn.net/qq_38870145\" target=\"_blank\" rel=\"noopener noreferrer\">\n          CSDN 博客\n        </a>\n      </Paragraph>\n\n      {/* 统计卡片 */}\n      <Row gutter={24} style={{ marginBottom: 32 }}>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"文章数量\" value={blogPosts.length} suffix=\"篇\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总阅读量\" value={totalViews} suffix=\"次\" />\n          </Card>\n        </Col>\n        <Col xs={24} sm={8}>\n          <Card>\n            <Statistic title=\"总点赞数\" value={totalLikes} suffix=\"个\" />\n          </Card>\n        </Col>\n      </Row>\n\n      {/* 文章列表 - 固定高度卡片 */}\n      <div className={styles.articleList}>\n        {blogPosts.map(post => (\n          <BlogCard key={post.id} post={post} />\n        ))}\n      </div>\n\n      {/* 底部 CTA */}\n      <Card style={{ textAlign: 'center', marginTop: 32, background: '#f0f5ff' }}>\n        <Title level={4}>查看更多技术文章</Title>\n        <Paragraph>\n          在 CSDN 博客上关注我，获取最新前端技术分享\n        </Paragraph>\n        <Button \n          type=\"primary\" \n          size=\"large\"\n          href=\"https://blog.csdn.net/qq_38870145?type=blog\"\n          target=\"_blank\"\n          icon={<ReadOutlined />}\n        >\n          访问 CSDN 博客\n        </Button>\n      </Card>\n    </div>\n    </>\n  );\n};\n\nexport default BlogPage;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/blog.tsx"
     },
-    "34": {
+    "35": {
       "path": "/pricing",
       "title": "合作与服务 | yma16前端工具集",
       "file": "@/pages/pricing.tsx",
       "parentId": "@@/global-layout",
-      "id": "34",
+      "id": "35",
       "absPath": "/pricing",
       "__content": "import React from 'react';\nimport { Card, Row, Col, Typography, Button, List, Tag, Space, Divider } from 'antd';\nimport { CheckOutlined, RocketOutlined, TeamOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons';\nimport { CONTACT_INFO } from '@/config/contact';\nimport { SEO } from '@/components/SEO';\n\nconst { Title, Paragraph } = Typography;\n\nconst cooperations = [\n  {\n    name: '技术交流',\n    icon: <RocketOutlined style={{ fontSize: 32, color: '#52c41a' }} />,\n    description: '前端技术方案探讨、性能优化思路分享、架构设计交流',\n    features: [\n      '前端架构设计探讨',\n      '性能优化经验分享',\n      '技术选型交流',\n      '代码规范与最佳实践',\n      '线上问题排查思路',\n    ],\n    buttonText: '一起聊聊',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n  {\n    name: '开源共建',\n    icon: <TeamOutlined style={{ fontSize: 32, color: '#1890ff' }} />,\n    description: '开源项目贡献、工具开发协作、技术方案共建',\n    features: [\n      'React/Vue 生态贡献',\n      '前端工具链共建',\n      '组件库与物料体系',\n      '可视化与图表方案',\n      '跨端开发探索',\n    ],\n    buttonText: '参与共建',\n    buttonType: 'primary' as const,\n    popular: true,\n  },\n  {\n    name: '知识分享',\n    icon: <GlobalOutlined style={{ fontSize: 32, color: '#faad14' }} />,\n    description: '技术文章、教程、开源项目经验分享',\n    features: [\n      '技术文章与博客撰写',\n      '开源项目文档完善',\n      '技术教程与案例分享',\n      '技术演讲与直播',\n      '社区互动与答疑',\n    ],\n    buttonText: '交流沟通',\n    buttonType: 'default' as const,\n    popular: false,\n  },\n];\n\nconst PricingPage: React.FC = () => {\n  return (\n    <>\n      <SEO\n        title=\"一起搞事情\"\n        description=\"yma16 热爱前端技术，乐于交流分享。欢迎技术探讨、开源共建、知识分享，一起让前端生态更好。\"\n        keywords=\"前端技术交流,开源共建,知识分享,React开发,Vue开发,前端社区\"\n      />\n      <div>\n      <div style={{ textAlign: 'center', marginBottom: 48 }}>\n        <Title level={2}>一起搞事情</Title>\n        <Paragraph style={{ fontSize: 16, color: '#666', maxWidth: 600, margin: '0 auto' }}>\n          热爱前端技术，乐于交流分享。无论是技术探讨、开源共建还是知识分享，都欢迎来找我聊聊～\n        </Paragraph>\n      </div>\n\n      <Row gutter={[24, 24]} justify=\"center\">\n        {cooperations.map((item) => (\n          <Col xs={24} sm={12} lg={8} key={item.name}>\n            <Card\n              hoverable\n              style={{\n                height: '100%',\n                position: 'relative',\n                borderColor: item.popular ? '#1890ff' : undefined,\n              }}\n              title={\n                <div style={{ textAlign: 'center' }}>\n                  <div style={{ marginBottom: 16 }}>{item.icon}</div>\n                  <Title level={3} style={{ margin: 0 }}>{item.name}</Title>\n                  {item.popular && (\n                    <Tag color=\"blue\" style={{ position: 'absolute', top: 16, right: 16 }}>\n                      热门\n                    </Tag>\n                  )}\n                </div>\n              }\n            >\n              <div style={{ textAlign: 'center', marginBottom: 24 }}>\n                <Paragraph type=\"secondary\" style={{ fontSize: 14 }}>\n                  {item.description}\n                </Paragraph>\n              </div>\n\n              <Button\n                type={item.buttonType}\n                size=\"large\"\n                block\n                style={{ marginBottom: 24 }}\n              >\n                {item.buttonText}\n              </Button>\n\n              <List\n                size=\"small\"\n                dataSource={item.features}\n                renderItem={(feature) => (\n                  <List.Item style={{ border: 'none', padding: '4px 0' }}>\n                    <Space>\n                      <CheckOutlined style={{ color: '#52c41a' }} />\n                      <span>{feature}</span>\n                    </Space>\n                  </List.Item>\n                )}\n              />\n            </Card>\n          </Col>\n        ))}\n      </Row>\n\n      <Divider style={{ margin: '48px 0' }} />\n\n      <Row gutter={[24, 24]}>\n        <Col span={24}>\n          <Card style={{ background: '#f0f5ff' }}>\n            <Row align=\"middle\" gutter={24}>\n              <Col span={16}>\n                <Title level={3}>关于我</Title>\n                <Paragraph style={{ fontSize: 15 }}>\n                  前端开发工程师，专注于 React/Vue 生态，喜欢折腾各种前端工具和性能优化。\n                  活跃于技术社区，相信开源和分享能让技术变得更好。期待认识更多志同道合的朋友！\n                </Paragraph>\n                <Space size=\"large\" style={{ marginTop: 16 }}>\n                  <Tag color=\"blue\">React</Tag>\n                  <Tag color=\"green\">Vue</Tag>\n                  <Tag color=\"orange\">TypeScript</Tag>\n                  <Tag color=\"purple\">Node.js</Tag>\n                  <Tag color=\"cyan\">性能优化</Tag>\n                </Space>\n              </Col>\n              <Col span={8} style={{ textAlign: 'center' }}>\n                <Button \n                  type=\"primary\" \n                  size=\"large\" \n                  icon={<MailOutlined />}\n                  href={`mailto:${CONTACT_INFO.email}`}\n                >\n                  联系我\n                </Button>\n                <Paragraph type=\"secondary\" style={{ marginTop: 12, fontSize: 13 }}>\n                  邮箱: {CONTACT_INFO.emailDisplay}\n                </Paragraph>\n              </Col>\n            </Row>\n          </Card>\n        </Col>\n      </Row>\n\n      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>\n        <Col span={12}>\n          <Card title=\"交流方式\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '💬 技术讨论：前端技术选型、架构设计、性能优化',\n                '🔧 工具共建：一起开发好用的前端工具，提升效率',\n                '📝 经验分享：写文章、做教程，把踩过的坑变成经验',\n                '🎯 开源贡献：参与开源项目，一起让生态更好',\n                '🤝 互相学习：每个人都有擅长的地方，互相交流成长',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n        <Col span={12}>\n          <Card title=\"我的态度\" size=\"small\">\n            <List\n              size=\"small\"\n              dataSource={[\n                '🌟 乐于分享：技术不应该藏着掖着，分享才能进步',\n                '💡 保持好奇：新技术、新工具都值得尝试和探索',\n                '🤗 开放包容：尊重不同的技术观点，求同存异',\n                '🔥 热爱折腾：代码不仅是工作，更是热爱和乐趣',\n                '🚀 持续成长：保持学习，和前端社区一起进步',\n              ]}\n              renderItem={(item) => (\n                <List.Item style={{ border: 'none', padding: '8px 0' }}>\n                  {item}\n                </List.Item>\n              )}\n            />\n          </Card>\n        </Col>\n      </Row>\n    </div>\n    </>\n  );\n};\n\nexport default PricingPage;\n",
       "__isJSFile": true,

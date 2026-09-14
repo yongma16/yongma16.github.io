@@ -262,6 +262,12 @@ export default {
     description: 'Drag & drop image to generate multi-size ICO/PNG favicons',
   },
 
+  // Git Hook Config
+  gitHookConfig: {
+    title: 'Git Hook Config',
+    description: 'Generate Husky, lint-staged, commitlint config code',
+  },
+
   // Cooperate Page
   cooperate: {
     title: "Let's Build Together",

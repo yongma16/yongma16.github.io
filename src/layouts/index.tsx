@@ -39,6 +39,7 @@ import {
   DashboardOutlined,
   ThunderboltOutlined,
   PictureOutlined,
+  BranchesOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -106,6 +107,7 @@ const MainLayout: React.FC = () => {
         { key: '/tools/eslint-config', icon: <FileTextOutlined />, label: t('eslintConfig.title') },
         { key: '/tools/playground', icon: <CodeOutlined />, label: t('playground.title') },
         { key: '/tools/favicon-generator', icon: <PictureOutlined />, label: t('faviconGenerator.title') },
+        { key: '/tools/git-hook-config', icon: <BranchesOutlined />, label: t('gitHookConfig.title') },
       ],
     },
     {

@@ -262,6 +262,12 @@ export default {
     description: '拖拽上传图片，一键生成多尺寸 ICO/PNG 网站图标',
   },
 
+  // Git Hook配置
+  gitHookConfig: {
+    title: 'Git Hook配置',
+    description: '一键生成 Husky、lint-staged、commitlint 配置代码',
+  },
+
   // 合作页面
   cooperate: {
     title: '一起搞事情',

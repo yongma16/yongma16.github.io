@@ -32,6 +32,7 @@ import {
   BugOutlined,
   DashboardOutlined,
   PictureOutlined,
+  BranchesOutlined,
 } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
@@ -216,6 +217,12 @@ const tools = [
     key: 'faviconGenerator',
     icon: <PictureOutlined style={{ fontSize: 32, color: '#1890ff' }} />,
     path: '/tools/favicon-generator',
+    tags: ['free', 'new'],
+  },
+  {
+    key: 'gitHookConfig',
+    icon: <BranchesOutlined style={{ fontSize: 32, color: '#52c41a' }} />,
+    path: '/tools/git-hook-config',
     tags: ['free', 'new'],
   },
 ];

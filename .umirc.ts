@@ -59,6 +59,7 @@ export default defineConfig({
     { path: '/tools/eslint-config', component: '@/pages/tools/eslint-config', title: 'ESLint配置生成器 | yma16前端工具集', meta: { description: '可视化生成 ESLint 配置文件，支持 TypeScript、React、Vue、Prettier 等多种规则集组合。纯前端生成，不上传服务器。' } },
     { path: '/tools/playground', component: '@/pages/tools/playground', title: 'HTML/CSS/JS在线代码编辑器 | yma16前端工具集', meta: { description: '免费的在线 HTML/CSS/JS 代码编辑器和实时预览工具，支持控制台输出、Vue3/Tailwind 预设模板、代码导出和本地草稿保存。纯前端运行。' } },
     { path: '/tools/favicon-generator', component: '@/pages/tools/favicon-generator', title: 'Favicon/ICO图标生成器 | yma16前端工具集', meta: { description: '拖拽上传图片，一键生成多尺寸网站图标（ICO/PNG），支持 16×16 到 256×256 全尺寸，纯前端本地处理不上传服务器。' } },
+    { path: '/tools/git-hook-config', component: '@/pages/tools/git-hook-config', title: 'Git Hook / Husky 配置生成器 | yma16前端工具集', meta: { description: '一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。' } },
     { path: '/blog', component: '@/pages/blog', title: '技术博客 | yma16前端工具集', meta: { description: 'yma16 技术博客，分享前端开发经验、工具使用教程和最佳实践。' } },
     { path: '/pricing', component: '@/pages/pricing', title: '合作与服务 | yma16前端工具集', meta: { description: 'yma16 前端开发工具集合作与服务方案，提供定制开发、技术咨询和培训服务。' } },
   ],
