@@ -51,7 +51,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -82,7 +82,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            5
           ]
         },
         "register": 2
@@ -132,7 +132,7 @@
             17
           ]
         },
-        "register": 28
+        "register": 27
       },
       "enableBy": "register",
       "type": "plugin",
@@ -145,7 +145,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -159,7 +159,7 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            1
+            0
           ],
           "onCheck": [
             1
@@ -182,7 +182,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -195,7 +195,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1107,7 +1107,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 99
+        "register": 95
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1120,7 +1120,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 26
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1154,7 +1154,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1180,7 +1180,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1193,7 +1193,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 36
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1257,7 +1257,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1401,7 +1401,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1427,7 +1427,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1440,7 +1440,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1465,7 +1465,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1489,7 +1489,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 519
+        "register": 487
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1502,7 +1502,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1515,7 +1515,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1531,7 +1531,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1544,7 +1544,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1556,7 +1556,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1582,7 +1582,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/reactCompiler/reactCompiler.js",
@@ -1594,7 +1594,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1606,7 +1606,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1618,7 +1618,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 30
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1630,7 +1630,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1643,7 +1643,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1656,7 +1656,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 38
+        "register": 37
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1669,7 +1669,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 17
       },
       "type": "plugin",
       "path": "/home/ubuntu/front_projects/react_home/node_modules/.pnpm/@umijs+preset-umi@4.6.84_@types+node@26.1.2_@types+react@18.3.31_lightningcss@1.32.0_ro_d75e631d6d3e86b3901c458751a3954d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1694,7 +1694,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1707,7 +1707,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1720,7 +1720,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1733,7 +1733,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1746,7 +1746,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1759,7 +1759,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1785,7 +1785,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1889,7 +1889,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1902,7 +1902,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1915,7 +1915,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1928,7 +1928,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1941,7 +1941,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -3077,7 +3077,7 @@
       "parentId": "@@/global-layout",
       "id": "33",
       "absPath": "/tools/git-hook-config",
-      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Button, message, Typography, Space, Checkbox, Tabs, Tag, Steps, Alert } from 'antd';\nimport { CopyOutlined, FileTextOutlined, CheckCircleOutlined, CodeOutlined, BranchesOutlined, SafetyOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\nimport { useTheme } from '@/contexts/ThemeContext';\n\nconst { Title, Paragraph, Text } = Typography;\n\ninterface HookConfig {\n  preCommit: boolean;\n  commitMsg: boolean;\n  prePush: boolean;\n  preCommitLint: boolean;\n  lintStaged: boolean;\n  commitlint: boolean;\n  commitlintConfig: 'angular' | 'conventional' | 'custom';\n  packageManager: 'npm' | 'yarn' | 'pnpm';\n  eslint: boolean;\n  prettier: boolean;\n  stylelint: boolean;\n  test: boolean;\n  typescript: boolean;\n}\n\nconst DEFAULT_CONFIG: HookConfig = {\n  preCommit: true,\n  commitMsg: true,\n  prePush: false,\n  preCommitLint: true,\n  lintStaged: true,\n  commitlint: true,\n  commitlintConfig: 'conventional',\n  packageManager: 'npm',\n  eslint: true,\n  prettier: true,\n  stylelint: false,\n  test: false,\n  typescript: true,\n};\n\nconst GitHookConfig: React.FC = () => {\n  const { isDark } = useTheme();\n  const [config, setConfig] = useState<HookConfig>(DEFAULT_CONFIG);\n  const [activeTab, setActiveTab] = useState('package');\n\n  const seoConfig = {\n    title: 'Git Hook / Husky 配置生成器',\n    description: '一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。',\n    keywords: 'Husky配置,Git Hook,commitlint,lint-staged,代码提交规范,Git钩子配置',\n    jsonLd: createToolJsonLd('Git Hook / Husky 配置生成器', '一键生成 Husky、commitlint、lint-staged 配置代码', 'https://yma16.cloud/tools/git-hook-config', 'DeveloperApplication'),\n  };\n\n  const updateConfig = useCallback((key: keyof HookConfig, value: any) => {\n    setConfig(prev => ({ ...prev, [key]: value }));\n  }, []);\n\n  const getPackageJson = () => {\n    const devDeps: Record<string, string> = {};\n    \n    devDeps['husky'] = '^9.0.0';\n    \n    if (config.lintStaged) {\n      devDeps['lint-staged'] = '^15.0.0';\n    }\n    if (config.commitlint) {\n      devDeps['@commitlint/cli'] = '^19.0.0';\n      devDeps['@commitlint/config-conventional'] = '^19.0.0';\n    }\n    if (config.eslint) {\n      devDeps['eslint'] = '^8.0.0';\n    }\n    if (config.prettier) {\n      devDeps['prettier'] = '^3.0.0';\n    }\n    if (config.stylelint) {\n      devDeps['stylelint'] = '^16.0.0';\n    }\n    if (config.typescript && config.eslint) {\n      devDeps['@typescript-eslint/eslint-plugin'] = '^7.0.0';\n      devDeps['@typescript-eslint/parser'] = '^7.0.0';\n    }\n\n    const scripts: Record<string, string> = {\n      prepare: 'husky',\n    };\n\n    if (config.lintStaged) {\n      scripts['lint-staged'] = 'lint-staged';\n    }\n\n    const lintStagedConfig: Record<string, string[]> = {};\n    if (config.eslint && config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix', 'prettier --write'];\n    } else if (config.eslint) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix'];\n    } else if (config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['prettier --write'];\n    }\n    if (config.prettier) {\n      lintStagedConfig['*.{json,md,yml,yaml}'] = ['prettier --write'];\n    }\n    if (config.stylelint) {\n      lintStagedConfig['*.{css,scss,less}'] = ['stylelint --fix'];\n    }\n\n    const packageJson: any = {\n      devDependencies: devDeps,\n      scripts,\n    };\n\n    if (config.lintStaged && Object.keys(lintStagedConfig).length > 0) {\n      packageJson['lint-staged'] = lintStagedConfig;\n    }\n\n    return JSON.stringify(packageJson, null, 2);\n  };\n\n  const getInstallCommand = () => {\n    const deps: string[] = ['husky'];\n    \n    if (config.lintStaged) deps.push('lint-staged');\n    if (config.commitlint) {\n      deps.push('@commitlint/cli');\n      deps.push('@commitlint/config-conventional');\n    }\n    if (config.eslint) deps.push('eslint');\n    if (config.prettier) deps.push('prettier');\n    if (config.stylelint) deps.push('stylelint');\n    if (config.typescript && config.eslint) {\n      deps.push('@typescript-eslint/eslint-plugin');\n      deps.push('@typescript-eslint/parser');\n    }\n\n    const cmd = config.packageManager === 'yarn' ? 'yarn add -D' : \n                config.packageManager === 'pnpm' ? 'pnpm add -D' : 'npm install -D';\n    \n    return `${cmd} ${deps.join(' ')}`;\n  };\n\n  const getHuskyScripts = () => {\n    const scripts: string[] = [];\n    \n    if (config.preCommit) {\n      let hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\n';\n      if (config.lintStaged && config.preCommitLint) {\n        hook += 'npx lint-staged\\n';\n      }\n      if (config.test) {\n        hook += 'npm test\\n';\n      }\n      scripts.push(`// .husky/pre-commit\\n${hook}`);\n    }\n\n    if (config.commitMsg && config.commitlint) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpx --no -- commitlint --edit ${1}\\n';\n      scripts.push(`// .husky/commit-msg\\n${hook}`);\n    }\n\n    if (config.prePush) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpm run build\\n';\n      scripts.push(`// .husky/pre-push\\n${hook}`);\n    }\n\n    return scripts.join('\\n\\n---\\n\\n');\n  };\n\n  const getCommitlintConfig = () => {\n    if (!config.commitlint) return '';\n\n    const configs: Record<string, string> = {\n      conventional: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat',      // 新功能\n      'fix',       // 修复\n      'docs',      // 文档\n      'style',     // 格式\n      'refactor',  // 重构\n      'perf',      // 性能\n      'test',      // 测试\n      'chore',     // 构建\n      'ci',        // CI\n      'revert',    // 回滚\n      'build',     // 依赖\n    ]],\n    'type-case': [2, 'always', 'lower-case'],\n    'type-empty': [2, 'never'],\n    'scope-case': [2, 'always', 'lower-case'],\n    'subject-empty': [2, 'never'],\n    'subject-full-stop': [2, 'never', '.'],\n    'header-max-length': [2, 'always', 72],\n  },\n};`,\n      angular: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'build',\n      'ci',\n      'docs',\n      'feat',\n      'fix',\n      'perf',\n      'refactor',\n      'revert',\n      'style',\n      'test',\n    ]],\n    'scope-enum': [0], // 可选 scope\n    'subject-case': [2, 'always', 'sentence-case'],\n  },\n};`,\n      custom: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  // 自定义规则\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat', 'fix', 'docs', 'style', \n      'refactor', 'perf', 'test', 'chore'\n    ]],\n    'scope-empty': [0],      // scope 可选\n    'subject-min-length': [2, 'always', 4],\n    'subject-max-length': [2, 'always', 100],\n    'body-max-line-length': [0],\n    'footer-max-line-length': [0],\n  },\n};`,\n    };\n\n    return configs[config.commitlintConfig] || configs.conventional;\n  };\n\n  const getSetupSteps = () => {\n    const steps = [\n      {\n        title: '安装依赖',\n        code: getInstallCommand(),\n      },\n      {\n        title: '初始化 Husky',\n        code: 'npx husky init',\n      },\n    ];\n\n    if (config.lintStaged) {\n      steps.push({\n        title: '配置 lint-staged',\n        code: `// 在 package.json 中添加\\n${getPackageJson()}`,\n      });\n    }\n\n    if (config.commitlint) {\n      steps.push({\n        title: '配置 commitlint',\n        code: `// commitlint.config.js\\n${getCommitlintConfig()}`,\n      });\n    }\n\n    steps.push({\n      title: '配置 Git Hooks',\n      code: getHuskyScripts(),\n    });\n\n    return steps;\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text).then(() => {\n      message.success('已复制到剪贴板');\n    });\n  };\n\n  const editorTheme = isDark ? 'vs-dark' : 'light';\n\n  const tabItems = [\n    {\n      key: 'package',\n      label: 'package.json 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>package.json 片段</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getPackageJson())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"json\"\n              value={getPackageJson()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'install',\n      label: '安装命令',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>安装命令</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getInstallCommand())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={100}\n              language=\"bash\"\n              value={getInstallCommand()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n            <Alert\n              message=\"提示\"\n              description=\"执行安装命令后，运行 npx husky init 初始化 husky 配置目录\"\n              type=\"info\"\n              showIcon\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'hooks',\n      label: 'Git Hooks',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>Hook 脚本</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getHuskyScripts())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"shell\"\n              value={getHuskyScripts()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'commitlint',\n      label: 'Commitlint 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>commitlint.config.js</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getCommitlintConfig())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={500}\n              language=\"javascript\"\n              value={getCommitlintConfig()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'guide',\n      label: '完整指南',\n      children: (\n        <Card>\n          <Steps direction=\"vertical\" current={-1}>\n            {getSetupSteps().map((step, index) => (\n              <Steps.Step\n                key={index}\n                title={step.title}\n                description={\n                  <div style={{ marginTop: 8 }}>\n                    <Editor\n                      height={Math.min(200 + step.code.split('\\n').length * 20, 400)}\n                      language={index === 0 ? 'bash' : index === 1 ? 'bash' : 'javascript'}\n                      value={step.code}\n                      theme={editorTheme}\n                      options={{ readOnly: true, minimap: { enabled: false } }}\n                    />\n                    <Button\n                      size=\"small\"\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(step.code)}\n                      style={{ marginTop: 8 }}\n                    >\n                      复制\n                    </Button>\n                  </div>\n                }\n              />\n            ))}\n          </Steps>\n        </Card>\n      ),\n    },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><BranchesOutlined /> Git Hook / Husky 配置生成器</Title>\n        <Text type=\"secondary\">一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {/* 配置选项 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"配置选项\" style={{ marginBottom: 24 }}>\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Text strong><SafetyOutlined /> Git Hooks</Text>\n                <Checkbox\n                  checked={config.preCommit}\n                  onChange={(e) => updateConfig('preCommit', e.target.checked)}\n                >\n                  pre-commit（提交前）\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitMsg}\n                  onChange={(e) => updateConfig('commitMsg', e.target.checked)}\n                >\n                  commit-msg（提交信息检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.prePush}\n                  onChange={(e) => updateConfig('prePush', e.target.checked)}\n                >\n                  pre-push（推送前）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><CodeOutlined /> 代码检查</Text>\n                <Checkbox\n                  checked={config.lintStaged}\n                  onChange={(e) => updateConfig('lintStaged', e.target.checked)}\n                >\n                  lint-staged（暂存区检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.preCommitLint}\n                  onChange={(e) => updateConfig('preCommitLint', e.target.checked)}\n                  disabled={!config.preCommit || !config.lintStaged}\n                >\n                  提交前运行 lint-staged\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitlint}\n                  onChange={(e) => updateConfig('commitlint', e.target.checked)}\n                  disabled={!config.commitMsg}\n                >\n                  commitlint（提交信息规范）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><FileTextOutlined /> 检查工具</Text>\n                <Checkbox\n                  checked={config.eslint}\n                  onChange={(e) => updateConfig('eslint', e.target.checked)}\n                >\n                  ESLint\n                </Checkbox>\n                <Checkbox\n                  checked={config.prettier}\n                  onChange={(e) => updateConfig('prettier', e.target.checked)}\n                >\n                  Prettier\n                </Checkbox>\n                <Checkbox\n                  checked={config.stylelint}\n                  onChange={(e) => updateConfig('stylelint', e.target.checked)}\n                >\n                  Stylelint\n                </Checkbox>\n                <Checkbox\n                  checked={config.test}\n                  onChange={(e) => updateConfig('test', e.target.checked)}\n                >\n                  运行测试\n                </Checkbox>\n                <Checkbox\n                  checked={config.typescript}\n                  onChange={(e) => updateConfig('typescript', e.target.checked)}\n                >\n                  TypeScript 项目\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong>包管理器</Text>\n                <Space>\n                  {(['npm', 'yarn', 'pnpm'] as const).map((pm) => (\n                    <Tag\n                      key={pm}\n                      color={config.packageManager === pm ? 'blue' : 'default'}\n                      style={{ cursor: 'pointer' }}\n                      onClick={() => updateConfig('packageManager', pm)}\n                    >\n                      {pm}\n                    </Tag>\n                  ))}\n                </Space>\n\n                {config.commitlint && (\n                  <>\n                    <Divider />\n                    <Text strong>Commitlint 规范</Text>\n                    <Space direction=\"vertical\">\n                      {([\n                        { key: 'conventional', label: 'Conventional Commits' },\n                        { key: 'angular', label: 'Angular 规范' },\n                        { key: 'custom', label: '自定义规则' },\n                      ] as const).map((item) => (\n                        <Tag\n                          key={item.key}\n                          color={config.commitlintConfig === item.key ? 'blue' : 'default'}\n                          style={{ cursor: 'pointer' }}\n                          onClick={() => updateConfig('commitlintConfig', item.key)}\n                        >\n                          {item.label}\n                        </Tag>\n                      ))}\n                    </Space>\n                  </>\n                )}\n              </Space>\n            </Card>\n\n            <Alert\n              message=\"快速开始\"\n              description={\n                <ol style={{ paddingLeft: 16, margin: 0 }}>\n                  <li>选择需要的配置选项</li>\n                  <li>复制安装命令执行</li>\n                  <li>运行 npx husky init 初始化</li>\n                  <li>复制生成的配置到项目</li>\n                </ol>\n              }\n              type=\"info\"\n              showIcon\n            />\n          </Col>\n\n          {/* 生成的配置 */}\n          <Col xs={24} lg={16}>\n            <Tabs activeKey={activeTab} onChange={setActiveTab} items={tabItems} />\n          </Col>\n        </Row>\n\n        {/* 提交规范说明 */}\n        {config.commitlint && (\n          <Card style={{ marginTop: 24 }} title=\"提交信息规范\">\n            <Row gutter={24}>\n              <Col xs={24} md={12}>\n                <Text strong>格式：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`<type>(<scope>): <subject>\n\n<body>\n\n<footer>`}\n                </pre>\n              </Col>\n              <Col xs={24} md={12}>\n                <Text strong>示例：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`feat(user): 添加用户登录功能\n\n实现基于 JWT 的用户认证系统，\n支持邮箱和密码登录。\n\nCloses #123`}\n                </pre>\n              </Col>\n            </Row>\n            <div style={{ marginTop: 16 }}>\n              <Text strong>Type 类型：</Text>\n              <Space wrap style={{ marginTop: 8 }}>\n                {[\n                  { type: 'feat', desc: '新功能' },\n                  { type: 'fix', desc: '修复' },\n                  { type: 'docs', desc: '文档' },\n                  { type: 'style', desc: '格式' },\n                  { type: 'refactor', desc: '重构' },\n                  { type: 'perf', desc: '性能' },\n                  { type: 'test', desc: '测试' },\n                  { type: 'chore', desc: '构建' },\n                  { type: 'ci', desc: 'CI配置' },\n                  { type: 'revert', desc: '回滚' },\n                ].map((item) => (\n                  <Tag key={item.type} color=\"blue\">{item.type}: {item.desc}</Tag>\n                ))}\n              </Space>\n            </div>\n          </Card>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default GitHookConfig;\n",
+      "__content": "import React, { useState, useCallback } from 'react';\nimport { Card, Row, Col, Button, message, Typography, Space, Checkbox, Tabs, Tag, Steps, Alert, Divider } from 'antd';\nimport { CopyOutlined, FileTextOutlined, CheckCircleOutlined, CodeOutlined, BranchesOutlined, SafetyOutlined } from '@ant-design/icons';\nimport Editor from '@monaco-editor/react';\nimport { SEO, createToolJsonLd } from '@/components/SEO';\nimport { useTheme } from '@/contexts/ThemeContext';\n\nconst { Title, Paragraph, Text } = Typography;\n\ninterface HookConfig {\n  preCommit: boolean;\n  commitMsg: boolean;\n  prePush: boolean;\n  preCommitLint: boolean;\n  lintStaged: boolean;\n  commitlint: boolean;\n  commitlintConfig: 'angular' | 'conventional' | 'custom';\n  packageManager: 'npm' | 'yarn' | 'pnpm';\n  eslint: boolean;\n  prettier: boolean;\n  stylelint: boolean;\n  test: boolean;\n  typescript: boolean;\n}\n\nconst DEFAULT_CONFIG: HookConfig = {\n  preCommit: true,\n  commitMsg: true,\n  prePush: false,\n  preCommitLint: true,\n  lintStaged: true,\n  commitlint: true,\n  commitlintConfig: 'conventional',\n  packageManager: 'npm',\n  eslint: true,\n  prettier: true,\n  stylelint: false,\n  test: false,\n  typescript: true,\n};\n\nconst GitHookConfig: React.FC = () => {\n  const { isDark } = useTheme();\n  const [config, setConfig] = useState<HookConfig>(DEFAULT_CONFIG);\n  const [activeTab, setActiveTab] = useState('package');\n\n  const seoConfig = {\n    title: 'Git Hook / Husky 配置生成器',\n    description: '一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。',\n    keywords: 'Husky配置,Git Hook,commitlint,lint-staged,代码提交规范,Git钩子配置',\n    jsonLd: createToolJsonLd('Git Hook / Husky 配置生成器', '一键生成 Husky、commitlint、lint-staged 配置代码', 'https://yma16.cloud/tools/git-hook-config', 'DeveloperApplication'),\n  };\n\n  const updateConfig = useCallback((key: keyof HookConfig, value: any) => {\n    setConfig(prev => ({ ...prev, [key]: value }));\n  }, []);\n\n  const getPackageJson = () => {\n    const devDeps: Record<string, string> = {};\n    \n    devDeps['husky'] = '^9.0.0';\n    \n    if (config.lintStaged) {\n      devDeps['lint-staged'] = '^15.0.0';\n    }\n    if (config.commitlint) {\n      devDeps['@commitlint/cli'] = '^19.0.0';\n      devDeps['@commitlint/config-conventional'] = '^19.0.0';\n    }\n    if (config.eslint) {\n      devDeps['eslint'] = '^8.0.0';\n    }\n    if (config.prettier) {\n      devDeps['prettier'] = '^3.0.0';\n    }\n    if (config.stylelint) {\n      devDeps['stylelint'] = '^16.0.0';\n    }\n    if (config.typescript && config.eslint) {\n      devDeps['@typescript-eslint/eslint-plugin'] = '^7.0.0';\n      devDeps['@typescript-eslint/parser'] = '^7.0.0';\n    }\n\n    const scripts: Record<string, string> = {\n      prepare: 'husky',\n    };\n\n    if (config.lintStaged) {\n      scripts['lint-staged'] = 'lint-staged';\n    }\n\n    const lintStagedConfig: Record<string, string[]> = {};\n    if (config.eslint && config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix', 'prettier --write'];\n    } else if (config.eslint) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['eslint --fix'];\n    } else if (config.prettier) {\n      lintStagedConfig['*.{js,jsx,ts,tsx}'] = ['prettier --write'];\n    }\n    if (config.prettier) {\n      lintStagedConfig['*.{json,md,yml,yaml}'] = ['prettier --write'];\n    }\n    if (config.stylelint) {\n      lintStagedConfig['*.{css,scss,less}'] = ['stylelint --fix'];\n    }\n\n    const packageJson: any = {\n      devDependencies: devDeps,\n      scripts,\n    };\n\n    if (config.lintStaged && Object.keys(lintStagedConfig).length > 0) {\n      packageJson['lint-staged'] = lintStagedConfig;\n    }\n\n    return JSON.stringify(packageJson, null, 2);\n  };\n\n  const getInstallCommand = () => {\n    const deps: string[] = ['husky'];\n    \n    if (config.lintStaged) deps.push('lint-staged');\n    if (config.commitlint) {\n      deps.push('@commitlint/cli');\n      deps.push('@commitlint/config-conventional');\n    }\n    if (config.eslint) deps.push('eslint');\n    if (config.prettier) deps.push('prettier');\n    if (config.stylelint) deps.push('stylelint');\n    if (config.typescript && config.eslint) {\n      deps.push('@typescript-eslint/eslint-plugin');\n      deps.push('@typescript-eslint/parser');\n    }\n\n    const cmd = config.packageManager === 'yarn' ? 'yarn add -D' : \n                config.packageManager === 'pnpm' ? 'pnpm add -D' : 'npm install -D';\n    \n    return `${cmd} ${deps.join(' ')}`;\n  };\n\n  const getHuskyScripts = () => {\n    const scripts: string[] = [];\n    \n    if (config.preCommit) {\n      let hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\n';\n      if (config.lintStaged && config.preCommitLint) {\n        hook += 'npx lint-staged\\n';\n      }\n      if (config.test) {\n        hook += 'npm test\\n';\n      }\n      scripts.push(`// .husky/pre-commit\\n${hook}`);\n    }\n\n    if (config.commitMsg && config.commitlint) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpx --no -- commitlint --edit ${1}\\n';\n      scripts.push(`// .husky/commit-msg\\n${hook}`);\n    }\n\n    if (config.prePush) {\n      const hook = '#!/bin/sh\\n. \"$(dirname \"$0\")/_/husky.sh\"\\n\\nnpm run build\\n';\n      scripts.push(`// .husky/pre-push\\n${hook}`);\n    }\n\n    return scripts.join('\\n\\n---\\n\\n');\n  };\n\n  const getCommitlintConfig = () => {\n    if (!config.commitlint) return '';\n\n    const configs: Record<string, string> = {\n      conventional: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat',      // 新功能\n      'fix',       // 修复\n      'docs',      // 文档\n      'style',     // 格式\n      'refactor',  // 重构\n      'perf',      // 性能\n      'test',      // 测试\n      'chore',     // 构建\n      'ci',        // CI\n      'revert',    // 回滚\n      'build',     // 依赖\n    ]],\n    'type-case': [2, 'always', 'lower-case'],\n    'type-empty': [2, 'never'],\n    'scope-case': [2, 'always', 'lower-case'],\n    'subject-empty': [2, 'never'],\n    'subject-full-stop': [2, 'never', '.'],\n    'header-max-length': [2, 'always', 72],\n  },\n};`,\n      angular: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'build',\n      'ci',\n      'docs',\n      'feat',\n      'fix',\n      'perf',\n      'refactor',\n      'revert',\n      'style',\n      'test',\n    ]],\n    'scope-enum': [0], // 可选 scope\n    'subject-case': [2, 'always', 'sentence-case'],\n  },\n};`,\n      custom: `module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  // 自定义规则\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat', 'fix', 'docs', 'style', \n      'refactor', 'perf', 'test', 'chore'\n    ]],\n    'scope-empty': [0],      // scope 可选\n    'subject-min-length': [2, 'always', 4],\n    'subject-max-length': [2, 'always', 100],\n    'body-max-line-length': [0],\n    'footer-max-line-length': [0],\n  },\n};`,\n    };\n\n    return configs[config.commitlintConfig] || configs.conventional;\n  };\n\n  const getSetupSteps = () => {\n    const steps = [\n      {\n        title: '安装依赖',\n        code: getInstallCommand(),\n      },\n      {\n        title: '初始化 Husky',\n        code: 'npx husky init',\n      },\n    ];\n\n    if (config.lintStaged) {\n      steps.push({\n        title: '配置 lint-staged',\n        code: `// 在 package.json 中添加\\n${getPackageJson()}`,\n      });\n    }\n\n    if (config.commitlint) {\n      steps.push({\n        title: '配置 commitlint',\n        code: `// commitlint.config.js\\n${getCommitlintConfig()}`,\n      });\n    }\n\n    steps.push({\n      title: '配置 Git Hooks',\n      code: getHuskyScripts(),\n    });\n\n    return steps;\n  };\n\n  const copyToClipboard = (text: string) => {\n    navigator.clipboard.writeText(text).then(() => {\n      message.success('已复制到剪贴板');\n    });\n  };\n\n  const editorTheme = isDark ? 'vs-dark' : 'light';\n\n  const tabItems = [\n    {\n      key: 'package',\n      label: 'package.json 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>package.json 片段</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getPackageJson())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"json\"\n              value={getPackageJson()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'install',\n      label: '安装命令',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>安装命令</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getInstallCommand())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={100}\n              language=\"bash\"\n              value={getInstallCommand()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n            <Alert\n              message=\"提示\"\n              description=\"执行安装命令后，运行 npx husky init 初始化 husky 配置目录\"\n              type=\"info\"\n              showIcon\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'hooks',\n      label: 'Git Hooks',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>Hook 脚本</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getHuskyScripts())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={400}\n              language=\"shell\"\n              value={getHuskyScripts()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'commitlint',\n      label: 'Commitlint 配置',\n      children: (\n        <Card>\n          <Space direction=\"vertical\" style={{ width: '100%' }}>\n            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>\n              <Text strong>commitlint.config.js</Text>\n              <Button icon={<CopyOutlined />} onClick={() => copyToClipboard(getCommitlintConfig())}>\n                复制\n              </Button>\n            </div>\n            <Editor\n              height={500}\n              language=\"javascript\"\n              value={getCommitlintConfig()}\n              theme={editorTheme}\n              options={{ readOnly: true, minimap: { enabled: false } }}\n            />\n          </Space>\n        </Card>\n      ),\n    },\n    {\n      key: 'guide',\n      label: '完整指南',\n      children: (\n        <Card>\n          <Steps direction=\"vertical\" current={-1}>\n            {getSetupSteps().map((step, index) => (\n              <Steps.Step\n                key={index}\n                title={step.title}\n                description={\n                  <div style={{ marginTop: 8 }}>\n                    <Editor\n                      height={Math.min(200 + step.code.split('\\n').length * 20, 400)}\n                      language={index === 0 ? 'bash' : index === 1 ? 'bash' : 'javascript'}\n                      value={step.code}\n                      theme={editorTheme}\n                      options={{ readOnly: true, minimap: { enabled: false } }}\n                    />\n                    <Button\n                      size=\"small\"\n                      icon={<CopyOutlined />}\n                      onClick={() => copyToClipboard(step.code)}\n                      style={{ marginTop: 8 }}\n                    >\n                      复制\n                    </Button>\n                  </div>\n                }\n              />\n            ))}\n          </Steps>\n        </Card>\n      ),\n    },\n  ];\n\n  return (\n    <>\n      <SEO {...seoConfig} />\n      <div style={{ padding: 24 }}>\n        <Title level={2}><BranchesOutlined /> Git Hook / Husky 配置生成器</Title>\n        <Text type=\"secondary\">一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目</Text>\n\n        <Row gutter={24} style={{ marginTop: 24 }}>\n          {/* 配置选项 */}\n          <Col xs={24} lg={8}>\n            <Card title=\"配置选项\" style={{ marginBottom: 24 }}>\n              <Space direction=\"vertical\" style={{ width: '100%' }}>\n                <Text strong><SafetyOutlined /> Git Hooks</Text>\n                <Checkbox\n                  checked={config.preCommit}\n                  onChange={(e) => updateConfig('preCommit', e.target.checked)}\n                >\n                  pre-commit（提交前）\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitMsg}\n                  onChange={(e) => updateConfig('commitMsg', e.target.checked)}\n                >\n                  commit-msg（提交信息检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.prePush}\n                  onChange={(e) => updateConfig('prePush', e.target.checked)}\n                >\n                  pre-push（推送前）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><CodeOutlined /> 代码检查</Text>\n                <Checkbox\n                  checked={config.lintStaged}\n                  onChange={(e) => updateConfig('lintStaged', e.target.checked)}\n                >\n                  lint-staged（暂存区检查）\n                </Checkbox>\n                <Checkbox\n                  checked={config.preCommitLint}\n                  onChange={(e) => updateConfig('preCommitLint', e.target.checked)}\n                  disabled={!config.preCommit || !config.lintStaged}\n                >\n                  提交前运行 lint-staged\n                </Checkbox>\n                <Checkbox\n                  checked={config.commitlint}\n                  onChange={(e) => updateConfig('commitlint', e.target.checked)}\n                  disabled={!config.commitMsg}\n                >\n                  commitlint（提交信息规范）\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong><FileTextOutlined /> 检查工具</Text>\n                <Checkbox\n                  checked={config.eslint}\n                  onChange={(e) => updateConfig('eslint', e.target.checked)}\n                >\n                  ESLint\n                </Checkbox>\n                <Checkbox\n                  checked={config.prettier}\n                  onChange={(e) => updateConfig('prettier', e.target.checked)}\n                >\n                  Prettier\n                </Checkbox>\n                <Checkbox\n                  checked={config.stylelint}\n                  onChange={(e) => updateConfig('stylelint', e.target.checked)}\n                >\n                  Stylelint\n                </Checkbox>\n                <Checkbox\n                  checked={config.test}\n                  onChange={(e) => updateConfig('test', e.target.checked)}\n                >\n                  运行测试\n                </Checkbox>\n                <Checkbox\n                  checked={config.typescript}\n                  onChange={(e) => updateConfig('typescript', e.target.checked)}\n                >\n                  TypeScript 项目\n                </Checkbox>\n\n                <Divider />\n\n                <Text strong>包管理器</Text>\n                <Space>\n                  {(['npm', 'yarn', 'pnpm'] as const).map((pm) => (\n                    <Tag\n                      key={pm}\n                      color={config.packageManager === pm ? 'blue' : 'default'}\n                      style={{ cursor: 'pointer' }}\n                      onClick={() => updateConfig('packageManager', pm)}\n                    >\n                      {pm}\n                    </Tag>\n                  ))}\n                </Space>\n\n                {config.commitlint && (\n                  <>\n                    <Divider />\n                    <Text strong>Commitlint 规范</Text>\n                    <Space direction=\"vertical\">\n                      {([\n                        { key: 'conventional', label: 'Conventional Commits' },\n                        { key: 'angular', label: 'Angular 规范' },\n                        { key: 'custom', label: '自定义规则' },\n                      ] as const).map((item) => (\n                        <Tag\n                          key={item.key}\n                          color={config.commitlintConfig === item.key ? 'blue' : 'default'}\n                          style={{ cursor: 'pointer' }}\n                          onClick={() => updateConfig('commitlintConfig', item.key)}\n                        >\n                          {item.label}\n                        </Tag>\n                      ))}\n                    </Space>\n                  </>\n                )}\n              </Space>\n            </Card>\n\n            <Alert\n              message=\"快速开始\"\n              description={\n                <ol style={{ paddingLeft: 16, margin: 0 }}>\n                  <li>选择需要的配置选项</li>\n                  <li>复制安装命令执行</li>\n                  <li>运行 npx husky init 初始化</li>\n                  <li>复制生成的配置到项目</li>\n                </ol>\n              }\n              type=\"info\"\n              showIcon\n            />\n          </Col>\n\n          {/* 生成的配置 */}\n          <Col xs={24} lg={16}>\n            <Tabs activeKey={activeTab} onChange={setActiveTab} items={tabItems} />\n          </Col>\n        </Row>\n\n        {/* 提交规范说明 */}\n        {config.commitlint && (\n          <Card style={{ marginTop: 24 }} title=\"提交信息规范\">\n            <Row gutter={24}>\n              <Col xs={24} md={12}>\n                <Text strong>格式：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`<type>(<scope>): <subject>\n\n<body>\n\n<footer>`}\n                </pre>\n              </Col>\n              <Col xs={24} md={12}>\n                <Text strong>示例：</Text>\n                <pre style={{ background: isDark ? '#1f1f1f' : '#f6f8fa', padding: 12, borderRadius: 6 }}>\n                  {`feat(user): 添加用户登录功能\n\n实现基于 JWT 的用户认证系统，\n支持邮箱和密码登录。\n\nCloses #123`}\n                </pre>\n              </Col>\n            </Row>\n            <div style={{ marginTop: 16 }}>\n              <Text strong>Type 类型：</Text>\n              <Space wrap style={{ marginTop: 8 }}>\n                {[\n                  { type: 'feat', desc: '新功能' },\n                  { type: 'fix', desc: '修复' },\n                  { type: 'docs', desc: '文档' },\n                  { type: 'style', desc: '格式' },\n                  { type: 'refactor', desc: '重构' },\n                  { type: 'perf', desc: '性能' },\n                  { type: 'test', desc: '测试' },\n                  { type: 'chore', desc: '构建' },\n                  { type: 'ci', desc: 'CI配置' },\n                  { type: 'revert', desc: '回滚' },\n                ].map((item) => (\n                  <Tag key={item.type} color=\"blue\">{item.type}: {item.desc}</Tag>\n                ))}\n              </Space>\n            </div>\n          </Card>\n        )}\n      </div>\n    </>\n  );\n};\n\nexport default GitHookConfig;\n",
       "__isJSFile": true,
       "__absFile": "/home/ubuntu/front_projects/react_home/src/pages/tools/git-hook-config.tsx"
     },
