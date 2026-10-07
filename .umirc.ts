@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'yma16 - 前端开发工具集 | 免费在线工具',
   favicons: ['/favicon.svg'],
   metas: [
+    { name: 'baidu-site-verification', content: 'codeva-XQEmQfXZS2' },
     { name: 'description', content: 'yma16 前端开发工具集提供代码格式化、组件生成器、性能检测、SVG处理、URL编解码等免费在线工具，提升前端开发效率。' },
     { name: 'keywords', content: '前端工具,代码格式化,组件生成器,性能检测,SVG处理,URL编解码,在线工具,前端开发' },
     { name: 'author', content: 'yma16' },
