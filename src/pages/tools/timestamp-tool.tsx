@@ -27,6 +27,7 @@ const TimestampTool: React.FC = () => {
     title: '时间戳转换工具',
     description: '免费的在线时间戳转换工具，支持时间戳与格式化日期互相转换，支持秒/毫秒时间戳，多种日期格式选择。',
     keywords: '时间戳转换,时间戳工具,日期转换,Unix时间戳,毫秒时间戳,时间格式转换,在线时间戳',
+    canonical: 'https://yma16.cloud/tools/timestamp-tool',
     jsonLd: createToolJsonLd(
       '时间戳转换工具',
       '免费的在线时间戳和日期格式转换工具',

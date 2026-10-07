@@ -25,6 +25,7 @@ const MockGen: React.FC = () => {
     title: 'Mock数据生成器',
     description: 'Mock模拟JSON数据生成器，支持常用数据类型，快速生成测试数据。',
     keywords: 'Mock数据,模拟数据,JSON生成器,测试数据,假数据生成',
+    canonical: 'https://yma16.cloud/tools/mock-gen',
     jsonLd: createToolJsonLd('Mock数据生成器', 'Mock模拟JSON数据生成器', 'https://yma16.cloud/tools/mock-gen', 'DeveloperApplication'),
   };
 

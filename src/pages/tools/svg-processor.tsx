@@ -1,6 +1,6 @@
-import React, { useState, useCallback } from 'react';
-import { Card, Upload, Button, Row, Col, Typography, Space, List, Tag, Progress, message, Table, Input, Radio, Statistic } from 'antd';
-import { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined } from '@ant-design/icons';
+import React, { useState, useCallback, useRef } from 'react';
+import { Card, Upload, Button, Row, Col, Typography, Space, Tag, Progress, message, Table, Input, Radio, Statistic, Tabs, Tooltip, Divider } from 'antd';
+import { FileImageOutlined, UploadOutlined, DownloadOutlined, CompressOutlined, DeleteOutlined, EyeOutlined, BgColorsOutlined, ClearOutlined, CodeOutlined, CopyOutlined, FileImageFilled, ExportOutlined } from '@ant-design/icons';
 import type { UploadFile } from 'antd/es/upload/interface';
 import { SEO, createToolJsonLd } from '@/components/SEO';
 
@@ -40,6 +40,19 @@ const SVGProcessor: React.FC = () => {
   const [targetColor, setTargetColor] = useState('#1890ff');
   const [previewContent, setPreviewContent] = useState('');
   const [previewVisible, setPreviewVisible] = useState(false);
+
+  // SVG 代码编辑器状态
+  const [svgCode, setSvgCode] = useState(`<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="80" fill="#1890ff" />
+  <text x="100" y="110" text-anchor="middle" fill="white" font-size="24">SVG</text>
+</svg>`);
+  const [renderedSvg, setRenderedSvg] = useState('');
+  const [editorError, setEditorError] = useState('');
+  const [activeTab, setActiveTab] = useState('upload');
+  const [exportFormat, setExportFormat] = useState<'svg' | 'png' | 'jpeg'>('svg');
+  const [exportSize, setExportSize] = useState({ width: 0, height: 0 });
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const svgContainerRef = useRef<HTMLDivElement>(null);
 
   const handleUpload = useCallback((info: any) => {
     const { file, fileList: newFileList } = info;
@@ -169,6 +182,163 @@ const SVGProcessor: React.FC = () => {
     setPreviewContent(file.processedContent || file.content || '');
     setPreviewVisible(true);
   };
+
+  // 从 HTML 中提取 SVG
+  const extractSVGFromHTML = (html: string): string => {
+    const svgMatch = html.match(/<svg[\s\S]*?<\/svg>/i);
+    if (svgMatch) {
+      return svgMatch[0];
+    }
+    // 尝试匹配带有命名空间的 SVG
+    const svgNSMatch = html.match(/<svg[\s\S]*?\/>/i);
+    if (svgNSMatch) {
+      return svgNSMatch[0];
+    }
+    return '';
+  };
+
+  // 渲染 SVG 代码
+  const handleRenderSVG = useCallback(() => {
+    setEditorError('');
+    try {
+      let code = svgCode.trim();
+      
+      // 如果粘贴的是 HTML，尝试提取 SVG
+      if (code.includes('<!DOCTYPE html>') || code.includes('<html') || (code.includes('<div') && code.includes('</div>'))) {
+        const extracted = extractSVGFromHTML(code);
+        if (extracted) {
+          code = extracted;
+          setSvgCode(extracted);
+          message.success('已从 HTML 中提取 SVG 代码');
+        } else {
+          setEditorError('未在 HTML 中找到有效的 SVG 代码');
+          return;
+        }
+      }
+
+      // 验证 SVG 基本结构
+      if (!code.includes('<svg')) {
+        setEditorError('无效的 SVG 代码：缺少 <svg> 标签');
+        return;
+      }
+
+      // 确保 xmlns 存在
+      if (!code.includes('xmlns=')) {
+        code = code.replace(/<svg/i, '<svg xmlns="http://www.w3.org/2000/svg"');
+      }
+
+      setRenderedSvg(code);
+      
+      // 获取 SVG 尺寸
+      setTimeout(() => {
+        if (svgContainerRef.current) {
+          const svgEl = svgContainerRef.current.querySelector('svg');
+          if (svgEl) {
+            const rect = svgEl.getBoundingClientRect();
+            setExportSize({
+              width: Math.round(rect.width) || parseInt(svgEl.getAttribute('width') || '200'),
+              height: Math.round(rect.height) || parseInt(svgEl.getAttribute('height') || '200'),
+            });
+          }
+        }
+      }, 100);
+    } catch (err) {
+      setEditorError('渲染失败：' + (err as Error).message);
+    }
+  }, [svgCode]);
+
+  // 复制代码
+  const handleCopyCode = useCallback(() => {
+    navigator.clipboard.writeText(renderedSvg || svgCode).then(() => {
+      message.success('代码已复制到剪贴板');
+    });
+  }, [renderedSvg, svgCode]);
+
+  // 格式化 SVG
+  const handleFormatSVG = useCallback(() => {
+    try {
+      let code = svgCode;
+      // 简单的格式化
+      code = code
+        .replace(/>\s*</g, '>\n<')
+        .replace(/\n\s*\n/g, '\n')
+        .trim();
+      setSvgCode(code);
+      message.success('格式化完成');
+    } catch {
+      message.error('格式化失败');
+    }
+  }, [svgCode]);
+
+  // 导出文件
+  const handleExport = useCallback(() => {
+    const code = renderedSvg || svgCode;
+    if (!code) {
+      message.warning('请先渲染 SVG');
+      return;
+    }
+
+    if (exportFormat === 'svg') {
+      const blob = new Blob([code], { type: 'image/svg+xml' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `svg-export-${Date.now()}.svg`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      message.success('SVG 文件已导出');
+    } else {
+      // PNG/JPEG 导出
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      const svgBlob = new Blob([code], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(svgBlob);
+      const img = new Image();
+      
+      img.onload = () => {
+        const w = exportSize.width || img.naturalWidth || 200;
+        const h = exportSize.height || img.naturalHeight || 200;
+        canvas.width = w;
+        canvas.height = h;
+        
+        if (exportFormat === 'jpeg') {
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, w, h);
+        }
+        
+        ctx.drawImage(img, 0, 0, w, h);
+        
+        canvas.toBlob((blob) => {
+          if (blob) {
+            const exportUrl = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = exportUrl;
+            a.download = `svg-export-${Date.now()}.${exportFormat}`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(exportUrl);
+            message.success(`${exportFormat.toUpperCase()} 文件已导出`);
+          }
+        }, `image/${exportFormat}`, 0.95);
+        
+        URL.revokeObjectURL(url);
+      };
+      
+      img.onerror = () => {
+        URL.revokeObjectURL(url);
+        message.error('导出失败，请检查 SVG 代码');
+      };
+      
+      img.src = url;
+    }
+  }, [renderedSvg, svgCode, exportFormat, exportSize]);
 
   const columns = [
     {
@@ -402,6 +572,158 @@ const SVGProcessor: React.FC = () => {
           </div>
         </Card>
       )}
+
+      {/* SVG 代码编辑器 */}
+      <Card 
+        title={<><CodeOutlined /> SVG 代码编辑器</>} 
+        style={{ marginTop: 24 }}
+      >
+        <Tabs activeKey={activeTab} onChange={setActiveTab} items={[
+          {
+            key: 'upload',
+            label: '文件上传',
+            children: null,
+          },
+          {
+            key: 'editor',
+            label: '代码编辑',
+            children: (
+              <Space direction="vertical" style={{ width: '100%' }} size="large">
+                <div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                    <span style={{ fontWeight: 500 }}>SVG 代码 / HTML 片段</span>
+                    <Space>
+                      <Tooltip title="格式化代码">
+                        <Button icon={<ClearOutlined />} size="small" onClick={handleFormatSVG}>格式化</Button>
+                      </Tooltip>
+                      <Tooltip title="复制代码">
+                        <Button icon={<CopyOutlined />} size="small" onClick={handleCopyCode}>复制</Button>
+                      </Tooltip>
+                    </Space>
+                  </div>
+                  <Input.TextArea
+                    value={svgCode}
+                    onChange={(e) => setSvgCode(e.target.value)}
+                    rows={12}
+                    placeholder="在此粘贴 SVG 代码或包含 SVG 的 HTML 代码..."
+                    style={{ 
+                      fontFamily: 'monospace', 
+                      fontSize: 13,
+                      background: '#fafafa',
+                    }}
+                  />
+                  {editorError && (
+                    <div style={{ color: '#ff4d4f', marginTop: 8, fontSize: 13 }}>
+                      {editorError}
+                    </div>
+                  )}
+                  <div style={{ marginTop: 8, color: '#888', fontSize: 12 }}>
+                    提示：支持直接粘贴 SVG 代码，或粘贴包含 &lt;svg&gt; 的 HTML 代码，系统会自动提取 SVG
+                  </div>
+                </div>
+
+                <Button 
+                  type="primary" 
+                  icon={<FileImageFilled />} 
+                  onClick={handleRenderSVG}
+                  size="large"
+                  block
+                >
+                  渲染预览
+                </Button>
+
+                {renderedSvg && (
+                  <>
+                    <Divider />
+                    <Row gutter={24}>
+                      <Col span={16}>
+                        <Card 
+                          size="small" 
+                          title="渲染效果" 
+                          extra={
+                            <span style={{ fontSize: 12, color: '#888' }}>
+                              {exportSize.width > 0 && `${exportSize.width} x ${exportSize.height} px`}
+                            </span>
+                          }
+                        >
+                          <div 
+                            ref={svgContainerRef}
+                            style={{ 
+                              border: '1px dashed #d9d9d9', 
+                              borderRadius: 8,
+                              padding: 24,
+                              minHeight: 200,
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              background: '#fafafa',
+                              overflow: 'auto'
+                            }}
+                            dangerouslySetInnerHTML={{ __html: renderedSvg }}
+                          />
+                        </Card>
+                      </Col>
+                      <Col span={8}>
+                        <Card size="small" title="导出设置">
+                          <Space direction="vertical" style={{ width: '100%' }}>
+                            <div>
+                              <div style={{ marginBottom: 8, fontWeight: 500 }}>导出格式</div>
+                              <Radio.Group 
+                                value={exportFormat} 
+                                onChange={(e) => setExportFormat(e.target.value)}
+                                buttonStyle="solid"
+                              >
+                                <Radio.Button value="svg">SVG</Radio.Button>
+                                <Radio.Button value="png">PNG</Radio.Button>
+                                <Radio.Button value="jpeg">JPEG</Radio.Button>
+                              </Radio.Group>
+                            </div>
+                            
+                            {exportFormat !== 'svg' && (
+                              <div>
+                                <div style={{ marginBottom: 8, fontWeight: 500 }}>导出尺寸</div>
+                                <Space>
+                                  <Input 
+                                    type="number" 
+                                    value={exportSize.width || ''} 
+                                    onChange={(e) => setExportSize(s => ({ ...s, width: parseInt(e.target.value) || 0 }))}
+                                    placeholder="宽"
+                                    style={{ width: 80 }}
+                                    addonAfter="px"
+                                  />
+                                  <span>x</span>
+                                  <Input 
+                                    type="number" 
+                                    value={exportSize.height || ''} 
+                                    onChange={(e) => setExportSize(s => ({ ...s, height: parseInt(e.target.value) || 0 }))}
+                                    placeholder="高"
+                                    style={{ width: 80 }}
+                                    addonAfter="px"
+                                  />
+                                </Space>
+                              </div>
+                            )}
+
+                            <Button 
+                              type="primary" 
+                              icon={<ExportOutlined />} 
+                              onClick={handleExport}
+                              block
+                            >
+                              导出 {exportFormat.toUpperCase()}
+                            </Button>
+                          </Space>
+                        </Card>
+                      </Col>
+                    </Row>
+                  </>
+                )}
+              </Space>
+            ),
+          },
+        ]} />
+        <canvas ref={canvasRef} style={{ display: 'none' }} />
+      </Card>
 
       <Card title="功能说明" style={{ marginTop: 24 }}>
         <Row gutter={24}>

@@ -19,6 +19,7 @@ const RandomString: React.FC = () => {
     title: '随机字符串生成器',
     description: '随机字符串生成器，支持自定义字符集、长度、生成数量，可用于密码、密钥、验证码生成。',
     keywords: '随机字符串,密码生成器,随机密码,密钥生成,验证码生成',
+    canonical: 'https://yma16.cloud/tools/random-string',
     jsonLd: createToolJsonLd('随机字符串生成器', '随机字符串和密码生成器', 'https://yma16.cloud/tools/random-string', 'DeveloperApplication'),
   };
 

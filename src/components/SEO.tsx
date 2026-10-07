@@ -53,6 +53,9 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="author" content={author} />
       <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="theme-color" content="#1890ff" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
       {/* Canonical URL */}
       {canonical && <link rel="canonical" href={canonical} />}
@@ -63,6 +66,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta property="og:title" content={finalOgTitle} />
       <meta property="og:description" content={finalOgDescription} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:url" content={ogUrl || canonical || 'https://yma16.cloud'} />
       {ogUrl && <meta property="og:url" content={ogUrl} />}
 
       {/* Twitter Card */}

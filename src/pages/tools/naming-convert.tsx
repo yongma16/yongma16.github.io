@@ -17,6 +17,7 @@ const NamingConvert: React.FC = () => {
     title: '命名风格转换器',
     description: '驼峰、下划线、短横线等命名风格互转工具，支持批量转换。',
     keywords: '命名风格转换,驼峰命名,下划线命名,短横线命名,camelCase,snake_case',
+    canonical: 'https://yma16.cloud/tools/naming-convert',
     jsonLd: createToolJsonLd('命名风格转换器', '驼峰、下划线、短横线命名风格互转', 'https://yma16.cloud/tools/naming-convert', 'DeveloperApplication'),
   };
 

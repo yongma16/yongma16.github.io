@@ -15,6 +15,7 @@ const RadixConvert: React.FC = () => {
     title: '进制转换工具',
     description: '2/8/10/16进制互相转换器，支持二进制、八进制、十进制、十六进制转换。',
     keywords: '进制转换,二进制,八进制,十进制,十六进制,2进制,16进制',
+    canonical: 'https://yma16.cloud/tools/radix-convert',
     jsonLd: createToolJsonLd('进制转换工具', '2/8/10/16进制互相转换器', 'https://yma16.cloud/tools/radix-convert', 'DeveloperApplication'),
   };
 

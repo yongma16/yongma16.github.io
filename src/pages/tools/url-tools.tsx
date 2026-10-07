@@ -33,6 +33,7 @@ const UrlTools: React.FC = () => {
     title: 'URL 编解码工具',
     description: '免费的在线 URL 编解码工具，支持 URL 编码解码、查询参数解析、Hash 路由参数识别，解码后自动解析参数，支持一键复制结果。',
     keywords: 'URL编码,URL解码,URL编解码,查询参数解析,URL参数解析,Hash参数,URL工具,在线URL工具,URL编码解码',
+    canonical: 'https://yma16.cloud/tools/url-tools',
     jsonLd: createToolJsonLd(
       'URL 编解码工具',
       '免费的在线 URL 编码解码和参数解析工具',

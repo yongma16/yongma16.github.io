@@ -48,6 +48,7 @@ const GitHookConfig: React.FC = () => {
     title: 'Git Hook / Husky 配置生成器',
     description: '一键生成 Husky、lint-staged、commitlint 配置代码，复制直接粘贴到项目使用，支持多种规范预设。',
     keywords: 'Husky配置,Git Hook,commitlint,lint-staged,代码提交规范,Git钩子配置',
+    canonical: 'https://yma16.cloud/tools/git-hook-config',
     jsonLd: createToolJsonLd('Git Hook / Husky 配置生成器', '一键生成 Husky、commitlint、lint-staged 配置代码', 'https://yma16.cloud/tools/git-hook-config', 'DeveloperApplication'),
   };
 

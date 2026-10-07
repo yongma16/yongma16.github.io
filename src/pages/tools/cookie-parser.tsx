@@ -25,6 +25,7 @@ const CookieParser: React.FC = () => {
     title: 'Cookie解析工具',
     description: 'Cookie字符串解析工具，解析Cookie名称、值、过期时间、安全属性等。',
     keywords: 'Cookie解析,Cookie工具,Cookie字符串,Cookie分析',
+    canonical: 'https://yma16.cloud/tools/cookie-parser',
     jsonLd: createToolJsonLd('Cookie解析工具', 'Cookie字符串解析工具', 'https://yma16.cloud/tools/cookie-parser', 'DeveloperApplication'),
   };
 

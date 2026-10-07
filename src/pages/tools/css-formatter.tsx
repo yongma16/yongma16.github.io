@@ -15,6 +15,7 @@ const CssFormatter: React.FC = () => {
     title: 'CSS格式化压缩工具',
     description: 'CSS代码格式化、压缩、美化工具，支持一键整理和压缩CSS代码。',
     keywords: 'CSS格式化,CSS压缩,CSS美化,CSS整理,在线CSS工具',
+    canonical: 'https://yma16.cloud/tools/css-formatter',
     jsonLd: createToolJsonLd('CSS格式化压缩工具', 'CSS代码格式化和压缩工具', 'https://yma16.cloud/tools/css-formatter', 'DeveloperApplication'),
   };
 

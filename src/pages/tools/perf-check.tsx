@@ -186,6 +186,7 @@ const PerfCheck: React.FC = () => {
     title: '前端性能检测工具',
     description: '免费的前端性能检测工具，分析网页 Core Web Vitals 指标（LCP、FID、CLS），提供 Lighthouse 报告和性能优化建议，提升网站加载速度。',
     keywords: '性能检测,前端性能优化,Lighthouse,Core Web Vitals,LCP,FID,CLS,网页性能分析,加载速度优化,性能测试工具',
+    canonical: 'https://yma16.cloud/tools/perf-check',
     jsonLd: createToolJsonLd(
       '前端性能检测工具',
       '免费的前端性能分析和优化工具',

@@ -15,6 +15,7 @@ const UnitConvert: React.FC = () => {
     title: 'CSS单位换算器',
     description: 'CSS px/rem/em/vw/vh单位换算器，支持互相转换，前端开发常用工具。',
     keywords: 'CSS单位换算,px转rem,rem转px,em换算,vw换算,前端单位转换',
+    canonical: 'https://yma16.cloud/tools/unit-convert',
     jsonLd: createToolJsonLd('CSS单位换算器', 'CSS px/rem/em/vw/vh单位换算工具', 'https://yma16.cloud/tools/unit-convert', 'DeveloperApplication'),
   };
 

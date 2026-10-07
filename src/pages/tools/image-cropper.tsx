@@ -27,6 +27,7 @@ const ImageCropper: React.FC = () => {
     title: '图片裁剪工具',
     description: '免费的在线图片裁剪工具，纯前端 Canvas 实现，支持调整裁剪框、旋转图片、导出下载，不上传服务器保护隐私。',
     keywords: '图片裁剪,在线裁剪图片,图片旋转,图片编辑,Canvas裁剪,前端图片处理,图片裁剪工具',
+    canonical: 'https://yma16.cloud/tools/image-cropper',
     jsonLd: createToolJsonLd(
       '图片裁剪工具',
       '免费的在线图片裁剪和编辑工具',

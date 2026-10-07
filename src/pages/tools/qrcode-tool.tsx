@@ -76,6 +76,7 @@ const QRCodeTool: React.FC = () => {
     title: '二维码生成解析工具',
     description: '二维码生成和解析工具，支持自定义颜色、大小，上传图片解析二维码内容。',
     keywords: '二维码生成,二维码解析,QR Code,二维码工具,QR生成器',
+    canonical: 'https://yma16.cloud/tools/qrcode-tool',
     jsonLd: createToolJsonLd('二维码生成解析工具', '二维码生成和解析工具', 'https://yma16.cloud/tools/qrcode-tool', 'DeveloperApplication'),
   };
 

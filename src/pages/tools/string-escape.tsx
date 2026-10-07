@@ -15,6 +15,7 @@ const StringEscape: React.FC = () => {
     title: '字符串Escape转义工具',
     description: 'HTML/JS字符串Escape转义反转义工具，支持多种转义格式。',
     keywords: '字符串转义,Escape,HTML转义,JS转义,字符串编码',
+    canonical: 'https://yma16.cloud/tools/string-escape',
     jsonLd: createToolJsonLd('字符串Escape转义工具', 'HTML/JS字符串转义反转义工具', 'https://yma16.cloud/tools/string-escape', 'DeveloperApplication'),
   };
 

@@ -226,6 +226,7 @@ const PerfMonitor: React.FC = () => {
     title: '前端性能监控与压力测试',
     description: '前端可视化电脑性能监控工具，实时显示FPS、内存、DOM节点数，支持浏览器压力测试。',
     keywords: '前端性能监控,浏览器压力测试,FPS监控,内存监控,CPU测试,性能分析',
+    canonical: 'https://yma16.cloud/tools/perf-monitor',
     jsonLd: createToolJsonLd('前端性能监控与压力测试', '前端可视化性能监控和压力测试工具', 'https://yma16.cloud/tools/perf-monitor', 'DeveloperApplication'),
   };
 

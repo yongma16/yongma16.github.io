@@ -38,6 +38,7 @@ const FaviconGenerator: React.FC = () => {
     title: 'Favicon/ICO图标生成器',
     description: '拖拽上传图片，一键生成多尺寸网站图标（ICO/PNG），支持 16×16 到 256×256 全尺寸，纯前端本地处理不上传服务器。',
     keywords: 'Favicon生成器,ICO图标生成,网站图标制作,favicon.ico,PNG图标生成,多尺寸图标',
+    canonical: 'https://yma16.cloud/tools/favicon-generator',
     jsonLd: createToolJsonLd('Favicon/ICO图标生成器', '拖拽上传图片生成多尺寸网站图标', 'https://yma16.cloud/tools/favicon-generator', 'DeveloperApplication'),
   };
 

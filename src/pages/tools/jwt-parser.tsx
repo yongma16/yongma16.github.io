@@ -17,6 +17,7 @@ const JwtParser: React.FC = () => {
     title: 'JWT Token解析工具',
     description: 'JWT Token在线解析工具，解析Header、Payload、Signature，验证Token有效性。',
     keywords: 'JWT解析,JWT Token,Token解析,JWT解码,JSON Web Token',
+    canonical: 'https://yma16.cloud/tools/jwt-parser',
     jsonLd: createToolJsonLd('JWT Token解析工具', 'JWT Token在线解析工具', 'https://yma16.cloud/tools/jwt-parser', 'DeveloperApplication'),
   };
 

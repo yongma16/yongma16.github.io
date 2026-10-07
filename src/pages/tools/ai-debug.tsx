@@ -45,6 +45,7 @@ const AiDebugTool: React.FC = () => {
     title: 'AI调试流式输出测试',
     description: 'AI调试流式输出测试工具，支持Mock模拟SSE流式和真实API请求调试，用于调试前端流式渲染UI效果。',
     keywords: 'AI调试,流式输出,SSE测试,Mock流式,API调试,LLM调试,流式渲染测试',
+    canonical: 'https://yma16.cloud/tools/ai-debug',
     jsonLd: createToolJsonLd('AI调试流式输出测试', 'AI流式输出调试工具', 'https://yma16.cloud/tools/ai-debug', 'DeveloperApplication'),
   };
 

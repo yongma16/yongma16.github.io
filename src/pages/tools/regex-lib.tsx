@@ -37,6 +37,7 @@ const RegexLib: React.FC = () => {
     title: '正则常用模板库',
     description: '常用正则表达式模板库，包含手机号、邮箱、身份证、URL等常用正则模板，一键复制使用。',
     keywords: '正则模板,正则表达式库,常用正则,手机号正则,邮箱正则,身份证正则',
+    canonical: 'https://yma16.cloud/tools/regex-lib',
     jsonLd: createToolJsonLd('正则常用模板库', '常用正则表达式模板库', 'https://yma16.cloud/tools/regex-lib', 'DeveloperApplication'),
   };
 

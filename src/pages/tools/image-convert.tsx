@@ -23,6 +23,7 @@ const ImageConvert: React.FC = () => {
     title: '图片格式转换工具',
     description: 'PNG/JPG/WebP图片格式转换，支持调节质量下载，纯前端处理不上传服务器。',
     keywords: '图片格式转换,PNG转JPG,JPG转WebP,图片压缩,图片质量调节',
+    canonical: 'https://yma16.cloud/tools/image-convert',
     jsonLd: createToolJsonLd('图片格式转换工具', 'PNG/JPG/WebP图片格式转换', 'https://yma16.cloud/tools/image-convert', 'DeveloperApplication'),
   };
 
