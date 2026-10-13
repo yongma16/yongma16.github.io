@@ -22,6 +22,7 @@ import {
   ArrowLeftOutlined,
   CheckCircleOutlined,
   InfoCircleOutlined,
+  ReloadOutlined,
 } from '@ant-design/icons';
 import type { UploadProps } from 'antd';
 import { Peer } from 'peerjs';
@@ -51,6 +52,7 @@ const P2PChatPage: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputText, setInputText] = useState('');
   const [copySuccess, setCopySuccess] = useState(false);
+  const [peerError, setPeerError] = useState<string>('');
 
   const peerRef = useRef<Peer | null>(null);
   const connRef = useRef<DataConnection | null>(null);
@@ -59,6 +61,23 @@ const P2PChatPage: React.FC = () => {
 
   // 初始化 Peer
   useEffect(() => {
+    initPeer();
+    return () => {
+      peerRef.current?.destroy();
+    };
+  }, []);
+
+  const initPeer = useCallback(() => {
+    setPeerError('');
+    setPeerId('');
+    setStatus('idle');
+
+    // 销毁旧实例
+    if (peerRef.current) {
+      peerRef.current.destroy();
+      peerRef.current = null;
+    }
+
     const peer = new Peer({
       host: '0.peerjs.com',
       port: 443,
@@ -71,6 +90,7 @@ const P2PChatPage: React.FC = () => {
     peer.on('open', (id) => {
       setPeerId(id);
       setStatus('idle');
+      setPeerError('');
     });
 
     peer.on('connection', (conn) => {
@@ -82,13 +102,10 @@ const P2PChatPage: React.FC = () => {
 
     peer.on('error', (err) => {
       console.error('Peer error:', err);
+      setPeerError(err.message || t('p2pChat.connectionError'));
       setStatus('error');
       antMessage.error(t('p2pChat.connectionError'));
     });
-
-    return () => {
-      peer.destroy();
-    };
   }, [t]);
 
   // 自动滚动到底部
@@ -320,7 +337,19 @@ const P2PChatPage: React.FC = () => {
                   disabled={!peerId}
                 />
               </Tooltip>
+              <Tooltip title={t('p2pChat.regenerate')}>
+                <Button
+                  icon={<ReloadOutlined />}
+                  onClick={initPeer}
+                  loading={!peerId && !peerError}
+                />
+              </Tooltip>
             </Space.Compact>
+            {peerError && (
+              <Text type="danger" style={{ fontSize: 12, marginTop: 4, display: 'block' }}>
+                {peerError}
+              </Text>
+            )}
           </div>
 
           {/* 连接状态 */}

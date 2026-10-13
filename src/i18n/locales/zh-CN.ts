@@ -306,6 +306,7 @@ export default {
     enterValidId: '请输入有效的对方 ID',
     notConnected: '尚未建立连接',
     selectImage: '请选择图片文件',
+    regenerate: '重新生成 ID',
   },
 
   // 合作页面

@@ -306,6 +306,7 @@ export default {
     enterValidId: 'Please enter a valid peer ID',
     notConnected: 'Not connected yet',
     selectImage: 'Please select an image file',
+    regenerate: 'Regenerate ID',
   },
 
   // Cooperate Page
