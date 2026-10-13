@@ -40,6 +40,7 @@ import {
   ThunderboltOutlined,
   PictureOutlined,
   BranchesOutlined,
+  TeamOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -108,6 +109,7 @@ const MainLayout: React.FC = () => {
         { key: '/tools/playground', icon: <CodeOutlined />, label: t('playground.title') },
         { key: '/tools/favicon-generator', icon: <PictureOutlined />, label: t('faviconGenerator.title') },
         { key: '/tools/git-hook-config', icon: <BranchesOutlined />, label: t('gitHookConfig.title') },
+        { key: '/tools/p2p-chat', icon: <TeamOutlined />, label: t('p2pChat.title') },
       ],
     },
     {

@@ -225,6 +225,12 @@ const tools = [
     path: '/tools/git-hook-config',
     tags: ['free', 'new'],
   },
+  {
+    key: 'p2pChat',
+    icon: <TeamOutlined style={{ fontSize: 32, color: '#eb2f96' }} />,
+    path: '/tools/p2p-chat',
+    tags: ['free', 'new'],
+  },
 ];
 
 const features = [
